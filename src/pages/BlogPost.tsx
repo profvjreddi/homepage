@@ -25,7 +25,8 @@ function BlogPost() {
         setLoading(true);
         
         // Load the blog post markdown file
-        const response = await fetch(`/content/blog/${slug}.md`);
+        const basePath = process.env.NODE_ENV === 'production' ? '/homepage' : '';
+        const response = await fetch(`${basePath}/content/blog/${slug}.md`);
         if (!response.ok) {
           throw new Error('Post not found');
         }
@@ -106,11 +107,12 @@ function BlogPost() {
                 urlTransform={(uri) => {
                   // ReactMarkdown sometimes strips the /blog/ part from the path
                   // This ensures the correct path is used for images in the blog directory
+                  const basePath = process.env.NODE_ENV === 'production' ? '/homepage' : '';
                   if (uri.startsWith('/images/') && !uri.startsWith('/images/blog/')) {
                     const filename = uri.split('/').pop();
-                    return `/images/blog/${filename}`;
+                    return `${basePath}/images/blog/${filename}`;
                   }
-                  return uri;
+                  return uri.startsWith('/') ? `${basePath}${uri}` : uri;
                 }}
                 components={{
                   // Custom styling for markdown elements
