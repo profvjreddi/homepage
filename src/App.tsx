@@ -6,6 +6,8 @@ import Publications from "./pages/Publications";
 import Teaching from "./pages/Teaching";
 import ProfilePage from "./pages/Profile";
 import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Route path="/publications" element={<Publications />} />
           <Route path="/teaching" element={<Teaching />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact" element={<Contact />} />
 
           {/* IMPORTANT: DO NOT place any routes below this. */}

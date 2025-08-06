@@ -262,15 +262,15 @@ function Research() {
                   <div className="ml-20 bg-white rounded-xl shadow-lg border border-gray-100 p-8 hover:shadow-xl transition-shadow">
                     <div className="flex items-start justify-between mb-4">
                       <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">Agentic AI Systems</h3>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Embodied AI Systems</h3>
                       </div>
                       <span className="text-xs text-white bg-[#A51C30] px-3 py-1 rounded-full font-medium">
                         Current Focus
                       </span>
                     </div>
                     <p className="text-gray-600 mb-6 leading-relaxed">
-                      Designing systems that enable autonomous agents to operate safely and efficiently in the real world, 
-                      while exploring generative approaches for automating system behavior and architecture design.
+                      Creating comprehensive frameworks for intelligence that operates safely and efficiently in physical environments.
+                      Agentic AI approaches and generative system design are key methods to achieve this embodied intelligence.
                     </p>
                     <button
                       onClick={() => toggleSection('2024-present')}
@@ -294,12 +294,12 @@ function Research() {
                         className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-100"
                       >
                         <p className="text-sm text-gray-700 mb-4 italic font-medium">
-                          <strong className="text-gray-900">Approach:</strong> Investigating execution blueprints and architectural foundations that enable autonomous agents to operate effectively, with emphasis on understanding safety-efficiency dynamics and designing comprehensive frameworks for system realization.
+                          <strong className="text-gray-900">Approach:</strong> Investigating execution blueprints and architectural foundations that enable embodied AI systems to operate effectively in physical environments, with emphasis on agentic approaches, safety-efficiency dynamics, and comprehensive system frameworks.
                         </p>
                         <ul className="text-sm text-gray-600 space-y-3">
                           <li className="flex items-start">
                             <div className="w-1.5 h-1.5 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                            Execution blueprints and architectures for agentic system deployment
+                            Execution blueprints and architectures for embodied AI system deployment using agentic approaches
                           </li>
                           <li className="flex items-start">
                             <div className="w-1.5 h-1.5 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -315,7 +315,7 @@ function Research() {
                           </li>
                           <li className="flex items-start">
                             <div className="w-1.5 h-1.5 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                            Creating evaluation frameworks and benchmarks for agentic system performance assessment
+                            Creating evaluation frameworks and benchmarks for embodied AI system performance assessment
                           </li>
                         </ul>
                       </motion.div>

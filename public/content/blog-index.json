@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "painting-pots",
+    "title": "Painting Pots: What a PhD Is Really About",
+    "date": "2025-01-07",
+    "excerpt": "Understanding the true purpose of PhD education through an art studio analogy.",
+    "tags": [
+      "phd",
+      "education",
+      "research",
+      "advice"
+    ],
+    "filename": "painting-pots.md"
+  },
+  {
+    "slug": "phd-survival-guide",
+    "title": "PhD Survival Guide: Essential Resources for Academic Success",
+    "date": "2024-06-15",
+    "excerpt": "A curated collection of essential resources for graduate students and early-career researchers, covering research methodology, productivity, and academic career development.",
+    "tags": [
+      "phd",
+      "graduate-school",
+      "academia",
+      "research",
+      "productivity",
+      "career-advice"
+    ],
+    "filename": "phd-survival-guide.md"
+  }
+]

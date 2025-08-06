@@ -10,6 +10,7 @@ function Header() {
     { path: "/research", label: "Research" },
     { path: "/publications", label: "Publications" },
     { path: "/teaching", label: "Teaching" },
+    { path: "/blog", label: "Blog" },
     { path: "/profile", label: "Profile" },
     { path: "/contact", label: "Contact" },
   ];

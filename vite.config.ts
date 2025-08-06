@@ -5,6 +5,17 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/homepage/' : '/',
   clearScreen: false,
+  define: {
+    global: 'globalThis',
+  },
+  resolve: {
+    alias: {
+      buffer: 'buffer',
+    },
+  },
+  optimizeDeps: {
+    include: ['buffer'],
+  },
   plugins: [
     react(),
     {
