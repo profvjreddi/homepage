@@ -102,7 +102,7 @@ This "silent start" ensures everyone truly processes the information rather than
 
 Meetings are not for proving you've been working—that's assumed.
 
-I still remember giving detailed meeting updates as a student, and Saman Amarasinghe (my project mentor at VMware) advising me: *"I don't need detailed notes of what you did. Tell me what you learned this week and what your specific ask is."* That left a deep mark on me.
+I still remember giving detailed meeting updates as a student, and my project mentor advising me: *"I don't need detailed notes of what you did. Tell me what you learned this week and what your specific ask is."* That left a deep mark on me.
 
 Use meetings to solve problems, make decisions, and brainstorm next steps.
 

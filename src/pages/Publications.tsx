@@ -105,7 +105,35 @@ function Publications() {
     try {
       console.log('loadPublications called with forceRefresh:', forceRefresh);
       setError(null);
-      setLoading(!forceRefresh); // Only show full-page loader on initial load
+      
+      // On initial load, check if we have cached data first
+      if (!forceRefresh && publications.length === 0) {
+        // Try to load cached data immediately without loading state
+        try {
+          const cachedData = localStorage.getItem('dblp_publications_cache');
+          if (cachedData) {
+            const cache = JSON.parse(cachedData);
+            if (cache.publications && cache.publications.length > 0) {
+              const classifiedPubs = cache.publications.map((pub: any) => ({
+                ...pub,
+                areas: pub.area ? [pub.area] : classifyPublication(pub)
+              }));
+              setPublications(classifiedPubs);
+              setCacheInfo(getCacheInfo());
+              // Still fetch fresh data in background, but don't show loading
+              setLoading(false);
+            }
+          }
+        } catch (e) {
+          console.warn('Failed to load immediate cache:', e);
+        }
+      }
+      
+      // Show loading only if we don't have any data to show
+      if (publications.length === 0 && !forceRefresh) {
+        setLoading(true);
+      }
+      
       if (forceRefresh) {
         setRefreshing(true);
         setStatusMessage({ text: 'Updating publications...', type: 'loading' });
@@ -278,12 +306,21 @@ function Publications() {
             </p>
           </div>
 
-          {/* Cache Last Updated */}
-          <div className="mb-4 text-sm text-gray-500">
-            {cacheInfo.lastUpdated ? (
-              <>Last updated: {cacheInfo.lastUpdated.toLocaleString()}</>
-            ) : (
-              <>Last updated: Unknown</>
+          {/* Cache Status */}
+          <div className="mb-4 flex items-center gap-4 text-sm">
+            <div className="flex items-center gap-2">
+              <div className={`w-2 h-2 rounded-full ${cacheInfo.isExpired ? 'bg-yellow-400' : 'bg-green-400'}`}></div>
+              <span className="text-gray-600">
+                {cacheInfo.lastUpdated 
+                  ? `Updated: ${cacheInfo.lastUpdated.toLocaleDateString()} at ${cacheInfo.lastUpdated.toLocaleTimeString()}`
+                  : 'No cached data'
+                }
+              </span>
+            </div>
+            {cacheInfo.isExpired && (
+              <span className="text-yellow-600 text-xs bg-yellow-50 px-2 py-1 rounded">
+                Cache expired - click refresh for latest data
+              </span>
             )}
           </div>
 
@@ -310,14 +347,18 @@ function Publications() {
             <button
               onClick={handleRefresh}
               disabled={refreshing || loading}
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#A51C30] hover:bg-[#8B1A2B] disabled:bg-gray-400"
+              className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm disabled:bg-gray-400 transition-all ${
+                cacheInfo.isExpired 
+                  ? 'text-white bg-amber-500 hover:bg-amber-600 ring-2 ring-amber-200 ring-offset-1' 
+                  : 'text-white bg-[#A51C30] hover:bg-[#8B1A2B]'
+              }`}
             >
               {refreshing ? (
                 <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
               ) : (
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
               )}
-              {refreshing ? 'Refreshing...' : 'Refresh Cache'}
+              {refreshing ? 'Refreshing...' : cacheInfo.isExpired ? 'Update Publications' : 'Refresh Cache'}
             </button>
             
             {/* Status Message */}

@@ -5,6 +5,8 @@ excerpt: "A curated collection of essential resources for graduate students and 
 tags: ["phd", "graduate-school", "academia", "research", "productivity", "career-advice"]
 ---
 
+![Resources.](/images/blog/phd-resources.png)
+
 Technical knowledge in machine learning systems—or any field—is essential, but it's only one dimension of successful research and scholarship. The journey through graduate school and beyond demands a broader set of skills: the ability to read and synthesize complex literature, communicate ideas effectively, manage time, and navigate academic careers thoughtfully.
 
 This guide is a curated collection of resources that address these important but often under-discussed aspects of academic life. The materials span from seminal works that have guided multiple generations of researchers to contemporary discussions of productivity and scientific communication.
