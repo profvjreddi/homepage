@@ -5,8 +5,6 @@ excerpt: "A curated collection of essential resources for graduate students and 
 tags: ["phd", "graduate-school", "academia", "research", "productivity", "career-advice"]
 ---
 
-# PhD Survival Guide
-
 Technical knowledge in machine learning systems or be it in any other field, while essential, is only one dimension of successful research and scholarship. The journey through (graduate) school and beyond demands a broader set of skills: the ability to read and synthesize complex literature, communicate ideas effectively, manage time, and navigate academic careers thoughtfully.
 
 This guide is a curated collection of resources that address these important but often underdiscussed aspects of academic life. The materials span from seminal works that have guided multiple generations of researchers to contemporary discussions of productivity and scientific communication.
@@ -17,9 +15,9 @@ If you have suggestions or recommendations, please feel free to contact me vj[@]
 
 ---
 
-## Career Advice
+# Career Advice
 
-### On Research Careers and Productivity
+## On Research Careers and Productivity
 
 1. [How to Have a Bad Career in Research/Academia](https://people.eecs.berkeley.edu/~pattrsn/talks/BadCareer.pdf)
    A humorous and insightful guide by Turing Award winner David Patterson on common pitfalls to avoid in academic research.
@@ -36,7 +34,7 @@ If you have suggestions or recommendations, please feel free to contact me vj[@]
 1. [Advice to a Young Scientist](https://www.goodreads.com/book/show/905743.Advice_To_A_Young_Scientist)
    A classic book by Peter Medawar offering practical and philosophical advice on scientific research careers.
 
-### On Reading and Learning
+## On Reading and Learning
 
 1. [How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
    A guide by S. Keshav on how to efficiently read and understand research papers.
@@ -44,7 +42,7 @@ If you have suggestions or recommendations, please feel free to contact me vj[@]
 1. [Efficient Reading of Papers in Science and Technology](https://www.cs.columbia.edu/~hgs/netbib/efficientReading.pdf)
     Practical advice by Michael J. Hanson for handling the large volume of research papers in technical fields.
 
-### On Time Management and Productivity
+## On Time Management and Productivity
 
 1. [Deep Work](https://www.calnewport.com/books/deep-work/)
     By Cal Newport, this book provides strategies for focusing deeply and maximizing productivity in cognitively demanding tasks.
@@ -55,7 +53,7 @@ If you have suggestions or recommendations, please feel free to contact me vj[@]
 1. [The Unwritten Laws of Engineering](https://rotorlab.tamu.edu/me489/README/2010%20ASME%20Unwritten_Laws_of_Enginering.pdf)
     Though focused on engineering, W. J. King offers timeless advice on professionalism and effectiveness in technical work.
 
-### On Oral Presentation Advice
+## On Oral Presentation Advice
 
 1. [Oral Presentation Advice](https://pages.cs.wisc.edu/~markhill/conference-talk.html)
    A concise guide by Mark Hill on delivering clear and engaging oral presentations in academic and technical contexts.
@@ -66,11 +64,11 @@ If you have suggestions or recommendations, please feel free to contact me vj[@]
 1. [Ten Simple Rules for Making Good Oral Presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030077)
    A practical set of tips published by PLOS Computational Biology for delivering impactful oral presentations.
 
-### On Writing and Communicating Science
+## On Writing and Communicating Science
 
 Any suggestions?
 
-### Video Resources
+## Video Resources
 
 1. **[You and Your Research by Richard Hamming](https://www.youtube.com/watch?v=a1zDuOPkMSw)**
     A video lecture of Richard Hamming's talk on achieving significant research contributions.
