@@ -1,14 +1,31 @@
 [
   {
+    "slug": "effective-research-meetings",
+    "title": "How to Have Effective Research Meetings as a PhD Student",
+    "date": "2025-08-07",
+    "excerpt": "A practical guide to running and participating in research meetings that actually move projects forward, written from a professor's perspective for students everywhere.",
+    "tags": [
+      "phd",
+      "meetings",
+      "research",
+      "productivity",
+      "advice",
+      "academia"
+    ],
+    "filename": "effective-research-meetings.md"
+  },
+  {
     "slug": "painting-pots",
     "title": "Painting Pots: What a PhD Is Really About",
     "date": "2025-01-07",
-    "excerpt": "Understanding the true purpose of PhD education through an art studio analogy.",
+    "excerpt": "For PhD applicants: understanding the true purpose of PhD education through an art studio analogy, and how this perspective can transform your interviews.",
     "tags": [
       "phd",
-      "education",
+      "applications",
+      "interviews",
       "research",
-      "advice"
+      "advice",
+      "graduate-school"
     ],
     "filename": "painting-pots.md"
   },

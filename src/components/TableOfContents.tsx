@@ -116,9 +116,9 @@ function TableOfContents({ content, isVisible, onToggle }: TableOfContentsProps)
         ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full lg:translate-x-0 lg:opacity-100'}
         lg:block
       `}>
-        <div className="p-4 border-b border-gray-100">
+        <div className="p-4 border-b border-gray-200 bg-gradient-to-r from-gray-50 to-white">
           <div className="flex items-center justify-between">
-            <h3 className="font-semibold text-gray-900 text-sm">Contents</h3>
+            <h3 className="font-bold text-[#A51C30] text-sm uppercase tracking-wider">Contents</h3>
             <button
               onClick={onToggle}
               className="lg:hidden p-1 hover:bg-gray-100 rounded"

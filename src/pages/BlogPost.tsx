@@ -186,17 +186,17 @@ function BlogPost() {
                     );
                   },
                   ul: ({ children }) => (
-                    <ul className="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4">
+                    <ul className="list-disc list-outside text-gray-700 space-y-3 mb-6 ml-6 pl-2">
                       {children}
                     </ul>
                   ),
                   ol: ({ children }) => (
-                    <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-6 ml-4">
+                    <ol className="list-decimal list-outside text-gray-700 space-y-3 mb-6 ml-6 pl-2">
                       {children}
                     </ol>
                   ),
                   li: ({ children }) => (
-                    <li className="text-gray-700 leading-relaxed">
+                    <li className="text-gray-700 leading-relaxed pl-2">
                       {children}
                     </li>
                   ),
@@ -224,6 +224,16 @@ function BlogPost() {
                     <pre className="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto mb-6">
                       {children}
                     </pre>
+                  ),
+                  a: ({ href, children }) => (
+                    <a 
+                      href={href}
+                      className="text-[#A51C30] hover:text-[#8B1A2B] font-medium underline hover:no-underline transition-colors"
+                      target={href?.startsWith('http') ? '_blank' : undefined}
+                      rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    >
+                      {children}
+                    </a>
                   ),
                   img: ({ src, alt }) => (
                     <img 
