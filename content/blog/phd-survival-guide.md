@@ -13,7 +13,7 @@ This guide is a curated collection of resources that address these important but
 
 Many of these resources originated in computer science and engineering contexts, with each section focusing on a distinct aspect of academic life and presenting authoritative sources that have proven particularly valuable for graduate students and early-career researchers.
 
-If you have suggestions or recommendations, please feel free to contact me vj[@]eecs harvard edu or issue a [GitHub PR](https://github.com/harvard-edge/cs249r_book/pulls) with your suggestion!
+If you have suggestions or recommendations, please feel free to contact me vj[@]eecs harvard edu.
 
 ---
 
