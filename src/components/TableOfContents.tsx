@@ -16,6 +16,8 @@ function TableOfContents({ content, isVisible, onToggle }: TableOfContentsProps)
   const [tocItems, setTocItems] = useState<TOCItem[]>([]);
   const [activeId, setActiveId] = useState<string>('');
   const observer = useRef<IntersectionObserver | null>(null);
+  const tocContainerRef = useRef<HTMLDivElement | null>(null);
+  const headingElementsRef = useRef<Map<string, Element>>(new Map());
 
   // Extract headings from markdown content
   useEffect(() => {
@@ -42,24 +44,67 @@ function TableOfContents({ content, isVisible, onToggle }: TableOfContentsProps)
   useEffect(() => {
     if (tocItems.length === 0) return;
 
+    // Clear previous heading elements
+    headingElementsRef.current.clear();
+
+    // Collect all heading elements
+    tocItems.forEach(({ id }) => {
+      const element = document.getElementById(id);
+      if (element) {
+        headingElementsRef.current.set(id, element);
+      }
+    });
+
     observer.current = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
+        const visibleEntries = entries.filter(entry => entry.isIntersecting);
+        
+        if (visibleEntries.length > 0) {
+          // Sort by intersection ratio and position to get the most prominent heading
+          const mostVisible = visibleEntries
+            .sort((a, b) => {
+              // First, sort by intersection ratio (higher is better)
+              const ratioDiff = b.intersectionRatio - a.intersectionRatio;
+              if (Math.abs(ratioDiff) > 0.1) return ratioDiff;
+              
+              // If ratios are similar, prefer the one closer to the top of viewport
+              const aRect = a.boundingClientRect;
+              const bRect = b.boundingClientRect;
+              return Math.abs(aRect.top) - Math.abs(bRect.top);
+            })[0];
+          
+          setActiveId(mostVisible.target.id);
+        } else {
+          // If no headings are intersecting, find the closest one above the viewport
+          const headingElements = Array.from(headingElementsRef.current.values());
+          let closestAbove: Element | null = null;
+          let closestDistance = Infinity;
+          
+          headingElements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            if (rect.bottom < 100) { // 100px offset for header
+              const distance = Math.abs(rect.bottom);
+              if (distance < closestDistance) {
+                closestDistance = distance;
+                closestAbove = element;
+              }
+            }
+          });
+          
+          if (closestAbove) {
+            setActiveId(closestAbove.id);
           }
-        });
+        }
       },
       {
-        rootMargin: '-100px 0px -80% 0px',
-        threshold: 0
+        rootMargin: '-80px 0px -60% 0px',
+        threshold: [0, 0.25, 0.5, 0.75, 1.0]
       }
     );
 
     // Observe all heading elements
-    tocItems.forEach(({ id }) => {
-      const element = document.getElementById(id);
-      if (element && observer.current) {
+    headingElementsRef.current.forEach((element) => {
+      if (observer.current) {
         observer.current.observe(element);
       }
     });
@@ -70,6 +115,36 @@ function TableOfContents({ content, isVisible, onToggle }: TableOfContentsProps)
       }
     };
   }, [tocItems]);
+
+  // Scroll TOC to keep active item visible
+  const scrollTocToActiveItem = (activeId: string) => {
+    if (!tocContainerRef.current || !activeId) return;
+    
+    const activeButton = tocContainerRef.current.querySelector(`[data-heading-id="${activeId}"]`);
+    if (!activeButton) return;
+    
+    const container = tocContainerRef.current;
+    const containerRect = container.getBoundingClientRect();
+    const activeRect = activeButton.getBoundingClientRect();
+    
+    // Check if the active item is outside the visible area
+    const isAbove = activeRect.top < containerRect.top;
+    const isBelow = activeRect.bottom > containerRect.bottom;
+    
+    if (isAbove || isBelow) {
+      activeButton.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
+  };
+
+  // Auto-scroll TOC when active section changes
+  useEffect(() => {
+    if (activeId) {
+      scrollTocToActiveItem(activeId);
+    }
+  }, [activeId]);
 
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
@@ -131,12 +206,13 @@ function TableOfContents({ content, isVisible, onToggle }: TableOfContentsProps)
           </div>
         </div>
         
-        <div className="overflow-y-auto max-h-96 py-2">
+        <div ref={tocContainerRef} className="overflow-y-auto max-h-96 py-2">
           <nav>
             <ul className="space-y-1">
               {tocItems.map((item) => (
                 <li key={item.id}>
                   <button
+                    data-heading-id={item.id}
                     onClick={() => {
                       scrollToHeading(item.id);
                       // Close mobile menu after navigation
@@ -145,7 +221,7 @@ function TableOfContents({ content, isVisible, onToggle }: TableOfContentsProps)
                       }
                     }}
                     className={`
-                      w-full text-left px-4 py-2 text-sm transition-colors hover:bg-gray-50
+                      w-full text-left px-4 py-2 text-sm transition-all duration-200 hover:bg-gray-50
                       ${activeId === item.id 
                         ? 'text-[#A51C30] bg-red-50 border-r-2 border-[#A51C30] font-medium' 
                         : 'text-gray-700 hover:text-gray-900'
