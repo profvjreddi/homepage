@@ -64,12 +64,12 @@ Have a document ready for the meeting. This shows you respect everyone's time an
 
 Professors and labmates jump between multiple projects. Start with 30–60 seconds of context:
 
-> *"I'm working on X. The goal this week was Y. I need input on Z."*
+> *I'm working on X. The goal this week was Y. I need input on Z.*
 
 This gets everyone aligned immediately and prevents five minutes of mental catch-up.
 
 **Example opening:**
-> "Quick context: I'm working on making LLM inference more efficient. This week I was testing different quantization methods on our model. I found that 4-bit quantization gives us 3x speedup but with weird accuracy drops on certain benchmarks. I need help deciding if we should debug this or try a different approach."
+> Quick context: I'm working on making LLM inference more efficient. This week I was testing different quantization methods on our model. I found that 4-bit quantization gives us 3x speedup but with weird accuracy drops on certain benchmarks. I need help deciding if we should debug this or try a different approach.
 
 **Pro tip: The Silent Start**
 Don't hesitate to begin meetings by asking everyone to spend 2–5 minutes silently reading a one-page summary. This is a best practice borrowed from companies like Amazon, where meetings often start with silent reading of a 6-page memo. For research meetings, keep it shorter:
