@@ -24,28 +24,29 @@ function Header() {
   };
 
   return (
-    <header className="bg-white shadow-sm border-b border-gray-200">
+    <header className="bg-white shadow-sm border-b border-gray-200" role="banner">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
           {/* Harvard branding and name */}
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-3" onClick={closeMobileMenu}>
+            <Link to="/" className="flex items-center space-x-3" onClick={closeMobileMenu} aria-label="Home - Prof. Vijay Janapa Reddi">
               <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-gray-200">
                 <img 
-                  src={process.env.NODE_ENV === 'production' ? '/homepage/images/profile.jpg' : '/images/profile.jpg'}
+                  src={process.env.NODE_ENV === 'production' && window.location.hostname.includes('github.io') ? '/homepage/images/profile.jpg' : '/images/profile.jpg'}
                   alt="Prof. Vijay Janapa Reddi"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div>
                 <div className="text-gray-900 font-semibold">Prof. Vijay Janapa Reddi</div>
-                <div className="text-gray-600 text-sm">Gordon McKay Professor, Harvard University</div>
+                <div className="text-gray-600 text-sm">Gordon McKay Professor</div>
+                <div className="text-gray-500 text-xs">Harvard School of Engineering and Applied Sciences</div>
               </div>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8" role="navigation" aria-label="Main navigation">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -55,6 +56,7 @@ function Header() {
                     ? "text-[#A51C30] border-b-2 border-[#A51C30]"
                     : "text-gray-700 hover:text-[#A51C30]"
                 }`}
+                aria-current={location.pathname === item.path ? "page" : undefined}
               >
                 {item.label}
               </Link>
@@ -82,7 +84,7 @@ function Header() {
         {/* Mobile Navigation Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
+            <nav className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200" role="navigation" aria-label="Mobile navigation">
               {navItems.map((item) => (
                 <Link
                   key={item.path}
@@ -93,11 +95,12 @@ function Header() {
                       : "text-gray-700 hover:text-[#A51C30] hover:bg-gray-50"
                   }`}
                   onClick={closeMobileMenu}
+                  aria-current={location.pathname === item.path ? "page" : undefined}
                 >
                   {item.label}
                 </Link>
               ))}
-            </div>
+            </nav>
           </div>
         )}
       </div>

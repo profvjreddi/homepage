@@ -21,8 +21,11 @@ function Layout({ children }: LayoutProps) {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 bg-[#A51C30] text-white p-2 z-50">
+        Skip to main content
+      </a>
       <Header />
-      <main className="flex-1">
+      <main id="main-content" className="flex-1" role="main">
         {children}
       </main>
       <Footer />

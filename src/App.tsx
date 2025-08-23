@@ -11,8 +11,11 @@ import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 
 function App() {
+  // Use /homepage basename for GitHub Pages, but root for SEAS domain
+  const basename = process.env.NODE_ENV === 'production' && window.location.hostname.includes('github.io') ? '/homepage' : '/';
+  
   return (
-          <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/homepage' : '/'}>
+    <BrowserRouter basename={basename}>
       <Layout>
         <Routes>
           {/* Define all routes here */}
