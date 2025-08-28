@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting to Vijay Janapa Reddi's Homepage</title>
-    <meta http-equiv="refresh" content="0; url=https://profvjreddi.github.io/Homepage/">
-    <link rel="canonical" href="https://profvjreddi.github.io/Homepage/">
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
-        }
-        .container {
-            max-width: 500px;
-            padding: 2rem;
-        }
-        .spinner {
-            border: 3px solid rgba(255,255,255,0.3);
-            border-radius: 50%;
-            border-top: 3px solid white;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1rem;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        a {
-            color: #ffd700;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="spinner"></div>
-        <h1>Redirecting...</h1>
-        <p>You are being redirected to <strong>Vijay Janapa Reddi's Homepage</strong></p>
-        <p>If you are not redirected automatically, <a href="https://profvjreddi.github.io/Homepage/">click here</a>.</p>
-    </div>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="./images/profile.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="VQca2-2IHx9py9lG3Ryhv7WMe0eqTb2ct4SlDOaQoks" />
+    <meta name="description" content="Prof. Vijay Janapa Reddi - Gordon McKay Professor at Harvard School of Engineering and Applied Sciences. Research in embodied AI systems, machine learning, and edge computing." />
+    <meta name="keywords" content="Vijay Reddi, Harvard SEAS, machine learning, AI systems, edge computing, TinyML, embodied AI" />
+    <meta name="author" content="Vijay Janapa Reddi" />
+    <title>Vijay Janapa Reddi | Harvard SEAS</title>
+  </head>
+  <body>
+    <div id="root"></div>
     <script>
-        // Fallback JavaScript redirect
-        setTimeout(function() {
-            window.location.href = 'https://profvjreddi.github.io/Homepage/';
-        }, 100);
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
     </script>
-</body>
+    <script>
+      /**
+       * DO NOT REMOVE
+       * Sends client-side errors to the chariot-logger defined in vite.config.ts
+       */
+      if ("%MODE%" === "development") {
+        // Send to logger and notify parent
+        const sendError = (error) => {
+          if (!error?.message) return; // only log errors with a message
+
+          fetch("/@chariot-logger", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(error),
+          }).catch(() => {});
+          window.parent.postMessage("error", "*");
+        };
+
+        // Catch all errors
+        window.addEventListener("error", (e) => sendError(e), true);
+        window.addEventListener(
+          "unhandledrejection",
+          (e) => sendError(e),
+          true
+        );
+
+        // Catch console.error
+        const originalError = console.error;
+        console.error = function (...args) {
+          originalError.apply(console, args);
+          sendError({ type: "console", args });
+        };
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

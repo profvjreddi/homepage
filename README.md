@@ -1,25 +1,50 @@
-# profvjreddi.github.io
+# React + TypeScript + Vite
 
-This repository serves as the root GitHub Pages site for `profvjreddi.github.io` and handles custom domain redirection.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Purpose
+Currently, two official plugins are available:
 
-This repository redirects visitors from:
-- `https://profvjreddi.github.io` → `https://profvjreddi.github.io/Homepage/`
-- `https://vijay.seas.harvard.edu` → `https://profvjreddi.github.io/Homepage/`
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Setup
+## Expanding the ESLint configuration
 
-The main website content is hosted in the [Homepage](https://github.com/profvjreddi/Homepage) repository, which deploys to `profvjreddi.github.io/Homepage/`.
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-This root repository contains:
-- `index.html` - Redirect page with multiple fallback methods
-- `CNAME` - Custom domain configuration for `vijay.seas.harvard.edu`
+- Configure the top-level `parserOptions` property like this:
 
-## Custom Domain Configuration
+```js
+export default tseslint.config({
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
 
-The CNAME record `vijay.seas.harvard.edu` points to `profvjreddi.github.io` (configured by Harvard SEAS IT).
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-## Deployment
+```js
+// eslint.config.js
+import react from 'eslint-plugin-react'
 
-Simply push changes to the `main` branch and GitHub Pages will automatically deploy.
+export default tseslint.config({
+  // Set the react version
+  settings: { react: { version: '18.3' } },
+  plugins: {
+    // Add the react plugin
+    react,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended rules
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+  },
+})
+```
