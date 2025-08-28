@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Vijay Janapa Reddi's Homepage</title>
+    <meta http-equiv="refresh" content="0; url=https://profvjreddi.github.io/Homepage/">
+    <link rel="canonical" href="https://profvjreddi.github.io/Homepage/">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            padding: 2rem;
+        }
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 3px solid white;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <h1>Redirecting...</h1>
+        <p>You are being redirected to <strong>Vijay Janapa Reddi's Homepage</strong></p>
+        <p>If you are not redirected automatically, <a href="https://profvjreddi.github.io/Homepage/">click here</a>.</p>
+    </div>
+    
+    <script>
+        // Fallback JavaScript redirect
+        setTimeout(function() {
+            window.location.href = 'https://profvjreddi.github.io/Homepage/';
+        }, 100);
+    </script>
+</body>
+</html>
