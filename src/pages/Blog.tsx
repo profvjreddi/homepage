@@ -18,9 +18,8 @@ function Blog() {
     const loadPosts = async () => {
       try {
         console.log('Loading blog posts...');
-        // Use the correct path based on environment
-        const basePath = process.env.NODE_ENV === 'production' ? '/homepage' : '';
-        const response = await fetch(`${basePath}/content/blog-index.json`);
+        // Fetch from root path since we're now deployed at root
+        const response = await fetch('/content/blog-index.json');
         console.log('Response status:', response.status);
         if (response.ok) {
           const postsData = await response.json();
