@@ -12,6 +12,7 @@ function Header() {
     { path: "/teaching", label: "Teaching" },
     { path: "/blog", label: "Blog" },
     { path: "/profile", label: "Profile" },
+    { path: "/documents/cv.pdf", label: "CV", external: true },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -48,35 +49,36 @@ function Header() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-8" role="navigation" aria-label="Main navigation">
-              {navItems.map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
-                    location.pathname === item.path
-                      ? "text-[#A51C30] border-b-2 border-[#A51C30]"
-                      : "text-gray-700 hover:text-[#A51C30]"
-                  }`}
-                  aria-current={location.pathname === item.path ? "page" : undefined}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                if (item.external) {
+                  return (
+                    <a
+                      key={item.path}
+                      href={item.path}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#A51C30] transition-colors duration-200"
+                    >
+                      {item.label}
+                    </a>
+                  );
+                }
+                return (
+                  <Link
+                    key={item.path}
+                    to={item.path}
+                    className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+                      location.pathname === item.path
+                        ? "text-[#A51C30] border-b-2 border-[#A51C30]"
+                        : "text-gray-700 hover:text-[#A51C30]"
+                    }`}
+                    aria-current={location.pathname === item.path ? "page" : undefined}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             </nav>
-            
-            {/* CV Download Icon */}
-            <a 
-              href="/documents/cv.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-2 text-gray-600 hover:text-[#A51C30] transition-colors duration-200"
-              title="Download CV"
-              aria-label="Download CV"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -101,35 +103,37 @@ function Header() {
         {isMobileMenuOpen && (
           <div className="md:hidden">
             <nav className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200" role="navigation" aria-label="Mobile navigation">
-              {navItems.map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className={`block px-3 py-2 text-base font-medium transition-colors duration-200 ${
-                    location.pathname === item.path
-                      ? "text-[#A51C30] bg-gray-50"
-                      : "text-gray-700 hover:text-[#A51C30] hover:bg-gray-50"
-                  }`}
-                  onClick={closeMobileMenu}
-                  aria-current={location.pathname === item.path ? "page" : undefined}
-                >
-                  {item.label}
-                </Link>
-              ))}
-              
-              {/* Mobile CV Download */}
-              <a
-                href="/documents/cv.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center px-3 py-2 text-base font-medium text-gray-700 hover:text-[#A51C30] hover:bg-gray-50 transition-colors duration-200"
-                onClick={closeMobileMenu}
-              >
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-                Download CV
-              </a>
+              {navItems.map((item) => {
+                if (item.external) {
+                  return (
+                    <a
+                      key={item.path}
+                      href={item.path}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[#A51C30] hover:bg-gray-50 transition-colors duration-200"
+                      onClick={closeMobileMenu}
+                    >
+                      {item.label}
+                    </a>
+                  );
+                }
+                return (
+                  <Link
+                    key={item.path}
+                    to={item.path}
+                    className={`block px-3 py-2 text-base font-medium transition-colors duration-200 ${
+                      location.pathname === item.path
+                        ? "text-[#A51C30] bg-gray-50"
+                        : "text-gray-700 hover:text-[#A51C30] hover:bg-gray-50"
+                    }`}
+                    onClick={closeMobileMenu}
+                    aria-current={location.pathname === item.path ? "page" : undefined}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             </nav>
           </div>
         )}
