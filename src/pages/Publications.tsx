@@ -96,7 +96,6 @@ function Publications() {
   const [error, setError] = useState<string | null>(null);
   const [refreshing, setRefreshing] = useState<boolean>(false);
   const [cacheInfo, setCacheInfo] = useState<{ lastUpdated: Date | null; expiresAt: Date | null; isExpired: boolean }>({ lastUpdated: null, expiresAt: null, isExpired: true });
-  const [scholarCacheInfo, setScholarCacheInfo] = useState<{ lastUpdated: Date | null; expiresAt: Date | null; isExpired: boolean }>({ lastUpdated: null, expiresAt: null, isExpired: true });
   const [showWordCloud, setShowWordCloud] = useState<boolean>(false);
   const [wordCloudTemplate, setWordCloudTemplate] = useState<'harvard' | 'modern' | 'academic' | 'minimal' | 'rainbow' | 'sunset' | 'ocean' | 'forest'>('rainbow');
   const [statusMessage, setStatusMessage] = useState<{ text: string; type: 'loading' | 'success' | 'error' } | null>(null);
@@ -132,8 +131,21 @@ function Publications() {
             }
           }
           
-          setCacheInfo(getCacheInfo());
-          setScholarCacheInfo(getScholarCacheInfo());
+          // Get unified cache info (most recent update between both caches)
+          const dblpCache = getCacheInfo();
+          const scholarCache = getScholarCacheInfo();
+          
+          const unifiedCacheInfo = {
+            lastUpdated: dblpCache.lastUpdated && scholarCache.lastUpdated 
+              ? (dblpCache.lastUpdated > scholarCache.lastUpdated ? dblpCache.lastUpdated : scholarCache.lastUpdated)
+              : dblpCache.lastUpdated || scholarCache.lastUpdated,
+            expiresAt: dblpCache.expiresAt && scholarCache.expiresAt
+              ? (dblpCache.expiresAt < scholarCache.expiresAt ? dblpCache.expiresAt : scholarCache.expiresAt)
+              : dblpCache.expiresAt || scholarCache.expiresAt,
+            isExpired: dblpCache.isExpired || scholarCache.isExpired
+          };
+          
+          setCacheInfo(unifiedCacheInfo);
           
           // If we have cached data, don't show loading spinner
           if (cachedData && publications.length === 0) {
@@ -181,8 +193,22 @@ function Publications() {
       
       setPublications(classifiedPubs);
       setScholarStats(stats);
-      setCacheInfo(getCacheInfo());
-      setScholarCacheInfo(getScholarCacheInfo());
+      
+      // Get unified cache info (most recent update between both caches)
+      const dblpCache = getCacheInfo();
+      const scholarCache = getScholarCacheInfo();
+      
+      const unifiedCacheInfo = {
+        lastUpdated: dblpCache.lastUpdated && scholarCache.lastUpdated 
+          ? (dblpCache.lastUpdated > scholarCache.lastUpdated ? dblpCache.lastUpdated : scholarCache.lastUpdated)
+          : dblpCache.lastUpdated || scholarCache.lastUpdated,
+        expiresAt: dblpCache.expiresAt && scholarCache.expiresAt
+          ? (dblpCache.expiresAt < scholarCache.expiresAt ? dblpCache.expiresAt : scholarCache.expiresAt)
+          : dblpCache.expiresAt || scholarCache.expiresAt,
+        isExpired: dblpCache.isExpired || scholarCache.isExpired
+      };
+      
+      setCacheInfo(unifiedCacheInfo);
       
       // Show success message
       if (forceRefresh) {
@@ -214,8 +240,22 @@ function Publications() {
 
   useEffect(() => {
     loadPublications();
-    setCacheInfo(getCacheInfo());
-    setScholarCacheInfo(getScholarCacheInfo());
+    
+    // Get unified cache info on initial load
+    const dblpCache = getCacheInfo();
+    const scholarCache = getScholarCacheInfo();
+    
+    const unifiedCacheInfo = {
+      lastUpdated: dblpCache.lastUpdated && scholarCache.lastUpdated 
+        ? (dblpCache.lastUpdated > scholarCache.lastUpdated ? dblpCache.lastUpdated : scholarCache.lastUpdated)
+        : dblpCache.lastUpdated || scholarCache.lastUpdated,
+      expiresAt: dblpCache.expiresAt && scholarCache.expiresAt
+        ? (dblpCache.expiresAt < scholarCache.expiresAt ? dblpCache.expiresAt : scholarCache.expiresAt)
+        : dblpCache.expiresAt || scholarCache.expiresAt,
+      isExpired: dblpCache.isExpired || scholarCache.isExpired
+    };
+    
+    setCacheInfo(unifiedCacheInfo);
     
     // Cleanup timeout on unmount
     return () => {
@@ -325,47 +365,25 @@ function Publications() {
 
           {/* Cache Status */}
           <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <div className="space-y-3">
-              {/* Publications Cache */}
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className={`w-3 h-3 rounded-full ${cacheInfo.isExpired ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></div>
-                  <div>
-                    <span className="text-sm font-medium text-gray-700">
-                      Publications: {cacheInfo.isExpired ? 'Cache Expired' : 'Cache Current'}
-                    </span>
-                    <div className="text-xs text-gray-500">
-                      {cacheInfo.lastUpdated 
-                        ? `Last updated: ${cacheInfo.lastUpdated.toLocaleDateString()} at ${cacheInfo.lastUpdated.toLocaleTimeString()}`
-                        : 'No cached data available'
-                      }
-                    </div>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className={`w-3 h-3 rounded-full ${cacheInfo.isExpired ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></div>
+                <div>
+                  <span className="text-sm font-medium text-gray-700">
+                    Data Cache: {cacheInfo.isExpired ? 'Update Available' : 'Current'}
+                  </span>
+                  <div className="text-xs text-gray-500">
+                    {cacheInfo.lastUpdated 
+                      ? `Last updated: ${cacheInfo.lastUpdated.toLocaleDateString()} at ${cacheInfo.lastUpdated.toLocaleTimeString()}`
+                      : 'No cached data available'
+                    }
                   </div>
                 </div>
               </div>
-              
-              {/* Google Scholar Cache */}
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className={`w-3 h-3 rounded-full ${scholarCacheInfo.isExpired ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></div>
-                  <div>
-                    <span className="text-sm font-medium text-gray-700">
-                      Citations & h-index: {scholarCacheInfo.isExpired ? 'Cache Expired' : 'Cache Current'}
-                    </span>
-                    <div className="text-xs text-gray-500">
-                      {scholarCacheInfo.lastUpdated 
-                        ? `Last updated: ${scholarCacheInfo.lastUpdated.toLocaleDateString()} at ${scholarCacheInfo.lastUpdated.toLocaleTimeString()}`
-                        : 'No cached data available'
-                      }
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              {(cacheInfo.isExpired || scholarCacheInfo.isExpired) && (
-                <div className="text-right pt-2 border-t border-gray-200">
+              {cacheInfo.isExpired && (
+                <div className="text-right">
                   <div className="text-xs text-amber-600 font-medium mb-1">Refresh recommended</div>
-                  <div className="text-xs text-gray-500">Click refresh to update all data (publications, citations, h-index)</div>
+                  <div className="text-xs text-gray-500">Updates publications, citations & h-index</div>
                 </div>
               )}
             </div>
@@ -395,7 +413,7 @@ function Publications() {
               onClick={handleRefresh}
               disabled={refreshing || loading}
               className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm disabled:bg-gray-400 transition-all ${
-                (cacheInfo.isExpired || scholarCacheInfo.isExpired)
+                cacheInfo.isExpired
                   ? 'text-white bg-amber-500 hover:bg-amber-600 ring-2 ring-amber-200 ring-offset-1' 
                   : 'text-white bg-[#A51C30] hover:bg-[#8B1A2B]'
               }`}
@@ -405,7 +423,7 @@ function Publications() {
               ) : (
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
               )}
-              {refreshing ? 'Refreshing...' : (cacheInfo.isExpired || scholarCacheInfo.isExpired) ? 'Update All Data' : 'Refresh Cache'}
+              {refreshing ? 'Refreshing...' : cacheInfo.isExpired ? 'Update All Data' : 'Refresh Cache'}
             </button>
             
             {/* Status Message */}

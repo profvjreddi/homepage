@@ -100,9 +100,9 @@ export const fetchGoogleScholarStats = async (): Promise<GoogleScholarStats> => 
             
             // Combine with fallback values for any missing data
             return {
-              totalCitations: parsedStats.totalCitations || 18105,
+              totalCitations: parsedStats.totalCitations || 18730,
               hIndex: parsedStats.hIndex,
-              i10Index: parsedStats.i10Index || 145,
+              i10Index: parsedStats.i10Index || 151,
               totalPublications: 120, // This comes from DBLP anyway
               lastUpdated: new Date()
             };
@@ -134,11 +134,11 @@ export const fetchGoogleScholarStats = async (): Promise<GoogleScholarStats> => 
   // Fallback to manually updated data
   console.log('All automatic methods failed, using manually updated Google Scholar stats');
   const stats: GoogleScholarStats = {
-    totalCitations: 18105, // From your actual Google Scholar profile
-    hIndex: 55,            // From your actual Google Scholar profile  
-    i10Index: 145,         // From your actual Google Scholar profile
+    totalCitations: 18730, // From your actual Google Scholar profile (updated Jan 2025)
+    hIndex: 56,            // From your actual Google Scholar profile (updated Jan 2025)
+    i10Index: 151,         // From your actual Google Scholar profile (updated Jan 2025)
     totalPublications: 120, // This will be overridden by DBLP count
-    lastUpdated: new Date('2024-12-19') // Update this when you manually refresh the stats
+    lastUpdated: new Date('2025-01-09') // Update this when you manually refresh the stats
   };
   
   return stats;
