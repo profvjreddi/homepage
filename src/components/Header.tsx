@@ -38,9 +38,22 @@ function Header() {
                 />
               </div>
               <div>
-                <div className="text-gray-900 font-semibold">Prof. Vijay Janapa Reddi</div>
-                <div className="text-gray-600 text-sm">Gordon McKay Professor</div>
-                <div className="text-gray-500 text-xs">Harvard School of Engineering and Applied Sciences</div>
+                <div className="flex items-center gap-3">
+                  <div>
+                    <div className="text-gray-900 font-semibold">Prof. Vijay Janapa Reddi</div>
+                    <div className="text-gray-600 text-sm">Gordon McKay Professor</div>
+                    <div className="text-gray-500 text-xs">Harvard School of Engineering and Applied Sciences</div>
+                  </div>
+                  <a 
+                    href="/documents/cv.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hidden sm:inline-flex items-center px-3 py-1.5 text-xs font-medium text-[#A51C30] bg-[#A51C30]/5 border border-[#A51C30]/20 rounded-md hover:bg-[#A51C30]/10 transition-colors"
+                    title="Download CV"
+                  >
+                    CV
+                  </a>
+                </div>
               </div>
             </Link>
           </div>
