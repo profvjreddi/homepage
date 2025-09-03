@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { FiExternalLink } from 'react-icons/fi';
 import { getCachedPublications, getCacheInfo, refreshCache } from '../utils/dblpCache';
-import { getCachedScholarStats, getScholarCacheInfo } from '../utils/googleScholar';
+import { getCachedScholarStats, getScholarCacheInfo, refreshScholarCache } from '../utils/googleScholar';
 import WordCloud from '../components/WordCloud';
 
 interface Publication {
@@ -96,6 +96,7 @@ function Publications() {
   const [error, setError] = useState<string | null>(null);
   const [refreshing, setRefreshing] = useState<boolean>(false);
   const [cacheInfo, setCacheInfo] = useState<{ lastUpdated: Date | null; expiresAt: Date | null; isExpired: boolean }>({ lastUpdated: null, expiresAt: null, isExpired: true });
+  const [scholarCacheInfo, setScholarCacheInfo] = useState<{ lastUpdated: Date | null; expiresAt: Date | null; isExpired: boolean }>({ lastUpdated: null, expiresAt: null, isExpired: true });
   const [showWordCloud, setShowWordCloud] = useState<boolean>(false);
   const [wordCloudTemplate, setWordCloudTemplate] = useState<'harvard' | 'modern' | 'academic' | 'minimal' | 'rainbow' | 'sunset' | 'ocean' | 'forest'>('rainbow');
   const [statusMessage, setStatusMessage] = useState<{ text: string; type: 'loading' | 'success' | 'error' } | null>(null);
@@ -132,6 +133,7 @@ function Publications() {
           }
           
           setCacheInfo(getCacheInfo());
+          setScholarCacheInfo(getScholarCacheInfo());
           
           // If we have cached data, don't show loading spinner
           if (cachedData && publications.length === 0) {
@@ -149,19 +151,19 @@ function Publications() {
       
       if (forceRefresh) {
         setRefreshing(true);
-        setStatusMessage({ text: 'Updating publications...', type: 'loading' });
+        setStatusMessage({ text: 'Updating publications and citations...', type: 'loading' });
       }
 
       console.log('About to fetch publications and stats...');
       
       // Show status for Google Scholar fetching
       if (forceRefresh) {
-        setStatusMessage({ text: 'Fetching Google Scholar data...', type: 'loading' });
+        setStatusMessage({ text: 'Fetching latest h-index and citations...', type: 'loading' });
       }
       
       const [pubs, stats] = await Promise.all([
         forceRefresh ? refreshCache() : getCachedPublications(),
-        getCachedScholarStats()
+        forceRefresh ? refreshScholarCache() : getCachedScholarStats()
       ]);
       
       console.log('Fetched publications:', pubs);
@@ -180,10 +182,11 @@ function Publications() {
       setPublications(classifiedPubs);
       setScholarStats(stats);
       setCacheInfo(getCacheInfo());
+      setScholarCacheInfo(getScholarCacheInfo());
       
       // Show success message
       if (forceRefresh) {
-        setStatusMessage({ text: '✓ Data updated successfully', type: 'success' });
+        setStatusMessage({ text: '✓ All data updated (publications, h-index, citations)', type: 'success' });
         // Clear any existing timeout and set new one
         if (statusTimeoutRef.current) clearTimeout(statusTimeoutRef.current);
         statusTimeoutRef.current = setTimeout(() => setStatusMessage(null), 3000);
@@ -212,6 +215,7 @@ function Publications() {
   useEffect(() => {
     loadPublications();
     setCacheInfo(getCacheInfo());
+    setScholarCacheInfo(getScholarCacheInfo());
     
     // Cleanup timeout on unmount
     return () => {
@@ -321,25 +325,47 @@ function Publications() {
 
           {/* Cache Status */}
           <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className={`w-3 h-3 rounded-full ${cacheInfo.isExpired ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></div>
-                <div>
-                  <span className="text-sm font-medium text-gray-700">
-                    {cacheInfo.isExpired ? 'Cache Expired' : 'Cache Current'}
-                  </span>
-                  <div className="text-xs text-gray-500">
-                    {cacheInfo.lastUpdated 
-                      ? `Last updated: ${cacheInfo.lastUpdated.toLocaleDateString()} at ${cacheInfo.lastUpdated.toLocaleTimeString()}`
-                      : 'No cached data available'
-                    }
+            <div className="space-y-3">
+              {/* Publications Cache */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className={`w-3 h-3 rounded-full ${cacheInfo.isExpired ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></div>
+                  <div>
+                    <span className="text-sm font-medium text-gray-700">
+                      Publications: {cacheInfo.isExpired ? 'Cache Expired' : 'Cache Current'}
+                    </span>
+                    <div className="text-xs text-gray-500">
+                      {cacheInfo.lastUpdated 
+                        ? `Last updated: ${cacheInfo.lastUpdated.toLocaleDateString()} at ${cacheInfo.lastUpdated.toLocaleTimeString()}`
+                        : 'No cached data available'
+                      }
+                    </div>
                   </div>
                 </div>
               </div>
-              {cacheInfo.isExpired && (
-                <div className="text-right">
+              
+              {/* Google Scholar Cache */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className={`w-3 h-3 rounded-full ${scholarCacheInfo.isExpired ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></div>
+                  <div>
+                    <span className="text-sm font-medium text-gray-700">
+                      Citations & h-index: {scholarCacheInfo.isExpired ? 'Cache Expired' : 'Cache Current'}
+                    </span>
+                    <div className="text-xs text-gray-500">
+                      {scholarCacheInfo.lastUpdated 
+                        ? `Last updated: ${scholarCacheInfo.lastUpdated.toLocaleDateString()} at ${scholarCacheInfo.lastUpdated.toLocaleTimeString()}`
+                        : 'No cached data available'
+                      }
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {(cacheInfo.isExpired || scholarCacheInfo.isExpired) && (
+                <div className="text-right pt-2 border-t border-gray-200">
                   <div className="text-xs text-amber-600 font-medium mb-1">Refresh recommended</div>
-                  <div className="text-xs text-gray-500">Click refresh for latest publications</div>
+                  <div className="text-xs text-gray-500">Click refresh to update all data (publications, citations, h-index)</div>
                 </div>
               )}
             </div>
@@ -369,7 +395,7 @@ function Publications() {
               onClick={handleRefresh}
               disabled={refreshing || loading}
               className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm disabled:bg-gray-400 transition-all ${
-                cacheInfo.isExpired 
+                (cacheInfo.isExpired || scholarCacheInfo.isExpired)
                   ? 'text-white bg-amber-500 hover:bg-amber-600 ring-2 ring-amber-200 ring-offset-1' 
                   : 'text-white bg-[#A51C30] hover:bg-[#8B1A2B]'
               }`}
@@ -379,7 +405,7 @@ function Publications() {
               ) : (
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
               )}
-              {refreshing ? 'Refreshing...' : cacheInfo.isExpired ? 'Update Publications' : 'Refresh Cache'}
+              {refreshing ? 'Refreshing...' : (cacheInfo.isExpired || scholarCacheInfo.isExpired) ? 'Update All Data' : 'Refresh Cache'}
             </button>
             
             {/* Status Message */}
