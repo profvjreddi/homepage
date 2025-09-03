@@ -106,11 +106,12 @@ function Publications() {
       console.log('loadPublications called with forceRefresh:', forceRefresh);
       setError(null);
       
-      // On initial load, check if we have cached data first
-      if (!forceRefresh && publications.length === 0) {
-        // Try to load cached data immediately without loading state
+      // ALWAYS try to load cached data first for instant display
+      if (!forceRefresh) {
         try {
           const cachedData = localStorage.getItem('dblp_publications_cache');
+          const scholarCachedData = localStorage.getItem('google_scholar_cache');
+          
           if (cachedData) {
             const cache = JSON.parse(cachedData);
             if (cache.publications && cache.publications.length > 0) {
@@ -119,17 +120,29 @@ function Publications() {
                 areas: pub.area ? [pub.area] : classifyPublication(pub)
               }));
               setPublications(classifiedPubs);
-              setCacheInfo(getCacheInfo());
-              // Still fetch fresh data in background, but don't show loading
-              setLoading(false);
+              setLoading(false); // Show cached data immediately
             }
+          }
+          
+          if (scholarCachedData) {
+            const scholarCache = JSON.parse(scholarCachedData);
+            if (scholarCache.stats) {
+              setScholarStats(scholarCache.stats);
+            }
+          }
+          
+          setCacheInfo(getCacheInfo());
+          
+          // If we have cached data, don't show loading spinner
+          if (cachedData && publications.length === 0) {
+            setLoading(false);
           }
         } catch (e) {
           console.warn('Failed to load immediate cache:', e);
         }
       }
       
-      // Show loading only if we don't have any data to show
+      // Show loading only if we don't have any cached data to show
       if (publications.length === 0 && !forceRefresh) {
         setLoading(true);
       }
@@ -307,21 +320,29 @@ function Publications() {
           </div>
 
           {/* Cache Status */}
-          <div className="mb-4 flex items-center gap-4 text-sm">
-            <div className="flex items-center gap-2">
-              <div className={`w-2 h-2 rounded-full ${cacheInfo.isExpired ? 'bg-yellow-400' : 'bg-green-400'}`}></div>
-              <span className="text-gray-600">
-                {cacheInfo.lastUpdated 
-                  ? `Updated: ${cacheInfo.lastUpdated.toLocaleDateString()} at ${cacheInfo.lastUpdated.toLocaleTimeString()}`
-                  : 'No cached data'
-                }
-              </span>
+          <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className={`w-3 h-3 rounded-full ${cacheInfo.isExpired ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></div>
+                <div>
+                  <span className="text-sm font-medium text-gray-700">
+                    {cacheInfo.isExpired ? 'Cache Expired' : 'Cache Current'}
+                  </span>
+                  <div className="text-xs text-gray-500">
+                    {cacheInfo.lastUpdated 
+                      ? `Last updated: ${cacheInfo.lastUpdated.toLocaleDateString()} at ${cacheInfo.lastUpdated.toLocaleTimeString()}`
+                      : 'No cached data available'
+                    }
+                  </div>
+                </div>
+              </div>
+              {cacheInfo.isExpired && (
+                <div className="text-right">
+                  <div className="text-xs text-amber-600 font-medium mb-1">Refresh recommended</div>
+                  <div className="text-xs text-gray-500">Click refresh for latest publications</div>
+                </div>
+              )}
             </div>
-            {cacheInfo.isExpired && (
-              <span className="text-yellow-600 text-xs bg-yellow-50 px-2 py-1 rounded">
-                Cache expired - click refresh for latest data
-              </span>
-            )}
           </div>
 
           {/* Action Buttons */}

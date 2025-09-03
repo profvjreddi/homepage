@@ -32,7 +32,7 @@ function Header() {
             <Link to="/" className="flex items-center space-x-3" onClick={closeMobileMenu} aria-label="Home - Prof. Vijay Janapa Reddi">
               <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-gray-200">
                 <img 
-                  src={process.env.NODE_ENV === 'production' && window.location.hostname.includes('github.io') ? '/homepage/images/profile.jpg' : '/images/profile.jpg'}
+                  src="/images/profile.jpg"
                   alt="Prof. Vijay Janapa Reddi"
                   className="w-full h-full object-cover"
                 />

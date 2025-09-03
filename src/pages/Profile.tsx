@@ -20,7 +20,7 @@ function ProfilePage() {
               {/* Photo */}
               <div className="flex-shrink-0 mb-6 md:mb-0">
                 <img
-                  src={process.env.NODE_ENV === 'production' ? '/homepage/images/profile.jpg' : '/images/profile.jpg'}
+                  src="/images/profile.jpg"
                   alt="Prof. Vijay Janapa Reddi"
                   className="w-32 h-32 rounded-xl object-cover shadow-md"
                 />
@@ -126,7 +126,7 @@ function ProfilePage() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href={process.env.NODE_ENV === 'production' ? '/homepage/documents/cv.pdf' : '/documents/cv.pdf'} 
+                  href="/documents/cv.pdf" 
                   className="inline-flex items-center px-6 py-3 bg-[#A51C30] text-white font-medium rounded-lg hover:bg-[#8B1A2B] transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
