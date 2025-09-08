@@ -13,11 +13,13 @@
     "blog:generate": "node scripts/generateBlogIndex.js"
   },
   "dependencies": {
+    "@types/d3": "^7.4.3",
     "@types/d3-cloud": "^1.2.9",
     "@types/js-yaml": "^4.0.9",
     "@types/wordcloud": "^1.2.2",
     "buffer": "^6.0.3",
     "canvas": "^3.1.1",
+    "d3": "^7.9.0",
     "d3-cloud": "^1.2.7",
     "framer-motion": "^12.4.7",
     "gray-matter": "^4.0.3",

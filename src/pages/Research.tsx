@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Lightbulb, Link2 } from 'lucide-react';
 import { getCachedPublications } from '../utils/dblpCache';
+import ResearchIntersectionViz from '../components/ResearchIntersectionViz';
 
 interface Publication {
   title: string;
@@ -140,13 +141,13 @@ function Research() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Computer Architecture</h3>
                 <p className="text-gray-600 mb-4">
-                  Building efficient and reliable computing systems from the ground up.
+                  Building computing foundations that enable intelligent systems to operate efficiently.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1 mb-6">
-                  <li>• Energy-efficient processors</li>
-                  <li>• Memory system optimization</li>
-                  <li>• Hardware-software co-design</li>
-                  <li>• Performance analysis</li>
+                  <li>• Energy-efficient processors for edge AI</li>
+                  <li>• Memory systems for real-time inference</li>
+                  <li>• Hardware-software co-design for autonomy</li>
+                  <li>• Performance optimization for embodied systems</li>
                 </ul>
                 
                 <Link 
@@ -170,13 +171,13 @@ function Research() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Machine Learning Systems</h3>
                 <p className="text-gray-600 mb-4">
-                  Combining machine learning with systems research for intelligent edge computing.
+                  Creating scalable ML systems that bridge the gap between algorithms and real-world deployment.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1 mb-6">
-                  <li>• TinyML and edge inference</li>
-                  <li>• Runtime optimization</li>
-                  <li>• ML benchmarking</li>
-                  <li>• Data-centric AI systems</li>
+                  <li>• TinyML frameworks for physical environments</li>
+                  <li>• Runtime optimization for autonomous systems</li>
+                  <li>• ML benchmarking for embodied AI</li>
+                  <li>• Data-centric systems for real-world intelligence</li>
                 </ul>
                 
                 <Link 
@@ -200,13 +201,13 @@ function Research() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Autonomous Agents</h3>
                 <p className="text-gray-600 mb-4">
-                  Building intelligent systems that can adapt and operate safely in real-world environments.
+                  Developing intelligent agents that perceive, reason, and act safely in complex physical environments.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1 mb-6">
-                  <li>• Safety-critical systems</li>
-                  <li>• Real-time adaptation</li>
-                  <li>• Embodied AI</li>
-                  <li>• Generative co-design</li>
+                  <li>• Safety-critical autonomous systems</li>
+                  <li>• Real-time adaptation and learning</li>
+                  <li>• Embodied intelligence and decision-making</li>
+                  <li>• Generative co-design for physical deployment</li>
                 </ul>
                 
                 <Link 
@@ -217,6 +218,11 @@ function Research() {
                 </Link>
               </motion.div>
             </div>
+          </div>
+
+          {/* Research Intersections Visualization */}
+          <div className="mt-16">
+            <ResearchIntersectionViz />
           </div>
         </div>
       </div>
@@ -411,7 +417,7 @@ function Research() {
                   <div className="ml-20 bg-white rounded-xl shadow-lg border border-gray-100 p-8 hover:shadow-xl transition-shadow">
                     <div className="flex items-start justify-between mb-4">
                       <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">Mobile Computing</h3>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Mobile & Embedded Computing</h3>
                       </div>
                     </div>
                     <p className="text-gray-600 mb-6 leading-relaxed">
@@ -557,7 +563,7 @@ function Research() {
                   <div className="ml-20 bg-white rounded-xl shadow-lg border border-gray-100 p-8 hover:shadow-xl transition-shadow">
                     <div className="flex items-start justify-between mb-4">
                       <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">Compilation Technology</h3>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Compiler Technology</h3>
                       </div>
                     </div>
                     <p className="text-gray-600 mb-6 leading-relaxed">

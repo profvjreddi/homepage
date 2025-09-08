@@ -73,7 +73,7 @@ function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Computer Architecture</h3>
               <p className="text-gray-600">
-                Designing efficient computing systems through AI-driven co-design, from energy-efficient processors to hardware-software optimization for real-world deployment.
+                Building computing foundations that enable intelligent systems to operate efficiently—from energy-aware processors to hardware-software co-design for deployment.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow relative">
@@ -95,7 +95,7 @@ function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Autonomous Agents</h3>
               <p className="text-gray-600">
-                Developing embodied AI systems that perceive, reason, and act safely in real-world environments—the ultimate goal of intelligence in the physical world.
+                Developing algorithms that perceive, reason, and act safely in complex environments—bringing together hardware, algorithms, and systems for embodied intelligence.
               </p>
             </div>
           </div>
@@ -105,9 +105,7 @@ function Home() {
               className="inline-flex items-center text-[#A51C30] hover:text-[#8B1A2B] font-medium transition-colors"
             >
               See how these areas connect →
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
+
             </Link>
           </div>
         </div>
