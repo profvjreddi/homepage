@@ -65,7 +65,7 @@ function BlogPost() {
   if (error || !post) {
     return (
       <div className="min-h-screen bg-white">
-        <div className="max-w-4xl mx-auto px-6 py-12">
+        <div className="max-w-6xl mx-auto px-6 py-12">
           <div className="text-center py-12">
             <h1 className="text-2xl font-bold text-gray-900 mb-4">Post Not Found</h1>
             <p className="text-gray-600 mb-6">The blog post you're looking for doesn't exist.</p>
@@ -83,7 +83,7 @@ function BlogPost() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-4xl mx-auto px-6 py-12 lg:pr-80">
+      <div className="max-w-6xl mx-auto px-6 py-12 lg:pr-80">
         <Link to="/blog" className="text-[#A51C30] hover:text-[#8B1A2B] font-medium mb-4 inline-flex items-center">
           ← Back to Blog
         </Link>
@@ -133,7 +133,7 @@ function BlogPost() {
                     const text = children?.toString() || '';
                     const id = text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').trim();
                     return (
-                      <h1 id={id} className="text-3xl font-bold text-gray-900 mt-8 mb-4 first:mt-0">
+                      <h1 id={id} className="text-3xl font-bold text-[#A51C30] mt-8 mb-4 first:mt-0">
                         {children}
                       </h1>
                     );
@@ -142,7 +142,7 @@ function BlogPost() {
                     const text = children?.toString() || '';
                     const id = text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').trim();
                     return (
-                      <h2 id={id} className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+                      <h2 id={id} className="text-2xl font-bold text-[#A51C30] mt-8 mb-4">
                         {children}
                       </h2>
                     );
@@ -151,7 +151,7 @@ function BlogPost() {
                     const text = children?.toString() || '';
                     const id = text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').trim();
                     return (
-                      <h3 id={id} className="text-xl font-semibold text-gray-900 mt-6 mb-3">
+                      <h3 id={id} className="text-xl font-semibold text-[#8B1A2B] mt-6 mb-3">
                         {children}
                       </h3>
                     );
@@ -160,7 +160,7 @@ function BlogPost() {
                     const text = children?.toString() || '';
                     const id = text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').trim();
                     return (
-                      <h4 id={id} className="text-lg font-semibold text-gray-900 mt-6 mb-3">
+                      <h4 id={id} className="text-lg font-semibold text-[#8B1A2B] mt-6 mb-3">
                         {children}
                       </h4>
                     );
@@ -169,7 +169,7 @@ function BlogPost() {
                     const text = children?.toString() || '';
                     const id = text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').trim();
                     return (
-                      <h5 id={id} className="text-base font-semibold text-gray-900 mt-4 mb-2">
+                      <h5 id={id} className="text-base font-semibold text-gray-800 mt-4 mb-2">
                         {children}
                       </h5>
                     );
@@ -178,7 +178,7 @@ function BlogPost() {
                     const text = children?.toString() || '';
                     const id = text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').trim();
                     return (
-                      <h6 id={id} className="text-sm font-semibold text-gray-900 mt-4 mb-2">
+                      <h6 id={id} className="text-sm font-semibold text-gray-800 mt-4 mb-2">
                         {children}
                       </h6>
                     );
