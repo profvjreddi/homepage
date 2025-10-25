@@ -14,12 +14,23 @@ interface BlogPostData {
   content: string;
 }
 
+interface BlogIndexItem {
+  slug: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  tags: string[];
+  filename: string;
+}
+
 function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
   const [post, setPost] = useState<BlogPostData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isTocVisible, setIsTocVisible] = useState(false);
+  const [prevPost, setPrevPost] = useState<BlogIndexItem | null>(null);
+  const [nextPost, setNextPost] = useState<BlogIndexItem | null>(null);
 
   useEffect(() => {
     const loadPost = async () => {
@@ -42,6 +53,29 @@ function BlogPost() {
           tags: data.tags || [],
           content
         });
+
+        // Load blog index to find previous/next posts
+        try {
+          const indexResponse = await fetch('/content/blog-index.json');
+          if (indexResponse.ok) {
+            const posts: BlogIndexItem[] = await indexResponse.json();
+            const currentIndex = posts.findIndex(p => p.slug === slug);
+            
+            if (currentIndex !== -1) {
+              // Next post is the one before in the array (newer posts first)
+              if (currentIndex > 0) {
+                setNextPost(posts[currentIndex - 1]);
+              }
+              // Previous post is the one after in the array (older posts)
+              if (currentIndex < posts.length - 1) {
+                setPrevPost(posts[currentIndex + 1]);
+              }
+            }
+          }
+        } catch (indexErr) {
+          // If blog index fails to load, just continue without prev/next
+          console.error('Failed to load blog index:', indexErr);
+        }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load post');
       } finally {
@@ -245,6 +279,40 @@ function BlogPost() {
                 {post.content}
               </ReactMarkdown>
             </div>
+
+            {/* Previous/Next Navigation */}
+            {(prevPost || nextPost) && (
+              <div className="mt-12 pt-8 border-t border-gray-200">
+                <div className="flex justify-between items-center gap-4">
+                  <div className="flex-1">
+                    {prevPost && (
+                      <Link 
+                        to={`/blog/${prevPost.slug}`}
+                        className="group block"
+                      >
+                        <div className="text-sm text-gray-500 mb-1">← Previous Post</div>
+                        <div className="text-[#A51C30] group-hover:text-[#8B1A2B] font-medium transition-colors">
+                          {prevPost.title}
+                        </div>
+                      </Link>
+                    )}
+                  </div>
+                  <div className="flex-1 text-right">
+                    {nextPost && (
+                      <Link 
+                        to={`/blog/${nextPost.slug}`}
+                        className="group block"
+                      >
+                        <div className="text-sm text-gray-500 mb-1">Next Post →</div>
+                        <div className="text-[#A51C30] group-hover:text-[#8B1A2B] font-medium transition-colors">
+                          {nextPost.title}
+                        </div>
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
           </>
         ) : (
           <div className="text-center py-12">

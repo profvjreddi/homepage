@@ -5,7 +5,7 @@ excerpt: "A frank discussion about how PhD students should think about internshi
 tags: ["phd", "internships", "research", "career-advice", "industry", "graduate-school"]
 ---
 
-![Internships and research direction](/images/blog/internships.png)
+![Internships and research direction](/images/blog/internships.jpg)
 
 A student recently asked me about an internship opportunity, and I realized there's a lot that doesn't get effectively communicated to PhD students about internships. This post is my attempt to address that gap.
 
