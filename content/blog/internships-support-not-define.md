@@ -90,13 +90,13 @@ Industry is very interested in near term results, especially in AI. The field is
 
 While there are still industry labs doing excellent fundamental research, the pressure to hit near term goals is intense and growing. Sure, every lab starts off saying we want to be pioneers, but the reality is that things are changing faster, especially in AI, and the economic pressures are real.
 
-### The Changing Landscape of Industry Research
+### The Changing Reality of Industry Research
 
 It's worth understanding the history here, because it reveals a clear trend. (For deeper reading, see Jon Gertner's [The Idea Factory](https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/1594203288) on Bell Labs' rise and fall ([NYT review](https://www.nytimes.com/2012/03/20/books/the-idea-factory-by-jon-gertner.html)), and this [Atlantic article on the decline of corporate research](https://www.theatlantic.com/technology/archive/2018/11/diminishing-returns-science/570664/).)
 
 **Bell Labs** was the gold standard of industrial research for decades. They gave researchers incredible freedom, long time horizons, and the space to pursue fundamental questions. This produced the transistor, Unix, the laser, information theory, and nine Nobel Prizes. But Bell Labs as a pure research institution no longer exists. It was gradually dismantled as AT&T faced competitive pressures and couldn't justify long term research without immediate commercial application.
 
-**Microsoft Research** followed a similar trajectory. In the 1990s and 2000s, it was a haven for researchers who wanted academic style freedom with industry resources. They published prolifically in top venues and tackled foundational problems. But even MSR has evolved. While still excellent, there's now much more emphasis on impact to Microsoft products and tighter integration with engineering teams. The purely exploratory research groups have shrunk.
+**Microsoft Research** followed a similar path. In the 1990s and 2000s, it was a haven for researchers who wanted academic style freedom with industry resources. They published prolifically in top venues and tackled foundational problems. But even MSR has evolved. While still excellent, there's now much more emphasis on impact to Microsoft products and tighter integration with engineering teams. The purely exploratory research groups have shrunk.
 
 **DeepMind** was founded with the explicit mission to solve intelligence and make breakthrough scientific contributions. They've achieved remarkable things: AlphaGo, AlphaFold, and fundamental contributions to reinforcement learning. But even DeepMind is transitioning. Publishing papers is becoming quite challenging for researchers there. The pressure to contribute to Google's products and demonstrate business value has increased significantly.
 
@@ -144,27 +144,13 @@ Conversely, a student with a clear, coherent research direction and a strong pub
 
 ---
 
-## Work With Your Advisor on This Decision
-
-Here's something students often miss: when you're applying for internships, there are all kinds of places you can apply. Lots of places have internships. But that doesn't necessarily mean they're good choices for you.
-
-What you really want to think about is what the internship is providing in terms of value. The best internships are opportunities to work with some of the best people in specific labs, on problems that matter. This is not a decision you should generally be making by yourself. **You should coordinate this with your advisor.**
-
-Your advisor knows which are the most successful labs. Your advisor usually knows what problems interesting research labs are working on and where. Your advisor has been in the field long enough to know which groups produce strong work and which are just big names with mediocre research. You don't know what you don't know. Part of the PhD program is to leverage that knowledge and network.
-
-Otherwise, you could end up working at a big company doing verification work or incremental engineering tasks. While meaningful, these aren't setting you up for a strong research trajectory. They won't lead to publications or help you develop the skills that make you competitive for research positions later.
-
-When you find an opportunity that interests you, talk to your advisor. Ask: Is this lab known for good work? Does this align with my research? Will this strengthen my profile? Your advisor can help you navigate these questions and might even facilitate connections to better opportunities you didn't know existed.
-
----
-
 ## When Is the Right Time?
 
 So when should PhD students do internships? Here's my general framework:
 
 ### Year 1: Probably Too Early
 
-First-year students are still building foundations, exploring the landscape, and figuring out what excites them. An internship at this stage usually just delays this crucial exploration period. Exception: if you already have a clear research direction from previous work (e.g., you did substantial research as an undergrad or master's student).
+First-year students are still building foundations, exploring different areas, and figuring out what excites them. An internship at this stage usually just delays this crucial exploration period. Exception: if you already have a clear research direction from previous work (e.g., you did substantial research as an undergrad or master's student).
 
 ### Year 2-3: It Depends
 
@@ -188,7 +174,9 @@ Here's what I tell my students when we discuss internships:
 
 3. **Then, when opportunities arise, evaluate them strategically.** Does this internship let you test your ideas? Will it give you access to data, systems, or expertise you can't get academically? Will it strengthen your existing research direction?
 
-4. **Make sure you're driving the relationship.** When you go into an internship with a clear agenda, you can shape the project to serve your PhD rather than just executing someone else's roadmap.
+4. **Coordinate with your advisor.** Your advisor knows which labs do strong work and which are just big names. They can help you distinguish opportunities that strengthen your research from ones that sidetrack you into incremental work.
+
+5. **Make sure you're driving the relationship.** When you go into an internship with a clear agenda, you can shape the project to serve your PhD rather than just executing someone else's roadmap.
 
 The critical move is sequencing things well. Internships aren't bad. Poorly timed internships are. The opportunity isn't to avoid them, but to sequence them so they accelerate your path rather than define it.
 
@@ -239,7 +227,7 @@ Your advisor wrote proposals promising to investigate specific problems. Program
 
 A 3 month summer internship plus ramp up and wind down time effectively removes about 5 months from the project funding you. For a one year grant, that's nearly half the duration. This affects not just your timeline, but potentially other students in the lab and future funding prospects.
 
-I'm not saying you can't do internships - but you need to understand the broader context. When you discuss internship timing with your advisor, they're not just thinking about your individual trajectory. They're thinking about:
+I'm not saying you can't do internships, but you need to understand the broader context. When you discuss internship timing with your advisor, they're not just thinking about your individual progress. They're thinking about:
 
 - Deliverables owed to funding agencies
 - Other students depending on your work
