@@ -306,10 +306,6 @@ If you're a student considering internship applications right now, be honest wit
 
 ---
 
-**Note:** If you're one of my students reading this and want to discuss your specific situation, please come talk to me. This post describes general principles, but every student's situation is different. I'm always happy to think through the right timing and strategy for your particular circumstances. My goal isn't to say no to internships - it's to help you get the most value from them when the timing is right.
-
----
-
 ## Key Takeaways
 
 1. **Internships are strategic tools, not career solutions.** They work best when they support research you're already pursuing, not when they're meant to tell you what to research.
@@ -325,3 +321,8 @@ If you're a student considering internship applications right now, be honest wit
 6. **Understand funding realities.** You're funded to produce specific deliverables. Discuss with your advisor how internships affect project timelines and commitments.
 
 7. **Your PhD should tell a coherent story.** At your thesis defense, will this internship be part of your narrative or an awkward detour?
+
+---
+
+**Note:** If you're one of my students reading this and want to discuss your specific situation, please come talk to me. This post describes general principles, but every student's situation is different. I'm always happy to think through the right timing and strategy for your particular circumstances. My goal isn't to say no to internships - it's to help you get the most value from them when the timing is right.
+
