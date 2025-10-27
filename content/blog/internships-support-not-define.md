@@ -92,7 +92,7 @@ While there are still industry labs doing excellent fundamental research, the pr
 
 ### The Changing Reality of Industry Research
 
-It's worth understanding the history here, because it reveals a clear trend. (For deeper reading, see Jon Gertner's [The Idea Factory](https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/1594203288) on Bell Labs' rise and fall ([NYT review](https://www.nytimes.com/2012/03/20/books/the-idea-factory-by-jon-gertner.html)), and this [Atlantic article on the decline of corporate research](https://www.theatlantic.com/technology/archive/2018/11/diminishing-returns-science/570664/).)
+It's worth understanding the history here, because it reveals a clear trend. (For deeper reading, see Jon Gertner's [The Idea Factory](https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/1594203288) on Bell Labs' rise and fall ([NYT review](https://www.nytimes.com/2012/03/20/books/the-idea-factory-by-jon-gertner.html)), and this [Duke article on the decline of corporate research](https://static1.squarespace.com/static/593d9b08be65945a2e878544/t/5d31ac9b33ae9b0001d88216/1563536539717/c14259.pdf).)
 
 **Bell Labs** was the gold standard of industrial research for decades. They gave researchers incredible freedom, long time horizons, and the space to pursue fundamental questions. This produced the transistor, Unix, the laser, information theory, and nine Nobel Prizes. But Bell Labs as a pure research institution no longer exists. It was gradually dismantled as AT&T faced competitive pressures and couldn't justify long term research without immediate commercial application.
 
@@ -104,7 +104,7 @@ It's worth understanding the history here, because it reveals a clear trend. (Fo
 
 ### Why Research Timelines Matter
 
-Good research, especially in areas like computer architecture and systems, is typically 5 to 7 years ahead of what industry needs today. Look at most successful professors and you'll notice their work isn't immediately applicable. Quantum computing researchers are working on systems that won't be commercially viable for years. Memory systems researchers are designing architectures for chips that don't exist yet. ML systems researchers are solving problems for models that are just starting to be trained.
+Good research, especially in areas like computer architecture and systems, is typically 5 to 7 years ahead of what industry needs today. Look at most successful professors and you'll notice their work isn't immediately applicable. Quantum computing researchers are working on systems that won't be commercially viable for years. Memory systems researchers are designing architectures for chips that don't exist yet. ML systems researchers are (well, hopefully) solving problems for models that are just starting to be trained.
 
 This is exactly what makes the research valuable. By the time those systems, chips, or models exist, the research has already explored the design space and identified the solutions.
 
@@ -294,7 +294,7 @@ Your visa situation adds constraints, but it doesn't change the fundamental advi
 
 This conversation about internships is really about something more fundamental: **who is driving your PhD?**
 
-The strongest students I've worked with found their direction through sustained engagement with problems that fascinated them, then used internships to deepen and validate that work. The internship didn't tell them what to research. It gave them a richer context for the research they were already passionate about.
+The strongest students all professors have worked with found their direction through sustained engagement with problems that fascinated them, then used internships to deepen and validate that work. The internship didn't tell them what to research. It gave them a richer context for the research they were already passionate about.
 
 That's the difference between internships supporting your research and internships defining it.
 
