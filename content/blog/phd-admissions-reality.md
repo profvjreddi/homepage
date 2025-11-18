@@ -435,7 +435,8 @@ Now let's turn understanding into action. The key question is whether you're rea
 
 ### Thinking Through Your Application Strategy
 
-```
+<div style="background-color: #f9fafb; padding: 1.5rem; border-radius: 0.5rem; border: 1px solid #e5e7eb; margin: 1.5rem 0;">
+<pre style="background: transparent; color: #1f2937; padding: 0; margin: 0; font-family: 'Courier New', monospace; line-height: 1.6;">
 START → Do you have clear research interests?
           │
           ├─ NO → Spend 3-6 months: Read papers, try projects, talk to faculty
@@ -460,7 +461,8 @@ START → Do you have clear research interests?
                                             □ Draft forward-looking research statement
                                             □ Request recommendation letters (6-8 weeks before deadline)
                                             □ Prepare for interviews (if invited)
-```
+</pre>
+</div>
 
 The flowchart captures the core questions: Do you have clear research interests you can articulate? Can you explain why these problems fascinate you? Do you have research mentors who know your work well enough to write strong letters? If yes to all three, you're ready to apply. If not, focus your energy on building those foundations first.
 
