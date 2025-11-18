@@ -27,7 +27,6 @@ This is a comprehensive guide to PhD admissions. Here's what you'll find:
 **What committees evaluate:**
 - Research potential matters far more than grades or test scores
 - How to show intellectual curiosity and genuine engagement
-- The AI writing tool reality and what still differentiates strong applications
 - Why your statement should look forward, not backward (with before/after examples)
 - What your recommenders actually write about you
 
@@ -39,7 +38,6 @@ This is a comprehensive guide to PhD admissions. Here's what you'll find:
 **What you can control:**
 - Doing meaningful research and building strong mentor relationships
 - Applying strategically with laser focus, not a shotgun approach
-- Red flags to avoid in your application
 - If you're reapplying: comprehensive guidance on doing it strategically
 
 ---
@@ -104,45 +102,15 @@ This isn't arbitrary. PhD programs train researchers, not reward past academic p
 
 ---
 
-## The AI-Generated Statement Problem: How Everything Changed
+## The AI Writing Reality
 
-> **A note on transparency:** For full disclosure, I've used generative AI tools to help edit this post, fixing grammar, improving clarity, and refining the prose. But I take full responsibility for every thought, idea, perspective, and piece of advice here. The substance is entirely mine, drawn from years of experience in admissions. The AI just helped me articulate it more clearly.
+> **A note on transparency:** I've used generative AI tools to help edit this post, fixing grammar and improving clarity. But I take full responsibility for every thought, idea, and piece of advice here. The substance is entirely mine, drawn from years of experience in admissions.
 
-Let's address something that has changed PhD admissions in the last few years: AI writing tools.
+Let's address something that has changed PhD admissions: AI writing tools. In 2020, strong writing was a competitive advantage. By 2025, everyone's statement is well-written. Now that everyone can produce polished prose with AI tools, committees focus on what the polish can't hide: the substance of your thinking, the depth of your curiosity, and the authenticity of your engagement with research problems.
 
-In 2020, strong writing was a competitive advantage. By 2023, ChatGPT and Claude became available to everyone. Now in 2025, everyone's statement is well-written. Polished prose used to signal strong communication skills; grammatical perfection indicated attention to detail; well-structured arguments showed clear thinking. Not anymore.
+**What faculty look for now:** Can you explain *why* something matters, not just *what* it is? Do you show genuine engagement through specific examples that feel real? Does your writing reveal how you actually think about problems? Compare "I am passionate about machine learning" versus "After spending three weeks debugging why our model's inference was 10x slower than expected, I became fascinated by the gap between theoretical and realized performance..."
 
-**The result:** For years, admissions partly tested "statement engineering": beautiful prose, perfect formatting, compelling narratives. Some students had access to writing centers, expensive consultants, or native English fluency. Others didn't. Now that everyone can produce polished writing with AI tools, committees focus more on what the polish can't hide: the substance of your thinking, the depth of your curiosity, and the authenticity of your engagement with research problems.
-
-**The words themselves don't differentiate anymore.**
-
-### What Faculty Look For Now: Reading Between the Lines
-
-Since everyone can write well with AI assistance, faculty have adapted. Committees now look for signals that can't be easily generated:
-
-**Depth of technical understanding:** Can you explain *why* something matters, not just *what* it is? Compare "Neural network compression is important for edge devices" versus "The challenge isn't just model size. It's the memory access patterns during inference that create the real bottleneck. I've been exploring..." The second shows genuine engagement. Do you understand tradeoffs? "Method X improves accuracy by 3% but requires 2x memory, which makes it impractical for..." reveals deeper thinking than "Method X improves accuracy."
-
-**Genuine engagement signals:** Specific examples that feel real: "After spending three weeks debugging why our model's inference was 10x slower than expected, I became fascinated by..." beats "I am passionate about machine learning." Questions that show depth: "I keep wondering why we optimize for FLOPS when memory bandwidth is the actual constraint..." Connections between ideas: "Reading your work on X made me think about how it connects to Y problem in..." shows you're synthesizing, not just consuming.
-
-**Authentic voice and personality:** Does it sound like a real person or a language model? Language models trend toward formal, perfectly structured, generic enthusiasm. Real people show specific observations, genuine confusion, messy curiosity. Moments of honest reflection are hard to fake: "I thought X would work, but when I tried it, Y happened, which surprised me because..." Can you sense what makes *this specific person* tick? Not just "I am interested in research" but "I can't stop thinking about this problem because..."
-
-### The Red Flags in the AI Era
-
-Certain patterns immediately raise concerns:
-
-**Generic statements:** "I am passionate about advancing the frontier of AI research at [University]" could apply to anyone. It tells me nothing about what specifically interests you or why this particular program fits.
-
-**Perfect prose, shallow depth:** Beautiful writing filled with buzzwords like "leveraging cutting-edge techniques to push boundaries" sounds impressive but says nothing substantive. Faculty want technical depth, not consulting-speak.
-
-**No specific examples:** If your entire statement discusses interest areas abstractly without evidence of actual work, thinking, or struggle with real problems, it suggests you haven't engaged with research yet. We want the messy reality of research, not just polished aspirations.
-
-**Telltale AI patterns:** Overuse of "leverage," "cutting-edge," "novel," "innovative"; every paragraph perfectly structured; no roughness or personality. Real human writing has edges and quirks. When everything is too smooth and buzzword-heavy, it feels manufactured.
-
-### What This Means for You
-
-AI made good writing accessible to everyone, which paradoxically made writing quality less valuable as a signal. Faculty now value the messy, human, deeply curious elements more than ever. As faculty read your statement, they're asking: Is there a real person here with genuine curiosity? Can they think deeply about technical problems? Would we want to spend 5-6 years working with this person on hard problems?
-
-These questions can't be answered by well-generated prose alone. They require substance, specificity, and authentic engagement with research.
+The questions faculty ask: Is there a real person here with genuine curiosity? Can they think deeply about technical problems? Would we want to spend 5-6 years working with this person on hard problems? Polish alone can't answer these questions. You need substance, specificity, and authentic engagement with research.
 
 ---
 
