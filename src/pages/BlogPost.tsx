@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
+import rehypeMermaid from 'rehype-mermaid';
 import matter from 'gray-matter';
 import TableOfContents from '../components/TableOfContents';
 
@@ -146,7 +147,7 @@ function BlogPost() {
             <div className="prose prose-lg prose-gray max-w-none">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeHighlight]}
+                rehypePlugins={[rehypeHighlight, rehypeMermaid]}
                 urlTransform={(uri) => {
                   // ReactMarkdown sometimes strips the /blog/ part from the path
                   // This ensures the correct path is used for images in the blog directory
