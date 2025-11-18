@@ -435,31 +435,31 @@ Now let's turn understanding into action. The key question is whether you're rea
 
 ### Thinking Through Your Application Strategy
 
-```mermaid
-flowchart TD
-    A[START: Do you have clear research interests?] --> B{Clear interests?}
-    B -->|NO| C[Spend 3-6 months:<br/>Read papers, try projects,<br/>talk to faculty]
-    C --> D{Still unclear?}
-    D -->|YES| E[Consider gap year<br/>with research exposure]
-    D -->|NO| F
-    B -->|YES| F[Can you articulate WHY<br/>these problems fascinate you?]
-    F --> G{Can articulate why?}
-    G -->|NO| H[Work on articulating your thinking<br/>What puzzles you? What surprises you?<br/>Why does it matter?]
-    H --> I
-    G -->|YES| I[Do you have 3 faculty who<br/>can write STRONG letters?]
-    I --> J{3 strong letters?}
-    J -->|NO| K[Focus on building those<br/>relationships NOW<br/>Work closely on research,<br/>show initiative]
-    K --> L
-    J -->|YES| L[Ready to apply!]
-    L --> M[Action Checklist:<br/>✓ Identify 8-12 programs<br/>✓ Read faculty's RECENT papers<br/>✓ Draft forward-looking statement<br/>✓ Request rec letters<br/>✓ Prepare for interviews]
-    
-    style A fill:#f9fafb,stroke:#333,stroke-width:2px
-    style L fill:#d4edda,stroke:#28a745,stroke-width:2px
-    style M fill:#d4edda,stroke:#28a745,stroke-width:2px
-    style E fill:#fff3cd,stroke:#ffc107,stroke-width:2px
-    style K fill:#fff3cd,stroke:#ffc107,stroke-width:2px
-    style H fill:#fff3cd,stroke:#ffc107,stroke-width:2px
-    style C fill:#fff3cd,stroke:#ffc107,stroke-width:2px
+```
+START → Do you have clear research interests?
+          │
+          ├─ NO → Spend 3-6 months: Read papers, try projects, talk to faculty
+          │       │
+          │       └─ Still unclear? → Consider gap year with research exposure
+          │
+          └─ YES → Can you articulate WHY these problems fascinate you?
+                    │
+                    ├─ NO → Work on articulating your thinking
+                    │       (What puzzles you? What surprises you? Why does it matter?)
+                    │
+                    └─ YES → Do you have 3 faculty who can write STRONG letters?
+                              │
+                              ├─ NO → Focus on building those relationships NOW
+                              │       (Work closely on research, show initiative)
+                              │
+                              └─ YES → Ready to apply! 
+                                        │
+                                        └─→ Action Checklist:
+                                            □ Identify 8-12 programs (mix reach/match/safe)
+                                            □ Read faculty's RECENT papers (last 2-3 years)
+                                            □ Draft forward-looking research statement
+                                            □ Request recommendation letters (6-8 weeks before deadline)
+                                            □ Prepare for interviews (if invited)
 ```
 
 The flowchart captures the core questions: Do you have clear research interests you can articulate? Can you explain why these problems fascinate you? Do you have research mentors who know your work well enough to write strong letters? If yes to all three, you're ready to apply. If not, focus your energy on building those foundations first.
