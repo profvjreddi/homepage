@@ -34,7 +34,7 @@ This guide is structured for two different timelines:
 - What to expect during interviews and visit days
 - Applying strategically, not with a shotgun approach
 
-**Where should you start?** If you're a third-year student with another summer for research experience, Part I helps you build the foundation. If you're a fourth-year applying this fall, jump to Part II for immediately actionable advice. But honestly? Both parts are worth reading regardless of where you are.
+**Where should you start?** If you're a third-year student with another summer for research experience, Part I will help you build the foundation. If you're a fourth-year applying this fall, jump to Part II for immediately actionable advice. That said, both parts offer valuable perspective regardless of where you are in the process.
 
 ---
 
@@ -72,25 +72,25 @@ This isn't arbitrary. PhD programs train researchers, not reward past academic p
 
 The admissions process involves many factors outside your control: available spots, faculty funding, other applicants in the pool. But you can control the fundamentals that make strong applications. Focus your energy here.
 
-### ✅ Do Meaningful Research
+### Do Meaningful Research
 
 Quality matters more than quantity. Go deep on fewer projects rather than collecting many shallow ones. Meaningful research means you can explain the problem and why it matters, you wrestled with real challenges and learned from setbacks, you contributed intellectually (not just implementing what you were told), and you understand the broader context and open questions.
 
 One substantial research experience where you genuinely struggled with hard problems teaches you more about research—and gives your recommenders more to write about—than five surface-level projects where you just followed instructions.
 
-### ✅ Develop Genuine Intellectual Curiosity
+### Develop Genuine Intellectual Curiosity
 
 Read papers beyond requirements. Ask why things work the way they do. Make connections between different areas. Attend talks and seminars. Engage in research communities. 
 
 Curiosity shows up in the questions you ask, the connections you make, and your ability to go deep on topics. It's the difference between "I want to work on ML systems because it's hot" and "I'm fascinated by why memory bandwidth creates these bottlenecks..."
 
-### ✅ Demonstrate Independence and Initiative
+### Demonstrate Independence and Initiative
 
 Take initiative without waiting to be told. Solve problems before always asking for help. Go beyond minimum requirements. 
 
 Examples that distinguish you: "I noticed X problem and spent time fixing it..." or "When my approach didn't work, I researched alternatives and..." These are the stories that end up in your recommendation letters.
 
-### ✅ Build Strong Recommendation Letters
+### Build Strong Recommendation Letters
 
 You can't write your own recommendation letters, but you can create the conditions for strong ones:
 
@@ -102,13 +102,13 @@ You can't write your own recommendation letters, but you can create the conditio
 
 > **Essential Reading:** For comprehensive details on what faculty actually write in recommendation letters, including specific examples of strong vs. weak language and how to position yourself for strong advocacy, read [What Your Research Mentor Actually Writes About: A Guide to PhD Recommendation Letters](recommendation-letters.md).
 
-**Bottom line:** Your letters are your most important application component. Work closely with research mentors and give them genuine evidence of your research potential to write about.
+Your letters are your most important application component. Work closely with research mentors and give them genuine evidence of your research potential to write about.
 
 ---
 
 ## Coming From Less Visible Institutions
 
-Let's address something uncomfortable but real: institutional prestige does affect how applications are evaluated.
+I need to address something uncomfortable but real: institutional prestige does affect how applications are evaluated.
 
 **The reality:** Students from top-tier schools benefit from an assumption of quality. Committees give them more benefit of the doubt and a lower bar for proving ability. Students from less-known schools must actively demonstrate their quality, face a higher bar for proving ability, and start with less assumed credibility.
 
@@ -182,11 +182,11 @@ Before diving into what matters in applications, here's what most PhD programs r
 
 ## Understanding "Fit" - It's Not Keyword Matching
 
-Students often get confused and frustrated by the concept of "fit." Let's demystify what faculty actually mean by this.
+Students often get confused and frustrated by the concept of "fit." Here's what faculty actually mean by this.
 
 **What students think fit means:**
 
-You look at a professor's website, see they work on ML systems, notice that's also your interest, and think "Perfect fit!" This is like saying "We both like pizza, so we should get married." There's a lot more to it.
+You look at a professor's website, see they work on ML systems, notice that's also your interest, and think "Perfect fit!" But shared keywords are just the starting point. True fit involves many more factors.
 
 **What fit actually means:**
 
@@ -205,16 +205,16 @@ True fit is the combination of research direction alignment, plus available fund
 ### The Hard Truth About Fit
 
 Sometimes "not a good fit" means:
-- ✓ "Your interests don't align with where my research is going"
-- ✓ "I don't have funding available this year"
-- ✓ "I'm at capacity and can't take more students right now"
-- ✓ "I don't have the specific expertise to mentor your project"
-- ✓ "The timing isn't right for either of us"
+- "Your interests don't align with where my research is going"
+- "I don't have funding available this year"
+- "I'm at capacity and can't take more students right now"
+- "I don't have the specific expertise to mentor your project"
+- "The timing isn't right for either of us"
 
 It rarely means:
-- ❌ "You're not smart enough"
-- ❌ "Your application was bad"
-- ❌ "I don't think you can do research"
+- "You're not smart enough"
+- "Your application was bad"
+- "I don't think you can do research"
 
 **Lack of fit is not a value judgment about your potential as a researcher.**
 
@@ -224,7 +224,7 @@ It rarely means:
 
 > **A note on transparency:** I've used generative AI tools to help edit this post, fixing grammar and improving clarity. But I take full responsibility for every thought, idea, and piece of advice here. The substance is entirely mine, drawn from years of experience in admissions.
 
-Let's address something that has changed PhD admissions: AI writing tools. In 2020, strong writing was a competitive advantage. By 2025, everyone's statement is well-written. Now that everyone can produce polished prose with AI tools, committees focus on what the polish can't hide: the substance of your thinking, the depth of your curiosity, and the authenticity of your engagement with research problems.
+I want to address something that has changed PhD admissions: AI writing tools. In 2020, strong writing was a competitive advantage. By 2025, everyone's statement is well-written. Now that everyone can produce polished prose with AI tools, committees focus on what the polish can't hide: the substance of your thinking, the depth of your curiosity, and the authenticity of your engagement with research problems.
 
 **What faculty look for now:** Can you explain *why* something matters, not just *what* it is? Do you show genuine engagement through specific examples that feel real? Does your writing reveal how you actually think about problems? Compare "I am passionate about machine learning" versus "After spending three weeks debugging why our model's inference was 10x slower than expected, I became fascinated by the gap between theoretical and realized performance..."
 
@@ -250,27 +250,15 @@ Your personal story has value, especially if you've overcome significant challen
 
 ### What Strong Research Statements Explore
 
-What research questions excite you?
-- Not just "I want to work on ML systems"
-- But "I'm curious about why we optimize for model size when memory bandwidth is the real bottleneck..."
+What research questions excite you? Not just "I want to work on ML systems," but something like "I'm curious about why we optimize for model size when memory bandwidth is the real bottleneck..."
 
-Why do you think these problems matter?
-- Show you understand the broader context
-- Connect to real challenges or open questions in the field
+Why do you think these problems matter? Show you understand the broader context and connect to real challenges or open questions in the field.
 
-What's your perspective on the challenges?
-- You don't need to have solutions
-- But show you've thought about the problem space
-- "One challenge that seems underexplored is..."
+What's your perspective on the challenges? You don't need to have solutions, but show you've thought about the problem space. Something like "One challenge that seems underexplored is..."
 
-How do you think about approaching them?
-- Not a detailed research plan (you don't know enough yet, and that's fine)
-- But demonstrate curiosity and thinking process
-- "I'm interested in exploring whether..."
+How do you think about approaching them? Not a detailed research plan—you don't know enough yet, and that's fine—but demonstrate your curiosity and thinking process. "I'm interested in exploring whether..."
 
-What do you want to explore in your PhD?
-- Show you understand a PhD is about exploration, not just project execution
-- "I want to understand X deeply enough to..."
+What do you want to explore in your PhD? Show you understand a PhD is about exploration, not just project execution. "I want to understand X deeply enough to..."
 
 **A note on specificity:** You don't need every detail of your PhD mapped out. In fact, you can't possibly have it all figured out. You don't yet know what you don't know, and discovering that is part of why you're pursuing a PhD. It's completely fine to show thoughtful exploration of 2-3 related questions rather than claiming to have one narrow path perfectly defined. What matters is demonstrating depth of thinking and genuine curiosity, not pretending you have your entire dissertation planned. Faculty expect your interests to evolve significantly during your PhD. We just want to see you can think deeply about research problems and engage meaningfully with the questions that intrigue you.
 
@@ -300,28 +288,13 @@ Let me show you the difference with two versions of the same student's statement
 
 **Why this works:** We immediately see what fascinates this student. A specific technical tension they've thought deeply about. They explain why it matters, show they understand the historical context, and articulate open questions they want to explore. The "why your program" paragraph demonstrates they've read specific papers and understand how faculty research connects to their interests. We get a sense of how they think and can imagine having productive research conversations with them.
 
-**Key differences:**
-- **Focus**: Past accomplishments vs. Future questions
-- **Depth**: Surface-level summary vs. Technical tension they're grappling with
-- **Specificity**: Generic interest vs. Concrete problem with context
-- **Engagement**: "I took classes and did a project" vs. "Here's what puzzles me and why"
-- **Fit**: Generic praise vs. Specific faculty papers and why they're relevant
+The key differences: focus (past accomplishments vs. future questions), depth (surface-level summary vs. technical tension they're grappling with), specificity (generic interest vs. concrete problem with context), engagement ("I took classes and did a project" vs. "Here's what puzzles me and why"), and fit (generic praise vs. specific faculty papers and why they're relevant).
 
 ### Why This Matters
 
-This forward-looking focus shows faculty several things:
+This forward-looking focus shows faculty several things. You understand what PhD research is—exploring questions, not just completing assignments. You can think about research problems and open questions. You have genuine intellectual curiosity about the future. You've thought seriously about what you want to spend 5-6 years investigating.
 
-✅ You understand what PhD research is (exploring questions, not just completing assignments)
-
-✅ You can think about research problems and open questions
-
-✅ You have genuine intellectual curiosity about the future
-
-✅ You've thought seriously about what you want to spend 5-6 years investigating
-
-When faculty read "Here are the three projects I completed," they see a good undergraduate.
-
-When they read "Here's the problem space I want to explore and why it fascinates me," they see a potential researcher.
+When faculty read "Here are the three projects I completed," they see a good undergraduate. When they read "Here's the problem space I want to explore and why it fascinates me," they see a potential researcher.
 
 **Remember:** Faculty are trying to imagine working with you for 5-6 years on research that doesn't exist yet. Help them see that future, not just understand your past.
 
@@ -329,7 +302,7 @@ When they read "Here's the problem space I want to explore and why it fascinates
 
 ## What Your Recommenders Are Actually Writing About You
 
-Let's talk about the single most important component of your application: letters of recommendation.
+The single most important component of your application is letters of recommendation.
 
 Many students focus enormous energy on their GPA or their statement. But if faculty were forced to choose one component to evaluate an applicant, most would choose the recommendation letters. Your statement tells us what you say about yourself. Your transcript tells us what grades say about you. Your letters tell us what experienced researchers say about you. We trust what your research mentors observe about you far more than self-reporting or test scores.
 
@@ -343,7 +316,7 @@ If you're reading this during application season and haven't built those relatio
 
 ## The Harsh Numbers: Why Good Candidates Get Rejected
 
-Let's talk about the brutal mathematics of PhD admissions: Top-tier programs might receive 500-1000 applications for 5-15 spots. That's a 1-3% acceptance rate. Even strong programs often see 200-400 applications for 5-10 spots, yielding acceptance rates of 2-5%. PhD admissions are genuinely this competitive.
+The brutal mathematics of PhD admissions: Top-tier programs might receive 500-1000 applications for 5-15 spots. That's a 1-3% acceptance rate. Even strong programs often see 200-400 applications for 5-10 spots, yielding acceptance rates of 2-5%. PhD admissions are genuinely this competitive.
 
 ### Why Rejection Usually Isn't About You
 
@@ -361,7 +334,7 @@ With acceptance rates of 1-5%, there are far more qualified candidates than avai
 
 Even stellar candidates don't get accepted everywhere. Successful professors often have stories about programs that rejected them. Applying to 8-12 programs and getting accepted to 1-2 is typical. Getting rejected from "safety schools" and accepted to "reaches" happens regularly. Outcomes seem arbitrary because different programs value different things, fit matters more than rankings, and timing varies across institutions.
 
-**Don't catastrophize rejection**. It doesn't mean you're not smart enough or can't do research. **Do apply strategically**. Mix reach, match, and safer options; focus on fit, not just rankings; cast a wide enough net to account for randomness. **Understand the odds**. Even strong candidates face long odds, and multiple rejections don't reflect on your potential. Persistence and strategy matter.
+Don't catastrophize rejection. It doesn't mean you're not smart enough or can't do research. Apply strategically: mix reach, match, and safer options; focus on fit, not just rankings; cast a wide enough net to account for randomness. Understand the odds. Even strong candidates face long odds, and multiple rejections don't reflect on your potential. Persistence and strategy matter.
 
 ---
 
@@ -375,29 +348,17 @@ If you make it past the initial application review, you'll likely be invited for
 
 ### How to Prepare
 
-**Before the interview:**
-- Read recent papers by faculty you'll meet (last 2-3 years, not just their most-cited work)
-- Prepare 2-3 thoughtful questions for each faculty member
-- Practice explaining your research in 2-3 minutes, focusing on what surprised you and what you learned
-- Have specific examples ready of research challenges you faced and how you worked through them
+Before the interview, read recent papers by faculty you'll meet—focus on the last 2-3 years, not just their most-cited work. Prepare 2-3 thoughtful questions for each faculty member. Practice explaining your research in 2-3 minutes, focusing on what surprised you and what you learned. Have specific examples ready of research challenges you faced and how you worked through them.
 
-**Common questions to expect:**
-- **"Tell me about your research"** - Give a brief overview of your most significant work; be ready to go deeper
-- **"What do you want to work on?"** - Discuss 2-3 questions that fascinate you; you don't need everything figured out
-- **"Why our program?"** - Reference specific faculty papers and explain the research alignment
-- **"Do you have questions for me?"** - Always have thoughtful questions ready about their research direction, lab culture, or mentoring style
+Expect questions like "Tell me about your research" (give a brief overview, be ready to go deeper), "What do you want to work on?" (discuss questions that fascinate you; you don't need everything figured out), "Why our program?" (reference specific faculty papers and explain the research alignment), and "Do you have questions for me?" (always have thoughtful questions ready).
 
-**During the interview:**
-- Be conversational, not performative
-- Listen actively and ask follow-up questions
-- Admit when you don't know something. Saying "I don't know, but here's how I'd think about it..." is better than bluffing
-- Show genuine curiosity about their work
+During the interview, be conversational, not performative. Listen actively and ask follow-up questions. Admit when you don't know something—saying "I don't know, but here's how I'd think about it..." is better than bluffing. Show genuine curiosity about their work.
 
 ### Talk to Current Students
 
-Current students will tell you things faculty won't. Ask about advising frequency and style, work-life balance, lab collaboration, funding security, and career outcomes. **The vibe check matters:** Pay attention not just to what they say, but how they say it. Do they seem genuinely happy? Stressed but fulfilled, or just stressed?
+Current students will tell you things faculty won't. Ask about advising frequency and style, work-life balance, lab collaboration, funding security, and career outcomes. The vibe check matters: pay attention not just to what they say, but how they say it. Do they seem genuinely happy? Stressed but fulfilled, or just stressed?
 
-**Red flags to watch for:** Faculty who seem disengaged during your meeting or can't explain what they'd want you to work on; students who seem unhappy, burned out, or reluctant to talk honestly; high attrition rates; unclear funding situations. Trust your gut. You'll spend 5-6 years here.
+Watch for red flags. Faculty who seem disengaged during your meeting or can't explain what they'd want you to work on. Students who seem unhappy, burned out, or reluctant to talk honestly. High attrition rates. Unclear funding situations. Trust your gut. You'll spend 5-6 years here.
 
 **After the interview:** Send brief thank-you emails within 24-48 hours. Keep it short. Express appreciation and mention something specific from your conversation.
 
@@ -466,19 +427,19 @@ Application Checklist:
 
 Applying before you're ready. No research experience beyond coursework. Generic recommendation letters from professors who only knew you in class. Inability to articulate why specific problems fascinate you.
 
-If that's you? It's okay. But you might benefit more from spending another year building research experience. A gap year as a research assistant, or getting into a research-focused master's program, can transform your application.
+If that's you, it's okay. But you might benefit more from spending another year building research experience. A gap year as a research assistant, or getting into a research-focused master's program, can transform your application.
 
 ### If You're Considering Reapplying
 
 If you didn't get in this cycle, you're not alone. Many strong candidates don't get admitted their first attempt. Reapplying can work, but only with genuine growth, not cosmetic changes to your materials.
 
-**The essential requirement:** Wait at least one year and build substantially new research experience. Reapplying with minor statement tweaks rarely succeeds because committees need to see fundamental growth in your research capability. Spend that gap year as a research assistant (academic or industry lab), in a research-focused master's program, or in an industry research role (MSR, Google Research, Meta FAIR, etc.).
+The essential requirement: wait at least one year and build substantially new research experience. Reapplying with minor statement tweaks rarely succeeds because committees need to see fundamental growth in your research capability. Spend that gap year as a research assistant (academic or industry lab), in a research-focused master's program, or in an industry research role (MSR, Google Research, Meta FAIR, etc.).
 
-**What makes a strong reapplication:** New recommendation letters from recent research supervisors who can speak to your growth. Concrete research output—publications, significant projects, conference presentations. Demonstrably deeper technical understanding and clearer research direction. The key question isn't "Why didn't I get in before?" but "What makes me a stronger candidate now?"
+What makes a strong reapplication: new recommendation letters from recent research supervisors who can speak to your growth, concrete research output (publications, significant projects, conference presentations), and demonstrably deeper technical understanding and clearer research direction. The key question isn't "Why didn't I get in before?" but "What makes me a stronger candidate now?"
 
-**How to frame it:** Don't address the rejection or sound defensive. Simply present your growth: "For the past year, I've been working as a research assistant at XYZ Lab, focusing on [topic]. This experience has deepened my research skills and clarified my PhD interests. I've contributed to a paper currently under submission to [venue] and developed new techniques for..." The growth speaks for itself.
+How to frame it: don't address the rejection or sound defensive. Simply present your growth. "For the past year, I've been working as a research assistant at XYZ Lab, focusing on [topic]. This experience has deepened my research skills and clarified my PhD interests. I've contributed to a paper currently under submission to [venue] and developed new techniques for..." The growth speaks for itself.
 
-**A crucial caveat:** If after a gap year doing research you realize you don't actually enjoy the work—the uncertainty, slow progress, long hours stuck on problems—that's valuable information. A PhD might not be the right path. Many fulfilling careers don't require one. Better to discover this before committing to 5-6 years.
+A crucial caveat: if after a gap year doing research you realize you don't actually enjoy the work—the uncertainty, slow progress, long hours stuck on problems—that's valuable information. A PhD might not be the right path. Many fulfilling careers don't require one. Better to discover this before committing to 5-6 years.
 
 ### Final Thoughts
 
@@ -486,7 +447,7 @@ With acceptance rates of 1-5%, the system is deeply imperfect. Many qualified ca
 
 When faculty reject someone, it's rarely "you're not good enough." More often it's "we have impossible choices given limited spots."
 
-**Here's what actually matters:** Your worth as a researcher isn't determined by admissions decisions. Many successful researchers faced initial rejections. What distinguishes successful research careers isn't surviving this particular gauntlet. It's developing genuine curiosity about understanding how things work, the ability to think deeply about problems, and persistence in the face of challenges.
+Here's what actually matters: your worth as a researcher isn't determined by admissions decisions. Many successful researchers faced initial rejections. What distinguishes successful research careers isn't surviving this particular gauntlet. It's developing genuine curiosity about understanding how things work, the ability to think deeply about problems, and persistence in the face of challenges.
 
 These qualities will serve you regardless of the path you take. Focus on doing meaningful research, building genuine intellectual curiosity, and developing relationships with mentors who can advocate for your potential. Control what you can control. The rest follows from there.
 
