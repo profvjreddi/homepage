@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import matter from 'gray-matter';
 import TableOfContents from '../components/TableOfContents';
+import SocialShare from '../components/SocialShare';
 
 interface BlogPostData {
   title: string;
@@ -279,6 +280,13 @@ function BlogPost() {
                 {post.content}
               </ReactMarkdown>
             </div>
+
+            {/* Social Share and Like */}
+            <SocialShare 
+              title={post.title}
+              url={`/blog/${slug}`}
+              excerpt={post.excerpt}
+            />
 
             {/* Previous/Next Navigation */}
             {(prevPost || nextPost) && (

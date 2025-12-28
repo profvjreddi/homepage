@@ -22,7 +22,7 @@ const ResearchIntersectionViz: React.FC = () => {
     const areaDescriptions = {
       'ca': 'Building efficient, reliable computing systems from the ground up—from energy-aware processors to hardware-software co-design that enables real-world deployment',
       'mls': 'Creating scalable systems for edge AI deployment—TinyML frameworks, runtime optimization, and ultra-low-power inference platforms that bring intelligence to physical environments',
-      'aa': 'Developing embodied AI systems that perceive, reason, and act safely in real-world environments—the ultimate goal of intelligence in the physical world'
+      'aa': 'Developing Physical AI systems that perceive, reason, and act safely in real-world environments—the ultimate goal of intelligence in the physical world'
     };
     
     return areaDescriptions[hoveredArea as keyof typeof areaDescriptions] || "Hover over circles to highlight areas • Click intersection points for details";
@@ -51,7 +51,7 @@ const ResearchIntersectionViz: React.FC = () => {
       color: '#A51C30',
       position: { x: 300, y: 300 },
       radius: 120,
-      description: 'Embodied AI systems for real-world environments'
+      description: 'Physical AI systems for real-world environments'
     }
   ];
 
@@ -117,8 +117,8 @@ const ResearchIntersectionViz: React.FC = () => {
     },
     {
       id: 'ca-mls-aa',
-      name: 'Embodied AI',
-      description: 'The ultimate goal: intelligent systems that efficiently and safely operate in the physical world',
+      name: 'Physical AI',
+      description: 'The ultimate goal: intelligent systems that safely and efficiently operate in the physical world',
       examples: [
         'Complete AI stack for physical deployment',
         'Self-optimizing autonomous robots',

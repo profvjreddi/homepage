@@ -29,11 +29,11 @@ function Home() {
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                 Advancing the Future of 
-                <span className="text-[#A51C30]"> Embodied AI Systems</span>
+                <span className="text-[#A51C30]"> Physical AI</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Intelligence that lives in the physical world. My research spans hardware, algorithms, 
-                and systems stacks to enable safe, efficient, and adaptive real-world AI.
+                As AI moves into the physical world, safety and efficiency become requirements, not features. 
+                My research builds the systems and measurement infrastructure for AI that operates in the real world.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/research" className="bg-[#A51C30] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#8B1A2B] transition-colors text-center">
@@ -55,13 +55,13 @@ function Home() {
 
       <div className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+            <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Research Focus Areas</h2>
             <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-4">
-              Our research answers a single question: <strong className="text-gray-900">How do we enable intelligence in the physical world?</strong>
+              Our research answers a single question: <strong className="text-gray-900">What happens when AI has to act, not just answer?</strong>
             </p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Exploring the computational challenges and opportunities across three core areas:
+              Physical AI demands new approaches to safety, efficiency, and evaluation. We focus on three core areas:
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -73,7 +73,7 @@ function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Computer Architecture</h3>
               <p className="text-gray-600">
-                Building computing foundations that enable intelligent systems to operate efficiently—from energy-aware processors to hardware-software co-design for deployment.
+                Building computing foundations that enable intelligent systems to operate efficiently, from energy-aware processors to hardware-software co-design for deployment.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow relative">
@@ -84,7 +84,7 @@ function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Machine Learning Systems</h3>
               <p className="text-gray-600">
-                Building scalable, efficient systems for edge AI deployment—from TinyML frameworks to ultra-low-power inference platforms that enable intelligence in physical environments.
+                Building scalable, efficient ML systems and the benchmarking infrastructure to evaluate them. Enabling rigorous measurement and deployment across computing scales.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow relative">
@@ -95,7 +95,7 @@ function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Autonomous Agents</h3>
               <p className="text-gray-600">
-                Developing algorithms that perceive, reason, and act safely in complex environments—bringing together hardware, algorithms, and systems for embodied intelligence.
+                Developing algorithms that perceive, reason, and act safely in complex environments. Bringing together hardware, algorithms, and systems for Physical AI.
               </p>
             </div>
           </div>

@@ -57,7 +57,7 @@ function Blog() {
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Blog</h1>
             <div className="w-24 h-1 bg-[#A51C30]"></div>
             <p className="text-lg text-gray-600 mt-6 max-w-3xl">
-              Thoughts on research methodology, advice for students, and reflections on the evolving landscape of embodied AI systems.
+              Thoughts on research methodology, advice for students, and reflections on the evolving landscape of Physical AI systems.
             </p>
           </div>
         </div>

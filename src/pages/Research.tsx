@@ -116,7 +116,7 @@ function Research() {
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Research</h1>
             <div className="w-24 h-1 bg-[#A51C30]"></div>
             <p className="text-lg text-gray-600 mt-6 max-w-3xl">
-              Advancing intelligence at the edge—from sensors to autonomous systems—through integrated hardware and software co-design, algorithmic innovation, and embodied decision-making.
+              As AI moves into the physical world, safety and efficiency become hard requirements. My research builds the systems, architectures, and measurement infrastructure for Physical AI, spanning hardware-software co-design, efficient deployment, and rigorous evaluation.
             </p>
           </div>
         </div>
@@ -147,7 +147,7 @@ function Research() {
                   <li>• Energy-efficient processors for edge AI</li>
                   <li>• Memory systems for real-time inference</li>
                   <li>• Hardware-software co-design for autonomy</li>
-                  <li>• Performance optimization for embodied systems</li>
+                  <li>• Performance optimization for Physical AI systems</li>
                 </ul>
                 
                 <Link 
@@ -171,13 +171,13 @@ function Research() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Machine Learning Systems</h3>
                 <p className="text-gray-600 mb-4">
-                  Creating scalable ML systems that bridge the gap between algorithms and real-world deployment.
+                  Creating scalable, efficient ML systems and the measurement infrastructure to evaluate them. Bridging algorithms and real-world deployment.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1 mb-6">
-                  <li>• TinyML frameworks for physical environments</li>
-                  <li>• Runtime optimization for autonomous systems</li>
-                  <li>• ML benchmarking for embodied AI</li>
-                  <li>• Data-centric systems for real-world intelligence</li>
+                  <li>• Benchmarking and evaluation infrastructure (MLPerf, DataPerf)</li>
+                  <li>• Efficient inference systems for resource-constrained deployment</li>
+                  <li>• Runtime optimization for adaptive and autonomous systems</li>
+                  <li>• Data-centric approaches to ML system quality</li>
                 </ul>
                 
                 <Link 
@@ -206,7 +206,7 @@ function Research() {
                 <ul className="text-sm text-gray-500 space-y-1 mb-6">
                   <li>• Safety-critical autonomous systems</li>
                   <li>• Real-time adaptation and learning</li>
-                  <li>• Embodied intelligence and decision-making</li>
+                  <li>• Physical AI and real-world decision-making</li>
                   <li>• Generative co-design for physical deployment</li>
                 </ul>
                 
@@ -268,15 +268,15 @@ function Research() {
                   <div className="ml-20 bg-white rounded-xl shadow-lg border border-gray-100 p-8 hover:shadow-xl transition-shadow">
                     <div className="flex items-start justify-between mb-4">
                       <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">Embodied AI Systems</h3>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Physical AI Systems</h3>
                       </div>
                       <span className="text-xs text-white bg-[#A51C30] px-3 py-1 rounded-full font-medium">
                         Current Focus
                       </span>
                     </div>
                     <p className="text-gray-600 mb-6 leading-relaxed">
-                      Creating comprehensive frameworks for intelligence that operates safely and efficiently in physical environments.
-                      Agentic AI approaches and generative system design are key methods to achieve this embodied intelligence.
+                      As AI moves into the physical world, safety and efficiency become hard requirements. 
+                      Building the systems, architectures, and measurement infrastructure that enable AI to operate reliably in real-world environments.
                     </p>
                     <button
                       onClick={() => toggleSection('2024-present')}
@@ -300,28 +300,28 @@ function Research() {
                         className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-100"
                       >
                         <p className="text-sm text-gray-700 mb-4 italic font-medium">
-                          <strong className="text-gray-900">Approach:</strong> Investigating execution blueprints and architectural foundations that enable embodied AI systems to operate effectively in physical environments, with emphasis on agentic approaches, safety-efficiency dynamics, and comprehensive system frameworks.
+                          <strong className="text-gray-900">Approach:</strong> Treating AI deployment as a full-stack systems problem—defining how embodied and agentic AI systems execute, how we measure their behavior, and what architectural patterns enable safe, efficient operation in the real world.
                         </p>
                         <ul className="text-sm text-gray-600 space-y-3">
                           <li className="flex items-start">
                             <div className="w-1.5 h-1.5 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                            Execution blueprints and architectures for embodied AI system deployment using agentic approaches
+                            Execution architectures for agentic AI: perception, reasoning, and action under real-time constraints
                           </li>
                           <li className="flex items-start">
                             <div className="w-1.5 h-1.5 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                            Designing architectural frameworks for hardware-software co-design in intelligent systems
+                            Measurement and evaluation infrastructure for embodied AI (extending MLPerf to agents, safety, reliability)
                           </li>
                           <li className="flex items-start">
                             <div className="w-1.5 h-1.5 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                            Developing toolchains for integrated perception, decision-making, and actuation pipelines
+                            Hardware-software co-design for AI that operates in physical environments
                           </li>
                           <li className="flex items-start">
                             <div className="w-1.5 h-1.5 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                            Characterizing safety and efficiency dynamics in autonomous system operation
+                            Safety-efficiency tradeoffs and graceful degradation in autonomous systems
                           </li>
                           <li className="flex items-start">
                             <div className="w-1.5 h-1.5 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                            Creating evaluation frameworks and benchmarks for embodied AI system performance assessment
+                            Deployment frameworks that bridge foundation models and real-world operation
                           </li>
                         </ul>
                       </motion.div>
@@ -682,7 +682,7 @@ function Research() {
                                   </li>
                                   <li className="flex items-start">
                                       <div className="w-2 h-2 bg-[#A51C30] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                      <p className="text-gray-600"><strong className="text-gray-800">Autonomy:</strong> Embodied systems that act safely in the real world</p>
+                                      <p className="text-gray-600"><strong className="text-gray-800">Autonomy:</strong> Physical AI systems that act safely in the real world</p>
                                   </li>
                               </ul>
                           </div>
