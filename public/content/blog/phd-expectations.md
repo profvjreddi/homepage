@@ -23,6 +23,32 @@ This is why time alone doesn't equal completion. Three years of hard work doesn'
 
 I remember a conversation with my own advisor during my PhD. I had fifteen papers and felt ready to graduate. He told me that as long as I couldn't articulate a coherent vision, it didn't really matter how many papers I had. He was right. The thesis isn't a count of outputs. It's a claim about what you've figured out that matters.
 
+## It's Your Thesis
+
+This is the part that often takes students time to internalize: the PhD is yours. Not your advisor's. Yours.
+
+Your advisor's job is to mentor, guide, challenge, and support. They'll help you navigate the field, sharpen your thinking, and connect you to opportunities. But they're not going to hand you a research agenda and tell you to execute it. The ideas, the direction, the vision: these have to come from you.
+
+This doesn't mean you're alone. Good advising is a dialogue. Your advisor has context you don't have yet. They've seen what works and what doesn't. They understand the landscape of the field. Trust that when they push back or redirect, there's usually a reason, even if it's not immediately obvious.
+
+But at the end of the day, you're the one writing the thesis. You're the one who has to stand up at your defense and explain what you've contributed. That ownership has to start early, not the week before you file.
+
+The students who thrive are the ones who understand this. They propose ideas. They drive projects forward. They come to meetings with analysis and options, not just questions. When something isn't working, they diagnose why and propose alternatives. They treat their advisor as a resource, not a manager.
+
+## The Advisor-Student Relationship
+
+This is a partnership, and it goes both ways.
+
+You should expect your advisor to be available for substantive discussions. To give you honest feedback about where you stand. To advocate for you when you're ready. To help you understand the landscape of the field and develop taste for what problems matter.
+
+If you're not getting these things, that's worth raising. Advisors aren't perfect. They have competing demands, limited time, and blind spots. But they should be engaged in your development.
+
+The flip side is that your advisor has context you don't. They've seen students succeed and fail. They understand patterns in the field that aren't obvious from inside a single project. When they push back on something, it's worth asking why before dismissing it.
+
+The best advising relationships are genuine partnerships. The student drives, and the advisor guides. Both parties communicate honestly. Problems get raised early, before they become crises. There's mutual respect and shared investment in the outcome.
+
+This doesn't happen automatically. It takes effort from both sides. But when it works, it's one of the most formative relationships of a research career.
+
 ## Why Peer Review Matters
 
 Students sometimes ask: why does my thesis need to include peer-reviewed work? Why can't I just write up what I've done and defend it?
@@ -69,18 +95,6 @@ The pattern for strong thesis statements:
 
 If you can't articulate a thesis statement like this, you may not be ready to defend. If you can, you've found your contribution.
 
-## It's Your Thesis
-
-This is the part that often takes students time to internalize: the PhD is yours. Not your advisor's. Yours.
-
-Your advisor's job is to mentor, guide, challenge, and support. They'll help you navigate the field, sharpen your thinking, and connect you to opportunities. But they're not going to hand you a research agenda and tell you to execute it. The ideas, the direction, the vision: these have to come from you.
-
-This doesn't mean you're alone. Good advising is a dialogue. Your advisor has context you don't have yet. They've seen what works and what doesn't. They understand the landscape of the field. Trust that when they push back or redirect, there's usually a reason, even if it's not immediately obvious.
-
-But at the end of the day, you're the one writing the thesis. You're the one who has to stand up at your defense and explain what you've contributed. That ownership has to start early, not the week before you file.
-
-The students who thrive are the ones who understand this. They propose ideas. They drive projects forward. They come to meetings with analysis and options, not just questions. When something isn't working, they diagnose why and propose alternatives. They treat their advisor as a resource, not a manager.
-
 ## The Breadth of PhD Work
 
 A PhD involves many activities beyond writing thesis chapters. You'll build systems, run experiments, mentor undergraduates, review papers, attend conferences, give talks, contribute to open source, organize reading groups, and collaborate with others in the lab. Not all of this will appear in your thesis. That's fine. It's still part of the training.
@@ -115,25 +129,9 @@ This is the wrong question.
 
 The goal isn't to maximize your publication count. The goal is to produce work that's coherent, deep, and durable. Work that meaningfully advances the field.
 
-As I mentioned, I had fifteen papers and thought I was ready. My advisor saw that I couldn't yet articulate what tied them together or why it mattered. The count was irrelevant. What mattered was the vision.
-
 I would much rather see a student produce two or three substantial pieces of work than a longer list of incremental submissions. Depth compounds. Each deep piece of work builds expertise, reputation, and foundation for what comes next. A scattershot of shallow papers doesn't build anything.
 
 This doesn't mean moving slowly for its own sake. It means investing the time to do things right. When a paper is ready, you'll know. So will your advisor.
-
-## The Advisor-Student Relationship
-
-This post has focused mostly on what's expected of students. But the relationship goes both ways.
-
-You should expect your advisor to be available for substantive discussions. To give you honest feedback about where you stand. To advocate for you when you're ready. To help you understand the landscape of the field and develop taste for what problems matter.
-
-If you're not getting these things, that's worth raising. Advisors aren't perfect. They have competing demands, limited time, and blind spots. But they should be engaged in your development.
-
-The flip side is that your advisor has context you don't. They've seen students succeed and fail. They understand patterns in the field that aren't obvious from inside a single project. When they push back on something, it's worth asking why before dismissing it.
-
-The best advising relationships are genuine partnerships. The student drives, and the advisor guides. Both parties communicate honestly. Problems get raised early, before they become crises. There's mutual respect and shared investment in the outcome.
-
-This doesn't happen automatically. It takes effort from both sides. But when it works, it's one of the most formative relationships of a research career.
 
 ## Getting There
 
