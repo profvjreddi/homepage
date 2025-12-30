@@ -1,6 +1,6 @@
 ---
 title: "What's Expected During a PhD: The Implicit Contract"
-date: "2025-01-15"
+date: "2026-01-15"
 excerpt: "The working relationship between PhD students and advisors is built on expectations that are rarely stated explicitly. This post tries to make them visible."
 tags: ["phd", "advising", "graduate-school", "mentorship", "research", "career-advice"]
 ---
