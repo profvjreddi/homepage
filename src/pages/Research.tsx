@@ -171,12 +171,12 @@ function Research() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Machine Learning Systems</h3>
                 <p className="text-gray-600 mb-4">
-                  Creating scalable, efficient ML systems and the measurement infrastructure to evaluate them. Bridging algorithms and real-world deployment.
+                  Creating scalable, efficient ML systems and the measurement infrastructure to evaluate them.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1 mb-6">
                   <li>• Benchmarking and evaluation infrastructure (MLPerf, DataPerf)</li>
-                  <li>• Efficient inference systems for resource-constrained deployment</li>
-                  <li>• Runtime optimization for adaptive and autonomous systems</li>
+                  <li>• Efficient inference for resource-constrained deployment</li>
+                  <li>• Optimization for adaptive and autonomous systems</li>
                   <li>• Data-centric approaches to ML system quality</li>
                 </ul>
                 
