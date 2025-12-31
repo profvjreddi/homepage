@@ -57,17 +57,17 @@ If you're early in your PhD and this post feels overwhelming, that's understanda
 
 This is a partnership, and it goes both ways.
 
-You should expect your advisor to be available for substantive discussions. To give you honest feedback about where you stand. To advocate for you when you're ready. To help you understand the landscape of the field and develop taste for what problems matter.
+Advisor styles vary significantly. Some advisors are highly directive, especially early on. They may assign problems, define approaches, and provide detailed guidance. This is common with junior faculty building their research programs. Other advisors expect more independence from the start. They may give you a broad area and let you find your own path. This is more common with senior faculty who have many students and less time for close supervision.
+
+Neither style is inherently better. What matters is understanding what kind of advisor you have and adapting accordingly. If your advisor is hands-off, you'll need to be more proactive about seeking feedback and direction. If they're hands-on, you'll need to find space to develop your own voice while respecting their guidance. Part of the PhD is learning to read these dynamics and communicate in ways that work for your specific relationship.
+
+Regardless of style, you should expect your advisor to be available for substantive discussions. To give you honest feedback about where you stand. To advocate for you when you're ready. To help you understand the landscape of the field and develop taste for what problems matter.
 
 If you're not getting these things, that's worth raising. Advisors aren't perfect. They have competing demands, limited time, and blind spots. But they should be engaged in your development.
 
 The flip side is that your advisor has context you don't. They've seen students succeed and fail. They understand patterns in the field that aren't obvious from inside a single project. When they push back on something, it's worth asking why before dismissing it.
 
 The best advising relationships are genuine partnerships. The student drives, and the advisor guides. Both parties communicate honestly. Problems get raised early, before they become crises. There's mutual respect and shared investment in the outcome.
-
-Advisor styles vary significantly. Some advisors are highly directive, especially early on. They may assign problems, define approaches, and provide detailed guidance. This is common with junior faculty building their research programs. Other advisors expect more independence from the start. They may give you a broad area and let you find your own path. This is more common with senior faculty who have many students and less time for close supervision.
-
-Neither style is inherently better. What matters is understanding what kind of advisor you have and adapting accordingly. If your advisor is hands-off, you'll need to be more proactive about seeking feedback and direction. If they're hands-on, you'll need to find space to develop your own voice while respecting their guidance. Part of the PhD is learning to read these dynamics and communicate in ways that work for your specific relationship.
 
 This doesn't happen automatically. It takes effort from both sides. But when it works, it's one of the most formative relationships of a research career.
 
