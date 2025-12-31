@@ -5,8 +5,6 @@ excerpt: "The working relationship between PhD students and advisors is built on
 tags: ["phd", "advising", "graduate-school", "mentorship", "research", "career-advice"]
 ---
 
-![PhD Expectations](/images/blog/phd-expectations.png)
-
 PhD programs teach you how to do research, but they rarely explain what's expected of you in the advisor-student relationship. Who drives what? Who owns what? What does success actually look like? Students usually discover the answers through trial and error, or through conflict that could have been avoided.
 
 This post tries to make those expectations explicit. Not as a set of rules, but as a framework for understanding what makes PhD advising work.
@@ -35,6 +33,26 @@ But at the end of the day, you're the one writing the thesis. You're the one who
 
 The students who thrive are the ones who understand this. They propose ideas. They drive projects forward. They come to meetings with analysis and options, not just questions. When something isn't working, they diagnose why and propose alternatives. They treat their advisor as a resource, not a manager.
 
+## How These Skills Develop
+
+None of this is expected from day one. The capabilities that define a strong PhD student develop gradually over time.
+
+In the first year or two, most students focus on building foundational skills: learning the technical stack, getting comfortable with the research process, executing on well-defined problems. This is normal and necessary. You're learning how to do research by doing research under guidance.
+
+As you progress, the balance shifts. You start proposing directions, not just executing them. You develop judgment about what problems matter. You learn to communicate your work clearly and position it within the field. Eventually, you're setting the agenda, not just following it.
+
+One useful way to think about this progression:
+
+- **Execution**: Learn the techniques. Build engineering skills. Get things working.
+- **Design**: Understand problem spaces. Propose approaches. Design experiments.
+- **Communication**: Organize papers and presentations for clarity. Build a coherent thesis argument.
+- **Vision**: Plan a line of work. Do impactful work. Build your identity in the field.
+- **Assessment**: Judge research critically. Identify future directions. Know where to invest.
+
+These stages overlap, and different students move through them at different paces. Some are ready to lead projects by year two; others need more time building foundations. Both paths can lead to strong PhDs. What matters is that the trajectory is toward increasing ownership and independence.
+
+If you're early in your PhD and this post feels overwhelming, that's understandable. You're not expected to have all of this figured out yet. The point is to know what you're building toward.
+
 ## The Advisor-Student Relationship
 
 This is a partnership, and it goes both ways.
@@ -46,6 +64,10 @@ If you're not getting these things, that's worth raising. Advisors aren't perfec
 The flip side is that your advisor has context you don't. They've seen students succeed and fail. They understand patterns in the field that aren't obvious from inside a single project. When they push back on something, it's worth asking why before dismissing it.
 
 The best advising relationships are genuine partnerships. The student drives, and the advisor guides. Both parties communicate honestly. Problems get raised early, before they become crises. There's mutual respect and shared investment in the outcome.
+
+Advisor styles vary significantly. Some advisors are highly directive, especially early on. They may assign problems, define approaches, and provide detailed guidance. This is common with junior faculty building their research programs. Other advisors expect more independence from the start. They may give you a broad area and let you find your own path. This is more common with senior faculty who have many students and less time for close supervision.
+
+Neither style is inherently better. What matters is understanding what kind of advisor you have and adapting accordingly. If your advisor is hands-off, you'll need to be more proactive about seeking feedback and direction. If they're hands-on, you'll need to find space to develop your own voice while respecting their guidance. Part of the PhD is learning to read these dynamics and communicate in ways that work for your specific relationship.
 
 This doesn't happen automatically. It takes effort from both sides. But when it works, it's one of the most formative relationships of a research career.
 
@@ -130,6 +152,8 @@ This is the wrong question.
 The goal isn't to maximize your publication count. The goal is to produce work that's coherent, deep, and durable. Work that meaningfully advances the field.
 
 I would much rather see a student produce two or three substantial pieces of work than a longer list of incremental submissions. Depth compounds. Each deep piece of work builds expertise, reputation, and foundation for what comes next. A scattershot of shallow papers doesn't build anything.
+
+A useful test: when you're working on a paper, ask yourself what its test-of-time citation would say ten years from now. What lasting impact would it have? If you can't articulate that, the work might not be ready, or the contribution might not be significant enough. This framing helps distinguish between work that advances the field and work that merely fills a publication slot.
 
 This doesn't mean moving slowly for its own sake. It means investing the time to do things right. When a paper is ready, you'll know. So will your advisor.
 
