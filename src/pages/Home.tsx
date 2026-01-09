@@ -33,7 +33,7 @@ function Home() {
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 As AI moves into the physical world, safety and efficiency become requirements, not features. 
-                My research builds the systems and measurement infrastructure for AI that operates in the real world.
+                My research builds the systems and measurement infrastructure for AI that operates at the edge.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/research" className="bg-[#A51C30] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#8B1A2B] transition-colors text-center">

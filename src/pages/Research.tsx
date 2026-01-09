@@ -116,7 +116,7 @@ function Research() {
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Research</h1>
             <div className="w-24 h-1 bg-[#A51C30]"></div>
             <p className="text-lg text-gray-600 mt-6 max-w-3xl">
-              As AI moves into the physical world, safety and efficiency become hard requirements. My research builds the systems, architectures, and measurement infrastructure for Physical AI, spanning hardware-software co-design, efficient deployment, and rigorous evaluation.
+              As AI moves into the physical world, safety and efficiency become hard requirements. My research builds the systems, architectures, and measurement infrastructure for Physical AI at the edge, spanning hardware-software co-design, efficient deployment, and rigorous evaluation.
             </p>
           </div>
         </div>
@@ -175,7 +175,7 @@ function Research() {
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1 mb-6">
                   <li>• Benchmarking and evaluation infrastructure (MLPerf, DataPerf)</li>
-                  <li>• Efficient inference for resource-constrained deployment</li>
+                  <li>• Efficient inference for edge and resource-constrained deployment</li>
                   <li>• Optimization for adaptive and autonomous systems</li>
                   <li>• Data-centric approaches to ML system quality</li>
                 </ul>
