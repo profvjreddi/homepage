@@ -1,5 +1,20 @@
 [
   {
+    "slug": "ai-engineering",
+    "title": "AI Engineering: Time to Recognize a New Discipline",
+    "date": "2026-01-26",
+    "excerpt": "Just as the 1968 NATO conference catalyzed software engineering in response to the software crisis, the computing community should now recognize AI engineering as a discipline adequate to the AI systems crisis we face.",
+    "tags": [
+      "ai-engineering",
+      "machine-learning",
+      "software-engineering",
+      "mlops",
+      "education",
+      "academia"
+    ],
+    "filename": "ai-engineering.md"
+  },
+  {
     "slug": "phd-expectations",
     "title": "What's Expected During a PhD: The Implicit Contract",
     "date": "2026-01-05",

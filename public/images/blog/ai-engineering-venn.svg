@@ -1,0 +1,75 @@
+<svg viewBox="0 0 500 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .circle { fill-opacity: 0.25; stroke-width: 2.5; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; }
+      .sublabel { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #374151; }
+      .intersection { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-style: italic; fill: #6B7280; }
+      .center { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 13px; fill: #111827; }
+      .center-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 9px; fill: #4B5563; }
+    </style>
+
+    <!-- Define clip paths for slightly smaller circles to preserve stroke visibility -->
+    <clipPath id="clipTheory">
+      <circle cx="250" cy="150" r="103"/>
+    </clipPath>
+    <clipPath id="clipSystems">
+      <circle cx="190" cy="255" r="103"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="380" fill="#FAFAFA"/>
+
+  <!-- ML Theory Circle (top) -->
+  <circle cx="250" cy="150" r="105" class="circle" fill="#3B82F6" stroke="#3B82F6"/>
+
+  <!-- ML Systems Circle (bottom-left) -->
+  <circle cx="190" cy="255" r="105" class="circle" fill="#EF4444" stroke="#EF4444"/>
+
+  <!-- Applied ML Circle (bottom-right) -->
+  <circle cx="310" cy="255" r="105" class="circle" fill="#22C55E" stroke="#22C55E"/>
+
+  <!-- White center intersection: using slightly smaller clip circles to preserve strokes -->
+  <g clip-path="url(#clipTheory)">
+    <g clip-path="url(#clipSystems)">
+      <!-- Draw slightly smaller Applied circle clipped by both -->
+      <circle cx="310" cy="255" r="103" fill="white" fill-opacity="0.92"/>
+    </g>
+  </g>
+
+  <!-- Main Labels - positioned as triangle anchors outside circles -->
+  <text x="250" y="30" text-anchor="middle" class="label" font-size="16" fill="#1E40AF">ML Theory</text>
+  <text x="70" y="360" text-anchor="middle" class="label" font-size="16" fill="#991B1B">ML Systems</text>
+  <text x="430" y="360" text-anchor="middle" class="label" font-size="16" fill="#166534">Applied ML</text>
+
+  <!-- Theory content -->
+  <text x="250" y="90" text-anchor="middle" class="sublabel">Optimization</text>
+  <text x="250" y="105" text-anchor="middle" class="sublabel">Statistical Learning</text>
+  <text x="250" y="120" text-anchor="middle" class="sublabel">Generalization</text>
+
+  <!-- Systems content - moved right/inward -->
+  <text x="150" y="270" text-anchor="middle" class="sublabel">Distributed Training</text>
+  <text x="150" y="285" text-anchor="middle" class="sublabel">Hardware Acceleration</text>
+  <text x="150" y="300" text-anchor="middle" class="sublabel">Serving Infrastructure</text>
+
+  <!-- Applied content - moved left/inward -->
+  <text x="345" y="270" text-anchor="middle" class="sublabel">Problem Framing</text>
+  <text x="345" y="285" text-anchor="middle" class="sublabel">Data Collection</text>
+  <text x="345" y="300" text-anchor="middle" class="sublabel">Domain Expertise</text>
+
+  <!-- Two-way intersections -->
+  <text x="190" y="180" text-anchor="middle" class="intersection">ML Systems</text>
+  <text x="190" y="193" text-anchor="middle" class="intersection">Researcher</text>
+
+  <text x="310" y="180" text-anchor="middle" class="intersection">Data</text>
+  <text x="310" y="193" text-anchor="middle" class="intersection">Scientist</text>
+
+  <text x="250" y="283" text-anchor="middle" class="intersection">MLOps</text>
+  <text x="250" y="300" text-anchor="middle" class="intersection">Engineer</text>
+
+  <!-- Center - AI Engineering (smaller text) -->
+  <text x="250" y="218" text-anchor="middle" class="center">AI</text>
+  <text x="250" y="233" text-anchor="middle" class="center">Engineering</text>
+  <text x="250" y="246" text-anchor="middle" class="center-sub">(all three)</text>
+</svg>
