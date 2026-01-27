@@ -6,6 +6,7 @@ import rehypeHighlight from 'rehype-highlight';
 import matter from 'gray-matter';
 import TableOfContents from '../components/TableOfContents';
 import SocialShare from '../components/SocialShare';
+import DisqusComments from '../components/DisqusComments';
 
 interface BlogPostData {
   title: string;
@@ -287,6 +288,14 @@ function BlogPost() {
               url={`/blog/${slug}`}
               excerpt={post.excerpt}
             />
+
+            {/* Disqus Comments */}
+            {slug && (
+              <DisqusComments 
+                slug={slug}
+                title={post.title}
+              />
+            )}
 
             {/* Previous/Next Navigation */}
             {(prevPost || nextPost) && (
