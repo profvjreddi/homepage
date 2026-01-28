@@ -5,8 +5,7 @@ interface DisqusCommentsProps {
   title: string;
 }
 
-// TODO: Replace with your actual Disqus shortname from https://disqus.com/admin/
-const DISQUS_SHORTNAME = 'profvjreddi';
+const DISQUS_SHORTNAME = 'harvard-homepage-blog';
 
 function DisqusComments({ slug, title }: DisqusCommentsProps) {
   const disqusConfig = {
