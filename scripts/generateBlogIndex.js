@@ -7,9 +7,30 @@ const outputDir = path.join(process.cwd(), 'public/content');
 const outputFile = path.join(outputDir, 'blog-index.json');
 const siteUrl = 'https://vijay.seas.harvard.edu';
 
+// Check if a blog-specific image exists (PNG or JPG)
+function getBlogImage(slug) {
+  const imageExtensions = ['.png', '.jpg', '.jpeg'];
+  const imageDir = path.join(process.cwd(), 'public/images/blog');
+  
+  for (const ext of imageExtensions) {
+    const imagePath = path.join(imageDir, `${slug}${ext}`);
+    if (fs.existsSync(imagePath)) {
+      return `${siteUrl}/images/blog/${slug}${ext}`;
+    }
+    // Also check for -venn or other suffixed versions
+    const vennPath = path.join(imageDir, `${slug}-venn${ext}`);
+    if (fs.existsSync(vennPath)) {
+      return `${siteUrl}/images/blog/${slug}-venn${ext}`;
+    }
+  }
+  
+  // Fallback to profile image
+  return `${siteUrl}/images/profile.jpg`;
+}
+
 // Generate static HTML for a blog post with OG tags (for social media previews)
 function generateBlogPostHtml(post) {
-  const ogImage = `${siteUrl}/images/profile.jpg`;
+  const ogImage = getBlogImage(post.slug);
   const postUrl = `${siteUrl}/blog/${post.slug}`;
   
   return `<!DOCTYPE html>
