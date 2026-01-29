@@ -46,7 +46,7 @@ jobs:
           libxfixes3 \
           libxrandr2 \
           libgbm1 \
-          libasound2
+          libasound2t64
 
     - name: Install Puppeteer
       run: npm install puppeteer
