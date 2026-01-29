@@ -29,6 +29,7 @@
 /* Sidenote styles */
 .sidenote-wrapper {
   position: relative;
+  display: inline;
 }
 
 .sidenote-marker {
@@ -46,37 +47,83 @@
 }
 
 /* Desktop: margin notes */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .sidenote {
-    position: absolute;
-    right: -300px;
-    width: 260px;
-    margin-top: -0.5rem;
-    padding: 0.75rem;
+    float: right;
+    clear: right;
+    margin-right: -320px;
+    width: 280px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
     font-size: 0.85rem;
-    line-height: 1.4;
+    line-height: 1.5;
     color: #4a5568;
-    background-color: #f9fafb;
+    background-color: #fafafa;
     border-left: 3px solid #A51C30;
     border-radius: 0 0.375rem 0.375rem 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  
+  .sidenote a {
+    color: #A51C30;
+    text-decoration: underline;
+  }
+  
+  .sidenote a:hover {
+    color: #8B1A2B;
   }
 }
 
-/* Mobile/Tablet: inline expandable notes */
+/* Tablet: smaller margin notes */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .sidenote {
+    float: right;
+    clear: right;
+    margin-right: -240px;
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: #4a5568;
+    background-color: #fafafa;
+    border-left: 3px solid #A51C30;
+    border-radius: 0 0.375rem 0.375rem 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  
+  .sidenote a {
+    color: #A51C30;
+    text-decoration: underline;
+  }
+  
+  .sidenote a:hover {
+    color: #8B1A2B;
+  }
+}
+
+/* Mobile: inline expandable notes */
 @media (max-width: 1023px) {
   .sidenote {
     display: none;
     margin: 0.75rem 0;
     padding: 0.75rem;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     line-height: 1.5;
     color: #4a5568;
-    background-color: #f9fafb;
+    background-color: #fafafa;
     border-left: 3px solid #A51C30;
     border-radius: 0 0.375rem 0.375rem 0;
   }
   
   .sidenote-expanded {
     display: block;
+  }
+  
+  .sidenote a {
+    color: #A51C30;
+    text-decoration: underline;
   }
 }

@@ -147,8 +147,8 @@ function BlogPost() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
-      <div className="max-w-6xl mx-auto px-6 py-12 lg:pr-80">
+    <div className="min-h-screen bg-white overflow-x-clip">
+      <div className="max-w-6xl mx-auto px-6 py-12 lg:pr-[22rem] xl:pr-96 overflow-visible">
         <Link to="/blog" className="text-[#A51C30] hover:text-[#8B1A2B] font-medium mb-4 inline-flex items-center">
           ← Back to Blog
         </Link>
@@ -174,7 +174,7 @@ function BlogPost() {
               onToggle={() => setIsTocVisible(!isTocVisible)}
             />
             
-            <div className="prose prose-lg prose-gray max-w-none">
+            <div className="prose prose-lg prose-gray max-w-none overflow-visible">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw, rehypeHighlight]}
