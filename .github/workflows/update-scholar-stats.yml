@@ -1,0 +1,96 @@
+name: Update Google Scholar Stats
+
+on:
+  # Run weekly on Sundays at 2:00 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'
+  
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Install Puppeteer dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          libnss3 \
+          libnspr4 \
+          libatk1.0-0 \
+          libatk-bridge2.0-0 \
+          libcups2 \
+          libdrm2 \
+          libxkbcommon0 \
+          libxcomposite1 \
+          libxdamage1 \
+          libxfixes3 \
+          libxrandr2 \
+          libgbm1 \
+          libasound2
+
+    - name: Install Puppeteer
+      run: npm install puppeteer
+
+    - name: Fetch and update Google Scholar stats
+      id: update_stats
+      run: node scripts/updateScholarStats.js
+      continue-on-error: true
+
+    - name: Check for changes
+      id: git_status
+      run: |
+        if git diff --quiet src/utils/googleScholar.ts; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No changes detected in Google Scholar stats"
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "Changes detected in Google Scholar stats"
+          git diff src/utils/googleScholar.ts
+        fi
+
+    - name: Commit and push changes
+      if: steps.git_status.outputs.changed == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add src/utils/googleScholar.ts
+        git commit -m "chore: auto-update Google Scholar stats
+
+        Updated citation metrics from Google Scholar profile.
+        
+        - Citations: ${{ steps.update_stats.outputs.citations || 'updated' }}
+        - h-index: ${{ steps.update_stats.outputs.h_index || 'updated' }}
+        - i10-index: ${{ steps.update_stats.outputs.i10_index || 'updated' }}
+        
+        [skip ci]"
+        git push
+
+    - name: Summary
+      run: |
+        echo "## Google Scholar Stats Update" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.git_status.outputs.changed }}" == "true" ]; then
+          echo "✅ Stats were updated and committed" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "ℹ️ No changes to stats (already up to date)" >> $GITHUB_STEP_SUMMARY
+        fi
