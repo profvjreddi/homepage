@@ -3,10 +3,39 @@ import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
+import rehypeRaw from 'rehype-raw';
 import matter from 'gray-matter';
 import TableOfContents from '../components/TableOfContents';
 import SocialShare from '../components/SocialShare';
 import DisqusComments from '../components/DisqusComments';
+
+// Sidenote component for margin notes
+interface SidenoteProps {
+  children: React.ReactNode;
+  id?: string;
+}
+
+function Sidenote({ children, id }: SidenoteProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  
+  return (
+    <span className="sidenote-wrapper">
+      <button 
+        className="sidenote-toggle lg:hidden"
+        onClick={() => setIsExpanded(!isExpanded)}
+        aria-label="Toggle sidenote"
+      >
+        <sup className="sidenote-marker">{id || '†'}</sup>
+      </button>
+      <span className="sidenote-marker lg:inline hidden">
+        <sup>{id || '†'}</sup>
+      </span>
+      <span className={`sidenote ${isExpanded ? 'sidenote-expanded' : ''}`}>
+        {children}
+      </span>
+    </span>
+  );
+}
 
 interface BlogPostData {
   title: string;
@@ -148,7 +177,7 @@ function BlogPost() {
             <div className="prose prose-lg prose-gray max-w-none">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeHighlight]}
+                rehypePlugins={[rehypeRaw, rehypeHighlight]}
                 urlTransform={(uri) => {
                   // ReactMarkdown sometimes strips the /blog/ part from the path
                   // This ensures the correct path is used for images in the blog directory
@@ -275,6 +304,10 @@ function BlogPost() {
                       alt={alt} 
                       className="max-w-full h-auto rounded-lg shadow-md my-6"
                     />
+                  ),
+                  // @ts-expect-error - sidenote is a custom HTML element
+                  sidenote: ({ children, id }) => (
+                    <Sidenote id={id}>{children}</Sidenote>
                   ),
                 }}
               >
