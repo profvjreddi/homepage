@@ -1,4 +1,10 @@
 updates:
+  - date: "2026-01-26"
+    title: "New Essay: AI Engineering as a Discipline"
+    description: "Published an argument for recognizing AI Engineering as a distinct engineering discipline, drawing parallels to the 1968 NATO conference that catalyzed software engineering."
+    link: "/blog/ai-engineering"
+    link_text: "Read the essay"
+
   - date: "2025-06-06"
     title: "Keynote at MLCommons Rising Stars Workshop"
     description: "Delivered a keynote titled “Architecture 2.0” at the MLCommons Rising Stars workshop hosted at Meta HQ, exploring the future of ML systems and agentic architectures."
