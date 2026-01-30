@@ -13,7 +13,7 @@ AI engineering has emerged as a computational discipline distinct from both mach
 
 We are building AI systems at a pace that outstrips our ability to build them well. The gap between what machine learning research produces and what production systems require has become a chasm, one that neither traditional software engineering nor data science is equipped to bridge. **It is time to recognize AI engineering as a distinct computational discipline.**
 
-If AI is electricity, someone has to engineer the generators and build the grid, not just plug in the appliances. Who designs the training infrastructure? Who builds serving systems that scale? Who optimizes models to run on a phone or a sensor? Who builds the monitoring that catches failures before users do? That work is AI engineering.
+Andrew Ng famously said that AI is the new electricity. But if that's true, someone has to engineer the generators and build the grid, not just plug in the appliances. Who designs the training infrastructure? Who builds serving systems that scale? Who optimizes models to run on a phone or a sensor? Who builds the monitoring that catches failures before users do? That work is AI engineering.
 
 This is not a proposal to create yet another specialization or to rebrand existing practices under a trendier name. It is an argument that a coherent body of knowledge, a distinct set of competencies, and a recognizable professional identity have already emerged in practice, and that formalizing this discipline would benefit practitioners, educators, and the systems we collectively build.
 
