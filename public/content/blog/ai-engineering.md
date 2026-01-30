@@ -155,5 +155,5 @@ The patterns of failure and the gaps in practitioner training recur across domai
 
 \[7\] S. Amershi et al. ["Software Engineering for Machine Learning: A Case Study."](https://www.microsoft.com/en-us/research/publication/software-engineering-for-machine-learning-a-case-study/) Proc. ICSE-SEIP 2019.
 
-\[8\] Software Engineering Institute. ["AI Engineering."](https://www.sei.cmu.edu/artificial-intelligence-engineering/) Carnegie Mellon University.
+\[8\] Software Engineering Institute. ["AI Engineering for Defense and National Security."](https://www.sei.cmu.edu/documents/1951/2020_003_001_648543.pdf) Carnegie Mellon University, 2020.
 
