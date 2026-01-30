@@ -13,7 +13,9 @@ AI engineering has emerged as a computational discipline distinct from both mach
 
 We are building AI systems at a pace that outstrips our ability to build them well. The gap between what machine learning research produces and what production systems require has become a chasm, one that neither traditional software engineering nor data science is equipped to bridge. **It is time to recognize AI engineering as a distinct computational discipline.**
 
-This is not a proposal to create yet another specialization or to rebrand existing practices under a trendier name. It is an argument that a coherent body of knowledge, a distinct set of competencies, and a recognizable professional identity have already emerged in practice, and that formalizing this discipline would benefit practitioners, educators, and the systems we collectively build.
+Andrew Ng famously said that AI is the new electricity. But if that's true, someone has to engineer the generators and build the grid, not just plug in the appliances. Who designs the training infrastructure? Who builds serving systems that scale? Who optimizes models to run on a phone or a sensor? Who designs the accelerators those models run on? Who builds the monitoring that catches failures before users do? That work is AI engineering. And recognizing it as such isn't just rebranding.
+
+This is not a proposal to create yet another specialization. It is an argument that a coherent body of knowledge, a distinct set of competencies, and a recognizable professional identity have already emerged in practice, and that formalizing this discipline would benefit practitioners, educators, and the systems we collectively build.
 
 ## What AI Engineering Is, and Is Not
 
@@ -91,7 +93,7 @@ Deployment and operations cover the infrastructure for serving models, the monit
 
 ### Hardware-Aware Optimization
 
-Hardware-aware optimization has become increasingly critical as AI moves to edge devices and as the economics of cloud inference drive attention to efficiency. Understanding the relationship between model architecture and execution performance is no longer optional. The rise of TinyML and on-device inference has made this especially acute: models must be designed from the outset with target hardware in mind, rather than optimized as an afterthought. As the bottom row of Table 1 suggests, hardware constraints move from an implementation detail to a first-order design concern in AI engineering.
+Hardware-aware optimization has become increasingly critical as AI moves to edge devices and as the economics of cloud inference drive attention to efficiency. Understanding the relationship between model architecture and execution performance is no longer optional. The rise of TinyML and on-device inference has made this especially acute: models must be designed from the outset with target hardware in mind, rather than optimized as an afterthought. Increasingly, this means AI engineers must understand not just how to optimize for existing hardware, but how to co-design algorithms and silicon together. As the bottom row of Table 1 suggests, hardware constraints move from an implementation detail to a first-order design concern in AI engineering.
 
 ### Safety and Reliability
 
@@ -135,9 +137,7 @@ ACM or IEEE needs to establish technical communities focused specifically on AI 
 
 The community has done this before, for software engineering and computer engineering. We can do it again. The alternative, continuing to treat AI systems engineering as an afterthought to AI research, is increasingly untenable: without shared vocabulary, teams will keep repeating the same mistakes; without curricula, practitioners will continue learning through costly trial and error; without professional identity, organizations will struggle to hire, structure teams, and build institutional knowledge. The systems we are building are too important and too complex to be built without a discipline adequate to the task.
 
-These observations emerge from my personal experience building ML systems across scales, from datacenter-scale MLPerf benchmarks to microcontroller-scale TinyML deployments, and from efforts to codify this knowledge through open curricula that have reached learners worldwide ([edx.org/professional-certificate/harvardx-tiny-machine-learning](http://edx.org/professional-certificate/harvardx-tiny-machine-learning), [mlsysbook.ai](http://mlsysbook.ai), and [tinytorch.ai](http://tinytorch.ai)). 
-
-The patterns of failure and the gaps in practitioner training recur across domains and organizations. In 1968, the computing community recognized the software crisis and began to develop a discipline to address it. **It is time to do the same for AI.**
+The patterns of failure and the gaps in practitioner training recur across domains and organizations.<sidenote>These observations of mine emerge from building ML systems across scales—from datacenter-scale <a href="https://mlcommons.org/benchmarks/training/">MLPerf benchmarks</a> to microcontroller-scale <a href="https://www.edx.org/professional-certificate/harvardx-tiny-machine-learning">TinyML deployments</a>—and from efforts to codify this knowledge through open curricula: <a href="https://mlsysbook.ai">mlsysbook.ai</a> and <a href="https://tinytorch.ai">tinytorch.ai</a>.</sidenote> In 1968, the computing community recognized the software crisis and began to develop a discipline to address it. **It is time to do the same for AI.**
 
 ## References
 

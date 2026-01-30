@@ -49,9 +49,9 @@
   <text x="250" y="120" text-anchor="middle" class="sublabel">Generalization</text>
 
   <!-- Systems content - moved right/inward -->
-  <text x="150" y="270" text-anchor="middle" class="sublabel">Distributed Training</text>
-  <text x="150" y="285" text-anchor="middle" class="sublabel">Hardware Acceleration</text>
-  <text x="150" y="300" text-anchor="middle" class="sublabel">Serving Infrastructure</text>
+  <text x="150" y="270" text-anchor="middle" class="sublabel">Distributed Systems</text>
+  <text x="150" y="285" text-anchor="middle" class="sublabel">Computer Architecture</text>
+  <text x="150" y="300" text-anchor="middle" class="sublabel">Chip Design</text>
 
   <!-- Applied content - moved left/inward -->
   <text x="345" y="270" text-anchor="middle" class="sublabel">Problem Framing</text>
