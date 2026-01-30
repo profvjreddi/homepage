@@ -141,7 +141,7 @@ The patterns of failure and the gaps in practitioner training recur across domai
 
 ## References
 
-\[1\] M. Shaw. ["Prospects for an Engineering Discipline of Software."](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=11780) Carnegie Mellon University, Software Engineering Institute, Technical Report CMU/SEI-90-TR-20, 1990.
+\[1\] M. Shaw. ["Prospects for an Engineering Discipline of Software."](https://www.sei.cmu.edu/library/asset-view.cfm?assetid=11780) Carnegie Mellon University, Software Engineering Institute, Technical Report CMU/SEI-90-TR-20, 1990.
 
 \[2\] D. Sculley et al. ["Hidden Technical Debt in Machine Learning Systems."](https://papers.nips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html) Advances in Neural Information Processing Systems 28, 2015.
 
@@ -155,5 +155,5 @@ The patterns of failure and the gaps in practitioner training recur across domai
 
 \[7\] S. Amershi et al. ["Software Engineering for Machine Learning: A Case Study."](https://www.microsoft.com/en-us/research/publication/software-engineering-for-machine-learning-a-case-study/) Proc. ICSE-SEIP 2019.
 
-\[8\] Software Engineering Institute. ["AI Engineering for Defense and National Security."](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=644552) Carnegie Mellon University, 2020.
+\[8\] Software Engineering Institute. ["AI Engineering for Defense and National Security."](https://www.sei.cmu.edu/library/asset-view.cfm?assetid=644552) Carnegie Mellon University, 2020.
 
