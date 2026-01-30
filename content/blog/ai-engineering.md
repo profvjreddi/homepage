@@ -141,19 +141,19 @@ The patterns of failure and the gaps in practitioner training recur across domai
 
 ## References
 
-\[1\] M. Shaw. "Prospects for an Engineering Discipline of Software." Carnegie Mellon University, Software Engineering Institute, Technical Report CMU/SEI-90-TR-20, 1990\.
+\[1\] M. Shaw. ["Prospects for an Engineering Discipline of Software."](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=11780) Carnegie Mellon University, Software Engineering Institute, Technical Report CMU/SEI-90-TR-20, 1990.
 
-\[2\] D. Sculley, G. Holt, D. Golovin, E. Davydov, T. Phillips, D. Ebner, V. Chaudhary, M. Young, J.-F. Crespo, and D. Dennison. "Hidden Technical Debt in Machine Learning Systems." Advances in Neural Information Processing Systems 28, 2015\.
+\[2\] D. Sculley et al. ["Hidden Technical Debt in Machine Learning Systems."](https://papers.nips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html) Advances in Neural Information Processing Systems 28, 2015.
 
-\[3\] P. Naur and B. Randell (Eds.). Software Engineering: Report on a Conference Sponsored by the NATO Science Committee. NATO, 1969\.
+\[3\] P. Naur and B. Randell (Eds.). ["Software Engineering: Report on a Conference Sponsored by the NATO Science Committee."](http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF) NATO, 1969.
 
-\[4\] VentureBeat, "Why do 87% of data science projects never make it into production?" 2019; Gartner predicted through 2022 that 85% of AI projects would deliver erroneous outcomes.
+\[4\] VentureBeat, ["Why do 87% of data science projects never make it into production?"](https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/) 2019.
 
-\[5\] P. J. Denning, D. E. Comer, D. Gries, M. C. Mulder, A. Tucker, A. J. Turner, and P. R. Young. "Computing as a Discipline." Communications of the ACM 32(1), January 1989, pp. 9-23.
+\[5\] P. J. Denning et al. ["Computing as a Discipline."](https://dl.acm.org/doi/10.1145/63238.63239) Communications of the ACM 32(1), January 1989, pp. 9-23.
 
-\[6\] N. Sambasivan, S. Kapania, H. Highfill, D. Akrong, P. Paritosh, and L. M. Aroyo. "'Everyone wants to do the model work, not the data work': Data Cascades in High-Stakes AI." Proc. CHI 2021\.
+\[6\] N. Sambasivan et al. ["'Everyone wants to do the model work, not the data work': Data Cascades in High-Stakes AI."](https://dl.acm.org/doi/10.1145/3411764.3445518) Proc. CHI 2021.
 
-\[7\] S. Amershi, A. Begel, C. Bird, R. DeLine, H. Gall, E. Kamar, N. Nagappan, B. Nushi, and T. Zimmermann. "Software Engineering for Machine Learning: A Case Study." Proc. ICSE-SEIP 2019\.
+\[7\] S. Amershi et al. ["Software Engineering for Machine Learning: A Case Study."](https://www.microsoft.com/en-us/research/publication/software-engineering-for-machine-learning-a-case-study/) Proc. ICSE-SEIP 2019.
 
-\[8\] Software Engineering Institute. "AI Engineering for Defense and National Security: A Report from the October 2019 Community of Interest Workshop." Carnegie Mellon University, 2020\.
+\[8\] Software Engineering Institute. ["AI Engineering for Defense and National Security."](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=644552) Carnegie Mellon University, 2020.
 
