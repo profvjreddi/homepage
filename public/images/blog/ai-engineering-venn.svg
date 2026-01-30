@@ -44,9 +44,9 @@
   <text x="430" y="360" text-anchor="middle" class="label" font-size="16" fill="#166534">Applied ML</text>
 
   <!-- Theory content -->
-  <text x="250" y="90" text-anchor="middle" class="sublabel">Optimization</text>
-  <text x="250" y="105" text-anchor="middle" class="sublabel">Statistical Learning</text>
-  <text x="250" y="120" text-anchor="middle" class="sublabel">Generalization</text>
+  <text x="250" y="90" text-anchor="middle" class="sublabel">Algorithms</text>
+  <text x="250" y="105" text-anchor="middle" class="sublabel">Statistics</text>
+  <text x="250" y="120" text-anchor="middle" class="sublabel">Learning Theory</text>
 
   <!-- Systems content - moved right/inward -->
   <text x="150" y="270" text-anchor="middle" class="sublabel">Distributed Systems</text>
@@ -54,9 +54,9 @@
   <text x="150" y="300" text-anchor="middle" class="sublabel">Chip Design</text>
 
   <!-- Applied content - moved left/inward -->
-  <text x="345" y="270" text-anchor="middle" class="sublabel">Problem Framing</text>
-  <text x="345" y="285" text-anchor="middle" class="sublabel">Data Collection</text>
-  <text x="345" y="300" text-anchor="middle" class="sublabel">Domain Expertise</text>
+  <text x="345" y="270" text-anchor="middle" class="sublabel">Problem Definition</text>
+  <text x="345" y="285" text-anchor="middle" class="sublabel">Data Engineering</text>
+  <text x="345" y="300" text-anchor="middle" class="sublabel">Production Deployment</text>
 
   <!-- Two-way intersections -->
   <text x="190" y="180" text-anchor="middle" class="intersection">ML Systems</text>
