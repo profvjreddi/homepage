@@ -44,19 +44,19 @@
   <text x="430" y="360" text-anchor="middle" class="label" font-size="16" fill="#166534">Applied ML</text>
 
   <!-- Theory content -->
-  <text x="250" y="90" text-anchor="middle" class="sublabel">Algorithms</text>
-  <text x="250" y="105" text-anchor="middle" class="sublabel">Statistics</text>
-  <text x="250" y="120" text-anchor="middle" class="sublabel">Learning Theory</text>
+  <text x="250" y="90" text-anchor="middle" class="sublabel">Methods</text>
+  <text x="250" y="105" text-anchor="middle" class="sublabel">Foundations</text>
+  <text x="250" y="120" text-anchor="middle" class="sublabel">Proofs</text>
 
   <!-- Systems content - moved right/inward -->
-  <text x="150" y="270" text-anchor="middle" class="sublabel">Distributed Systems</text>
-  <text x="150" y="285" text-anchor="middle" class="sublabel">Computer Architecture</text>
-  <text x="150" y="300" text-anchor="middle" class="sublabel">Chip Design</text>
+  <text x="150" y="270" text-anchor="middle" class="sublabel">Infrastructure</text>
+  <text x="150" y="285" text-anchor="middle" class="sublabel">Architecture</text>
+  <text x="150" y="300" text-anchor="middle" class="sublabel">Silicon</text>
 
   <!-- Applied content - moved left/inward -->
-  <text x="345" y="270" text-anchor="middle" class="sublabel">Problem Definition</text>
-  <text x="345" y="285" text-anchor="middle" class="sublabel">Data Engineering</text>
-  <text x="345" y="300" text-anchor="middle" class="sublabel">Production Deployment</text>
+  <text x="345" y="270" text-anchor="middle" class="sublabel">Product</text>
+  <text x="345" y="285" text-anchor="middle" class="sublabel">Data</text>
+  <text x="345" y="300" text-anchor="middle" class="sublabel">Operations</text>
 
   <!-- Two-way intersections -->
   <text x="190" y="180" text-anchor="middle" class="intersection">ML Systems</text>
