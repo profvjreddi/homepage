@@ -40,11 +40,13 @@ Data science presents a different boundary. Data scientists excel at extracting 
 
 Together, these distinctions clarify that AI engineering is neither applied machine learning nor MLOps, nor a rebranding of machine learning systems research. It is the discipline concerned with building AI systems that operate in the real world over time under constraints.
 
-## Historical Precedent: The Emergence of Software Engineering
+## Historical Precedent: When Disciplines Branch
 
 We have been here before. In the 1960s, computing faced what was then called the "software crisis." Programs were delivered late, over budget, and riddled with defects. The NATO Software Engineering Conference of 1968 gave this crisis a name and proposed a response: treat software development as an engineering discipline, with its own principles, methods, and professional standards \[3\]. The phrase "software engineering" was deliberately chosen as provocative, implying that software manufacture should be grounded in the theoretical foundations and practical disciplines characteristic of established branches of engineering.
 
 The proposal was controversial. Many computer scientists viewed it as a dilution of their field, a retreat from mathematical rigor toward mere craft. And indeed, software engineering did not emerge as a subset of computer science. It emerged as a related but distinct discipline, drawing on computer science, systems thinking, project management, and hard-won practical experience. The process took decades to resolve into recognizable curricula, professional certifications, and bodies of knowledge.
+
+A similar branching occurred with computer engineering. By the late 1970s, it became clear that designing digital systems required knowledge that sat between electrical engineering and computer science, belonging fully to neither. Computer engineering emerged as its own discipline, with ABET accreditation following in 1977. Computer science asks what is computable. Computer engineering asks how to build systems that compute reliably. The distinction matters: different questions require different training, different methods, and different professional communities.
 
 The parallel to our current moment is instructive. We now face an **"AI systems crisis."** Industry analysts report that the majority of AI projects fail to deliver intended outcomes, with estimates suggesting that 80-87% of projects never reach production or fail to generate business value \[4\].<sidenote>VentureBeat reported 87% in 2019; Gartner predicted 85% through 2022. The consistency across sources suggests a systemic issue, not measurement noise.</sidenote> Those that do reach production often degrade rapidly, require constant manual intervention, or fail in ways that damage trust and sometimes cause harm.
 
@@ -57,7 +59,7 @@ The failure modes are predictable to anyone who has built these systems:
 
 These are not research problems. **They are engineering problems**, and they recur because we lack the shared vocabulary, training, and institutional memory that a discipline provides.
 
-The response should be similar to 1968: recognize that building AI systems well requires disciplinary knowledge that is related to, but distinct from, the research disciplines that produce the underlying techniques.
+The response should follow the same pattern as 1968 and 1977: recognize that building AI systems well requires disciplinary knowledge that is related to, but distinct from, the research disciplines that produce the underlying techniques.
 
 ## Core Knowledge Areas
 

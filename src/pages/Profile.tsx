@@ -55,8 +55,9 @@ function ProfilePage() {
               
               <p className="text-lg leading-relaxed text-gray-700 mb-6">
                 <strong>Dr. Prof. Janapa Reddi is widely recognized for his pioneering contributions to the field</strong>, including 
-                developing the emerging field of Tiny Machine Learning (TinyML) and co-leading the creation of MLPerf, 
-                the industry-standard benchmarking suite that evaluates machine learning systems from megawatt to microwatt scales. 
+                developing the emerging field of Tiny Machine Learning (TinyML) and co-founding MLPerf as a founding member 
+                and co-chair of the Inference Working Group—now the industry-standard benchmarking suite that evaluates 
+                machine learning systems from megawatt to microwatt scales. 
                 These foundational works have shaped how the industry approaches efficient AI deployment and performance measurement.
               </p>
 
@@ -85,7 +86,7 @@ function ProfilePage() {
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-6">
                   <h3 className="font-semibold text-[#A51C30] mb-2">MLPerf Benchmarks</h3>
-                  <p className="text-gray-600">Co-led the development of MLPerf, the industry-standard benchmarking suite for ML systems across all scales.</p>
+                  <p className="text-gray-600">Founding member and co-chair of the Inference Working Group, building the industry-standard benchmarking suite for ML systems across all scales.</p>
                 </div>
               </div>
             </div>
