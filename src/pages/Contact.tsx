@@ -107,7 +107,7 @@ function Contact() {
                 </div>
                 <div className="flex-grow">
                   <p className="text-gray-600 mb-2">
-                    <strong>Sarah Gayer</strong><br />
+                    <strong>Mark Peterson</strong><br />
                     Administrative Coordinator
                   </p>
                   <p className="text-gray-600 mb-4">
@@ -115,7 +115,7 @@ function Contact() {
                   </p>
                 </div>
                 <div className="text-[#A51C30] hover:text-[#8B1A2B] font-medium">
-                  <span>sgayer</span>
+                  <span>mpeterson1</span>
                   <span style={{display: 'none'}}>nospam</span>
                   <span>@</span>
                   <span style={{display: 'none'}}>removethis</span>
