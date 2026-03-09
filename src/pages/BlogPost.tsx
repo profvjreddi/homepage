@@ -37,6 +37,38 @@ function Sidenote({ children, id }: SidenoteProps) {
   );
 }
 
+interface MarginFigureProps {
+  src?: string;
+  alt?: string;
+  caption?: string;
+  href?: string;
+  credit?: string;
+}
+
+function MarginFigure({ src, alt, caption, href, credit }: MarginFigureProps) {
+  const img = (
+    <img 
+      src={src} 
+      alt={alt || ''} 
+      className="marginfigure-img"
+    />
+  );
+
+  return (
+    <span className="marginfigure">
+      <span className="marginfigure-frame">
+        {href ? (
+          <a href={href} target="_blank" rel="noopener noreferrer">
+            {img}
+          </a>
+        ) : img}
+        {caption && <span className="marginfigure-caption">{caption}</span>}
+        {credit && <span className="marginfigure-credit">{credit}</span>}
+      </span>
+    </span>
+  );
+}
+
 interface BlogPostData {
   title: string;
   date: string;
@@ -308,6 +340,10 @@ function BlogPost() {
                   // @ts-expect-error - sidenote is a custom HTML element
                   sidenote: ({ children, id }) => (
                     <Sidenote id={id}>{children}</Sidenote>
+                  ),
+                  // @ts-expect-error - marginfigure is a custom HTML element
+                  marginfigure: ({ src, alt, caption, href, credit }) => (
+                    <MarginFigure src={src} alt={alt} caption={caption} href={href} credit={credit} />
                   ),
                 }}
               >

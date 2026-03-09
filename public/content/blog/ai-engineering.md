@@ -115,6 +115,21 @@ The most common objection to this proposal is that AI engineering is simply appl
 
 MLOps, as currently practiced, focuses primarily on the operational infrastructure for deploying and monitoring models. This is necessary but not sufficient. MLOps addresses part of the AI engineering stack, much as DevOps addresses part of the software engineering stack. But we do not collapse software engineering into DevOps, and we should not collapse AI engineering into MLOps. The analogy clarifies the relationship: **MLOps is to AI engineering as DevOps is to software engineering** — an important subspecialty focused on deployment and operations, not a substitute for the broader discipline.
 
+A subtler objection comes from electrical engineering: has this field not always dealt with stochastic systems? Signal processing manages noise through filtering and SNR budgets. Communications engineering builds reliable channels despite fading and interference through error-correcting codes and modulation. Control theory handles sensor uncertainty through Kalman filtering and robust control. VLSI design accounts for process variation through guardbanding and statistical timing analysis. The parallel seems deep: electrical engineers have always built deterministic reliability from stochastic substrates.
+
+Yet the location of stochasticity differs fundamentally:
+
+| | EE Stochasticity | AI Stochasticity |
+| :--- | :--- | :--- |
+| Source | In the physical channel (noise) | In the learned function (weights) |
+| Distribution | Known (Gaussian, Rayleigh) | Unknown (data-dependent) |
+| Dynamics | Static statistical model | Drifting statistical model |
+| Specifications | Provable (Shannon bound) | Empirical (test set) |
+
+In electrical engineering, the system itself is deterministic—a well-designed amplifier produces the same output for the same input every time. The stochasticity is environmental, arising from thermal noise, channel effects, or manufacturing variation. In AI engineering, the system itself is stochastic: the model's behavior emerged from a random optimization process (stochastic gradient descent) applied to a finite sample of an unknown distribution. Two independently trained models will behave differently on identical inputs even absent environmental noise. The stochasticity is constitutive, not environmental.
+
+Electrical engineering developed theory for deterministic machines operating in stochastic environments. AI engineering must develop theory for stochastic machines operating in stochastic environments—while still meeting production reliability requirements. The techniques will borrow from electrical engineering (statistical testing, confidence intervals, margin analysis), but the fundamental challenge is inverted: instead of hardening a known system against unknown noise, we must validate an unknown system against unknown inputs.
+
 A more sympathetic objection is that disciplines should emerge organically rather than being declared into existence. There is wisdom in this caution. The 1968 NATO conference did not create software engineering ex nihilo; it named and catalyzed a conversation that was already underway. The argument here is similar: we should not create AI engineering from whole cloth, but recognize what has already emerged. The practices exist. The practitioners exist. The knowledge exists, scattered across blog posts, conference talks, internal documentation, and tribal knowledge within organizations. Disciplinary recognition is a call for consolidation, not creation.
 
 ## The Road Ahead

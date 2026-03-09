@@ -1,0 +1,97 @@
+<svg viewBox="0 0 820 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; }
+      .sublabel { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 11.5px; }
+      .prop { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #6B7280; }
+      .pillar-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 12px; fill: white; }
+      .pillar-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 9.5px; fill: rgba(255,255,255,0.85); }
+      .question { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 14px; fill: #A51C30; }
+      .check { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 700; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9CA3AF"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#A51C30"/>
+    </marker>
+  </defs>
+
+  <rect width="820" height="380" fill="#FAFAFA" rx="8"/>
+
+  <!-- Left block: Natural Language -->
+  <rect x="30" y="70" width="175" height="240" rx="10" fill="white" stroke="#D1D5DB" stroke-width="1.5"/>
+  <rect x="30" y="70" width="175" height="44" rx="10" fill="#F3F4F6"/>
+  <rect x="30" y="104" width="175" height="10" fill="#F3F4F6"/>
+  <text x="118" y="99" text-anchor="middle" class="label" font-size="17" fill="#374151">English</text>
+
+  <text x="58" y="140" class="check" fill="#166534">+</text>
+  <text x="74" y="140" class="prop">Expressive</text>
+  <text x="58" y="164" class="check" fill="#166534">+</text>
+  <text x="74" y="164" class="prop">Cross-domain</text>
+  <text x="58" y="188" class="check" fill="#166534">+</text>
+  <text x="74" y="188" class="prop">Context-aware</text>
+
+  <line x1="55" y1="206" x2="180" y2="206" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="58" y="230" class="check" fill="#DC2626">&#x2013;</text>
+  <text x="74" y="230" class="prop" fill="#DC2626">No guarantees</text>
+  <text x="58" y="254" class="check" fill="#DC2626">&#x2013;</text>
+  <text x="74" y="254" class="prop" fill="#DC2626">No rollback</text>
+  <text x="58" y="278" class="check" fill="#DC2626">&#x2013;</text>
+  <text x="74" y="278" class="prop" fill="#DC2626">No verification</text>
+
+  <!-- Arrow left to center -->
+  <line x1="212" y1="190" x2="264" y2="190" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Center: Three Foundations -->
+  <rect x="275" y="42" width="270" height="300" rx="10" fill="white" stroke="#A51C30" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="410" y="32" text-anchor="middle" class="question">What's Missing?</text>
+
+  <!-- Pillar 1 -->
+  <rect x="290" y="62" width="240" height="68" rx="6" fill="#A51C30"/>
+  <text x="410" y="88" text-anchor="middle" class="pillar-label">Intent Semantics</text>
+  <text x="410" y="106" text-anchor="middle" class="pillar-sub">Formalize what "zero downtime" means</text>
+  <text x="410" y="119" text-anchor="middle" class="pillar-sub">in context as verifiable constraints</text>
+
+  <!-- Pillar 2 -->
+  <rect x="290" y="142" width="240" height="68" rx="6" fill="#B83A4B"/>
+  <text x="410" y="168" text-anchor="middle" class="pillar-label">Universal Programming Interface</text>
+  <text x="410" y="186" text-anchor="middle" class="pillar-sub">Transactional guarantees across</text>
+  <text x="410" y="199" text-anchor="middle" class="pillar-sub">Docker, Postgres, AWS, and beyond</text>
+
+  <!-- Pillar 3 -->
+  <rect x="290" y="222" width="240" height="68" rx="6" fill="#C95264"/>
+  <text x="410" y="248" text-anchor="middle" class="pillar-label">Orchestration Benchmarks</text>
+  <text x="410" y="266" text-anchor="middle" class="pillar-sub">Test coordination under failure,</text>
+  <text x="410" y="279" text-anchor="middle" class="pillar-sub">not just code generation accuracy</text>
+
+  <text x="410" y="316" text-anchor="middle" class="sublabel" fill="#6B7280" font-style="italic">The three foundations of</text>
+  <text x="410" y="332" text-anchor="middle" class="sublabel" fill="#6B7280" font-style="italic">intent-driven programming</text>
+
+  <!-- Arrow center to right -->
+  <line x1="552" y1="190" x2="594" y2="190" stroke="#A51C30" stroke-width="2.5" stroke-dasharray="6,3" marker-end="url(#arrowhead-red)"/>
+
+  <!-- Right block: Programming Language -->
+  <rect x="605" y="70" width="185" height="240" rx="10" fill="white" stroke="#A51C30" stroke-width="2"/>
+  <rect x="605" y="70" width="185" height="50" rx="10" fill="#A51C30"/>
+  <rect x="605" y="110" width="185" height="4" fill="#A51C30"/>
+  <text x="698" y="92" text-anchor="middle" class="label" font-size="16" fill="white">Programming</text>
+  <text x="698" y="110" text-anchor="middle" class="label" font-size="16" fill="white">Language</text>
+
+  <text x="631" y="147" class="check" fill="#166534">+</text>
+  <text x="647" y="147" class="prop" fill="#166534">Expressive</text>
+  <text x="631" y="171" class="check" fill="#166534">+</text>
+  <text x="647" y="171" class="prop" fill="#166534">Cross-domain</text>
+  <text x="631" y="195" class="check" fill="#166534">+</text>
+  <text x="647" y="195" class="prop" fill="#166534">Context-aware</text>
+
+  <line x1="630" y1="212" x2="765" y2="212" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="631" y="236" class="check" fill="#166534">+</text>
+  <text x="647" y="236" class="prop" fill="#166534">Intent semantics</text>
+  <text x="631" y="260" class="check" fill="#166534">+</text>
+  <text x="647" y="260" class="prop" fill="#166534">Transactional</text>
+  <text x="631" y="284" class="check" fill="#166534">+</text>
+  <text x="647" y="284" class="prop" fill="#166534">Verifiable</text>
+</svg>

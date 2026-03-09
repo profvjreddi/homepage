@@ -1,0 +1,119 @@
+<svg viewBox="0 0 960 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .year { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 12px; }
+      .event { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 10.5px; fill: #374151; }
+      .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 9px; fill: #6B7280; }
+      .era-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 11px; fill: #9CA3AF; letter-spacing: 1.5px; text-transform: uppercase; }
+      .gap-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 13px; fill: #D1D5DB; font-style: italic; }
+    </style>
+  </defs>
+
+  <rect width="960" height="340" fill="#FAFAFA" rx="8"/>
+
+  <!-- Main timeline line -->
+  <line x1="70" y1="170" x2="920" y2="170" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Era backgrounds -->
+  <!-- Optimism era (1966-1979) -->
+  <rect x="70" y="155" width="230" height="30" rx="4" fill="#DBEAFE" opacity="0.4"/>
+  <text x="185" y="148" text-anchor="middle" class="era-label" fill="#3B82F6">Optimism</text>
+
+  <!-- Silence era (1979-2006) -->
+  <rect x="300" y="155" width="230" height="30" rx="4" fill="#F3F4F6" opacity="0.6"/>
+  <text x="415" y="148" text-anchor="middle" class="era-label" fill="#D1D5DB">Silence</text>
+
+  <!-- Resurgence era (2006-2026) -->
+  <rect x="530" y="155" width="380" height="30" rx="4" fill="#FEE2E2" opacity="0.4"/>
+  <text x="720" y="148" text-anchor="middle" class="era-label" fill="#A51C30">Resurgence</text>
+
+  <!-- 1966: Sammet & Halpern -->
+  <circle cx="95" cy="170" r="5" fill="#3B82F6"/>
+  <line x1="95" y1="165" x2="95" y2="100" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="95" y="93" text-anchor="middle" class="year" fill="#3B82F6">1966</text>
+  <text x="95" y="77" text-anchor="middle" class="event">Sammet &amp; Halpern</text>
+  <text x="95" y="65" text-anchor="middle" class="desc">The case for NL programming</text>
+
+  <!-- 1971: SHRDLU -->
+  <circle cx="170" cy="170" r="4" fill="#3B82F6"/>
+  <line x1="170" y1="175" x2="170" y2="220" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="170" y="233" text-anchor="middle" class="year" fill="#3B82F6">1971</text>
+  <text x="170" y="248" text-anchor="middle" class="event">SHRDLU</text>
+  <text x="170" y="261" text-anchor="middle" class="desc">NL controls a blocks world</text>
+
+  <!-- 1972: LUNAR -->
+  <circle cx="225" cy="170" r="4" fill="#3B82F6"/>
+  <line x1="225" y1="165" x2="225" y2="115" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="225" y="108" text-anchor="middle" class="year" fill="#3B82F6">1972</text>
+  <text x="225" y="93" text-anchor="middle" class="event">LUNAR</text>
+  <text x="225" y="81" text-anchor="middle" class="desc">NL queries real data</text>
+
+  <!-- 1979: Dijkstra -->
+  <circle cx="285" cy="170" r="6" fill="#DC2626"/>
+  <line x1="285" y1="175" x2="285" y2="220" stroke="#DC2626" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="285" y="233" text-anchor="middle" class="year" fill="#DC2626">1979</text>
+  <text x="285" y="248" text-anchor="middle" class="event" fill="#DC2626">Dijkstra: EWD667</text>
+  <text x="285" y="261" text-anchor="middle" class="desc">"A foolishness"</text>
+
+  <!-- 1980s: 4GL boom -->
+  <circle cx="355" cy="170" r="3.5" fill="#9CA3AF"/>
+  <line x1="355" y1="165" x2="355" y2="115" stroke="#9CA3AF" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="355" y="108" text-anchor="middle" class="year" fill="#9CA3AF">1980s</text>
+  <text x="355" y="93" text-anchor="middle" class="event" fill="#9CA3AF">4GL Boom</text>
+  <text x="355" y="81" text-anchor="middle" class="desc">English-like business tools</text>
+
+  <!-- 1987: HyperTalk -->
+  <circle cx="420" cy="170" r="3.5" fill="#9CA3AF"/>
+  <line x1="420" y1="175" x2="420" y2="220" stroke="#9CA3AF" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="420" y="233" text-anchor="middle" class="year" fill="#9CA3AF">1987</text>
+  <text x="420" y="248" text-anchor="middle" class="event" fill="#9CA3AF">HyperTalk</text>
+  <text x="420" y="261" text-anchor="middle" class="desc">English-like scripting</text>
+
+  <!-- Gap indicator -->
+  <text x="490" y="175" text-anchor="middle" class="gap-label">· · ·</text>
+
+  <!-- 2006: Inform 7 -->
+  <circle cx="555" cy="170" r="3.5" fill="#9CA3AF"/>
+  <line x1="555" y1="165" x2="555" y2="115" stroke="#9CA3AF" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="555" y="108" text-anchor="middle" class="year" fill="#9CA3AF">2006</text>
+  <text x="555" y="93" text-anchor="middle" class="event" fill="#9CA3AF">Inform 7</text>
+  <text x="555" y="81" text-anchor="middle" class="desc">English as code (fiction)</text>
+
+  <!-- 2020: GPT-3 -->
+  <circle cx="640" cy="170" r="5" fill="#A51C30"/>
+  <line x1="640" y1="175" x2="640" y2="220" stroke="#A51C30" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="640" y="233" text-anchor="middle" class="year" fill="#A51C30">2020</text>
+  <text x="640" y="248" text-anchor="middle" class="event" fill="#A51C30">GPT-3</text>
+  <text x="640" y="261" text-anchor="middle" class="desc">NL-to-code becomes feasible</text>
+
+  <!-- 2021: Codex / Copilot -->
+  <circle cx="715" cy="170" r="5" fill="#A51C30"/>
+  <line x1="715" y1="165" x2="715" y2="100" stroke="#A51C30" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="715" y="93" text-anchor="middle" class="year" fill="#A51C30">2021</text>
+  <text x="715" y="77" text-anchor="middle" class="event" fill="#A51C30">Codex / Copilot</text>
+  <text x="715" y="65" text-anchor="middle" class="desc">Mass-market NL-to-code</text>
+
+  <!-- 2023: Karpathy -->
+  <circle cx="790" cy="170" r="4.5" fill="#A51C30"/>
+  <line x1="790" y1="175" x2="790" y2="220" stroke="#A51C30" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="790" y="233" text-anchor="middle" class="year" fill="#A51C30">2023</text>
+  <text x="790" y="248" text-anchor="middle" class="event" fill="#A51C30">Karpathy</text>
+  <text x="790" y="261" text-anchor="middle" class="desc">"Hottest new PL is English"</text>
+
+  <!-- 2025: Vibe coding + failures -->
+  <circle cx="870" cy="170" r="6" fill="#A51C30"/>
+  <line x1="870" y1="165" x2="870" y2="100" stroke="#A51C30" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="870" y="93" text-anchor="middle" class="year" fill="#A51C30">2025</text>
+  <text x="870" y="77" text-anchor="middle" class="event" fill="#A51C30">Vibe Coding</text>
+  <text x="870" y="65" text-anchor="middle" class="desc">Production failures begin</text>
+
+  <!-- Arrow at end -->
+  <polygon points="915,170 905,165 905,175" fill="#A51C30"/>
+
+  <!-- Bottom annotation -->
+  <text x="415" y="300" text-anchor="middle" class="desc" font-size="10" fill="#9CA3AF">Four decades of silence between Dijkstra's verdict and GPT-3's arrival</text>
+  <line x1="295" y1="290" x2="630" y2="290" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="295" y1="287" x2="295" y2="293" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="630" y1="287" x2="630" y2="293" stroke="#E5E7EB" stroke-width="1"/>
+
+</svg>

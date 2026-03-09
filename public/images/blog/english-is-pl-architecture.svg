@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arrow-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#c0392b"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#27ae60"/>
+    </marker>
+    <marker id="arrow-gray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#555"/>
+    </marker>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="820" height="520" fill="#fafafa" rx="8"/>
+
+  <!-- Left column: Current State -->
+  <rect x="20" y="15" width="380" height="490" rx="6" fill="#fff8f8" stroke="#e8d0d0" stroke-width="1"/>
+  <text x="210" y="42" text-anchor="middle" font-size="14" font-weight="700" fill="#c0392b">Current State:</text>
+  <text x="210" y="60" text-anchor="middle" font-size="13" font-weight="600" fill="#c0392b">"Vibe Coding"</text>
+
+  <!-- Right column: Proposed Architecture -->
+  <rect x="420" y="15" width="380" height="490" rx="6" fill="#f0faf0" stroke="#c8e0c8" stroke-width="1"/>
+  <text x="610" y="42" text-anchor="middle" font-size="14" font-weight="700" fill="#1a7a3a">Proposed Architecture:</text>
+  <text x="610" y="60" text-anchor="middle" font-size="13" font-weight="600" fill="#1a7a3a">Intent-Driven Infrastructure</text>
+
+  <!-- LEFT SIDE -->
+
+  <!-- NL Prompt box (left) -->
+  <rect x="75" y="78" width="270" height="36" rx="4" fill="#fff" stroke="#888" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="210" y="101" text-anchor="middle" font-size="12" font-weight="600" fill="#333">Natural Language Prompt</text>
+
+  <!-- Arrow down -->
+  <line x1="210" y1="114" x2="210" y2="138" stroke="#555" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+
+  <!-- LLM Agent box (left) -->
+  <rect x="105" y="140" width="210" height="40" rx="4" fill="#e8f4f8" stroke="#2980b9" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="210" y="165" text-anchor="middle" font-size="12" font-weight="600" fill="#2471a3">LLM Agent</text>
+
+  <!-- Arrow down (red, danger) -->
+  <line x1="210" y1="180" x2="210" y2="210" stroke="#c0392b" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+
+  <!-- Direct API Calls label (red) -->
+  <rect x="65" y="212" width="290" height="44" rx="4" fill="#fdecea" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <text x="210" y="232" text-anchor="middle" font-size="11" font-weight="600" fill="#c0392b">Direct API Calls</text>
+  <text x="210" y="248" text-anchor="middle" font-size="10" fill="#e74c3c">(Brittle, No Guarantees)</text>
+
+  <!-- Arrows to service boxes (left) -->
+  <line x1="140" y1="256" x2="115" y2="290" stroke="#c0392b" stroke-width="1.2" marker-end="url(#arrow-red)"/>
+  <line x1="210" y1="256" x2="210" y2="290" stroke="#c0392b" stroke-width="1.2" marker-end="url(#arrow-red)"/>
+  <line x1="280" y1="256" x2="305" y2="290" stroke="#c0392b" stroke-width="1.2" marker-end="url(#arrow-red)"/>
+
+  <!-- Service boxes (left) -->
+  <rect x="75" y="294" width="70" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1" filter="url(#shadow)"/>
+  <text x="110" y="312" text-anchor="middle" font-size="10" font-weight="500" fill="#444">Docker</text>
+
+  <rect x="175" y="294" width="70" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1" filter="url(#shadow)"/>
+  <text x="210" y="312" text-anchor="middle" font-size="10" font-weight="500" fill="#444">Postgres</text>
+
+  <rect x="275" y="294" width="70" height="28" rx="4" fill="#fff" stroke="#888" stroke-width="1" filter="url(#shadow)"/>
+  <text x="310" y="312" text-anchor="middle" font-size="10" font-weight="500" fill="#444">AWS</text>
+
+  <!-- Cascading Failures label -->
+  <text x="210" y="358" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">Cascading Failures</text>
+  <text x="210" y="374" text-anchor="middle" font-size="10" fill="#e74c3c">(e.g., Replit, AWS Outage)</text>
+
+  <!-- Danger icon / X marks on service boxes -->
+  <text x="210" y="420" text-anchor="middle" font-size="28" fill="#e74c3c">&#x2716;</text>
+
+
+  <!-- RIGHT SIDE -->
+
+  <!-- NL Prompt box (right) -->
+  <rect x="475" y="78" width="270" height="36" rx="4" fill="#fff" stroke="#888" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="610" y="101" text-anchor="middle" font-size="12" font-weight="600" fill="#333">Natural Language Prompt</text>
+
+  <!-- Arrow down -->
+  <line x1="610" y1="114" x2="610" y2="138" stroke="#555" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+
+  <!-- LLM Agent box (right) -->
+  <rect x="505" y="140" width="210" height="40" rx="4" fill="#e8f4f8" stroke="#2980b9" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="610" y="165" text-anchor="middle" font-size="12" font-weight="600" fill="#2471a3">LLM Agent</text>
+
+  <!-- Arrow down -->
+  <line x1="610" y1="180" x2="610" y2="210" stroke="#27ae60" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+
+  <!-- Intent Compiler box (right) -->
+  <rect x="475" y="212" width="270" height="40" rx="4" fill="#e8f8e8" stroke="#27ae60" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="610" y="228" text-anchor="middle" font-size="11" font-weight="600" fill="#1a7a3a">Intent Compiler</text>
+  <text x="610" y="244" text-anchor="middle" font-size="10" fill="#27ae60">(Generates Formal Plan)</text>
+
+  <!-- Arrow down -->
+  <line x1="610" y1="252" x2="610" y2="276" stroke="#27ae60" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+
+  <!-- UPI box (right) -->
+  <rect x="455" y="278" width="310" height="36" rx="4" fill="#d5f5d5" stroke="#27ae60" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="610" y="301" text-anchor="middle" font-size="12" font-weight="700" fill="#1a7a3a">Universal Programming Interface (UPI)</text>
+
+  <!-- Arrows to service boxes (right) -->
+  <line x1="540" y1="314" x2="515" y2="344" stroke="#27ae60" stroke-width="1.2" marker-end="url(#arrow-green)"/>
+  <line x1="610" y1="314" x2="610" y2="344" stroke="#27ae60" stroke-width="1.2" marker-end="url(#arrow-green)"/>
+  <line x1="680" y1="314" x2="705" y2="344" stroke="#27ae60" stroke-width="1.2" marker-end="url(#arrow-green)"/>
+
+  <!-- Service boxes (right) -->
+  <rect x="475" y="348" width="70" height="28" rx="4" fill="#fff" stroke="#27ae60" stroke-width="1" filter="url(#shadow)"/>
+  <text x="510" y="366" text-anchor="middle" font-size="10" font-weight="500" fill="#444">Docker</text>
+
+  <rect x="575" y="348" width="70" height="28" rx="4" fill="#fff" stroke="#27ae60" stroke-width="1" filter="url(#shadow)"/>
+  <text x="610" y="366" text-anchor="middle" font-size="10" font-weight="500" fill="#444">Postgres</text>
+
+  <rect x="675" y="348" width="70" height="28" rx="4" fill="#fff" stroke="#27ae60" stroke-width="1" filter="url(#shadow)"/>
+  <text x="710" y="366" text-anchor="middle" font-size="10" font-weight="500" fill="#444">AWS</text>
+
+  <!-- Transactional Execution label -->
+  <rect x="465" y="400" width="290" height="38" rx="4" fill="#e8f8e8" stroke="#27ae60" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="610" y="418" text-anchor="middle" font-size="11" font-weight="600" fill="#1a7a3a">Transactional Execution</text>
+  <text x="610" y="432" text-anchor="middle" font-size="10" fill="#27ae60">(Rollback Guarantees)</text>
+
+  <!-- Verifiable & Safe label -->
+  <text x="610" y="468" text-anchor="middle" font-size="13" font-weight="700" fill="#1a7a3a">Verifiable &amp; Safe</text>
+
+  <!-- Checkmark -->
+  <text x="610" y="496" text-anchor="middle" font-size="28" fill="#27ae60">&#x2714;</text>
+
+  <!-- Divider line -->
+  <line x1="410" y1="30" x2="410" y2="495" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
+</svg>

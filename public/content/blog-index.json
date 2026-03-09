@@ -1,5 +1,19 @@
 [
   {
+    "slug": "english-is-pl",
+    "title": "English Is a Programming Language",
+    "date": "2026-03-05",
+    "excerpt": "If English is a programming language, then everyone is a programmer, and the cost of missing guardrails is borne by everyone. Natural language will fail for production orchestration unless we build formal foundations.",
+    "tags": [
+      "ai",
+      "programming-languages",
+      "software-engineering",
+      "llm",
+      "orchestration"
+    ],
+    "filename": "english-is-pl.md"
+  },
+  {
     "slug": "ai-engineering",
     "title": "AI Engineering: Time to Recognize a New Discipline",
     "date": "2026-01-26",
