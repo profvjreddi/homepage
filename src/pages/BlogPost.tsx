@@ -5,6 +5,8 @@ import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeRaw from 'rehype-raw';
 import matter from 'gray-matter';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 import TableOfContents from '../components/TableOfContents';
 import SocialShare from '../components/SocialShare';
 import DisqusComments from '../components/DisqusComments';
@@ -331,11 +333,13 @@ function BlogPost() {
                     </a>
                   ),
                   img: ({ src, alt }) => (
-                    <img 
-                      src={src} 
-                      alt={alt} 
-                      className="max-w-full h-auto rounded-lg shadow-md my-6"
-                    />
+                    <Zoom>
+                      <img
+                        src={src}
+                        alt={alt}
+                        className="max-w-full h-auto rounded-lg shadow-md my-6 cursor-zoom-in"
+                      />
+                    </Zoom>
                   ),
                   // @ts-expect-error - sidenote is a custom HTML element
                   sidenote: ({ children, id }) => (
