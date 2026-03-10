@@ -8,7 +8,7 @@ tags: ["ai", "programming-languages", "software-engineering", "llm", "orchestrat
 
 *Note: A shorter version of this essay has been submitted as a Viewpoint to Communications of the ACM. Feedback and constructive criticism are welcome. Feel free to leave a comment below or reach out directly.*
 
-![English Is a Programming Language — with the right foundations](/images/blog/english-is-pl-hero.svg)
+![English Is a Programming Language](/images/blog/english-is-pl.png)
 
 ## Abstract
 
@@ -83,6 +83,8 @@ Second, from APIs to Universal Programming Interfaces (UPIs).<sidenote>The namin
 Third, from code generation benchmarks to orchestration correctness. Current benchmarks measure the wrong things for infrastructure. Raw capability is improving rapidly across the board. LLMs score over 90% on isolated function generation ([HumanEval](https://arxiv.org/abs/2107.03374)), single-repo bug fixing ([SWE-bench](https://arxiv.org/abs/2310.06770)) now exceeds 80%, and even cross-application web tasks ([WebArena](https://arxiv.org/abs/2307.13854)) have climbed past 60%. Newer benchmarks like [SWE-fficiency](https://arxiv.org/abs/2511.06090)<sidenote>Full disclosure: SWE-fficiency was developed in collaboration between my research group and Google DeepMind. It is an excellent benchmark for what it measures, code performance optimization, but it was not designed to test orchestration safety, which is the gap this viewpoint identifies.</sidenote> measure code performance optimization. But none of these benchmarks test what matters most for infrastructure. None measures what happens when step three of five fails, whether rollback preserves consistency, or whether the orchestrated system satisfies its stated constraints after a partial failure. **The gap is not in capability but in *safety under failure***. We need benchmarks that test coordination when things go wrong.
 
 ## Toward Building the Foundations
+
+![English Is a Programming Language — with the right foundations](/images/blog/english-is-pl-hero.svg)
 
 Language theory: Formalizing intent.<sidenote>I write this as a computer systems architect, not a programming language theorist. The problems described here live at the systems level: contracts between heterogeneous components, transactional guarantees across administrative boundaries, compilation from high-level intent to low-level execution. These are the same problems we face when designing hardware-software interfaces, just moved up the stack.</sidenote> Can we formalize intent semantics? This extends program synthesis research to systems where specifications are under-determined and context-dependent. A key question is whether we can formally specify what "disaster recovery ready" means as a policy-specific constraint. Can we compile natural language to execution plans with confidence bounds? Can we verify plans respect policies before execution?
 
