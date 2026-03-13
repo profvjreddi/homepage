@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1200" height="680" viewBox="0, 0, 1200, 680">
+  <defs>
+    <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="936" y1="80" x2="1140" y2="80">
+      <stop offset="0" stop-color="#FEE2E2" stop-opacity="0.2"/>
+      <stop offset="0.7" stop-color="#FEE2E2" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#FEE2E2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1">
+    <path d="M8,0 L1192,0 C1196.418,0 1200,3.582 1200,8 L1200,672 C1200,676.418 1196.418,680 1192,680 L8,680 C3.582,680 0,676.418 0,672 L0,8 C0,3.582 3.582,0 8,0 z" fill="#FAFAFA"/>
+    <text transform="matrix(1, 0, 0, 1, 600, 32.5)">
+      <tspan x="-158.089" y="5.5" font-family="Helvetica" font-size="18" fill="#1F2937">The Expanding Programmer Population</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 600, 53.5)">
+      <tspan x="-212.466" y="4.5" font-family="Helvetica" font-size="13" fill="#6B7280">Each abstraction layer widened the pool by roughly an order of magnitude</tspan>
+    </text>
+    <g>
+      <path d="M110,540 L340,540" fill="#000000"/>
+      <path d="M110,540 L340,540" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <g>
+      <path d="M370,540 L1140,540" fill="#000000"/>
+      <path d="M370,540 L1140,540" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 92.161, 540)">
+      <tspan x="-6.839" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1K</tspan>
+    </text>
+    <g>
+      <path d="M110,463 L340,463" fill="#000000"/>
+      <path d="M110,463 L340,463" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <g>
+      <path d="M370,463 L1140,463" fill="#000000"/>
+      <path d="M370,463 L1140,463" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 88.824, 463)">
+      <tspan x="-10.176" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">10K</tspan>
+    </text>
+    <g>
+      <path d="M110,387 L340,387" fill="#000000"/>
+      <path d="M110,387 L340,387" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <g>
+      <path d="M370,387 L1140,387" fill="#000000"/>
+      <path d="M370,387 L1140,387" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 85.487, 387)">
+      <tspan x="-13.513" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">100K</tspan>
+    </text>
+    <g>
+      <path d="M110,310 L340,310" fill="#000000"/>
+      <path d="M110,310 L340,310" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <g>
+      <path d="M370,310 L1140,310" fill="#000000"/>
+      <path d="M370,310 L1140,310" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 91.165, 310)">
+      <tspan x="-7.835" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1M</tspan>
+    </text>
+    <g>
+      <path d="M110,233 L340,233" fill="#000000"/>
+      <path d="M110,233 L340,233" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <g>
+      <path d="M370,233 L1140,233" fill="#000000"/>
+      <path d="M370,233 L1140,233" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 87.828, 233)">
+      <tspan x="-11.172" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">10M</tspan>
+    </text>
+    <g>
+      <path d="M110,157 L340,157" fill="#000000"/>
+      <path d="M110,157 L340,157" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <g>
+      <path d="M370,157 L1140,157" fill="#000000"/>
+      <path d="M370,157 L1140,157" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 84.491, 157)">
+      <tspan x="-14.509" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">100M</tspan>
+    </text>
+    <g>
+      <path d="M110,80 L340,80" fill="#000000"/>
+      <path d="M110,80 L340,80" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <g>
+      <path d="M370,80 L1140,80" fill="#000000"/>
+      <path d="M370,80 L1140,80" fill-opacity="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 92.161, 80)">
+      <tspan x="-6.839" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1B</tspan>
+    </text>
+    <text transform="matrix(0, -1, 1, 0, 23.5, 310)">
+      <tspan x="-100.433" y="4.5" font-family="Helvetica" font-size="13" fill="#6B7280">Programmer Population (log scale)</tspan>
+    </text>
+    <g>
+      <path d="M110,80 L110,540" fill="#000000"/>
+      <path d="M110,80 L110,540" fill-opacity="0" stroke="#D1D5DB" stroke-width="1.5"/>
+    </g>
+    <g>
+      <path d="M110,540 L340,540" fill="#000000"/>
+      <path d="M110,540 L340,540" fill-opacity="0" stroke="#D1D5DB" stroke-width="1.5"/>
+    </g>
+    <g>
+      <path d="M370,540 L1140,540" fill="#000000"/>
+      <path d="M370,540 L1140,540" fill-opacity="0" stroke="#D1D5DB" stroke-width="1.5"/>
+    </g>
+    <path d="M338,75 L372,75 L372,545 L338,545 z" fill="#FAFAFA"/>
+    <path d="M340,545 L346,535 L352,545 L358,535 L364,545 L370,535" fill-opacity="0" stroke="#D1D5DB" stroke-width="1.5"/>
+    <path d="M340,80 L346,73 L352,83 L358,73 L364,83 L370,80" fill-opacity="0" stroke="#D1D5DB" stroke-width="1"/>
+    <text transform="matrix(0, -1, 1, 0, 352, 270)">
+      <tspan x="-57.249" y="3" font-family="Helvetica" font-size="10" fill="#9CA3AF">Java / enterprise boom </tspan>
+      <tspan x="47.249" y="3" font-family="LucidaGrande" font-size="10" fill="#9CA3AF">→</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 110, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1955</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 148, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1960</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 187, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1965</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 225, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1970</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 263, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1975</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 302, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">1980</tspan>
+    </text>
+    <path d="M110,80 L263,80 L263,540 L110,540 z" fill="#DBEAFE" opacity="0.18"/>
+    <text transform="matrix(1, 0, 0, 1, 187, 93)" opacity="0.6">
+      <tspan x="-32.007" y="4" font-family="Helvetica" font-size="12" kerning="1.5" fill="#3B82F6">Assembly</tspan>
+    </text>
+    <path d="M263,80 L340,80 L340,540 L263,540 z" fill="#D1FAE5" opacity="0.18"/>
+    <text transform="matrix(1, 0, 0, 1, 302, 93)" opacity="0.5">
+      <tspan x="-5.083" y="4" font-family="Helvetica" font-size="12" kerning="1.5" fill="#059669">C</tspan>
+    </text>
+    <g>
+      <path d="M124,517 C124,520.314 121.314,523 118,523 C114.686,523 112,520.314 112,517 C112,513.686 114.686,511 118,511 C121.314,511 124,513.686 124,517 z" fill="#3B82F6"/>
+      <path d="M124,517 C124,520.314 121.314,523 118,523 C114.686,523 112,520.314 112,517 C112,513.686 114.686,511 118,511 C121.314,511 124,513.686 124,517 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 156.562, 507.5)">
+      <tspan x="-20.562" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">~2,000</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 179.402, 524)">
+      <tspan x="-43.402" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">1956 · Ensmenger</tspan>
+    </text>
+    <g>
+      <path d="M208,373 C208,376.314 205.314,379 202,379 C198.686,379 196,376.314 196,373 C196,369.686 198.686,367 202,367 C205.314,367 208,369.686 208,373 z" fill="#3B82F6"/>
+      <path d="M208,373 C208,376.314 205.314,379 202,379 C198.686,379 196,376.314 196,373 C196,369.686 198.686,367 202,367 C205.314,367 208,369.686 208,373 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 239.476, 373.5)">
+      <tspan x="-19.476" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">~150K</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 278.865, 390)">
+      <tspan x="-58.865" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">1967 · AFIPS (US: 100K)</tspan>
+    </text>
+    <g>
+      <path d="M231,356 C231,359.314 228.314,362 225,362 C221.686,362 219,359.314 219,356 C219,352.686 221.686,350 225,350 C228.314,350 231,352.686 231,356 z" fill="#3B82F6"/>
+      <path d="M231,356 C231,359.314 228.314,362 225,362 C221.686,362 219,359.314 219,356 C219,352.686 221.686,350 225,350 C228.314,350 231,352.686 231,356 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 207.524, 333.5)">
+      <tspan x="-18.476" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">~250K</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 169.696, 320)">
+      <tspan x="-56.304" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">1970 · Gilchrist &amp; Weber</tspan>
+    </text>
+    <g>
+      <path d="M308,310 C308,313.314 305.314,316 302,316 C298.686,316 296,313.314 296,310 C296,306.686 298.686,304 302,304 C305.314,304 308,306.686 308,310 z" fill="#059669"/>
+      <path d="M308,310 C308,313.314 305.314,316 302,316 C298.686,316 296,313.314 296,310 C296,306.686 298.686,304 302,304 C305.314,304 308,306.686 308,310 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 270.675, 293.5)">
+      <tspan x="-12.325" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">~1M</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 235.345, 281)">
+      <tspan x="-47.655" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">1980 · Census / BLS</tspan>
+    </text>
+    <path d="M118,517 L202,373 L225,356 L302,310" fill-opacity="0" stroke="#374151" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M118,526 C150,475 180,425 202,388 C210,377 218,373 225,371 C255,355 280,337 302,324 L302,296 C280,307 255,325 225,341 C218,343 210,347 202,358 C180,395 150,445 118,508 z" fill="#374151" opacity="0.06"/>
+    <text transform="matrix(1, 0, 0, 1, 415, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">2000</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 529, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">2005</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 642, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">2010</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 755, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">2015</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 868, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">2020</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 982, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">2025</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1095, 556)">
+      <tspan x="-13.348" y="4" font-family="Helvetica" font-size="12" fill="#9CA3AF">2030</tspan>
+    </text>
+    <path d="M370,80 L415,80 L415,540 L370,540 z" fill="#D1FAE5" opacity="0.18"/>
+    <path d="M415,80 L936,80 L936,540 L415,540 z" fill="#FEF3C7" opacity="0.18"/>
+    <text transform="matrix(1, 0, 0, 1, 676, 93)" opacity="0.55">
+      <tspan x="-60.524" y="4" font-family="Helvetica" font-size="12" kerning="1.5" fill="#92400E">Python / Scripting</tspan>
+    </text>
+    <path d="M936,80 L1140,80 L1140,540 L936,540 z" fill="url(#Gradient_1)"/>
+    <text transform="matrix(1, 0, 0, 1, 1038, 93)" opacity="0.5">
+      <tspan x="-29.016" y="4" font-family="Helvetica" font-size="12" kerning="1.5" fill="#A51C30">English?</tspan>
+    </text>
+    <g>
+      <path d="M444,242 C444,245.314 441.314,248 438,248 C434.686,248 432,245.314 432,242 C432,238.686 434.686,236 438,236 C441.314,236 444,238.686 444,242 z" fill="#D97706"/>
+      <path d="M444,242 C444,245.314 441.314,248 438,248 C434.686,248 432,245.314 432,242 C432,238.686 434.686,236 438,236 C441.314,236 444,238.686 444,242 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 450.383, 209)">
+      <tspan x="-14.95" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">7.8M</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 461.029, 225)">
+      <tspan x="-25.596" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">2001 · IDC</tspan>
+    </text>
+    <g>
+      <path d="M738,213 C738,216.314 735.314,219 732,219 C728.686,219 726,216.314 726,213 C726,209.686 728.686,207 732,207 C735.314,207 738,209.686 738,213 z" fill="#D97706"/>
+      <path d="M738,213 C738,216.314 735.314,219 732,219 C728.686,219 726,216.314 726,213 C726,209.686 728.686,207 732,207 C735.314,207 738,209.686 738,213 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 707.435, 183)">
+      <tspan x="-18.565" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">18.5M</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 700.404, 198.5)">
+      <tspan x="-25.596" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">2014 · IDC</tspan>
+    </text>
+    <g>
+      <path d="M852,204 C852,207.314 849.314,210 846,210 C842.686,210 840,207.314 840,204 C840,200.686 842.686,198 846,198 C849.314,198 852,200.686 852,204 z" fill="#D97706"/>
+      <path d="M852,204 C852,207.314 849.314,210 846,210 C842.686,210 840,207.314 840,204 C840,200.686 842.686,198 846,198 C849.314,198 852,200.686 852,204 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 830.726, 187)">
+      <tspan x="-17.565" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">23.9M</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 805.596, 175.5)">
+      <tspan x="-42.695" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">2019 · Evans Data</tspan>
+    </text>
+    <g>
+      <path d="M964.5,200 C964.5,203.038 962.038,205.5 959,205.5 C955.962,205.5 953.5,203.038 953.5,200 C953.5,196.962 955.962,194.5 959,194.5 C962.038,194.5 964.5,196.962 964.5,200 z" fill="#A51C30"/>
+      <path d="M964.5,200 C964.5,203.038 962.038,205.5 959,205.5 C955.962,205.5 953.5,203.038 953.5,200 C953.5,196.962 955.962,194.5 959,194.5 C962.038,194.5 964.5,196.962 964.5,200 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 969, 219.5)">
+      <tspan x="-12.645" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">27M</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1012.093, 235)">
+      <tspan x="-55.738" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">2024 · Evans Data (pro)</tspan>
+    </text>
+    <g>
+      <path d="M987.5,182 C987.5,185.038 985.038,187.5 982,187.5 C978.962,187.5 976.5,185.038 976.5,182 C976.5,178.962 978.962,176.5 982,176.5 C985.038,176.5 987.5,178.962 987.5,182 z" fill="#A51C30"/>
+      <path d="M987.5,182 C987.5,185.038 985.038,187.5 982,187.5 C978.962,187.5 976.5,185.038 976.5,182 C976.5,178.962 978.962,176.5 982,176.5 C985.038,176.5 987.5,178.962 987.5,182 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M959,200 L982,182" fill="#000000"/>
+      <path d="M959,200 L982,182" fill-opacity="0" stroke="#9CA3AF" stroke-width="1" stroke-dasharray="2,2"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 961.355, 168)">
+      <tspan x="-12.145" y="4.5" font-family="Helvetica" font-size="13" fill="#374151">47M</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 933.723, 156)">
+      <tspan x="-39.777" y="3" font-family="Helvetica" font-size="10.5" fill="#6B7280">2025 · SlashData</tspan>
+    </text>
+    <path d="M438,242 L732,213 L846,204 L959,200" fill-opacity="0" stroke="#374151" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M982,182 C1010,174 1050,165 1095,157 L1095,80 C1050,115 1010,150 982,182 z" fill="#A51C30" opacity="0.12"/>
+    <g opacity="0.6">
+      <path d="M982,182 C1010,174 1050,165 1095,157" fill-opacity="0" stroke="#A51C30" stroke-width="1.5" stroke-dasharray="6,4" stroke-linecap="round"/>
+      <path d="M1090.531,154.758 L1098.936,156.29 L1091.596,160.662 z" fill="#A51C30" opacity="0.6"/>
+    </g>
+    <g opacity="0.4">
+      <path d="M982,182 C1010,150 1050,115 1095,80" fill-opacity="0" stroke="#A51C30" stroke-width="1.5" stroke-dasharray="6,4" stroke-linecap="round"/>
+      <path d="M1090.001,80.105 L1098.149,77.533 L1093.701,84.828 z" fill="#A51C30" opacity="0.6"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 1065, 137)" opacity="0.15">
+      <tspan x="-11.679" y="15" font-family="Helvetica" font-size="42" fill="#A51C30">?</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1110.227, 78.5)" opacity="0.5">
+      <tspan x="-7.227" y="3.5" font-family="Helvetica" font-size="11" fill="#A51C30">1B</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1139.683, 91)" opacity="0.4">
+      <tspan x="-36.683" y="3" font-family="Helvetica" font-size="10.5" fill="#A51C30">Dohmke (2025)</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1117.258, 151.5)" opacity="0.5">
+      <tspan x="-14.258" y="3.5" font-family="Helvetica" font-size="11" fill="#A51C30">100M</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1132.093, 164)" opacity="0.5">
+      <tspan x="-29.093" y="3" font-family="Helvetica" font-size="10.5" fill="#A51C30">CAGR trend</tspan>
+    </text>
+    <path d="M302,310 L338,292" fill-opacity="0" stroke="#374151" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.3"/>
+    <path d="M372,270 L438,242" fill-opacity="0" stroke="#374151" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.3"/>
+    <text transform="matrix(1, 0, 0, 1, 431.401, 587)">
+      <tspan x="-321.401" y="3" font-family="Helvetica" font-size="10" fill="#9CA3AF">Sources: Ensmenger, The Computer Boys Take Over (MIT Press, 2010); Gilchrist &amp; Weber, CACM 1974; US Census ACS-35; BLS Bulletin 2101;</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 396.669, 601)">
+      <tspan x="-286.669" y="3" font-family="Helvetica" font-size="10" fill="#9CA3AF">IDC Worldwide Professional Developer Model (2002, 2014); Evans Data Corporation (2024); SlashData Developer Nation (2025).</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 428.178, 619.5)">
+      <tspan x="-318.178" y="2.5" font-family="GillSans" font-size="10" fill="#9CA3AF">Projections: ~100M extrapolates 15% CAGR (SlashData 2022–2025), consistent with R.C. Martin's "doubling every 5 years." ~500M assumes natural language</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 445.322, 633.5)">
+      <tspan x="-335.322" y="2.5" font-family="GillSans" font-size="10" fill="#9CA3AF">interaction with AI agents constitutes programming (ChatGPT: 900M WAU, Jan 2026). ~1B reflects GitHub CEO vision (Dohmke, 2025). Dashed circles = projections.</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 320.346, 647.5)">
+      <tspan x="-210.346" y="2.5" font-family="GillSans" font-size="10" fill="#9CA3AF">Pre-2001 worldwide estimates derived from US data (×1.5–2.5). Shaded bands = estimation uncertainty.</tspan>
+    </text>
+  </g>
+</svg>
