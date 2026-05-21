@@ -1,4 +1,10 @@
 updates:
+  - date: "2026-05-21"
+    title: "New Release: Machine Learning Systems Book"
+    description: "A new release of the Machine Learning Systems textbook is out, with updated chapters, refreshed exercises, and polished figures across the curriculum."
+    link: "https://mlsysbook.ai"
+    link_text: "Read the book"
+
   - date: "2026-01-26"
     title: "New Essay: AI Engineering as a Discipline"
     description: "Published an argument for recognizing AI Engineering as a distinct engineering discipline, drawing parallels to the 1968 NATO conference that catalyzed software engineering."
