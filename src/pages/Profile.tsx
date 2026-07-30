@@ -162,12 +162,12 @@ function ProfilePage() {
                 >
                   Download CV
                 </a>
-                <a 
-                  href="mailto:vijay@seas.harvard.edu" 
+                <Link
+                  to="/contact"
                   className="inline-flex items-center px-6 py-3 border border-[#A51C30] text-[#A51C30] font-medium rounded-lg hover:bg-[#A51C30]/5 transition-colors"
                 >
-                  Email Contact
-                </a>
+                  Get in Touch
+                </Link>
               </div>
             </div>
           </div>

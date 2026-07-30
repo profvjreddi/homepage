@@ -320,11 +320,14 @@ function EthSabbatical() {
             <ObfuscatedEmail
               user={contactEmail.user}
               domain={contactEmail.domain}
-              className="text-eth font-medium text-lg"
+              revealOnClick
+              subject={`${sabbatical.subjectTag} `}
+              className="text-eth font-medium text-lg hover:text-eth-dark transition-colors"
             />
-            <p className="text-sm text-gray-600 mt-2">
+            <p className="text-sm text-gray-600 mt-3">
               The subject tag matters. It is how ETH thesis inquiries get sorted out of everything
               else, which means yours gets read as a thesis inquiry rather than as general mail.
+              Revealing the address opens a message with the tag already in place.
             </p>
           </div>
 
