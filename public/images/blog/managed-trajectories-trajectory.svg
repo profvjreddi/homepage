@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="430" viewBox="0 0 1180 430" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic trajectory and managed trajectory guardrails</title>
+  <desc id="desc">A research-paper diagram showing an agentic trajectory from delegated goal to verified outcome. The solid path is the realized trajectory. Dotted copies above and below are managed-trajectory guardrails. The descriptor band names the cross-layer state used to manage the whole trajectory.</desc>
+  <defs>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="9" refX="11" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 12 4.5 L 0 9 z" fill="#2B6090"/>
+    </marker>
+    <path id="trajectoryPath" d="M 250 180 C 350 105 470 115 560 165 C 660 225 775 242 890 206 C 925 195 952 182 980 174"/>
+    <style>
+      .trajectory { stroke: #2B6090; stroke-width: 3.2; fill: none; marker-end: url(#arrowBlue); }
+      .guardrail { stroke: #2B6090; stroke-width: 1.55; fill: none; stroke-dasharray: 2 7; stroke-linecap: round; opacity: 0.78; }
+      .connector { stroke: #8B98A8; stroke-width: 1.35; fill: none; }
+      .goalBox { fill: #DAEAF6; stroke: #2B6090; stroke-width: 1.6; }
+      .controlBox { fill: #DAEAF6; stroke: #2B6090; stroke-width: 1.35; }
+      .stateBox { fill: #E6F2EA; stroke: #4F8762; stroke-width: 1.35; }
+      .effectBox { fill: #F4DFDF; stroke: #A06161; stroke-width: 1.35; }
+      .neutralBox { fill: #E8ECF0; stroke: #8B98A8; stroke-width: 1.25; }
+      .descriptor { fill: #EEF6FC; stroke: #2B6090; stroke-width: 1.8; }
+      .dotControl { fill: #FFFFFF; stroke: #2B6090; stroke-width: 2.0; }
+      .dotState { fill: #FFFFFF; stroke: #4F8762; stroke-width: 2.0; }
+      .dotEffect { fill: #FFFFFF; stroke: #A06161; stroke-width: 2.0; }
+      .dotNeutral { fill: #FFFFFF; stroke: #8B98A8; stroke-width: 2.0; }
+      .label { font-family: Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #111111; }
+      .midLabel { font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 700; fill: #222222; }
+      .smallLabel { font-family: Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #333333; }
+      .tinyLabel { font-family: Helvetica, Arial, sans-serif; font-size: 11px; fill: #333333; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="430" fill="#FFFFFF"/>
+
+  <rect x="56" y="28" width="184" height="62" class="goalBox"/>
+  <text x="148" y="55" text-anchor="middle" class="label">Delegated goal</text>
+  <text x="148" y="76" text-anchor="middle" class="smallLabel">owner, intent, policy</text>
+
+  <rect x="940" y="28" width="184" height="62" class="goalBox"/>
+  <text x="1032" y="55" text-anchor="middle" class="label">Verified outcome</text>
+  <text x="1032" y="76" text-anchor="middle" class="smallLabel">evidence, effects, cost</text>
+
+  <use href="#trajectoryPath" class="guardrail" transform="translate(0,-72)"/>
+  <use href="#trajectoryPath" class="guardrail" transform="translate(0,72)"/>
+  <use href="#trajectoryPath" class="trajectory"/>
+
+  <path d="M 360.2 102 V 130.6" class="connector"/>
+  <circle cx="360.2" cy="130.6" r="7.5" class="dotNeutral"/>
+  <rect x="317.2" y="74" width="86" height="28" class="neutralBox"/>
+  <text x="360.2" y="93" text-anchor="middle" class="midLabel">request</text>
+
+  <path d="M 456.6 102 V 129.1" class="connector"/>
+  <circle cx="456.6" cy="129.1" r="7.5" class="dotNeutral"/>
+  <rect x="408.6" y="74" width="96" height="28" class="neutralBox"/>
+  <text x="456.6" y="93" text-anchor="middle" class="midLabel">model call</text>
+
+  <path d="M 621.7 158 V 195.8" class="connector"/>
+  <circle cx="621.7" cy="195.8" r="7.5" class="dotState"/>
+  <rect x="568.7" y="130" width="106" height="28" class="stateBox"/>
+  <text x="621.7" y="149" text-anchor="middle" class="midLabel">context</text>
+
+  <path d="M 719.4 221.5 V 190" class="connector"/>
+  <circle cx="719.4" cy="221.5" r="7.5" class="dotEffect"/>
+  <rect x="676.4" y="162" width="86" height="28" class="effectBox"/>
+  <text x="719.4" y="181" text-anchor="middle" class="midLabel">tool call</text>
+
+  <path d="M 821.1 221.3 V 253" class="connector"/>
+  <circle cx="821.1" cy="221.3" r="7.5" class="dotControl"/>
+  <rect x="771.1" y="253" width="100" height="28" class="controlBox"/>
+  <text x="821.1" y="272" text-anchor="middle" class="midLabel">approval</text>
+
+  <path d="M 924.2 194 V 160" class="connector"/>
+  <circle cx="924.2" cy="194" r="7.5" class="dotEffect"/>
+  <rect x="880.2" y="132" width="88" height="28" class="effectBox"/>
+  <text x="924.2" y="151" text-anchor="middle" class="midLabel">effect</text>
+
+  <rect x="106" y="322" width="968" height="82" class="descriptor"/>
+  <text x="590" y="347" text-anchor="middle" class="midLabel">managed trajectory descriptor</text>
+
+  <g transform="translate(121,366)">
+    <rect x="0" y="0" width="122" height="24" class="controlBox"/>
+    <text x="61" y="16" text-anchor="middle" class="tinyLabel">identity + goal</text>
+
+    <rect x="136" y="0" width="130" height="24" class="controlBox"/>
+    <text x="201" y="16" text-anchor="middle" class="tinyLabel">budget + deadline</text>
+
+    <rect x="280" y="0" width="126" height="24" class="stateBox"/>
+    <text x="343" y="16" text-anchor="middle" class="tinyLabel">memory handles</text>
+
+    <rect x="420" y="0" width="98" height="24" class="controlBox"/>
+    <text x="469" y="16" text-anchor="middle" class="tinyLabel">authority</text>
+
+    <rect x="532" y="0" width="138" height="24" class="effectBox"/>
+    <text x="601" y="16" text-anchor="middle" class="tinyLabel">effects + recovery</text>
+
+    <rect x="684" y="0" width="124" height="24" class="neutralBox"/>
+    <text x="746" y="16" text-anchor="middle" class="tinyLabel">trace + evidence</text>
+
+    <rect x="822" y="0" width="116" height="24" class="neutralBox"/>
+    <text x="880" y="16" text-anchor="middle" class="tinyLabel">placement + cost</text>
+  </g>
+</svg>

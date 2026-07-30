@@ -1,5 +1,20 @@
 [
   {
+    "slug": "managed-trajectories",
+    "title": "Managed Trajectories: Rethinking the Unit of Work for Agentic AI Systems",
+    "date": "2026-07-28",
+    "excerpt": "Agentic AI is changing the unit of work in computer systems. This essay explains why model calls are no longer sufficient, and why infrastructure may need to manage entire trajectories.",
+    "tags": [
+      "agentic-ai",
+      "ai-systems",
+      "computer-architecture",
+      "ml-systems",
+      "operating-systems",
+      "research"
+    ],
+    "filename": "managed-trajectories.md"
+  },
+  {
     "slug": "english-is-pl",
     "title": "English Is a Programming Language",
     "date": "2026-03-05",

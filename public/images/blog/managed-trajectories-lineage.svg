@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="330" viewBox="0 0 1180 330" role="img" aria-labelledby="title desc">
+  <title id="title">Representative managed units</title>
+  <desc id="desc">A stair-step diagram showing representative managed units from instruction to process, service container, request function, model call, and managed trajectory. Boxes grow as the exposed management surface grows.</desc>
+  <defs>
+    <style>
+      .core { fill: #F0EBE4; stroke: #9B8E7E; stroke-width: 2.0; }
+      .trad { fill: #E8ECF0; stroke: #8B98A8; stroke-width: 2.0; }
+      .model { fill: #E6F2EA; stroke: #4F8762; stroke-width: 2.0; }
+      .agent { fill: #DAEAF6; stroke: #2B6090; stroke-width: 2.5; }
+      .tile { fill: #FFFFFF; stroke: #5D7184; stroke-width: 1.3; }
+      .tileModel { fill: #E6F2EA; stroke: #4F8762; stroke-width: 1.3; }
+      .tileEffect { fill: #F4DFDF; stroke: #A06161; stroke-width: 1.3; }
+      .label { font-family: Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #111111; }
+      .sub { font-family: Helvetica, Arial, sans-serif; font-size: 13px; fill: #333333; }
+      .tiny { font-family: Helvetica, Arial, sans-serif; font-size: 11px; fill: #555555; }
+      .axis { font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #2B6090; }
+      .note { font-family: Helvetica, Arial, sans-serif; font-size: 12px; fill: #555555; }
+      .arrow { stroke: #5D7184; stroke-width: 2.0; fill: none; }
+      .growth { stroke: #2B6090; stroke-width: 2.0; fill: none; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 4 L 0 8 z" fill="#5D7184"/>
+    </marker>
+    <marker id="growthArrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 4 L 0 8 z" fill="#2B6090"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="330" fill="#ffffff"/>
+
+  <rect x="28" y="120" width="118" height="62" class="core"/>
+  <text x="87" y="145" text-anchor="middle" class="label">Instruction</text>
+  <text x="87" y="166" text-anchor="middle" class="sub">ISA state</text>
+
+  <path d="M 156 151 H 186" class="arrow" marker-end="url(#arrow)"/>
+
+  <rect x="196" y="108" width="148" height="86" class="trad"/>
+  <text x="270" y="137" text-anchor="middle" class="label">Thread /</text>
+  <text x="270" y="159" text-anchor="middle" class="label">Process</text>
+  <text x="270" y="181" text-anchor="middle" class="sub">address space, files</text>
+
+  <path d="M 354 151 H 384" class="arrow" marker-end="url(#arrow)"/>
+
+  <rect x="394" y="96" width="170" height="110" class="trad"/>
+  <text x="479" y="125" text-anchor="middle" class="label">Service /</text>
+  <text x="479" y="147" text-anchor="middle" class="label">Container</text>
+  <text x="479" y="170" text-anchor="middle" class="sub">identity, placement</text>
+  <text x="479" y="190" text-anchor="middle" class="sub">resource envelope</text>
+
+  <path d="M 574 151 H 604" class="arrow" marker-end="url(#arrow)"/>
+
+  <rect x="614" y="82" width="202" height="126" class="trad"/>
+  <text x="715" y="113" text-anchor="middle" class="label">Request /</text>
+  <text x="715" y="135" text-anchor="middle" class="label">Function</text>
+  <text x="715" y="160" text-anchor="middle" class="sub">auth, deadline, trace</text>
+  <text x="715" y="180" text-anchor="middle" class="sub">retry, SLO, billing</text>
+
+  <rect x="653" y="238" width="124" height="50" class="model"/>
+  <text x="715" y="260" text-anchor="middle" class="sub">model call</text>
+  <text x="715" y="277" text-anchor="middle" class="tiny">tokens, batch, KV</text>
+  <path d="M 715 214 V 236" class="arrow" marker-end="url(#arrow)"/>
+
+  <path d="M 826 151 H 856" class="arrow" marker-end="url(#arrow)"/>
+
+  <rect x="866" y="48" width="286" height="206" class="agent"/>
+  <text x="1009" y="78" text-anchor="middle" class="label">Managed Trajectory</text>
+  <text x="1009" y="101" text-anchor="middle" class="sub">trajectory, budget, authority, context</text>
+  <text x="1009" y="121" text-anchor="middle" class="sub">effect log, recovery, placement, cost</text>
+
+  <rect x="896" y="142" width="58" height="34" class="tileModel"/>
+  <text x="925" y="164" text-anchor="middle" class="tiny">model</text>
+  <rect x="966" y="142" width="50" height="34" class="tileEffect"/>
+  <text x="991" y="164" text-anchor="middle" class="tiny">tool</text>
+  <rect x="1028" y="142" width="62" height="34" class="tile"/>
+  <text x="1059" y="164" text-anchor="middle" class="tiny">memory</text>
+  <rect x="914" y="188" width="54" height="34" class="tile"/>
+  <text x="941" y="210" text-anchor="middle" class="tiny">wait</text>
+  <rect x="980" y="188" width="82" height="34" class="tileEffect"/>
+  <text x="1021" y="210" text-anchor="middle" class="tiny">effect</text>
+  <rect x="1074" y="188" width="50" height="34" class="tile"/>
+  <text x="1099" y="210" text-anchor="middle" class="tiny">trace</text>
+
+  <path d="M 95 300 H 1036" class="growth" marker-end="url(#growthArrow)"/>
+  <text x="568" y="317" text-anchor="middle" class="axis">exposed management surface grows</text>
+</svg>
