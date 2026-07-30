@@ -2,6 +2,17 @@ import { Link } from 'react-router-dom';
 import Updates from '../components/Updates';
 import { useEffect } from 'react';
 import { sabbatical } from '../data/ethSabbatical';
+import RotatingText from '../components/RotatingText';
+
+// The hero headline cycles these rather than naming one, because the work is a
+// set of connected themes rather than a single agenda.
+const researchThemes = [
+  'Physical AI',
+  'Edge AI',
+  'ML Systems',
+  'Architecture 2.0',
+  'AI Engineering',
+];
 
 function Home() {
   useEffect(() => {
@@ -35,8 +46,8 @@ function Home() {
                 </Link>
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                Advancing the Future of 
-                <span className="text-[#A51C30]"> Physical AI</span>
+                Advancing the Future of{' '}
+                <RotatingText items={researchThemes} className="text-[#A51C30]" />
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 As AI moves into the physical world, safety and efficiency become requirements, not features. 
