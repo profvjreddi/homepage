@@ -92,7 +92,7 @@ export const projectIdeas: ProjectIdea[] = [
     prerequisites:
       'A computer architecture course, Python, and either simulation experience or hands-on work with modern ML frameworks. Curiosity about hardware is non-negotiable; deep prior expertise is not.',
     links: [
-      { label: 'Architecture 2.0', href: 'https://arc2.mlsysbook.ai' },
+      { label: 'Architecture 2.0', href: 'https://arch2.mlsysbook.ai' },
       { label: 'QuArch dataset', href: 'https://quarch.ai' },
     ],
   },
@@ -125,7 +125,7 @@ export const projectIdeas: ProjectIdea[] = [
   },
   {
     id: 'physical-ai',
-    title: 'Physical AI Engineering: Systems That Sense and Act',
+    title: 'Physical AI Engineering: Machine Learning Systems That Sense and Act',
     tagline:
       'Build the hardware and software modules that take a student from a raw sensor to a closed perception-and-action loop in a week.',
     tags: ['Embedded', 'Robotics', 'On-Device ML', 'Hardware'],
