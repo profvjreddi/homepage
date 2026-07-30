@@ -67,6 +67,44 @@ function generateBlogPostHtml(post) {
 </html>`;
 }
 
+// Static routes declared in src/App.tsx. Keep in sync when adding a page.
+const staticRoutes = [
+  { path: '/', priority: '1.0' },
+  { path: '/research', priority: '0.8' },
+  { path: '/publications', priority: '0.8' },
+  { path: '/teaching', priority: '0.8' },
+  { path: '/eth', priority: '0.9' },
+  { path: '/blog', priority: '0.7' },
+  { path: '/profile', priority: '0.6' },
+  { path: '/contact', priority: '0.5' },
+];
+
+// Search engines are the main way students find a page like /eth, so the
+// sitemap is regenerated alongside the blog index rather than hand-maintained.
+function generateSitemap(posts) {
+  const today = new Date().toISOString().split('T')[0];
+
+  const urls = [
+    ...staticRoutes.map(
+      route =>
+        `  <url>\n    <loc>${siteUrl}${route.path}</loc>\n    <lastmod>${today}</lastmod>\n    <priority>${route.priority}</priority>\n  </url>`
+    ),
+    ...posts.map(
+      post =>
+        `  <url>\n    <loc>${siteUrl}/blog/${post.slug}</loc>\n    <lastmod>${post.date}</lastmod>\n    <priority>0.6</priority>\n  </url>`
+    ),
+  ];
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.join('\n')}
+</urlset>
+`;
+
+  fs.writeFileSync(path.join(process.cwd(), 'public/sitemap.xml'), sitemap);
+  console.log(`Generated sitemap with ${urls.length} URLs`);
+}
+
 function generateBlogIndex() {
   try {
     // Ensure output directory exists
@@ -125,6 +163,8 @@ function generateBlogIndex() {
       fs.writeFileSync(path.join(postDir, 'index.html'), htmlContent);
     });
     console.log(`Generated ${posts.length} static blog post pages for social previews`);
+
+    generateSitemap(posts);
 
     // Write the index file
     fs.writeFileSync(outputFile, JSON.stringify(posts, null, 2));

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vijay.seas.harvard.edu/sitemap.xml
