@@ -5,13 +5,82 @@ import { sabbatical } from '../data/ethSabbatical';
 import RotatingText from '../components/RotatingText';
 
 // The hero headline cycles these rather than naming one, because the work is a
-// set of connected themes rather than a single agenda.
+// set of connected themes rather than a single agenda. Keep in sync with
+// focusAreas below so the page speaks one vocabulary.
 const researchThemes = [
   'Physical AI',
   'Edge AI',
   'ML Systems',
   'Architecture 2.0',
   'AI Engineering',
+];
+
+const focusAreas = [
+  {
+    title: 'Physical AI',
+    blurb:
+      'AI that senses and acts in the world, where latency, energy, and safety stop being metrics on a chart and become hard constraints with consequences.',
+    icon: (
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+      />
+    ),
+  },
+  {
+    title: 'Edge AI',
+    blurb:
+      'Machine learning on devices measured in milliwatts. Efficient inference, on-device learning, and the tooling that makes ultra-low-power AI practical at scale.',
+    icon: (
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M13 10V3L4 14h7v7l9-11h-7z"
+      />
+    ),
+  },
+  {
+    title: 'ML Systems',
+    blurb:
+      'The full stack that turns models into deployed systems, and the benchmarking infrastructure that tells us honestly whether they work.',
+    icon: (
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+      />
+    ),
+  },
+  {
+    title: 'Architecture 2.0',
+    blurb:
+      'Using machine learning to design the machines that run machine learning. Datasets, models, and evaluations for computer architecture and chip design.',
+    icon: (
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+      />
+    ),
+  },
+  {
+    title: 'AI Engineering',
+    blurb:
+      'Treating the construction of AI systems as an engineering discipline, with its own methods, curriculum, and standards of evidence.',
+    icon: (
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+      />
+    ),
+  },
 ];
 
 function Home() {
@@ -50,8 +119,9 @@ function Home() {
                 <RotatingText items={researchThemes} className="text-[#A51C30]" />
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                As AI moves into the physical world, safety and efficiency become requirements, not features. 
-                My research builds the systems and measurement infrastructure for AI that operates at the edge.
+                Different names for one problem: building the systems, architectures, and measurement
+                infrastructure that make AI efficient, safe, and accountable as it moves into the
+                real world.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/research" className="bg-[#A51C30] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#8B1A2B] transition-colors text-center">
@@ -110,51 +180,39 @@ function Home() {
               Our research answers a single question: <strong className="text-gray-900">What happens when AI has to act, not just answer?</strong>
             </p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Physical AI demands new approaches to safety, efficiency, and evaluation. We focus on three core areas:
+              These themes are different entry points into it, from the silicon up through the
+              discipline itself.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow relative">
-              <div className="w-12 h-12 bg-[#A51C30] rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-                </svg>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {focusAreas.map((area) => (
+              <div
+                key={area.title}
+                className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow relative"
+              >
+                <div className="w-12 h-12 bg-[#A51C30] rounded-lg flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {area.icon}
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">{area.title}</h3>
+                <p className="text-gray-600">{area.blurb}</p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Computer Architecture</h3>
-              <p className="text-gray-600">
-                Building computing foundations that enable intelligent systems to operate efficiently, from energy-aware processors to hardware-software co-design for deployment.
-              </p>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow relative">
-              <div className="w-12 h-12 bg-[#A51C30] rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Machine Learning Systems</h3>
-              <p className="text-gray-600">
-                Building scalable, efficient ML systems and the benchmarking infrastructure to evaluate them. Enabling rigorous measurement and deployment across computing scales.
-              </p>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow relative">
-              <div className="w-12 h-12 bg-[#A51C30] rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Autonomous Agents</h3>
-              <p className="text-gray-600">
-                Developing algorithms that perceive, reason, and act safely in complex environments. Bringing together hardware, algorithms, and systems for Physical AI.
-              </p>
-            </div>
-          </div>
-          <div className="text-center mt-8">
-            <Link 
-              to="/research" 
-              className="inline-flex items-center text-[#A51C30] hover:text-[#8B1A2B] font-medium transition-colors"
+            ))}
+            <Link
+              to="/research"
+              className="group bg-[#A51C30]/5 border border-[#A51C30]/15 rounded-xl p-6 flex flex-col justify-center hover:bg-[#A51C30]/10 transition-colors"
             >
-              See how these areas connect →
-
+              <h3 className="text-xl font-semibold text-[#A51C30] mb-3">
+                See how these connect
+                <span className="inline-block ml-2 transition-transform group-hover:translate-x-1" aria-hidden="true">
+                  &rarr;
+                </span>
+              </h3>
+              <p className="text-gray-600">
+                None of these stands alone. The research page traces how the threads run into one
+                another, and what came before them.
+              </p>
             </Link>
           </div>
         </div>
