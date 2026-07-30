@@ -70,10 +70,10 @@ function Home() {
                 Master&apos;s theses and semester projects at ETH Zurich
               </h2>
               <p className="text-gray-700">
-                I am spending my sabbatical at ETH Zurich, hosted by {sabbatical.department}, and
-                taking on students co-supervised with local ETH faculty. Open directions span
-                educational benchmarking for ML systems, machine learning for chip design, GPU
-                systems for teaching, and physical AI.
+                I am spending my sabbatical at ETH Zurich, hosted by {sabbatical.department}, where
+                I co-advise ETH students on Master&apos;s theses and semester projects alongside
+                local ETH faculty. Open directions span educational benchmarking for ML systems,
+                machine learning for chip design, GPU systems for teaching, and physical AI.
               </p>
             </div>
             <div className="flex-shrink-0">

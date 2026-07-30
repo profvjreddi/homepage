@@ -39,7 +39,7 @@ export const sabbatical = {
 export const projectIdeas: ProjectIdea[] = [
   {
     id: 'mlperf-edu',
-    title: 'MLPerf.edu: A Benchmark Suite Built to Be Taught',
+    title: 'MLPerf EDU: A Benchmark Suite Built for the Classroom',
     tagline:
       'Industry-grade ML systems benchmarking is brutally expensive. Build the first suite designed so a student can run, break, and reason about the whole thing in an afternoon.',
     tags: ['Benchmarking', 'ML Systems', 'Measurement', 'Open Source'],

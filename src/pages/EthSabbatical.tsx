@@ -53,9 +53,9 @@ function EthSabbatical() {
             >
               {sabbatical.departmentFull} ({sabbatical.department})
             </a>
-            , and I am actively taking on students. If you are an ETH student looking for a
-            Master&apos;s thesis or semester project in machine learning systems, computer
-            architecture, or physical AI, this page is for you.
+            , where I am co-advising ETH students on Master&apos;s theses and semester projects. If
+            you are looking for a thesis topic in machine learning systems, computer architecture,
+            or physical AI, this page is for you.
           </p>
           <p className="text-lg text-gray-600 mt-4">
             My work sits at the intersection of AI and system design: using machine learning to

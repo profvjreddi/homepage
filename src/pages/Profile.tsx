@@ -62,7 +62,7 @@ function ProfilePage() {
                 for AI that operates in the real world. As AI moves into physical environments, his work addresses the 
                 critical challenges of safety, efficiency, and rigorous evaluation. He is currently
                 on sabbatical at ETH Zurich, hosted by the Department of Information Technology and
-                Electrical Engineering (D-ITET), where he is supervising Master&apos;s thesis and
+                Electrical Engineering (D-ITET), where he co-advises Master&apos;s theses and
                 semester projects in machine learning systems and AI for system design.
               </p>
               
