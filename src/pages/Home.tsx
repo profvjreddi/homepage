@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Updates from '../components/Updates';
 import { useEffect } from 'react';
+import { sabbatical } from '../data/ethSabbatical';
 
 function Home() {
   useEffect(() => {
@@ -22,10 +23,16 @@ function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="mb-6">
+              <div className="mb-6 flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-[#A51C30] text-white">
                   Harvard University
                 </span>
+                <Link
+                  to="/eth"
+                  className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-eth text-white hover:bg-eth-dark transition-colors"
+                >
+                  On sabbatical at ETH Zurich
+                </Link>
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                 Advancing the Future of 
@@ -46,6 +53,37 @@ function Home() {
             </div>
             <div className="relative">
               <Updates maxItems={3} homeStyle={true} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Sabbatical call for ETH students */}
+      <div className="bg-eth-50 border-y border-eth/15">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+            <div className="max-w-3xl">
+              <div className="text-xs font-semibold uppercase tracking-wide text-eth mb-2">
+                ETH Zurich &middot; Sabbatical {sabbatical.period}
+              </div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-3">
+                Master&apos;s theses and semester projects at ETH Zurich
+              </h2>
+              <p className="text-gray-700">
+                I am spending my sabbatical at ETH Zurich, hosted by {sabbatical.department}, and
+                taking on students co-supervised with local ETH faculty. Open directions span
+                educational benchmarking for ML systems, machine learning for chip design, GPU
+                systems for teaching, and physical AI.
+              </p>
+            </div>
+            <div className="flex-shrink-0">
+              <Link
+                to="/eth"
+                className="inline-flex items-center bg-eth text-white px-6 py-3 rounded-lg font-medium hover:bg-eth-dark transition-colors"
+              >
+                See project ideas
+                <span className="ml-2" aria-hidden="true">&rarr;</span>
+              </Link>
             </div>
           </div>
         </div>

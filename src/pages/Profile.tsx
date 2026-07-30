@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { sabbatical } from "../data/ethSabbatical";
+
 function ProfilePage() {
   return (
     <div className="min-h-screen bg-white">
@@ -14,6 +17,13 @@ function ProfilePage() {
                   <h2 className="text-2xl font-bold text-gray-900 mb-2">Prof. Vijay Janapa Reddi</h2>
                   <p className="text-lg text-gray-600 mb-1">Gordon McKay Professor</p>
                   <p className="text-gray-500">Harvard University School of Engineering and Applied Sciences</p>
+                  <Link
+                    to="/eth"
+                    className="inline-flex items-center mt-3 px-3 py-1 rounded-full text-sm font-medium bg-eth/10 text-eth hover:bg-eth/20 transition-colors"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-eth mr-2" aria-hidden="true"></span>
+                    On sabbatical at ETH Zurich, {sabbatical.period}
+                  </Link>
                 </div>
               </div>
               
@@ -50,7 +60,10 @@ function ProfilePage() {
                 Prof. Vijay Janapa Reddi is a Gordon McKay Professor of Engineering and Applied Sciences at Harvard University, 
                 where his research focuses on Physical AI: building the systems, architectures, and measurement infrastructure 
                 for AI that operates in the real world. As AI moves into physical environments, his work addresses the 
-                critical challenges of safety, efficiency, and rigorous evaluation.
+                critical challenges of safety, efficiency, and rigorous evaluation. He is currently
+                on sabbatical at ETH Zurich, hosted by the Department of Information Technology and
+                Electrical Engineering (D-ITET), where he is supervising Master&apos;s thesis and
+                semester projects in machine learning systems and AI for system design.
               </p>
               
               <p className="text-lg leading-relaxed text-gray-700 mb-6">

@@ -8,6 +8,7 @@ import ProfilePage from "./pages/Profile";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import EthSabbatical from "./pages/EthSabbatical";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact" element={<Contact />} />
+
+          {/* Short, shareable paths for the ETH Zurich sabbatical page */}
+          <Route path="/eth" element={<EthSabbatical />} />
+          <Route path="/sabbatical" element={<EthSabbatical />} />
 
           {/* IMPORTANT: DO NOT place any routes below this. */}
           <Route path="*" element={<NotFound />} />

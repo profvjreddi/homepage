@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { sabbatical } from "../data/ethSabbatical";
+
 function Contact() {
   return (
     <div className="min-h-screen bg-white">
@@ -11,6 +14,29 @@ function Contact() {
               I welcome thoughtful inquiries from students, researchers, industry partners, and media. 
               Please review the guidelines below to ensure effective communication.
             </p>
+          </div>
+
+          {/* Current location */}
+          <div className="bg-eth-50 border border-eth/20 rounded-lg p-6 mb-12">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+              <div>
+                <h2 className="font-semibold text-gray-900 mb-1">
+                  Currently on sabbatical at ETH Zurich ({sabbatical.period})
+                </h2>
+                <p className="text-gray-700 text-sm">
+                  Email remains the best way to reach me. In-person meetings in Boston are limited
+                  while I am away. ETH students looking for a Master&apos;s thesis or semester
+                  project should start on the sabbatical page.
+                </p>
+              </div>
+              <Link
+                to="/eth"
+                className="flex-shrink-0 inline-flex items-center px-5 py-2.5 bg-eth text-white text-sm font-medium rounded-lg hover:bg-eth-dark transition-colors"
+              >
+                ETH thesis projects
+                <span className="ml-2" aria-hidden="true">&rarr;</span>
+              </Link>
+            </div>
           </div>
 
           {/* Contact Guidelines */}
@@ -144,7 +170,8 @@ function Contact() {
                   </p>
                 </div>
                 <p className="text-sm text-gray-500">
-                  Please schedule meetings in advance using the link above
+                  On sabbatical at ETH Zurich through {sabbatical.period.split("\u2013")[1]}, so
+                  please schedule in advance and expect most meetings to be remote
                 </p>
               </div>
             </div>
