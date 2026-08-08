@@ -39,6 +39,7 @@ jobs:
       run: npm run blog:generate
       
     - name: Build
+      # build also runs pubs:fetch (DBLP → public/content/publications.json)
       run: npm run build
       
     - name: Setup Pages

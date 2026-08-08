@@ -71,24 +71,24 @@ export const projectIdeas: ProjectIdea[] = [
     id: 'architecture-2-0',
     title: 'Architecture 2.0: Machine Learning for Chip and System Design',
     tagline:
-      'Computer architecture is still largely designed by expert intuition. Build the datasets, models, and evaluations that let machine learning do the reasoning.',
-    tags: ['Architecture 2.0', 'Datasets', 'LLM Agents', 'Design Automation'],
+      'An open research area, not a single fixed project. Threads include datasets, learning algorithms, and agent harnesses — take a starter idea below or propose your own cut inside this space.',
+    tags: ['Architecture 2.0', 'Datasets', 'ML Algorithms', 'Agent Harnesses'],
     whyItMatters:
-      'Design space exploration, RTL assistance, and performance and power prediction are all in principle learnable, and the bottleneck is not model capacity. It is that the field has almost no datasets or evaluations with the rigor that ImageNet or GLUE brought to vision and language. QuArch was a first step toward measuring whether a model actually understands architecture, and it exposed how much is missing. This is my main research focus right now, and it is one of the rare areas where a careful, well-scoped contribution moves the whole field rather than a decimal point on a leaderboard.',
+      'Design space exploration, RTL assistance, and performance and power prediction are all in principle learnable, and the bottleneck is not model capacity. It is that the field has almost no datasets or evaluations with the rigor that ImageNet or GLUE brought to vision and language, almost no algorithms trained for architectural structure rather than generic language, and almost no harnesses for measuring whether agentic workflows actually help a designer. QuArch was a first step toward measuring whether a model understands architecture, and it exposed how much is missing. This is my main research focus right now, and it is one of the rare areas where a careful, well-scoped contribution moves the whole field rather than a decimal point on a leaderboard. The bullets below are example directions inside the area — each is large enough for a Master\'s thesis. Bring your own angle if it still lives in this space; we lock the concrete scope together in the first few weeks.',
     whatYouBuild: [
-      'Pick a thread: extend QuArch toward multi-step design reasoning rather than recall',
-      'Or build a dataset and model for performance and power prediction across a real design space',
-      'Or evaluate agentic LLM workflows on genuine architecture tasks: cache and memory configuration, accelerator sizing, RTL bug localization',
-      'Or build the evaluation harness and leaderboard that lets the community compare these approaches honestly',
+      'Datasets: curated design knowledge, design-space trajectories, or multi-step reasoning tasks that test understanding rather than recall — extending QuArch or a sibling collection',
+      'Machine learning algorithms: models for performance and power prediction, design-space search, RTL or microarchitecture assistance — trained and evaluated for architecture, not as a generic LLM demo',
+      'Agent harnesses: evaluation infrastructures and agentic workflows for real design tasks (cache and memory configuration, accelerator sizing, RTL bug localization), with rules that resist gaming and honest comparisons',
+      'Your proposal in this space: a strong idea at the intersection of threads, or a new cut of the same problem we have not listed, is welcome',
     ],
     whatYouLearn: [
       'Computer architecture and simulation tooling used in earnest, not as coursework',
       'Dataset curation and the validation work that separates a dataset from a pile of data',
-      'LLM fine-tuning, agent design, and evaluation methodology',
-      'How to distinguish a genuinely capable model from a leaky benchmark, which is most of the skill',
+      'Training and evaluating ML systems against domain structure, not only next-token accuracy',
+      'Agent design and harness design: how to tell a capable workflow from a leaky benchmark',
     ],
     thesisFit:
-      'The community here is still small enough that good work is visible immediately, and the problems are open rather than crowded. The path to a strong architecture or ML systems venue is short, and the datasets and evaluations you produce tend to outlive the models people train on them.',
+      'This is an area to work in, not a brief to execute. Each thread is open and under-served, so a Master\'s-scoped cut still lands. The community is small enough that good artifacts get used, and datasets, learned predictors, and evaluation harnesses tend to outlive any single model people train on top of them. Tell me which part of the space you care about; we narrow until the deliverable is one claim you can defend.',
     prerequisites:
       'A computer architecture course, Python, and either simulation experience or hands-on work with modern ML frameworks. Curiosity about hardware is non-negotiable; deep prior expertise is not.',
     links: [
@@ -124,13 +124,43 @@ export const projectIdeas: ProjectIdea[] = [
     links: [{ label: 'TinyTorch', href: 'https://tinytorch.ai' }],
   },
   {
+    id: 'tiny-agents',
+    title: 'Tiny Agents: On-Device Agency Under Hard Constraints',
+    tagline:
+      'TinyML put inference on microcontrollers. The next step is agents that sense, decide, and act on the device — without calling the cloud for every thought.',
+    tags: ['TinyML', 'Agents', 'Edge AI', 'Embodied'],
+    whyItMatters:
+      'Most agent stacks assume a fat model, a reliable network, and power that does not run out. That is the opposite of the edge. TinyML solved a narrower problem first: run a classifier on a milliwatt budget. The open problem is the loop around that model — short planning, local memory, a tiny tool surface for sensors and actuators, recovery when the world misbehaves — still inside the same energy and latency envelope. Without that stack, “edge AI” stays a buzzword for one-shot inference, and “agents” stay a cloud product. The hard science is measurement: when is a smaller on-device agent better than a larger remote one, and by which metrics that a student or a reviewer can actually check.',
+    whatYouBuild: [
+      'A minimal on-device agent runtime: sense → short plan → act → log, with hard memory and energy bounds',
+      'A tiny tool and memory API (sensors, actuators, local scratchpad) designed for MCUs and edge SoCs, not for a laptop demo',
+      'Reference agents on 1–2 physical or hardware-in-the-loop tasks where missing a deadline has a real cost',
+      'A measurement harness for agency under constraint: task completion vs energy, latency, recovery after fault — not just accuracy',
+      'An honest comparison study: on-device tiny agent vs larger cloud-backed agent on the same tasks',
+    ],
+    whatYouLearn: [
+      'Agent design when the model is small and the world is physical',
+      'On-device systems engineering: scheduling, memory, and power as first-class constraints',
+      'How to define success for an agent when FLOPs and joules both count',
+      'The debugging culture of systems that touch sensors and actuators',
+    ],
+    thesisFit:
+      'Sits cleanly between TinyML (model on device) and full Physical AI platforms (the body). The deliverable is a runtime plus a measurement study with a sharp falsifiable claim, which is easier to defend than “we built a robot demo.” It has a natural home in edge ML systems and embodied-AI venues, and it continues a public story students already associate with this group.',
+    prerequisites:
+      'Embedded C/C++ or strong systems Python, a course in ML or autonomy, and comfort measuring power or latency. Prior robotics is useful; prior TinyML or MCU work is better.',
+    links: [
+      { label: 'Machine Learning Systems textbook', href: 'https://mlsysbook.ai' },
+      { label: 'TinyML (Harvard)', href: 'https://tinyml.seas.harvard.edu' },
+    ],
+  },
+  {
     id: 'physical-ai',
-    title: 'Physical AI Engineering: Machine Learning Systems That Sense and Act',
+    title: 'Physical AI Engineering: From Sensor to Closed Loop',
     tagline:
       'Build the hardware and software modules that take a student from a raw sensor to a closed perception-and-action loop in a week.',
     tags: ['Embedded', 'Robotics', 'On-Device ML', 'Hardware'],
     whyItMatters:
-      'When AI moves into the physical world, latency, energy, and safety stop being metrics on a chart and become hard constraints with consequences. That shift is the core of my research, and it is exactly what students have no good way to experience. There is no shared, affordable platform for building and evaluating a full sensing-to-actuation stack, so most people learn either the ML or the hardware, never the loop that connects them. Building that platform is both a systems contribution and an educational one.',
+      'When AI moves into the physical world, latency, energy, and safety stop being metrics on a chart and become hard constraints with consequences. That shift is the core of my research, and it is exactly what students have no good way to experience. There is no shared, affordable platform for building and evaluating a full sensing-to-actuation stack, so most people learn either the ML or the hardware, never the loop that connects them. Building that platform is both a systems contribution and an educational one. (If you want the agent runtime under milliwatt budgets rather than the platform itself, see Tiny Agents.)',
     whatYouBuild: [
       'Modular sensing, compute, and actuation blocks that compose without custom board work',
       'A reference on-device inference stack with real-time behavior you can actually characterize',

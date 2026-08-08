@@ -69,7 +69,7 @@ function EthSabbatical() {
               href="#projects"
               className="bg-eth text-white px-6 py-3 rounded-lg font-medium hover:bg-eth-dark transition-colors text-center"
             >
-              Browse project ideas
+              Browse research areas
             </a>
             <a
               href="#reach-out"
@@ -139,7 +139,7 @@ function EthSabbatical() {
       <div id="projects" className="bg-gray-50 scroll-mt-8">
         <div className="max-w-4xl mx-auto px-6 py-12">
           <div className="flex flex-wrap items-end justify-between gap-4 mb-2">
-            <h2 className="text-2xl font-bold text-gray-900">Project Ideas</h2>
+            <h2 className="text-2xl font-bold text-gray-900">Research Areas &amp; Project Ideas</h2>
             <button
               onClick={toggleAll}
               className="text-sm font-medium text-eth hover:text-eth-dark transition-colors"
@@ -148,9 +148,11 @@ function EthSabbatical() {
             </button>
           </div>
           <p className="text-gray-600 mb-8 max-w-3xl">
-            These are directions I am genuinely invested in, not a list of leftovers. Expand any
-            one to see why it matters, what you would build, and what makes it a strong thesis. A
-            good proposal of your own on an adjacent topic is equally welcome.
+            Each card is a research area I am actively working in, not a fixed assignment. The
+            bullets inside are starter ideas — examples of the kinds of work that fit — not a
+            required checklist. You can take one of those ideas, reshape it, combine threads, or
+            propose something of your own in the same space. A thoughtful proposal inside one of
+            these areas matters more than matching a bullet point.
           </p>
 
           <div className="space-y-4">
@@ -222,8 +224,11 @@ function EthSabbatical() {
                         <div className="grid md:grid-cols-2 gap-6">
                           <div>
                             <h4 className="text-sm font-bold uppercase tracking-wide text-eth mb-2">
-                              What you would build
+                              Example directions
                             </h4>
+                            <p className="text-xs text-gray-500 mb-2">
+                              Starter ideas in this area — not a required checklist. Your own angle in the same space is welcome.
+                            </p>
                             <ul className="space-y-2">
                               {project.whatYouBuild.map((item) => (
                                 <li key={item} className="flex items-start text-gray-700 text-sm">
@@ -314,20 +319,18 @@ function EthSabbatical() {
               {sabbatical.subjectTag} Project name &mdash; Your name
             </p>
 
-            <p className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">
-              Email
-            </p>
             <ObfuscatedEmail
               user={contactEmail.user}
               domain={contactEmail.domain}
-              revealOnClick
+              label="Email me"
               subject={`${sabbatical.subjectTag} `}
+              buttonClassName="inline-flex items-center bg-eth text-white px-6 py-3 rounded-lg font-medium hover:bg-eth-dark transition-colors"
               className="text-eth font-medium text-lg hover:text-eth-dark transition-colors"
             />
             <p className="text-sm text-gray-600 mt-3">
-              The subject tag matters. It is how ETH thesis inquiries get sorted out of everything
-              else, which means yours gets read as a thesis inquiry rather than as general mail.
-              Revealing the address opens a message with the tag already in place.
+              Clicking opens a draft with the subject tag already in place. The tag is how ETH thesis
+              inquiries get sorted out of everything else, so yours gets read as a thesis inquiry
+              rather than as general mail.
             </p>
           </div>
 
@@ -335,9 +338,9 @@ function EthSabbatical() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-3">Include in your first email</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>&bull; Which project interests you</li>
+                <li>&bull; Which area interests you</li>
                 <li>&bull; One paragraph on why</li>
-                <li>&bull; One idea of your own</li>
+                <li>&bull; Your idea (take a starter idea, reshape it, or propose something of your own in that space)</li>
                 <li>&bull; Your CV</li>
               </ul>
             </div>

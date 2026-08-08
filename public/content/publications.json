@@ -1,0 +1,5166 @@
+{
+  "source": "https://dblp.org/pid/88/2610.xml",
+  "pid": "88/2610",
+  "fetchedAt": "2026-08-08T10:24:16.285Z",
+  "totalCount": 265,
+  "publications": [
+    {
+      "title": "AgentDSE: Reasoning-Augmented Architectural Design Space Exploration.",
+      "authors": [
+        "Chenyu Wang",
+        "Jiahe Caroline Shi",
+        "David Kong 0001",
+        "Duane S. Boning",
+        "Zishen Wan",
+        "Yilun Du",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2606.html#abs-2606-21836",
+      "ee": "https://doi.org/10.48550/arXiv.2606.21836"
+    },
+    {
+      "title": "ArchEval: Measuring AI Agents as Computer Architects.",
+      "authors": [
+        "Chenyu Wang",
+        "Zishen Wan",
+        "Jeffrey Jian Ma",
+        "Shvetank Prakash",
+        "Zhenting Qi",
+        "Haebin Do",
+        "Andy Cheng",
+        "Arya Tschand",
+        "Jiahe Caroline Shi",
+        "Yilun Du",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2607.html#abs-2607-03601",
+      "ee": "https://doi.org/10.48550/arXiv.2607.03601"
+    },
+    {
+      "title": "Breaking Tiny Machine Learning: Why Quantized Neural Networks Need Domain-Specific Security Analysis.",
+      "authors": [
+        "Jacob Huckelberry",
+        "Andrea Mattia Garavagno",
+        "Yuke Zhang",
+        "Peter A. Beerel",
+        "James Mickens",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/micro/micro46.html#HuckelberryGZBMR26",
+      "ee": "https://doi.org/10.1109/MM.2026.3666128"
+    },
+    {
+      "title": "Breaking TinyML: Why Quantized Neural Networks Need Domain-Specific Security Analysis.",
+      "authors": [
+        "Jacob Huckelberry",
+        "Andrea Mattia Garavagno",
+        "Yuke Zhang",
+        "Peter A. Beerel",
+        "James Mickens",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2606.html#abs-2606-14427",
+      "ee": "https://doi.org/10.48550/arXiv.2606.14427"
+    },
+    {
+      "title": "Bridging the Scale Gap: Augmenting Human Red-Teaming to Uncover Latent Risks in T2I Models.",
+      "authors": [
+        "Jessica Quaye",
+        "Alicia Parrish",
+        "Charvi Rastogi",
+        "Minsuk Kahng",
+        "Oana Inel",
+        "Lora Aroyo",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "FAccT",
+      "year": 2026,
+      "type": "inproceedings",
+      "url": "db/conf/fat/facct2026.html#QuayePRKIAR26",
+      "ee": "https://doi.org/10.1145/3805689.3812210"
+    },
+    {
+      "title": "Economy of Minds: Emerging Multi-Agent Intelligence with Economic Interactions.",
+      "authors": [
+        "Zhenting Qi",
+        "Huangyuan Su",
+        "Ao Qu",
+        "Chenyu Wang",
+        "Yu Yao",
+        "Han Zheng",
+        "Kushal Chattopadhyay",
+        "Guowei Xu",
+        "Zihan Wang",
+        "Weirui Ye",
+        "Vijay Janapa Reddi",
+        "Ju Li",
+        "Paul Pu Liang",
+        "Himabindu Lakkaraju",
+        "Sham M. Kakade",
+        "Yilun Du"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2606.html#abs-2606-02859",
+      "ee": "https://doi.org/10.48550/arXiv.2606.02859"
+    },
+    {
+      "title": "FortiSky: Enhancing Adversarial and Bit-Error Robustness for Efficient and Secure Autonomous Systems.",
+      "authors": [
+        "Zishen Wan",
+        "Karthik Swaminathan",
+        "Nandhini Chandramoorthy",
+        "Pin-Yu Chen",
+        "Tushar Krishna",
+        "Vijay Janapa Reddi",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "DATE",
+      "year": 2026,
+      "type": "inproceedings",
+      "url": "db/conf/date/date2026.html#WanSCCKRR26",
+      "ee": "https://doi.org/10.23919/DATE69613.2026.11539387"
+    },
+    {
+      "title": "GenAI for Systems: Recurring Challenges and Design Principles from Software to Silicon.",
+      "authors": [
+        "Arya Tschand",
+        "Chenyu Wang",
+        "Zishen Wan",
+        "Andrew Cheng",
+        "Ioana Cristescu",
+        "Kevin He",
+        "Howard Huang",
+        "Alexander Ingare",
+        "Akseli Kangaslahti",
+        "Sara Kangaslahti",
+        "Theo Lebryk",
+        "Hongjin Lin",
+        "Jeffrey Jian Ma",
+        "Alexandru Meterez",
+        "Clara Mohri",
+        "Depen Morwani",
+        "Sunny Qin",
+        "Roy Rinberg",
+        "Paula Rodriguez Diaz",
+        "Alyssa Mia Taliotis",
+        "Pernille Undrum Fathi",
+        "Rosie Zhao",
+        "Todd Zhou",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2602.html#abs-2602-15241",
+      "ee": "https://doi.org/10.48550/arXiv.2602.15241"
+    },
+    {
+      "title": "Going PLACES: Participatory Localized Red Teaming for Text-to-Image Safety in the Global South.",
+      "authors": [
+        "Charvi Rastogi",
+        "Mukul Bhutani",
+        "Minsuk Kahng",
+        "Shamsuddeen Hassan Muhammad",
+        "Evgeniia Razumovskaia",
+        "Priyanka Suresh",
+        "Ibrahim Said Ahmad",
+        "Charu Kalia",
+        "Yaaseen Mahomed",
+        "Madhurima Maji",
+        "Minjae Lee",
+        "Alicia Parrish",
+        "Jessica Quaye",
+        "Vijay Janapa Reddi",
+        "Aishwarya Verma",
+        "Lora Aroyo"
+      ],
+      "venue": "FAccT",
+      "year": 2026,
+      "type": "inproceedings",
+      "url": "db/conf/fat/facct2026.html#RastogiBKMRSAKM26",
+      "ee": "https://doi.org/10.1145/3805689.3812296"
+    },
+    {
+      "title": "Going PLACES: Participatory Localized Red Teaming for Text-to-Image Safety in the Global South.",
+      "authors": [
+        "Charvi Rastogi",
+        "Mukul Bhutani",
+        "Minsuk Kahng",
+        "Shamsuddeen Hassan Muhammad",
+        "Evgeniia Razumovskaia",
+        "Priyanka Suresh",
+        "Ibrahim Said Ahmad",
+        "Charu Kalia",
+        "Yaaseen Mahomed",
+        "Madhurima Maji",
+        "Minjae Lee",
+        "Alicia Parrish",
+        "Jessica Quaye",
+        "Vijay Janapa Reddi",
+        "Aishwarya Verma",
+        "Lora Aroyo"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2605.html#abs-2605-19190",
+      "ee": "https://doi.org/10.48550/arXiv.2605.19190"
+    },
+    {
+      "title": "Lifetime-Aware Design for Item-Level Intelligence at the Extreme Edge.",
+      "authors": [
+        "Shvetank Prakash",
+        "Andrew Cheng",
+        "Olof Kindgren",
+        "Ashiq Ahamed",
+        "Graham Knight",
+        "Jedrzej Kufel",
+        "Francisco Rodriguez",
+        "Arya Tschand",
+        "David Kong 0001",
+        "Mariam Elgamal",
+        "Jerry Huang",
+        "Emma Chen",
+        "Gage Hills",
+        "Richard Price",
+        "Emre Ozer 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ASPLOS (2)",
+      "year": 2026,
+      "type": "inproceedings",
+      "url": "db/conf/asplos/asplos2026-2.html#PrakashCKAKKRTK26",
+      "ee": "https://doi.org/10.1145/3779212.3790182"
+    },
+    {
+      "title": "MLCommons Chakra: Advancing Performance Benchmarking and Co-design using Standardized Execution Traces.",
+      "authors": [
+        "Srinivas Sridharan 0002",
+        "Theodor-Adrian Badea",
+        "Andy Balogh",
+        "Bradford M. Beckmann",
+        "Brian Coutinho",
+        "Louis Feng",
+        "Sheng Fu",
+        "Sanshan Gao",
+        "Mehryar Garakani",
+        "Taekyung Heo",
+        "David Kanter",
+        "Josh Ladd",
+        "Ziwei Li",
+        "Winston Liu",
+        "Changhai Man",
+        "Dan Mihailescu",
+        "Spandan More",
+        "Joongun Park",
+        "Ashwin Ramachandran",
+        "Vinay Ramakrishnaiah",
+        "Saeed Rashidi",
+        "Vijay Janapa Reddi",
+        "Puneet Sharma 0001",
+        "Phio Tian",
+        "William Won",
+        "Hanjiang Wu",
+        "Huan Xu",
+        "Jinsun Yoo",
+        "Tushar Krishna"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2605.html#abs-2605-11333",
+      "ee": "https://doi.org/10.48550/arXiv.2605.11333"
+    },
+    {
+      "title": "MLSYSIM: First-Principles Infrastructure Modeling for Machine Learning Systems.",
+      "authors": [
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2607.html#abs-2607-02558",
+      "ee": "https://doi.org/10.48550/arXiv.2607.02558"
+    },
+    {
+      "title": "See it to Place it: Evolving Macro Placements with Vision-Language Models.",
+      "authors": [
+        "Ikechukwu Uchendu",
+        "Swati Goel",
+        "Karly Hou",
+        "Ebrahim M. Songhori",
+        "Kuang-Huei Lee",
+        "Joe Wenjie Jiang",
+        "Vijay Janapa Reddi",
+        "Vincent Zhuang"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2603.html#abs-2603-28733",
+      "ee": "https://doi.org/10.48550/arXiv.2603.28733"
+    },
+    {
+      "title": "TinyTorch: Building Machine Learning Systems from First Principles.",
+      "authors": [
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "article",
+      "url": "db/journals/corr/corr2601.html#abs-2601-19107",
+      "ee": "https://doi.org/10.48550/arXiv.2601.19107"
+    },
+    {
+      "title": "333-eDRAM - 3T Embedded DRAM Leveraging Monolithic 3D Integration of 3 Transistor Types: IGZO, Carbon Nanotube and Silicon FETs.",
+      "authors": [
+        "David Kong 0001",
+        "Shvetank Prakash",
+        "Jedrzej Kufel",
+        "Georgios Kyriazidis",
+        "Yasmine Omri",
+        "David Verity",
+        "Emre Ozer",
+        "Vijay Janapa Reddi",
+        "Gage Hills"
+      ],
+      "venue": "DAC",
+      "year": 2025,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2025.html#KongPKKOVORH25",
+      "ee": "https://doi.org/10.1109/DAC63849.2025.11132950"
+    },
+    {
+      "title": "A2Perf: Real-World Autonomous Agents Benchmark.",
+      "authors": [
+        "Ikechukwu Uchendu",
+        "Jason Jabbour",
+        "Korneel Van den Berghe",
+        "Joel Runevic",
+        "Matthew Stewart",
+        "Jeffrey Jian Ma",
+        "Srivatsan Krishnan",
+        "Izzeddin Gur",
+        "Austin Huang",
+        "Colton Bishop",
+        "Paige Bailey",
+        "Wenjie Jiang 0001",
+        "Ebrahim M. Songhori",
+        "Sergio Guadarrama",
+        "Jie Tan 0001",
+        "Jordan K. Terry",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2503.html#abs-2503-03056",
+      "ee": "https://doi.org/10.48550/arXiv.2503.03056"
+    },
+    {
+      "title": "Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks.",
+      "authors": [
+        "Korneel Van den Berghe",
+        "Stein Stroobants",
+        "Vijay Janapa Reddi",
+        "Guido de Croon"
+      ],
+      "venue": "NeurIPS",
+      "year": 2025,
+      "type": "inproceedings",
+      "url": "db/conf/nips/neurips2025.html#BergheSRC25",
+      "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/d94b46ec30adee2bbb134f813fc9dde0-Abstract-Conference.html"
+    },
+    {
+      "title": "Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks.",
+      "authors": [
+        "Korneel Van den Berghe",
+        "Stein Stroobants",
+        "Vijay Janapa Reddi",
+        "Guido C. H. E. de Croon"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2510.html#abs-2510-24461",
+      "ee": "https://doi.org/10.48550/arXiv.2510.24461"
+    },
+    {
+      "title": "AI Benchmark Democratization and Carpentry.",
+      "authors": [
+        "Gregor von Laszewski",
+        "Wesley Brewer",
+        "Jeyan Thiyagalingam",
+        "Juri Papay",
+        "Armstrong Foundjem",
+        "Piotr Luszczek",
+        "Murali Emani",
+        "Shirley V. Moore",
+        "Vijay Janapa Reddi",
+        "Matthew D. Sinclair",
+        "Sebastian Lobentanzer",
+        "Sujata S. Goswami",
+        "Benjamin Hawks",
+        "Marco Colombo",
+        "Nhan Tran",
+        "Christine R. Kirkpatrick",
+        "Abdulkareem Alsudais",
+        "Gregg Barrett",
+        "Tianhao Li",
+        "Kirsten N. Morehouse",
+        "Shivaram Venkataraman",
+        "Rutwik Jain",
+        "Kartik Mathur",
+        "Victor Lu",
+        "Tejinder Singh",
+        "Khojasteh Z. Mirza",
+        "Kongtao Chen",
+        "Sasidhar Kunapuli",
+        "Gavin Farrell",
+        "Renato Umeton",
+        "Geoffrey C. Fox"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2512.html#abs-2512-11588",
+      "ee": "https://doi.org/10.48550/arXiv.2512.11588"
+    },
+    {
+      "title": "Architecture 2.0: Foundations of Artificial Intelligence Agents for Modern Computer System Design.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Amir Yazdanbakhsh"
+      ],
+      "venue": "Computer",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/computer/computer58.html#ReddiY25",
+      "ee": "https://doi.org/10.1109/MC.2024.3521641"
+    },
+    {
+      "title": "ARTEMIS: Agile Discovery of Efficient Real-Time Systems-on-Chips in the Heterogeneous Era.",
+      "authors": [
+        "Subhankar Pal",
+        "Aporva Amarnath",
+        "Behzad Boroujerdian",
+        "Augusto Vega",
+        "Alper Buyuktosunoglu",
+        "John-David Wellman",
+        "Vijay Janapa Reddi",
+        "Pradip Bose"
+      ],
+      "venue": "HPCA",
+      "year": 2025,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2025.html#PalABVBWRB25",
+      "ee": "https://doi.org/10.1109/HPCA61900.2025.00100"
+    },
+    {
+      "title": "COSMIC: Enabling Full-Stack Co-Design and Optimization of Distributed Machine Learning Systems.",
+      "authors": [
+        "Aditi Raju",
+        "Jared Ni",
+        "William Won",
+        "Changhai Man",
+        "Srivatsan Krishnan",
+        "Srinivas Sridharan 0002",
+        "Amir Yazdanbakhsh",
+        "Tushar Krishna",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2505.html#abs-2505-15020",
+      "ee": "https://doi.org/10.48550/arXiv.2505.15020"
+    },
+    {
+      "title": "Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered.",
+      "authors": [
+        "Jason Jabbour",
+        "Dong-Ki Kim",
+        "Max Olan Smith",
+        "Jay Patrikar",
+        "Radhika Ghosal",
+        "Youhui Wang",
+        "Ali Agha",
+        "Vijay Janapa Reddi",
+        "Shayegan Omidshafiei"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2510.html#abs-2510-08464",
+      "ee": "https://doi.org/10.48550/arXiv.2510.08464"
+    },
+    {
+      "title": "From Seed to Harvest: Augmenting Human Creativity with AI for Red-teaming Text-to-Image Models.",
+      "authors": [
+        "Jessica Quaye",
+        "Charvi Rastogi",
+        "Alicia Parrish",
+        "Oana Inel",
+        "Minsuk Kahng",
+        "Lora Aroyo",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2507.html#abs-2507-17922",
+      "ee": "https://doi.org/10.48550/arXiv.2507.17922"
+    },
+    {
+      "title": "Generative AI at the Edge: Challenges and Opportunities: The next phase in AI deployment.",
+      "authors": [
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ACM Queue",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/queue/queue23.html#Reddi25",
+      "ee": "https://doi.org/10.1145/3733702"
+    },
+    {
+      "title": "Generative AI in Embodied Systems: System-Level Analysis of Performance, Efficiency and Scalability.",
+      "authors": [
+        "Zishen Wan",
+        "Jiayi Qian",
+        "Yuhang Du",
+        "Jason Jabbour",
+        "Yilun Du",
+        "Yang Zhao 0013",
+        "Arijit Raychowdhury",
+        "Tushar Krishna",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISPASS",
+      "year": 2025,
+      "type": "inproceedings",
+      "url": "db/conf/ispass/ispass2025.html#WanQDJDZRKR25",
+      "ee": "https://doi.org/10.1109/ISPASS64960.2025.00013"
+    },
+    {
+      "title": "Generative AI in Embodied Systems: System-Level Analysis of Performance, Efficiency and Scalability.",
+      "authors": [
+        "Zishen Wan",
+        "Jiayi Qian",
+        "Yuhang Du",
+        "Jason Jabbour",
+        "Yilun Du",
+        "Yang Katie Zhao",
+        "Arijit Raychowdhury",
+        "Tushar Krishna",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2504.html#abs-2504-18945",
+      "ee": "https://doi.org/10.48550/arXiv.2504.18945"
+    },
+    {
+      "title": "Lifetime-Aware Design of Item-Level Intelligence.",
+      "authors": [
+        "Shvetank Prakash",
+        "Andrew Cheng",
+        "Olof Kindgren",
+        "Ashiq Ahamed",
+        "Graham Knight",
+        "Jedrzej Kufel",
+        "Francisco Rodriguez",
+        "Arya Tschand",
+        "David Kong 0001",
+        "Mariam Elgamal",
+        "Jerry Huang",
+        "Emma Chen",
+        "Gage Hills",
+        "Richard Price",
+        "Emre Ozer 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2509.html#abs-2509-08193",
+      "ee": "https://doi.org/10.48550/arXiv.2509.08193"
+    },
+    {
+      "title": "Machine Learning Fleet Efficiency: Analyzing and Optimizing Large-Scale Google TPU Systems with ML Productivity Goodput.",
+      "authors": [
+        "Arissa Wongpanich",
+        "Tayo Oguntebi",
+        "Jose Baiocchi Paredes",
+        "Yu Emma Wang",
+        "Phitchaya Mangpo Phothilimthana",
+        "Ritwika Mitra",
+        "Zongwei Zhou",
+        "Naveen Kumar",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2502.html#abs-2502-06982",
+      "ee": "https://doi.org/10.48550/arXiv.2502.06982"
+    },
+    {
+      "title": "Materiality and risk in the age of pervasive AI sensors.",
+      "authors": [
+        "Mona Sloane",
+        "Emanuel Moss",
+        "Susan Kennedy",
+        "Matthew Stewart",
+        "Pete Warden",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Nat. Mac. Intell.",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/natmi/natmi7.html#SloaneMKSWPR25",
+      "ee": "https://doi.org/10.1038/s42256-025-01017-7"
+    },
+    {
+      "title": "MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from &#956;Watts to MWatts for Sustainable AI.",
+      "authors": [
+        "Arya Tschand",
+        "Arun Tejusve Raghunath Rajan",
+        "Sachin Idgunji",
+        "Anirban Ghosh",
+        "Jeremy Holleman",
+        "Csaba Kir&#225;ly 0002",
+        "Pawan Ambalkar",
+        "Ritika Borkar",
+        "Ramesh Chukka",
+        "Trevor Cockrell",
+        "Oliver Curtis",
+        "Grigori Fursin",
+        "Miro Hodak",
+        "Hiwot Kassa",
+        "Anton Lokhmotov",
+        "Dejan Miskovic",
+        "Yuechao Pan",
+        "Manu Prasad Manmathan",
+        "Liz Raymond",
+        "Tom St. John",
+        "Arjun Suresh",
+        "Rowan Taubitz",
+        "Sean Zhan",
+        "Scott Wasson",
+        "David Kanter",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2025,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2025.html#TschandRIGH0ABC25",
+      "ee": "https://doi.org/10.1109/HPCA61900.2025.00092"
+    },
+    {
+      "title": "Modeling and Optimizing Performance Bottlenecks for Neuromorphic Accelerators.",
+      "authors": [
+        "Jason Yik",
+        "Walter Gallego Gomez",
+        "Andrew Cheng",
+        "Benedetto Leto",
+        "Alessandro Pierro",
+        "Noah Pacik-Nelson",
+        "Korneel Van den Berghe",
+        "Vittorio Fra",
+        "Andreea Danielescu 0001",
+        "Gianvito Urgese",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2511.html#abs-2511-21549",
+      "ee": "https://doi.org/10.48550/arXiv.2511.21549"
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning for Sample-Efficient Deep Neural Network Mapping.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Jason Jabbour",
+        "Dan Zhang",
+        "Natasha Jaques",
+        "Aleksandra Faust",
+        "Shayegan Omidshafiei",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2507.html#abs-2507-16249",
+      "ee": "https://doi.org/10.48550/arXiv.2507.16249"
+    },
+    {
+      "title": "OctoCache: Caching Voxels for Accelerating 3D Occupancy Mapping in Autonomous Systems.",
+      "authors": [
+        "Peiqing Chen",
+        "Minghao Li 0003",
+        "Zishen Wan",
+        "Yu-Shun Hsiao",
+        "Minlan Yu",
+        "Vijay Janapa Reddi",
+        "Zaoxing Liu"
+      ],
+      "venue": "ASPLOS (2)",
+      "year": 2025,
+      "type": "inproceedings",
+      "url": "db/conf/asplos/asplos2025-2.html#ChenLWHYRL25",
+      "ee": "https://doi.org/10.1145/3676641.3716263"
+    },
+    {
+      "title": "QuArch: A Benchmark for Evaluating LLM Reasoning in Computer Architecture.",
+      "authors": [
+        "Shvetank Prakash",
+        "Andrew Cheng",
+        "Arya Tschand",
+        "Mark Mazumder",
+        "Varun Gohil",
+        "Jeffrey Jian Ma",
+        "Jason Yik",
+        "Zishen Wan",
+        "Jessica Quaye",
+        "Elisavet Lydia Alvanaki",
+        "Avinash Kumar",
+        "Chandrashis Mazumdar",
+        "Tuhin Khare",
+        "Alexander Ingare",
+        "Ikechukwu Uchendu",
+        "Radhika Ghosal",
+        "Abhishek Tyagi",
+        "Chenyu Wang",
+        "Andrea Mattia Garavagno",
+        "Sarah Gu",
+        "Alice Guo",
+        "Grace Hur",
+        "Luca P. Carloni",
+        "Tushar Krishna",
+        "Ankita Nayak",
+        "Amir Yazdanbakhsh",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2510.html#abs-2510-22087",
+      "ee": "https://doi.org/10.48550/arXiv.2510.22087"
+    },
+    {
+      "title": "QuArch: A Question-Answering Dataset for AI Agents in Computer Architecture.",
+      "authors": [
+        "Shvetank Prakash",
+        "Andrew Cheng",
+        "Jason Yik",
+        "Arya Tschand",
+        "Radhika Ghosal",
+        "Ikechukwu Uchendu",
+        "Jessica Quaye",
+        "Jeffrey Jian Ma",
+        "Shreyas Grampurohit",
+        "Sofia Giannuzzi",
+        "Arnav Balyan",
+        "Fin Amin",
+        "Aadya Pipersenia",
+        "Yash Choudhary",
+        "Ankita Nayak",
+        "Amir Yazdanbakhsh",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Comput. Archit. Lett.",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/cal/cal24.html#PrakashCYTGUQMGGBAPCNYR25",
+      "ee": "https://doi.org/10.1109/LCA.2025.3541961"
+    },
+    {
+      "title": "QuArch: A Question-Answering Dataset for AI Agents in Computer Architecture.",
+      "authors": [
+        "Shvetank Prakash",
+        "Andrew Cheng",
+        "Jason Yik",
+        "Arya Tschand",
+        "Radhika Ghosal",
+        "Ikechukwu Uchendu",
+        "Jessica Quaye",
+        "Jeffrey Jian Ma",
+        "Shreyas Grampurohit",
+        "Sofia Giannuzzi",
+        "Arnav Balyan",
+        "Fin Amin",
+        "Aadya Pipersenia",
+        "Yash Choudhary",
+        "Ankita Nayak",
+        "Amir Yazdanbakhsh",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2501.html#abs-2501-01892",
+      "ee": "https://doi.org/10.48550/arXiv.2501.01892"
+    },
+    {
+      "title": "ReCA: Integrated Acceleration for Real-Time and Efficient Cooperative Embodied Autonomous Agents.",
+      "authors": [
+        "Zishen Wan",
+        "Yuhang Du",
+        "Mohamed Ibrahim 0002",
+        "Jiayi Qian",
+        "Jason Jabbour",
+        "Yang Katie Zhao",
+        "Tushar Krishna",
+        "Arijit Raychowdhury",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ASPLOS (2)",
+      "year": 2025,
+      "type": "inproceedings",
+      "url": "db/conf/asplos/asplos2025-2.html#WanDIQJZKRR25",
+      "ee": "https://doi.org/10.1145/3676641.3716016"
+    },
+    {
+      "title": "Robust Methods for Deep-Learning Training.",
+      "authors": [
+        "Yanjing Li",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Des. Test",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/dt/dt42.html#LiR25",
+      "ee": "https://doi.org/10.1109/MDAT.2024.3499878"
+    },
+    {
+      "title": "Slm-mux: Orchestrating small language models for reasoning.",
+      "authors": [
+        "Chenyu Wang",
+        "Zishen Wan",
+        "Hao Kang",
+        "Emma Chen",
+        "Zhiqiang Xie",
+        "Tushar Krishna",
+        "Vijay Janapa Reddi",
+        "Yilun Du"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2510.html#abs-2510-05077",
+      "ee": "https://doi.org/10.48550/arXiv.2510.05077"
+    },
+    {
+      "title": "SocratiQ: A Generative AI-Powered Learning Companion for Personalized Education and Broader Accessibility.",
+      "authors": [
+        "Jason Jabbour",
+        "Kai Kleinbard",
+        "Olivia Miller",
+        "Robert Haussman",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2502.html#abs-2502-00341",
+      "ee": "https://doi.org/10.48550/arXiv.2502.00341"
+    },
+    {
+      "title": "SWE-fficiency: Can Language Models Optimize Real-World Repositories on Real Workloads?",
+      "authors": [
+        "Jeffrey Jian Ma",
+        "Milad Hashemi",
+        "Amir Yazdanbakhsh",
+        "Kevin Swersky",
+        "Ofir Press",
+        "Enhui Li",
+        "Vijay Janapa Reddi",
+        "Parthasarathy Ranganathan"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2511.html#abs-2511-06090",
+      "ee": "https://doi.org/10.48550/arXiv.2511.06090"
+    },
+    {
+      "title": "SwizzlePerf: Hardware-Aware LLMs for GPU Kernel Performance Optimization.",
+      "authors": [
+        "Arya Tschand",
+        "Muhammad A. Awad",
+        "Ryan Swann",
+        "Kesavan Ramakrishnan",
+        "Jeffrey Jian Ma",
+        "Keith Lowery",
+        "Ganesh Dasika",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "article",
+      "url": "db/journals/corr/corr2508.html#abs-2508-20258",
+      "ee": "https://doi.org/10.48550/arXiv.2508.20258"
+    },
+    {
+      "title": "Adversarial Nibbler: An Open Red-Teaming Method for Identifying Diverse Harms in Text-to-Image Generation.",
+      "authors": [
+        "Jessica Quaye",
+        "Alicia Parrish",
+        "Oana Inel",
+        "Charvi Rastogi",
+        "Hannah Rose Kirk",
+        "Minsuk Kahng",
+        "Erin van Liemt",
+        "Max Bartolo",
+        "Jess Tsang",
+        "Justin White",
+        "Nathan Clement",
+        "Rafael Mosquera",
+        "Juan Ciro",
+        "Vijay Janapa Reddi",
+        "Lora Aroyo"
+      ],
+      "venue": "FAccT",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/fat/facct2024.html#QuayePIRKKLBTWC24",
+      "ee": "https://doi.org/10.1145/3630106.3658913"
+    },
+    {
+      "title": "Adversarial Nibbler: An Open Red-Teaming Method for Identifying Diverse Harms in Text-to-Image Generation.",
+      "authors": [
+        "Jessica Quaye",
+        "Alicia Parrish",
+        "Oana Inel",
+        "Charvi Rastogi",
+        "Hannah Rose Kirk",
+        "Minsuk Kahng",
+        "Erin van Liemt",
+        "Max Bartolo",
+        "Jess Tsang",
+        "Justin White",
+        "Nathan Clement",
+        "Rafael Mosquera",
+        "Juan Ciro",
+        "Vijay Janapa Reddi",
+        "Lora Aroyo"
+      ],
+      "venue": "CoRR",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/corr/corr2403.html#abs-2403-12075",
+      "ee": "https://doi.org/10.48550/arXiv.2403.12075"
+    },
+    {
+      "title": "Bendable non-silicon RISC-V microprocessor.",
+      "authors": [
+        "Emre Ozer 0001",
+        "Jedrzej Kufel",
+        "Shvetank Prakash",
+        "Alireza Raisiardali",
+        "Olof Kindgren",
+        "Ronald Wong",
+        "Nelson Ng",
+        "Damien Jausseran",
+        "Feras Alkhalil",
+        "David Kong 0001",
+        "Gage Hills",
+        "Richard Price",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Nat.",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/nature/nature634.html#OzerKPRKWNJAKHPR24",
+      "ee": "https://doi.org/10.1038/s41586-024-07976-y"
+    },
+    {
+      "title": "DMLR: Data-centric Machine Learning Research - Past, Present and Future.",
+      "authors": [
+        "Luis Oala",
+        "Manil Maskey",
+        "Lilith Bat-Leah",
+        "Alicia Parrish",
+        "Nezihe Merve G&#252;rel",
+        "Tzu-Sheng Kuo",
+        "Yang Liu 0018",
+        "Rotem Dror",
+        "Danilo Brajovic",
+        "Xiaozhe Yao",
+        "Max Bartolo",
+        "William Gaviria Rojas",
+        "Ryan Hileman",
+        "Rainier Aliment",
+        "Michael W. Mahoney",
+        "Meg Risdal",
+        "Matthew Lease",
+        "Wojciech Samek",
+        "Debojyoti Dutta",
+        "Curtis G. Northcutt",
+        "Cody Coleman",
+        "Braden Hancock",
+        "Bernard Koch",
+        "Girmaw Abebe Tadesse",
+        "Bojan Karlas",
+        "Ahmed Alaa 0001",
+        "Adji Bousso Dieng",
+        "Natasha F. Noy",
+        "Vijay Janapa Reddi",
+        "James Zou 0001",
+        "Praveen K. Paritosh",
+        "Mihaela van der Schaar",
+        "Kurt Bollacker",
+        "Lora Aroyo",
+        "Ce Zhang 0001",
+        "Joaquin Vanschoren",
+        "Isabelle Guyon",
+        "Peter Mattson"
+      ],
+      "venue": "J. Data-centric Mach. Learn. Res.",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/dmlr/dmlr1.html#OalaMBPGKLDBYBRHAMRLSDN24",
+      "ee": "https://data.mlr.press/assets/pdf/v01-5.pdf"
+    },
+    {
+      "title": "FedStaleWeight: Buffered Asynchronous Federated Learning with Fair Aggregation via Staleness Reweighting.",
+      "authors": [
+        "Jeffrey Jian Ma",
+        "Alan Tu",
+        "Yiling Chen",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/corr/corr2406.html#abs-2406-02877",
+      "ee": "https://doi.org/10.48550/arXiv.2406.02877"
+    },
+    {
+      "title": "Generative AI Agents in Autonomous Machines: A Safety Perspective.",
+      "authors": [
+        "Jason Jabbour",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ICCAD",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/iccad/iccad2024.html#JabbourR24",
+      "ee": "https://doi.org/10.1145/3676536.3698390"
+    },
+    {
+      "title": "Generative AI Agents in Autonomous Machines: A Safety Perspective.",
+      "authors": [
+        "Jason Jabbour",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/corr/corr2410.html#abs-2410-15489",
+      "ee": "https://doi.org/10.48550/arXiv.2410.15489"
+    },
+    {
+      "title": "GPU-based Private Information Retrieval for On-Device Machine Learning Inference.",
+      "authors": [
+        "Maximilian Lam",
+        "Jeff Johnson 0004",
+        "Wenjie Xiong 0001",
+        "Kiwan Maeng",
+        "Udit Gupta 0001",
+        "Yang Li 0183",
+        "Liangzhen Lai",
+        "Ilias Leontiadis",
+        "Minsoo Rhu",
+        "Hsien-Hsin S. Lee",
+        "Vijay Janapa Reddi",
+        "Gu-Yeon Wei",
+        "David Brooks 0001",
+        "G. Edward Suh"
+      ],
+      "venue": "ASPLOS (1)",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/asplos/asplos2024-1.html#LamJ0MGLLLRLRW024",
+      "ee": "https://doi.org/10.1145/3617232.3624855"
+    },
+    {
+      "title": "Grand Challenge on Neural Decoding for Motor Control of non-Human Primates.",
+      "authors": [
+        "Biyan Zhou",
+        "Pao-Sheng Vincent Sun",
+        "Jason Yik",
+        "Charlotte Frenkel",
+        "Vijay Janapa Reddi",
+        "Arindam Basu"
+      ],
+      "venue": "BioCAS",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/biocas/biocas2024.html#ZhouSYFRB24",
+      "ee": "https://doi.org/10.1109/BioCAS61083.2024.10798373"
+    },
+    {
+      "title": "Invited: The Magnificent Seven Challenges and Opportunities in Domain-Specific Accelerator Design for Autonomous Systems.",
+      "authors": [
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "DAC",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2024.html#NeumanPR24",
+      "ee": "https://doi.org/10.1145/3649329.3663515"
+    },
+    {
+      "title": "Materiality and Risk in the Age of Pervasive AI Sensors.",
+      "authors": [
+        "Matthew Stewart",
+        "Emanuel Moss",
+        "Pete Warden",
+        "Brian Plancher",
+        "Susan Kennedy",
+        "Mona Sloane",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/corr/corr2402.html#abs-2402-11183",
+      "ee": "https://doi.org/10.48550/arXiv.2402.11183"
+    },
+    {
+      "title": "MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from Microwatts to Megawatts for Sustainable AI.",
+      "authors": [
+        "Arya Tschand",
+        "Arun Tejusve Raghunath Rajan",
+        "Sachin Idgunji",
+        "Anirban Ghosh",
+        "Jeremy Holleman",
+        "Csaba Kir&#225;ly 0002",
+        "Pawan Ambalkar",
+        "Ritika Borkar",
+        "Ramesh Chukka",
+        "Trevor Cockrell",
+        "Oliver Curtis",
+        "Grigori Fursin",
+        "Miro Hodak",
+        "Hiwot Kassa",
+        "Anton Lokhmotov",
+        "Dejan Miskovic",
+        "Yuechao Pan",
+        "Manu Prasad Manmathan",
+        "Liz Raymond",
+        "Tom St. John",
+        "Arjun Suresh",
+        "Rowan Taubitz",
+        "Sean Zhan",
+        "Scott Wasson",
+        "David Kanter",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/corr/corr2410.html#abs-2410-12032",
+      "ee": "https://doi.org/10.48550/arXiv.2410.12032"
+    },
+    {
+      "title": "MLSysBook.AI: Principles and Practices of Machine Learning Systems Engineering.",
+      "authors": [
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CODES+ISSS",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/codesisss/codesisss2024.html#Reddi24",
+      "ee": "https://doi.org/10.1109/CODES-ISSS60120.2024.00015"
+    },
+    {
+      "title": "MulBERRY: Enabling Bit-Error Robustness for Energy-Efficient Multi-Agent Autonomous Systems.",
+      "authors": [
+        "Zishen Wan",
+        "Nandhini Chandramoorthy",
+        "Karthik Swaminathan",
+        "Pin-Yu Chen",
+        "Kshitij Bhardwaj",
+        "Vijay Janapa Reddi",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "ASPLOS (2)",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/asplos/asplos2024-2.html#WanCSCBRR24",
+      "ee": "https://doi.org/10.1145/3620665.3640420"
+    },
+    {
+      "title": "RobotPerf: An Open-Source, Vendor-Agnostic, Benchmarking Suite for Evaluating Robotics Computing System Performance.",
+      "authors": [
+        "V&#237;ctor Mayoral Vilches",
+        "Jason Jabbour",
+        "Yu-Shun Hsiao",
+        "Zishen Wan",
+        "Marti&#241;o Crespo-&#193;lvarez",
+        "Matthew Stewart",
+        "Juan Manuel Reina-Mu&#241;oz",
+        "Prateek Nagras",
+        "Gaurav Vikhe",
+        "Mohammad Bakhshalipour",
+        "Martin Pinzger 0001",
+        "Stefan Rass",
+        "Smruti Panigrahi",
+        "Giulio Corradi",
+        "Niladri Roy",
+        "Phillip B. Gibbons",
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ICRA",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/icra/icra2024.html#VilchesJHWCSRNV24",
+      "ee": "https://doi.org/10.1109/ICRA57147.2024.10610841"
+    },
+    {
+      "title": "Silent Data Corruption in Robot Operating System: A Case for End-to-End System-Level Fault Analysis Using Autonomous UAVs.",
+      "authors": [
+        "Yu-Shun Hsiao",
+        "Zishen Wan",
+        "Tianyu Jia",
+        "Radhika Ghosal",
+        "Abdulrahman Mahmoud",
+        "Arijit Raychowdhury",
+        "David Brooks 0001",
+        "Gu-Yeon Wei",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/tcad/tcad43.html#HsiaoWJGMRBWR24",
+      "ee": "https://doi.org/10.1109/TCAD.2023.3332293"
+    },
+    {
+      "title": "Tabula: Efficiently Computing Nonlinear Activation Functions for Secure Neural Network Inference.",
+      "authors": [
+        "Max Lam",
+        "Michael Mitzenmacher",
+        "Vijay Janapa Reddi",
+        "Gu-Yeon Wei",
+        "David Brooks 0001"
+      ],
+      "venue": "Trans. Mach. Learn. Res.",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/tmlr/tmlr2024.html#LamMRW024",
+      "ee": "https://openreview.net/forum?id=CXPb4twsrq"
+    },
+    {
+      "title": "The Magnificent Seven Challenges and Opportunities in Domain-Specific Accelerator Design for Autonomous Systems.",
+      "authors": [
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/corr/corr2407.html#abs-2407-17311",
+      "ee": "https://doi.org/10.48550/arXiv.2407.17311"
+    },
+    {
+      "title": "TinyML Security: Exploring Vulnerabilities in Resource-Constrained Machine Learning Systems.",
+      "authors": [
+        "Jacob Huckelberry",
+        "Yuke Zhang",
+        "Allison Sansone",
+        "James Mickens",
+        "Peter A. Beerel",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/corr/corr2411.html#abs-2411-07114",
+      "ee": "https://doi.org/10.48550/arXiv.2411.07114"
+    },
+    {
+      "title": "TinyML4D: Scaling Embedded Machine Learning Education in the Developing World.",
+      "authors": [
+        "Brian Plancher",
+        "Sebastian B&#252;ttrich",
+        "Jeremy Ellis",
+        "Neena Goveas",
+        "Laila D. Kazimierski",
+        "Jes&#250;s Alfonso L&#243;pez Sotelo",
+        "Milan Lukic",
+        "Diego Mendez 0001",
+        "Rosdiadee Nordin",
+        "Andr&#233;s Oliva Trevisan",
+        "Massimo Pavan",
+        "Manuel Roveri",
+        "Marcus R&#252;b",
+        "Jackline Tum",
+        "Marian Verhelst",
+        "Salah Abdeljabar",
+        "Segun Adebayo",
+        "Thomas Amberg",
+        "Halleluyah Oluwatobi Aworinde",
+        "Jos&#233; Bagur",
+        "Gregg Barrett",
+        "Nabil Benamar",
+        "Bharat S. Chaudhari",
+        "Ronald Criollo",
+        "David Cuartielles",
+        "Jos&#233; A. Ferreira Filho",
+        "Solomon Gizaw",
+        "Evgeni Gousev",
+        "Alessandro Grande",
+        "Shawn Hymel",
+        "Peter Ing",
+        "Prashant Manandhar",
+        "Pietro Manzoni",
+        "Boris Murmann",
+        "Eric Pan",
+        "Rytis Paskauskas",
+        "Ermanno Pietrosemoli",
+        "Tales C. Pimenta",
+        "Marcelo Rovai",
+        "Marco Zennaro",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "AAAI Spring Symposia",
+      "year": 2024,
+      "type": "inproceedings",
+      "url": "db/conf/aaaiss/aaaiss2024.html#PlancherBEGKSL024",
+      "ee": "https://doi.org/10.1609/aaaiss.v3i1.31265"
+    },
+    {
+      "title": "Wake Vision: A Large-scale, Diverse Dataset and Benchmark Suite for TinyML Person Detection.",
+      "authors": [
+        "Colby R. Banbury",
+        "Emil J. Njor",
+        "Matthew Stewart",
+        "Pete Warden",
+        "Manjunath Kudlur",
+        "Nat Jeffries",
+        "Xenofon Fafoutis",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2024,
+      "type": "article",
+      "url": "db/journals/corr/corr2405.html#abs-2405-00892",
+      "ee": "https://doi.org/10.48550/arXiv.2405.00892"
+    },
+    {
+      "title": "Adversarial Nibbler: A Data-Centric Challenge for Improving the Safety of Text-to-Image Models.",
+      "authors": [
+        "Alicia Parrish",
+        "Hannah Rose Kirk",
+        "Jessica Quaye",
+        "Charvi Rastogi",
+        "Max Bartolo",
+        "Oana Inel",
+        "Juan Ciro",
+        "Rafael Mosquera",
+        "Addison Howard",
+        "Will Cukierski",
+        "D. Sculley",
+        "Vijay Janapa Reddi",
+        "Lora Aroyo"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2305.html#abs-2305-14384",
+      "ee": "https://doi.org/10.48550/arXiv.2305.14384"
+    },
+    {
+      "title": "An Electro-Photonic System for Accelerating Deep Neural Networks.",
+      "authors": [
+        "Cansu Demirkiran",
+        "Furkan Eris",
+        "Gongyu Wang",
+        "Jonathan Elmhurst",
+        "Nick Moore",
+        "Nicholas C. Harris",
+        "Ayon Basumallik",
+        "Vijay Janapa Reddi",
+        "Ajay Joshi",
+        "Darius Bunandar"
+      ],
+      "venue": "ACM J. Emerg. Technol. Comput. Syst.",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/jetc/jetc19.html#DemirkiranEWEMHBRJB23",
+      "ee": "https://doi.org/10.1145/3606949"
+    },
+    {
+      "title": "ArchGym: An Open-Source Gymnasium for Machine Learning Assisted Architecture Design.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Amir Yazdanbakhsh",
+        "Shvetank Prakash",
+        "Jason Jabbour",
+        "Ikechukwu Uchendu",
+        "Susobhan Ghosh",
+        "Behzad Boroujerdian",
+        "Daniel Richins",
+        "Devashree Tripathy",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISCA",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/isca/isca2023.html#KrishnanYPJUGBR23",
+      "ee": "https://doi.org/10.1145/3579371.3589049"
+    },
+    {
+      "title": "ArchGym: An Open-Source Gymnasium for Machine Learning Assisted Architecture Design.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Amir Yazdanbakhsh",
+        "Shvetank Prakash",
+        "Jason Jabbour",
+        "Ikechukwu Uchendu",
+        "Susobhan Ghosh",
+        "Behzad Boroujerdian",
+        "Daniel Richins",
+        "Devashree Tripathy",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2306.html#abs-2306-08888",
+      "ee": "https://doi.org/10.48550/arXiv.2306.08888"
+    },
+    {
+      "title": "Architecture 2.0: Challenges and Opportunities.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Amir Yazdanbakhsh"
+      ],
+      "venue": "DAC",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2023.html#ReddiY23",
+      "ee": "https://doi.org/10.1109/DAC56929.2023.10247808"
+    },
+    {
+      "title": "BERRY: Bit Error Robustness for Energy-Efficient Reinforcement Learning-Based Autonomous Systems.",
+      "authors": [
+        "Zishen Wan",
+        "Nandhini Chandramoorthy",
+        "Karthik Swaminathan",
+        "Pin-Yu Chen",
+        "Vijay Janapa Reddi",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "DAC",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2023.html#WanCSCRR23",
+      "ee": "https://doi.org/10.1109/DAC56929.2023.10247999"
+    },
+    {
+      "title": "BERRY: Bit Error Robustness for Energy-Efficient Reinforcement Learning-Based Autonomous Systems.",
+      "authors": [
+        "Zishen Wan",
+        "Nandhini Chandramoorthy",
+        "Karthik Swaminathan",
+        "Pin-Yu Chen",
+        "Vijay Janapa Reddi",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2307.html#abs-2307-10041",
+      "ee": "https://doi.org/10.48550/arXiv.2307.10041"
+    },
+    {
+      "title": "CFU Playground: Full-Stack Open-Source Framework for Tiny Machine Learning (TinyML) Acceleration on FPGAs.",
+      "authors": [
+        "Shvetank Prakash",
+        "Tim Callahan",
+        "Joseph Bushagour",
+        "Colby R. Banbury",
+        "Alan V. Green",
+        "Pete Warden",
+        "Tim Ansell",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISPASS",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/ispass/ispass2023.html#PrakashCBBGWAR23",
+      "ee": "https://doi.org/10.1109/ISPASS57527.2023.00024"
+    },
+    {
+      "title": "CFU Playground: Want a faster ML processor? Do it yourself!",
+      "authors": [
+        "Shvetank Prakash",
+        "Tim Callahan",
+        "Joseph Bushagour",
+        "Colby R. Banbury",
+        "Alan V. Green",
+        "Pete Warden",
+        "Tim Ansell",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "DATE",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/date/date2023.html#PrakashCBBGWAR23",
+      "ee": "https://doi.org/10.23919/DATE56975.2023.10137093"
+    },
+    {
+      "title": "DataPerf: Benchmarks for Data-Centric AI Development.",
+      "authors": [
+        "Mark Mazumder",
+        "Colby R. Banbury",
+        "Xiaozhe Yao",
+        "Bojan Karlas",
+        "William Gaviria Rojas",
+        "Sudnya Frederick Diamos",
+        "Greg Diamos",
+        "Lynn He",
+        "Alicia Parrish",
+        "Hannah Rose Kirk",
+        "Jessica Quaye",
+        "Charvi Rastogi",
+        "Douwe Kiela",
+        "David Jurado",
+        "David Kanter",
+        "Rafael Mosquera",
+        "Will Cukierski",
+        "Juan Ciro",
+        "Lora Aroyo",
+        "Bilge Acun",
+        "Lingjiao Chen",
+        "Mehul Raje",
+        "Max Bartolo",
+        "Evan Sabri Eyuboglu",
+        "Amirata Ghorbani",
+        "Emmett D. Goodman",
+        "Addison Howard",
+        "Oana Inel",
+        "Tariq Kane",
+        "Christine R. Kirkpatrick",
+        "D. Sculley",
+        "Tzu-Sheng Kuo",
+        "Jonas W. Mueller",
+        "Tristan Thrush",
+        "Joaquin Vanschoren",
+        "Margaret Warren",
+        "Adina Williams",
+        "Serena Yeung",
+        "Newsha Ardalani",
+        "Praveen K. Paritosh",
+        "Ce Zhang 0001",
+        "James Y. Zou",
+        "Carole-Jean Wu",
+        "Cody Coleman",
+        "Andrew Y. Ng",
+        "Peter Mattson",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "NeurIPS",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/nips/neurips2023.html#MazumderBYKRDDH23",
+      "ee": "http://papers.nips.cc/paper_files/paper/2023/hash/112db88215e25b3ae2750e9eefcded94-Abstract-Datasets_and_Benchmarks.html"
+    },
+    {
+      "title": "Datasheets for Machine Learning Sensors.",
+      "authors": [
+        "Matthew Stewart",
+        "Pete Warden",
+        "Yasmine Omri",
+        "Shvetank Prakash",
+        "Joao Santos",
+        "Shawn Hymel",
+        "Benjamin Brown",
+        "Jim MacArthur",
+        "Nat Jeffries",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2306.html#abs-2306-08848",
+      "ee": "https://doi.org/10.48550/arXiv.2306.08848"
+    },
+    {
+      "title": "Deep Reinforcement Learning for Cyber Security.",
+      "authors": [
+        "Thanh Thi Nguyen 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Trans. Neural Networks Learn. Syst.",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/tnn/tnn34.html#NguyenR23",
+      "ee": "https://doi.org/10.1109/TNNLS.2021.3121870"
+    },
+    {
+      "title": "DMLR: Data-centric Machine Learning Research - Past, Present and Future.",
+      "authors": [
+        "Luis Oala",
+        "Manil Maskey",
+        "Lilith Bat-Leah",
+        "Alicia Parrish",
+        "Nezihe Merve G&#252;rel",
+        "Tzu-Sheng Kuo",
+        "Yang Liu 0018",
+        "Rotem Dror",
+        "Danilo Brajovic",
+        "Xiaozhe Yao",
+        "Max Bartolo",
+        "William Gaviria Rojas",
+        "Ryan Hileman",
+        "Rainier Aliment",
+        "Michael W. Mahoney",
+        "Meg Risdal",
+        "Matthew Lease",
+        "Wojciech Samek",
+        "Debojyoti Dutta",
+        "Curtis G. Northcutt",
+        "Cody Coleman",
+        "Braden Hancock",
+        "Bernard Koch",
+        "Girmaw Abebe Tadesse",
+        "Bojan Karlas",
+        "Ahmed M. Alaa",
+        "Adji Bousso Dieng",
+        "Natasha F. Noy",
+        "Vijay Janapa Reddi",
+        "James Zou 0001",
+        "Praveen K. Paritosh",
+        "Mihaela van der Schaar",
+        "Kurt Bollacker",
+        "Lora Aroyo",
+        "Ce Zhang 0001",
+        "Joaquin Vanschoren",
+        "Isabelle Guyon",
+        "Peter Mattson"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2311.html#abs-2311-13028",
+      "ee": "https://doi.org/10.48550/arXiv.2311.13028"
+    },
+    {
+      "title": "Edge Impulse: An MLOps Platform for Tiny Machine Learning.",
+      "authors": [
+        "Colby R. Banbury",
+        "Vijay Janapa Reddi",
+        "Alexander Elium",
+        "Shawn Hymel",
+        "David Tischler",
+        "Daniel Situnayake",
+        "Carl Ward",
+        "Louis Moreau",
+        "Jenny Plunkett",
+        "Matthew Kelcey",
+        "Mathijs Baaijens",
+        "Alessandro Grande",
+        "Dmitry Maslov",
+        "Arthur Beavis",
+        "Jan Jongboom",
+        "Jessica Quaye"
+      ],
+      "venue": "MLSys",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/mlsys/mlsys2023.html#BanburyREHTSWMP23",
+      "ee": "https://proceedings.mlsys.org/paper_files/paper/2023/hash/49fe55f5e9574714dda575bfb2177662-Abstract-mlsys2023.html"
+    },
+    {
+      "title": "FARSI: An Early-stage Design Space Exploration Framework to Tame the Domain-specific System-on-chip Complexity.",
+      "authors": [
+        "Behzad Boroujerdian",
+        "Ying Jing",
+        "Devashree Tripathy",
+        "Amit Kumar",
+        "Lavanya Subramanian",
+        "Luke Yen",
+        "Vincent Lee",
+        "Vivek Venkatesan",
+        "Amit Jindal",
+        "Robert Shearer",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ACM Trans. Embed. Comput. Syst.",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/tecs/tecs22.html#BoroujerdianJTKSYLVJSR23",
+      "ee": "https://doi.org/10.1145/3544016"
+    },
+    {
+      "title": "Federated benchmarking of medical artificial intelligence with MedPerf.",
+      "authors": [
+        "Alexandros Karargyris",
+        "Renato Umeton",
+        "Micah J. Sheller",
+        "Alejandro Aristizabal",
+        "Johnu George",
+        "Anna Wuest",
+        "Sarthak Pati",
+        "Hasan Kassem",
+        "Maximilian Zenk",
+        "Ujjwal Baid",
+        "Prakash Narayana Moorthy",
+        "Alexander Chowdhury",
+        "Junyi Guo",
+        "Sahil S. Nalawade",
+        "Jacob Rosenthal",
+        "David Kanter",
+        "Maria Xenochristou",
+        "Daniel J. Beutel",
+        "Verena Chung",
+        "Timothy Bergquist",
+        "James A. Eddy",
+        "Abubakar Abid",
+        "Lewis Tunstall",
+        "Omar Sanseviero",
+        "Dimitrios Dimitriadis",
+        "Yiming Qian",
+        "Xinxing Xu",
+        "Yong Liu 0026",
+        "Rick Siow Mong Goh",
+        "Srini Bala",
+        "Victor Bittorf",
+        "Sreekar Reddy Puchala",
+        "Biagio Ricciuti",
+        "Soujanya Samineni",
+        "Eshna Sengupta",
+        "Akshay Chaudhari",
+        "Cody Coleman",
+        "Bala Desinghu",
+        "Gregory F. Diamos",
+        "Debo Dutta",
+        "Diane Feddema",
+        "Grigori Fursin",
+        "Xinyuan Huang",
+        "Satyananda Kashyap",
+        "Nicholas D. Lane",
+        "Indranil Mallick",
+        "Pietro Mascagni",
+        "Virendra Mehta",
+        "Cassiano Ferro Moraes",
+        "Vivek Natarajan",
+        "Nikola Nikolov",
+        "Nicolas Padoy",
+        "Gennady Pekhimenko",
+        "Vijay Janapa Reddi",
+        "G. Anthony Reina",
+        "Pablo Ribalta",
+        "Abhishek Singh",
+        "Jayaraman J. Thiagarajan",
+        "Jacob Albrecht",
+        "Thomas Wolf 0008",
+        "Geralyn Miller",
+        "Huazhu Fu",
+        "Prashant Shah",
+        "Daguang Xu",
+        "Poonam Yadav",
+        "David Talby",
+        "Mark M. Awad",
+        "Jeremy P. Howard",
+        "Michael Rosenthal",
+        "Luigi Marchionni",
+        "Massimo Loda",
+        "Jason M. Johnson",
+        "Spyridon Bakas",
+        "Peter Mattson"
+      ],
+      "venue": "Nat. Mac. Intell.",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/natmi/natmi5.html#KarargyrisUSAGWPKZBMCGNRKXBCBEATS23",
+      "ee": "https://doi.org/10.1038/s42256-023-00652-2"
+    },
+    {
+      "title": "GPU-based Private Information Retrieval for On-Device Machine Learning Inference.",
+      "authors": [
+        "Maximilian Lam",
+        "Jeff Johnson 0004",
+        "Wenjie Xiong 0001",
+        "Kiwan Maeng",
+        "Udit Gupta 0001",
+        "Yang Li 0183",
+        "Liangzhen Lai",
+        "Ilias Leontiadis",
+        "Minsoo Rhu",
+        "Hsien-Hsin S. Lee",
+        "Vijay Janapa Reddi",
+        "Gu-Yeon Wei",
+        "David Brooks 0001",
+        "G. Edward Suh"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2301.html#abs-2301-10904",
+      "ee": "https://doi.org/10.48550/arXiv.2301.10904"
+    },
+    {
+      "title": "Is TinyML Sustainable?",
+      "authors": [
+        "Shvetank Prakash",
+        "Matthew Stewart",
+        "Colby R. Banbury",
+        "Mark Mazumder",
+        "Pete Warden",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Commun. ACM",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/cacm/cacm66.html#PrakashSBMWPR23",
+      "ee": "https://doi.org/10.1145/3608473"
+    },
+    {
+      "title": "Is TinyML Sustainable? Assessing the Environmental Impacts of Machine Learning on Microcontrollers.",
+      "authors": [
+        "Shvetank Prakash",
+        "Matthew Stewart",
+        "Colby R. Banbury",
+        "Mark Mazumder",
+        "Pete Warden",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2301.html#abs-2301-11899",
+      "ee": "https://doi.org/10.48550/arXiv.2301.11899"
+    },
+    {
+      "title": "Leveraging Residue Number System for Designing High-Precision Analog Deep Neural Network Accelerators.",
+      "authors": [
+        "Cansu Demirkiran",
+        "Rashmi Agrawal",
+        "Vijay Janapa Reddi",
+        "Darius Bunandar",
+        "Ajay Joshi"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2306.html#abs-2306-09481",
+      "ee": "https://doi.org/10.48550/arXiv.2306.09481"
+    },
+    {
+      "title": "Machine Learning Sensors.",
+      "authors": [
+        "Pete Warden",
+        "Matthew Stewart",
+        "Brian Plancher",
+        "Sachin Katti",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Commun. ACM",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/cacm/cacm66.html#WardenSPKR23",
+      "ee": "https://doi.org/10.1145/3586991"
+    },
+    {
+      "title": "MAVFI: An End-to-End Fault Analysis Framework with Anomaly Detection and Recovery for Micro Aerial Vehicles.",
+      "authors": [
+        "Yu-Shun Hsiao",
+        "Zishen Wan",
+        "Tianyu Jia",
+        "Radhika Ghosal",
+        "Abdulrahman Mahmoud",
+        "Arijit Raychowdhury",
+        "David Brooks 0001",
+        "Gu-Yeon Wei",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "DATE",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/date/date2023.html#HsiaoWJGMRBWR23",
+      "ee": "https://doi.org/10.23919/DATE56975.2023.10137246"
+    },
+    {
+      "title": "NeuroBench: Advancing Neuromorphic Computing through Collaborative, Fair and Representative Benchmarking.",
+      "authors": [
+        "Jason Yik",
+        "Soikat Hasan Ahmed",
+        "Zergham Ahmed",
+        "Brian Anderson",
+        "Andreas G. Andreou",
+        "Chiara Bartolozzi",
+        "Arindam Basu",
+        "Douwe den Blanken",
+        "Petrut Bogdan",
+        "Sander M. Boht&#233;",
+        "Younes Bouhadjar",
+        "Sonia M. Buckley",
+        "Gert Cauwenberghs",
+        "Federico Corradi",
+        "Guido de Croon",
+        "Andreea Danielescu 0001",
+        "Anurag Reddy Daram",
+        "Mike Davies 0002",
+        "Yigit Demirag",
+        "Jason Eshraghian",
+        "Jeremy Forest",
+        "Steve B. Furber",
+        "P. Michael Furlong",
+        "Aditya Gilra",
+        "Giacomo Indiveri",
+        "Siddharth Joshi 0001",
+        "Vedant Karia",
+        "Lyes Khacef",
+        "James C. Knight",
+        "Laura Kriener",
+        "Rajkumar Kubendran",
+        "Dhireesha Kudithipudi",
+        "Gregor Lenz",
+        "Rajit Manohar",
+        "Christian Mayr 0001",
+        "Konstantinos P. Michmizos 0001",
+        "Dylan R. Muir",
+        "Emre Neftci",
+        "Thomas Nowotny",
+        "Fabrizio Ottati",
+        "Ay&#231;a &#214;zcelikkale",
+        "Noah Pacik-Nelson",
+        "Priyadarshini Panda",
+        "Pao-Sheng Sun",
+        "Melika Payvand",
+        "Christian Pehle",
+        "Mihai A. Petrovici",
+        "Christoph Posch",
+        "Alpha Renner",
+        "Yulia Sandamirskaya",
+        "Clemens JS Schaefer",
+        "Andr&#233; van Schaik",
+        "Johannes Schemmel",
+        "Catherine D. Schuman",
+        "Jae-sun Seo",
+        "Sumit Bam Shrestha",
+        "Manolis Sifalakis",
+        "Amos Sironi",
+        "Kenneth Michael Stewart",
+        "Terrence C. Stewart",
+        "Philipp Stratmann",
+        "Guangzhi Tang",
+        "Jonathan Timcheck",
+        "Marian Verhelst",
+        "Craig M. Vineyard",
+        "Bernhard Vogginger",
+        "Amirreza Yousefzadeh",
+        "Biyan Zhou",
+        "Fatima Tuz Zohora",
+        "Charlotte Frenkel",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2304.html#abs-2304-04640",
+      "ee": "https://doi.org/10.48550/arXiv.2304.04640"
+    },
+    {
+      "title": "RoboShape: Using Topology Patterns to Scalably and Flexibly Deploy Accelerators Across Robots.",
+      "authors": [
+        "Sabrina M. Neuman",
+        "Radhika Ghosal",
+        "Thomas Bourgeat",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISCA",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/isca/isca2023.html#NeumanGBPR23",
+      "ee": "https://doi.org/10.1145/3579371.3589104"
+    },
+    {
+      "title": "RobotPerf: An Open-Source, Vendor-Agnostic, Benchmarking Suite for Evaluating Robotics Computing System Performance.",
+      "authors": [
+        "V&#237;ctor Mayoral Vilches",
+        "Jason Jabbour",
+        "Yu-Shun Hsiao",
+        "Zishen Wan",
+        "Alejandra Mart&#237;nez-Fari&#241;a",
+        "Marti&#241;o Crespo-&#193;lvarez",
+        "Matthew Stewart",
+        "Juan Manuel Reina-Mu&#241;oz",
+        "Prateek Nagras",
+        "Gaurav Vikhe",
+        "Mohammad Bakhshalipour",
+        "Martin Pinzger 0001",
+        "Stefan Rass",
+        "Smruti Panigrahi",
+        "Giulio Corradi",
+        "Niladri Roy",
+        "Phillip B. Gibbons",
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2309.html#abs-2309-09212",
+      "ee": "https://doi.org/10.48550/arXiv.2309.09212"
+    },
+    {
+      "title": "Solving Complex Sequential Decision-Making Problems by Deep Reinforcement Learning with Heuristic Rules.",
+      "authors": [
+        "Thanh Thi Nguyen 0001",
+        "Minh Cuong Nguyen",
+        "Thien Huynh-The",
+        "Quoc-Viet Pham",
+        "Quoc Viet Hung Nguyen",
+        "Imran Razzak",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ICCS (2)",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/iccS/iccS2023-2.html#NguyenNHPNRR23",
+      "ee": "https://doi.org/10.1007/978-3-031-36021-3_30"
+    },
+    {
+      "title": "Special Issue on TinyML.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Boris Murmann"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/micro/micro43.html#ReddiM23",
+      "ee": "https://doi.org/10.1109/MM.2023.3322048"
+    },
+    {
+      "title": "VaPr: Variable-Precision Tensors to Accelerate Robot Motion Planning.",
+      "authors": [
+        "Yu-Shun Hsiao",
+        "Siva Kumar Sastry Hari",
+        "Balakumar Sundaralingam",
+        "Jason Yik",
+        "Thierry Tambe",
+        "Charbel Sakr",
+        "Stephen W. Keckler",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IROS",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/iros/iros2023.html#HsiaoHSYTSKR23",
+      "ee": "https://doi.org/10.1109/IROS55552.2023.10342109"
+    },
+    {
+      "title": "VaPr: Variable-Precision Tensors to Accelerate Robot Motion Planning.",
+      "authors": [
+        "Yu-Shun Hsiao",
+        "Siva Kumar Sastry Hari",
+        "Balakumar Sundaralingam",
+        "Jason Yik",
+        "Thierry Tambe",
+        "Charbel Sakr",
+        "Stephen W. Keckler",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2023,
+      "type": "article",
+      "url": "db/journals/corr/corr2310.html#abs-2310-07854",
+      "ee": "https://doi.org/10.48550/arXiv.2310.07854"
+    },
+    {
+      "title": "XRBench: An Extended Reality (XR) Machine Learning Benchmark Suite for the Metaverse.",
+      "authors": [
+        "Hyoukjun Kwon",
+        "Krishnakumar Nair",
+        "Jamin Seo",
+        "Jason Yik",
+        "Debabrata Mohapatra",
+        "Dongyuan Zhan",
+        "Jinook Song",
+        "Peter Capak",
+        "Peizhao Zhang",
+        "Peter Vajda",
+        "Colby R. Banbury",
+        "Mark Mazumder",
+        "Liangzhen Lai",
+        "Ashish Sirasao",
+        "Tushar Krishna",
+        "Harshit Khaitan",
+        "Vikas Chandra",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "MLSys",
+      "year": 2023,
+      "type": "inproceedings",
+      "url": "db/conf/mlsys/mlsys2023.html#KwonNSYMZSCZVBM23",
+      "ee": "https://proceedings.mlsys.org/paper_files/paper/2023/hash/07b7c2f8a6978e376f9656d69619bfbb-Abstract-mlsys2023.html"
+    },
+    {
+      "title": "A Survey on Machine Learning Accelerators and Evolutionary Hardware Platforms.",
+      "authors": [
+        "Sathwika Bavikadi",
+        "Abhijitt Dhavlle",
+        "Amlan Ganguly",
+        "Anand Haridass",
+        "Hagar Hendy",
+        "Cory E. Merkel",
+        "Vijay Janapa Reddi",
+        "Purab Ranjan Sutradhar",
+        "Arun Joseph",
+        "Sai Manoj Pudukotai Dinakarrao"
+      ],
+      "venue": "IEEE Des. Test",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/dt/dt39.html#BavikadiDGHHMRS22",
+      "ee": "https://doi.org/10.1109/MDAT.2022.3161126"
+    },
+    {
+      "title": "Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Zishen Wan",
+        "Kshitij Bhardwaj",
+        "Paul N. Whatmough",
+        "Aleksandra Faust",
+        "Sabrina M. Neuman",
+        "Gu-Yeon Wei",
+        "David Brooks 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "MICRO",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2022.html#KrishnanWBWFNW022",
+      "ee": "https://doi.org/10.1109/MICRO56248.2022.00033"
+    },
+    {
+      "title": "CFU Playground: Full-Stack Open-Source Framework for Tiny Machine Learning (tinyML) Acceleration on FPGAs.",
+      "authors": [
+        "Shvetank Prakash",
+        "Tim Callahan",
+        "Joseph Bushagour",
+        "Colby R. Banbury",
+        "Alan V. Green",
+        "Pete Warden",
+        "Tim Ansell",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2201.html#abs-2201-01863",
+      "ee": "https://arxiv.org/abs/2201.01863"
+    },
+    {
+      "title": "DataPerf: Benchmarks for Data-Centric AI Development.",
+      "authors": [
+        "Mark Mazumder",
+        "Colby R. Banbury",
+        "Xiaozhe Yao",
+        "Bojan Karlas",
+        "William Gaviria Rojas",
+        "Sudnya Frederick Diamos",
+        "Greg Diamos",
+        "Lynn He",
+        "Douwe Kiela",
+        "David Jurado",
+        "David Kanter",
+        "Rafael Mosquera",
+        "Juan Ciro",
+        "Lora Aroyo",
+        "Bilge Acun",
+        "Sabri Eyuboglu",
+        "Amirata Ghorbani",
+        "Emmett D. Goodman",
+        "Tariq Kane",
+        "Christine R. Kirkpatrick",
+        "Tzu-Sheng Kuo",
+        "Jonas Mueller 0001",
+        "Tristan Thrush",
+        "Joaquin Vanschoren",
+        "Margaret Warren",
+        "Adina Williams",
+        "Serena Yeung",
+        "Newsha Ardalani",
+        "Praveen K. Paritosh",
+        "Ce Zhang 0001",
+        "James Zou 0001",
+        "Carole-Jean Wu",
+        "Cody Coleman",
+        "Andrew Y. Ng",
+        "Peter Mattson",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2207.html#abs-2207-10062",
+      "ee": "https://doi.org/10.48550/arXiv.2207.10062"
+    },
+    {
+      "title": "Edge Impulse: An MLOps Platform for Tiny Machine Learning.",
+      "authors": [
+        "Shawn Hymel",
+        "Colby R. Banbury",
+        "Daniel Situnayake",
+        "Alexander Elium",
+        "Carl Ward",
+        "Matthew Kelcey",
+        "Mathijs Baaijens",
+        "Mateusz Majchrzycki",
+        "Jenny Plunkett",
+        "David Tischler",
+        "Alessandro Grande",
+        "Louis Moreau",
+        "Dmitry Maslov",
+        "Arthur Beavis",
+        "Jan Jongboom",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2212.html#abs-2212-03332",
+      "ee": "https://doi.org/10.48550/arXiv.2212.03332"
+    },
+    {
+      "title": "FARSI: Facebook AR System Investigator for Agile Domain-Specific System-on-Chip Exploration.",
+      "authors": [
+        "Behzad Boroujerdian",
+        "Ying Jing",
+        "Amit Kumar",
+        "Lavanya Subramanian",
+        "Luke Yen",
+        "Vincent Lee",
+        "Vivek Venkatesan",
+        "Amit Jindal",
+        "Robert Shearer",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2201.html#abs-2201-05232",
+      "ee": "https://arxiv.org/abs/2201.05232"
+    },
+    {
+      "title": "FastML Science Benchmarks: Accelerating Real-Time Scientific Edge Machine Learning.",
+      "authors": [
+        "Javier M. Duarte",
+        "Nhan Tran",
+        "Benjamin Hawks",
+        "Christian Herwig",
+        "Jules Muhizi",
+        "Shvetank Prakash",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2207.html#abs-2207-07958",
+      "ee": "https://doi.org/10.48550/arXiv.2207.07958"
+    },
+    {
+      "title": "FRL-FI: Transient Fault Analysis for Federated Reinforcement Learning-Based Navigation Systems.",
+      "authors": [
+        "Zishen Wan",
+        "Aqeel Anwar",
+        "Abdulrahman Mahmoud",
+        "Tianyu Jia",
+        "Yu-Shun Hsiao",
+        "Vijay Janapa Reddi",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "DATE",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/date/date2022.html#WanAMJHRR22",
+      "ee": "https://doi.org/10.23919/DATE54114.2022.9774562"
+    },
+    {
+      "title": "FRL-FI: Transient Fault Analysis for Federated Reinforcement Learning-Based Navigation Systems.",
+      "authors": [
+        "Zishen Wan",
+        "Aqeel Anwar",
+        "Abdulrahman Mahmoud",
+        "Tianyu Jia",
+        "Yu-Shun Hsiao",
+        "Vijay Janapa Reddi",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2203.html#abs-2203-07276",
+      "ee": "https://doi.org/10.48550/arXiv.2203.07276"
+    },
+    {
+      "title": "GRiD: GPU-Accelerated Rigid Body Dynamics with Analytical Gradients.",
+      "authors": [
+        "Brian Plancher",
+        "Sabrina M. Neuman",
+        "Radhika Ghosal",
+        "Scott Kuindersma",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ICRA",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/icra/icra2022.html#PlancherNGKR22",
+      "ee": "https://doi.org/10.1109/ICRA46639.2022.9812384"
+    },
+    {
+      "title": "Machine Learning Sensors.",
+      "authors": [
+        "Pete Warden",
+        "Matthew Stewart",
+        "Brian Plancher",
+        "Colby R. Banbury",
+        "Shvetank Prakash",
+        "Emma Chen",
+        "Zain Asgar",
+        "Sachin Katti",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2206.html#abs-2206-03266",
+      "ee": "https://doi.org/10.48550/arXiv.2206.03266"
+    },
+    {
+      "title": "MLPerf Mobile Inference Benchmark: An Industry-Standard Open-Source Machine Learning Benchmark for On-Device AI.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "David Kanter",
+        "Peter Mattson",
+        "Jared Duke",
+        "Thai Nguyen",
+        "Ramesh Chukka",
+        "Kenneth Shiring",
+        "Koan-Sin Tan",
+        "Mark Charlebois",
+        "William Chou",
+        "Mostafa El-Khamy",
+        "Jungwook Hong",
+        "Tom St. John",
+        "Cindy Trinh",
+        "Michael Buch",
+        "Mark Mazumder",
+        "Relja Markovic",
+        "Thomas Atta-Fosu",
+        "Fatih &#199;akir",
+        "Masoud Charkhabi",
+        "Xiaodong Chen",
+        "Cheng-Ming Chiang",
+        "Dave Dexter",
+        "Terry Heo",
+        "Guenther Schmuelling",
+        "Maryam Shabani",
+        "Dylan Zika"
+      ],
+      "venue": "MLSys",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/mlsys/mlsys2022.html#ReddiKMDNCSTCCE22",
+      "ee": "https://proceedings.mlsys.org/paper_files/paper/2022/hash/a2b2702ea7e682c5ea2c20e8f71efb0c-Abstract.html"
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning for Microprocessor Design Space Exploration.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Natasha Jaques",
+        "Shayegan Omidshafiei",
+        "Dan Zhang",
+        "Izzeddin Gur",
+        "Vijay Janapa Reddi",
+        "Aleksandra Faust"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2211.html#abs-2211-16385",
+      "ee": "https://doi.org/10.48550/arXiv.2211.16385"
+    },
+    {
+      "title": "OMU: A Probabilistic 3D Occupancy Mapping Accelerator for Real-time OctoMap at the Edge.",
+      "authors": [
+        "Tianyu Jia",
+        "En-Yu Yang",
+        "Yu-Shun Hsiao",
+        "Jonathan J. Cruz",
+        "David Brooks 0001",
+        "Gu-Yeon Wei",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "DATE",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/date/date2022.html#JiaYHCBWR22",
+      "ee": "https://doi.org/10.23919/DATE54114.2022.9774508"
+    },
+    {
+      "title": "OMU: A Probabilistic 3D Occupancy Mapping Accelerator for Real-time OctoMap at the Edge.",
+      "authors": [
+        "Tianyu Jia",
+        "En-Yu Yang",
+        "Yu-Shun Hsiao",
+        "Jonathan J. Cruz",
+        "David Brooks 0001",
+        "Gu-Yeon Wei",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2205.html#abs-2205-03325",
+      "ee": "https://doi.org/10.48550/arXiv.2205.03325"
+    },
+    {
+      "title": "QuaRL: Quantization for Fast and Environmentally Sustainable Reinforcement Learning.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Max Lam",
+        "Sharad Chitlangia",
+        "Zishen Wan",
+        "Gabriel Barth-Maron",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Trans. Mach. Learn. Res.",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/tmlr/tmlr2022.html#KrishnanLCWBFR22",
+      "ee": "https://openreview.net/forum?id=xwWsiFmUEs"
+    },
+    {
+      "title": "RobotCore: An Open Architecture for Hardware Acceleration in ROS 2.",
+      "authors": [
+        "V&#237;ctor Mayoral Vilches",
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IROS",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/iros/iros2022.html#VilchesNPR22",
+      "ee": "https://doi.org/10.1109/IROS47612.2022.9982082"
+    },
+    {
+      "title": "RobotCore: An Open Architecture for Hardware Acceleration in ROS 2.",
+      "authors": [
+        "V&#237;ctor Mayoral Vilches",
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2205.html#abs-2205-03929",
+      "ee": "https://doi.org/10.48550/arXiv.2205.03929"
+    },
+    {
+      "title": "Robotic Computing on FPGAs: Current Progress, Research Challenges, and Opportunities.",
+      "authors": [
+        "Zishen Wan",
+        "Ashwin Sanjay Lele",
+        "Bo Yu 0014",
+        "Shaoshan Liu",
+        "Yu Wang",
+        "Vijay Janapa Reddi",
+        "Cong Hao",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "AICAS",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/aicas/aicas2022.html#WanLYLWRHR22",
+      "ee": "https://doi.org/10.1109/AICAS54282.2022.9869951"
+    },
+    {
+      "title": "Robotic Computing on FPGAs: Current Progress, Research Challenges, and Opportunities.",
+      "authors": [
+        "Zishen Wan",
+        "Ashwin Sanjay Lele",
+        "Bo Yu 0014",
+        "Shaoshan Liu",
+        "Yu Wang",
+        "Vijay Janapa Reddi",
+        "Cong Hao",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2205.html#abs-2205-07149",
+      "ee": "https://doi.org/10.48550/arXiv.2205.07149"
+    },
+    {
+      "title": "Roofline Model for UAVs: A Bottleneck Analysis Tool for Onboard Compute Characterization of Autonomous Unmanned Aerial Vehicles.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Zishen Wan",
+        "Kshitij Bhardwaj",
+        "Ninad Jadhav",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISPASS",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/ispass/ispass2022.html#KrishnanWBJFR22",
+      "ee": "https://doi.org/10.1109/ISPASS55109.2022.00023"
+    },
+    {
+      "title": "Roofline Model for UAVs: A Bottleneck Analysis Tool for Onboard Compute Characterization of Autonomous Unmanned Aerial Vehicles.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Zishen Wan",
+        "Kshitij Bhardwaj",
+        "Ninad Jadhav",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2204.html#abs-2204-10898",
+      "ee": "https://doi.org/10.48550/arXiv.2204.10898"
+    },
+    {
+      "title": "Tabula: Efficiently Computing Nonlinear Activation Functions for Secure Neural Network Inference.",
+      "authors": [
+        "Maximilian Lam",
+        "Michael Mitzenmacher",
+        "Vijay Janapa Reddi",
+        "Gu-Yeon Wei",
+        "David Brooks 0001"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2203.html#abs-2203-02833",
+      "ee": "https://doi.org/10.48550/arXiv.2203.02833"
+    },
+    {
+      "title": "The Dollar Street Dataset: Images Representing the Geographic and Socioeconomic Diversity of the World.",
+      "authors": [
+        "William A. Gaviria Rojas",
+        "Sudnya Frederick Diamos",
+        "Keertan Kini",
+        "David Kanter",
+        "Vijay Janapa Reddi",
+        "Cody Coleman"
+      ],
+      "venue": "NeurIPS",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/nips/neurips2022.html#RojasDKKRC22",
+      "ee": "http://papers.nips.cc/paper_files/paper/2022/hash/5474d9d43c0519aa176276ff2c1ca528-Abstract-Datasets_and_Benchmarks.html"
+    },
+    {
+      "title": "Tiny Robot Learning: Challenges and Directions for Machine Learning in Resource-Constrained Robots.",
+      "authors": [
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Bardienus Pieter Duisterhof",
+        "Srivatsan Krishnan",
+        "Colby R. Banbury",
+        "Mark Mazumder",
+        "Shvetank Prakash",
+        "Jason Jabbour",
+        "Aleksandra Faust",
+        "Guido C. H. E. de Croon",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "AICAS",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/aicas/aicas2022.html#NeumanPDKBMPJFC22",
+      "ee": "https://doi.org/10.1109/AICAS54282.2022.9870000"
+    },
+    {
+      "title": "Tiny Robot Learning: Challenges and Directions for Machine Learning in Resource-Constrained Robots.",
+      "authors": [
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Bardienus Pieter Duisterhof",
+        "Srivatsan Krishnan",
+        "Colby R. Banbury",
+        "Mark Mazumder",
+        "Shvetank Prakash",
+        "Jason Jabbour",
+        "Aleksandra Faust",
+        "Guido C. H. E. de Croon",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2205.html#abs-2205-05748",
+      "ee": "https://doi.org/10.48550/arXiv.2205.05748"
+    },
+    {
+      "title": "TinyMLedu: The Tiny Machine Learning Open Education Initiative.",
+      "authors": [
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "SIGCSE (2)",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/sigcse/sigcse2022-2.html#PlancherR21",
+      "ee": "https://doi.org/10.1145/3478432.3499093"
+    },
+    {
+      "title": "XRBench: An Extended Reality (XR) Machine Learning Benchmark Suite for the Metaverse.",
+      "authors": [
+        "Hyoukjun Kwon",
+        "Krishnakumar Nair",
+        "Jamin Seo",
+        "Jason Yik",
+        "Debabrata Mohapatra",
+        "Dongyuan Zhan",
+        "Jinook Song",
+        "Peter Capak",
+        "Peizhao Zhang",
+        "Peter Vajda",
+        "Colby R. Banbury",
+        "Mark Mazumder",
+        "Liangzhen Lai",
+        "Ashish Sirasao",
+        "Tushar Krishna",
+        "Harshit Khaitan",
+        "Vikas Chandra",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2211.html#abs-2211-08675",
+      "ee": "https://doi.org/10.48550/arXiv.2211.08675"
+    },
+    {
+      "title": "Zhuyi: perception processing rate estimation for safety in autonomous vehicles.",
+      "authors": [
+        "Yu-Shun Hsiao",
+        "Siva Kumar Sastry Hari",
+        "Michal Filipiuk",
+        "Timothy Tsai 0002",
+        "Michael B. Sullivan 0001",
+        "Vijay Janapa Reddi",
+        "Vasu Singh",
+        "Stephen W. Keckler"
+      ],
+      "venue": "DAC",
+      "year": 2022,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2022.html#HsiaoHF00RSK22",
+      "ee": "https://doi.org/10.1145/3489517.3530445"
+    },
+    {
+      "title": "Zhuyi: Perception Processing Rate Estimation for Safety in Autonomous Vehicles.",
+      "authors": [
+        "Yu-Shun Hsiao",
+        "Siva Kumar Sastry Hari",
+        "Michal Filipiuk",
+        "Timothy Tsai 0002",
+        "Michael B. Sullivan 0001",
+        "Vijay Janapa Reddi",
+        "Vasu Singh",
+        "Stephen W. Keckler"
+      ],
+      "venue": "CoRR",
+      "year": 2022,
+      "type": "article",
+      "url": "db/journals/corr/corr2205.html#abs-2205-03347",
+      "ee": "https://doi.org/10.48550/arXiv.2205.03347"
+    },
+    {
+      "title": "Accelerating Robot Dynamics Gradients on a CPU, GPU, and FPGA.",
+      "authors": [
+        "Brian Plancher",
+        "Sabrina M. Neuman",
+        "Thomas Bourgeat",
+        "Scott Kuindersma",
+        "Srinivas Devadas",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Robotics Autom. Lett.",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/ral/ral6.html#PlancherNBKDR21",
+      "ee": "https://doi.org/10.1109/LRA.2021.3057845"
+    },
+    {
+      "title": "Accelerator-level parallelism.",
+      "authors": [
+        "Mark D. Hill",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Commun. ACM",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/cacm/cacm64.html#HillR21",
+      "ee": "https://doi.org/10.1145/3460970"
+    },
+    {
+      "title": "AI Tax in Mobile SoCs: End-to-end Performance Analysis of Machine Learning in Smartphones.",
+      "authors": [
+        "Michael Buch",
+        "Zahra Azad",
+        "Ajay Joshi",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISPASS",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/ispass/ispass2021.html#BuchAJR21",
+      "ee": "https://doi.org/10.1109/ISPASS51385.2021.00027"
+    },
+    {
+      "title": "Air Learning: a deep reinforcement learning gym for autonomous aerial robot visual navigation.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Behzad Boroujerdian",
+        "William Fu",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Mach. Learn.",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/ml/ml110.html#KrishnanBFFR21",
+      "ee": "https://doi.org/10.1007/s10994-021-06006-6"
+    },
+    {
+      "title": "An Electro-Photonic System for Accelerating Deep Neural Networks.",
+      "authors": [
+        "Cansu Demirkiran",
+        "Furkan Eris",
+        "Gongyu Wang",
+        "Jonathan Elmhurst",
+        "Nick Moore",
+        "Nicholas C. Harris",
+        "Ayon Basumallik",
+        "Vijay Janapa Reddi",
+        "Ajay Joshi",
+        "Darius Bunandar"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2109.html#abs-2109-01126",
+      "ee": "https://arxiv.org/abs/2109.01126"
+    },
+    {
+      "title": "Analyzing and Improving Fault Tolerance of Learning-Based Navigation Systems.",
+      "authors": [
+        "Zishen Wan",
+        "Aqeel Anwar",
+        "Yu-Shun Hsiao",
+        "Tianyu Jia",
+        "Vijay Janapa Reddi",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "DAC",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2021.html#WanAHJRR21",
+      "ee": "https://doi.org/10.1109/DAC18074.2021.9586116"
+    },
+    {
+      "title": "Analyzing and Improving Fault Tolerance of Learning-Based Navigation Systems.",
+      "authors": [
+        "Zishen Wan",
+        "Aqeel Anwar",
+        "Yu-Shun Hsiao",
+        "Tianyu Jia",
+        "Vijay Janapa Reddi",
+        "Arijit Raychowdhury"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2111.html#abs-2111-04957",
+      "ee": "https://arxiv.org/abs/2111.04957"
+    },
+    {
+      "title": "AutoSoC: Automating Algorithm-SOC Co-design for Aerial Robots.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Thierry Tambe",
+        "Zishen Wan",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2109.html#abs-2109-05683",
+      "ee": "https://arxiv.org/abs/2109.05683"
+    },
+    {
+      "title": "Data Engineering for Everyone.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Greg Diamos",
+        "Pete Warden",
+        "Peter Mattson",
+        "David Kanter"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2102.html#abs-2102-11447",
+      "ee": "https://arxiv.org/abs/2102.11447"
+    },
+    {
+      "title": "Erratum to &#34;Predictive Guardbanding: Program-Driven Timing Margin Reduction for GPUs&#34;.",
+      "authors": [
+        "Jingwen Leng",
+        "Alper Buyuktosunoglu",
+        "Ramon Bertran",
+        "Pradip Bose",
+        "Yazhou Zu",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/tcad/tcad40.html#LengBBBZR21a",
+      "ee": "https://doi.org/10.1109/TCAD.2021.3058491"
+    },
+    {
+      "title": "Few-Shot Keyword Spotting in Any Language.",
+      "authors": [
+        "Mark Mazumder",
+        "Colby R. Banbury",
+        "Josh Meyer",
+        "Pete Warden",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Interspeech",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/interspeech/interspeech2021.html#MazumderBMWR21",
+      "ee": "https://doi.org/10.21437/Interspeech.2021-1966"
+    },
+    {
+      "title": "Few-Shot Keyword Spotting in Any Language.",
+      "authors": [
+        "Mark Mazumder",
+        "Colby R. Banbury",
+        "Josh Meyer",
+        "Pete Warden",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2104.html#abs-2104-01454",
+      "ee": "https://arxiv.org/abs/2104.01454"
+    },
+    {
+      "title": "Gradient Disaggregation: Breaking Privacy in Federated Learning by Reconstructing the User Participant Matrix.",
+      "authors": [
+        "Maximilian Lam",
+        "Gu-Yeon Wei",
+        "David Brooks 0001",
+        "Vijay Janapa Reddi",
+        "Michael Mitzenmacher"
+      ],
+      "venue": "ICML",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/icml/icml2021.html#LamW0RM21",
+      "ee": "http://proceedings.mlr.press/v139/lam21b.html"
+    },
+    {
+      "title": "Gradient Disaggregation: Breaking Privacy in Federated Learning by Reconstructing the User Participant Matrix.",
+      "authors": [
+        "Maximilian Lam",
+        "Gu-Yeon Wei",
+        "David Brooks 0001",
+        "Vijay Janapa Reddi",
+        "Michael Mitzenmacher"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2106.html#abs-2106-06089",
+      "ee": "https://arxiv.org/abs/2106.06089"
+    },
+    {
+      "title": "GRiD: GPU-Accelerated Rigid Body Dynamics with Analytical Gradients.",
+      "authors": [
+        "Brian Plancher",
+        "Sabrina M. Neuman",
+        "Radhika Ghosal",
+        "Scott Kuindersma",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2109.html#abs-2109-06976",
+      "ee": "https://arxiv.org/abs/2109.06976"
+    },
+    {
+      "title": "Machine Learning-Based Automated Design Space Exploration for Autonomous Aerial Robots.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Zishen Wan",
+        "Kshitij Bhardwaj",
+        "Paul N. Whatmough",
+        "Aleksandra Faust",
+        "Sabrina M. Neuman",
+        "Gu-Yeon Wei",
+        "David Brooks 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2102.html#abs-2102-02988",
+      "ee": "https://arxiv.org/abs/2102.02988"
+    },
+    {
+      "title": "MAVFI: An End-to-End Fault Analysis Framework with Anomaly Detection and Recovery for Micro Aerial Vehicles.",
+      "authors": [
+        "Yu-Shun Hsiao",
+        "Zishen Wan",
+        "Tianyu Jia",
+        "Radhika Ghosal",
+        "Arijit Raychowdhury",
+        "David Brooks 0001",
+        "Gu-Yeon Wei",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2105.html#abs-2105-12882",
+      "ee": "https://arxiv.org/abs/2105.12882"
+    },
+    {
+      "title": "MedPerf: Open Benchmarking Platform for Medical Artificial Intelligence using Federated Evaluation.",
+      "authors": [
+        "Alexandros Karargyris",
+        "Renato Umeton",
+        "Micah J. Sheller",
+        "Alejandro Aristizabal",
+        "Johnu George",
+        "Srini Bala",
+        "Daniel J. Beutel",
+        "Victor Bittorf",
+        "Akshay Chaudhari",
+        "Alexander Chowdhury",
+        "Cody Coleman",
+        "Bala Desinghu",
+        "Gregory F. Diamos",
+        "Debo Dutta",
+        "Diane Feddema",
+        "Grigori Fursin",
+        "Junyi Guo",
+        "Xinyuan Huang",
+        "David Kanter",
+        "Satyananda Kashyap",
+        "Nicholas D. Lane",
+        "Indranil Mallick",
+        "Pietro Mascagni",
+        "Virendra Mehta",
+        "Vivek Natarajan",
+        "Nikola Nikolov",
+        "Nicolas Padoy",
+        "Gennady Pekhimenko",
+        "Vijay Janapa Reddi",
+        "G. Anthony Reina",
+        "Pablo Ribalta",
+        "Jacob Rosenthal",
+        "Abhishek Singh",
+        "Jayaraman J. Thiagarajan",
+        "Anna Wuest",
+        "Maria Xenochristou",
+        "Daguang Xu",
+        "Poonam Yadav",
+        "Michael Rosenthal",
+        "Massimo Loda",
+        "Jason M. Johnson",
+        "Peter Mattson"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2110.html#abs-2110-01406",
+      "ee": "https://arxiv.org/abs/2110.01406"
+    },
+    {
+      "title": "MicroNets: Neural Network Architectures for Deploying TinyML Applications on Commodity Microcontrollers.",
+      "authors": [
+        "Colby R. Banbury",
+        "Chuteng Zhou",
+        "Igor Fedorov",
+        "Ramon Matas Navarro",
+        "Urmish Thakker",
+        "Dibakar Gope",
+        "Vijay Janapa Reddi",
+        "Matthew Mattina",
+        "Paul N. Whatmough"
+      ],
+      "venue": "MLSys",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/mlsys/mlsys2021.html#BanburyZFNTGRMW21",
+      "ee": "https://proceedings.mlsys.org/paper_files/paper/2021/hash/c4d41d9619462c534b7b61d1f772385e-Abstract.html"
+    },
+    {
+      "title": "MLPerf Tiny Benchmark.",
+      "authors": [
+        "Colby R. Banbury",
+        "Vijay Janapa Reddi",
+        "Peter Torelli",
+        "Nat Jeffries",
+        "Csaba Kir&#225;ly 0002",
+        "Jeremy Holleman",
+        "Pietro Montino",
+        "David Kanter",
+        "Pete Warden",
+        "Danilo Pau",
+        "Urmish Thakker",
+        "Antonio Torrini",
+        "Jay Cordaro",
+        "Giuseppe Di Guglielmo",
+        "Javier M. Duarte",
+        "Honson Tran",
+        "Nhan Tran",
+        "Wenxu Niu",
+        "Xuesong Xu"
+      ],
+      "venue": "NeurIPS Datasets and Benchmarks",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/nips/neurips2021db.html#BanburyRTJ0HMKW21",
+      "ee": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/da4fb5c6e93e74d3df8527599fa62642-Abstract-round1.html"
+    },
+    {
+      "title": "MLPerf Tiny Benchmark.",
+      "authors": [
+        "Colby R. Banbury",
+        "Vijay Janapa Reddi",
+        "Peter Torelli",
+        "Jeremy Holleman",
+        "Nat Jeffries",
+        "Csaba Kir&#225;ly 0002",
+        "Pietro Montino",
+        "David Kanter",
+        "Sebastian Ahmed",
+        "Danilo Pau",
+        "Urmish Thakker",
+        "Antonio Torrini",
+        "Pete Warden",
+        "Jay Cordaro",
+        "Giuseppe Di Guglielmo",
+        "Javier M. Duarte",
+        "Stephen Gibellini",
+        "Videet Parekh",
+        "Honson Tran",
+        "Nhan Tran",
+        "Wenxu Niu",
+        "Xuesong Xu"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2106.html#abs-2106-07597",
+      "ee": "https://arxiv.org/abs/2106.07597"
+    },
+    {
+      "title": "Multilingual Spoken Words Corpus.",
+      "authors": [
+        "Mark Mazumder",
+        "Sharad Chitlangia",
+        "Colby R. Banbury",
+        "Yiping Kang",
+        "Juan Ciro",
+        "Keith Achorn",
+        "Daniel Galvez",
+        "Mark Sabini",
+        "Peter Mattson",
+        "David Kanter",
+        "Greg Diamos",
+        "Pete Warden",
+        "Josh Meyer",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "NeurIPS Datasets and Benchmarks",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/nips/neurips2021db.html#MazumderCBKCAGS21",
+      "ee": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/fe131d7f5a6b38b23cc967316c13dae2-Abstract-round2.html"
+    },
+    {
+      "title": "Precision Batching: Bitserial Decomposition for Efficient Neural Network Inference on GPUs.",
+      "authors": [
+        "Maximilian Lam",
+        "Zachary Yedidia",
+        "Colby R. Banbury",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "PACT",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/IEEEpact/pact2021.html#LamYBR21",
+      "ee": "https://doi.org/10.1109/PACT52795.2021.00017"
+    },
+    {
+      "title": "Predictive Guardbanding: Program-Driven Timing Margin Reduction for GPUs.",
+      "authors": [
+        "Jingwen Leng",
+        "Alper Buyuktosunoglu",
+        "Ramon Bertran",
+        "Pradip Bose",
+        "Yazhou Zu",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/tcad/tcad40.html#LengBBBZR21",
+      "ee": "https://doi.org/10.1109/TCAD.2020.2992684"
+    },
+    {
+      "title": "RL-Scope: Cross-stack Profiling for Deep Reinforcement Learning Workloads.",
+      "authors": [
+        "James Gleeson 0001",
+        "Moshe Gabel",
+        "Gennady Pekhimenko",
+        "Eyal de Lara",
+        "Srivatsan Krishnan",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "MLSys",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/mlsys/mlsys2021.html#0001GPLKR21",
+      "ee": "https://proceedings.mlsys.org/paper_files/paper/2021/hash/676638b91bc90529e09b22e58abb01d6-Abstract.html"
+    },
+    {
+      "title": "RL-Scope: Cross-Stack Profiling for Deep Reinforcement Learning Workloads.",
+      "authors": [
+        "James Gleeson 0001",
+        "Srivatsan Krishnan",
+        "Moshe Gabel",
+        "Vijay Janapa Reddi",
+        "Eyal de Lara",
+        "Gennady Pekhimenko"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2102.html#abs-2102-04285",
+      "ee": "https://arxiv.org/abs/2102.04285"
+    },
+    {
+      "title": "Robomorphic computing: a design methodology for domain-specific accelerators parameterized by robot morphology.",
+      "authors": [
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Thomas Bourgeat",
+        "Thierry Tambe",
+        "Srinivas Devadas",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ASPLOS",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/asplos/asplos2021.html#NeumanPBTDR21",
+      "ee": "https://doi.org/10.1145/3445814.3446746"
+    },
+    {
+      "title": "RoboRun: A Robot Runtime to Exploit Spatial Heterogeneity.",
+      "authors": [
+        "Behzad Boroujerdian",
+        "Radhika Ghosal",
+        "Jonathan J. Cruz",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "DAC",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2021.html#BoroujerdianGCP21",
+      "ee": "https://doi.org/10.1109/DAC18074.2021.9586280"
+    },
+    {
+      "title": "RoboRun: A Robot Runtime to Exploit Spatial Heterogeneity.",
+      "authors": [
+        "Behzad Boroujerdian",
+        "Radhika Ghosal",
+        "Jonathan J. Cruz",
+        "Brian Plancher",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2108.html#abs-2108-13354",
+      "ee": "https://arxiv.org/abs/2108.13354"
+    },
+    {
+      "title": "Sniffy Bug: A Fully Autonomous Swarm of Gas-Seeking Nano Quadcopters in Cluttered Environments.",
+      "authors": [
+        "Bardienus Pieter Duisterhof",
+        "Shushuai Li",
+        "Javier Burgu&#233;s",
+        "Vijay Janapa Reddi",
+        "Guido C. H. E. de Croon"
+      ],
+      "venue": "IROS",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/iros/iros2021.html#DuisterhofLBRC21",
+      "ee": "https://doi.org/10.1109/IROS51168.2021.9636217"
+    },
+    {
+      "title": "Sniffy Bug: A Fully Autonomous Swarm of Gas-Seeking Nano Quadcopters in Cluttered Environments.",
+      "authors": [
+        "Bardienus Pieter Duisterhof",
+        "Shushuai Li",
+        "Javier Burgu&#233;s",
+        "Vijay Janapa Reddi",
+        "Guido C. H. E. de Croon"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2107.html#abs-2107-05490",
+      "ee": "https://arxiv.org/abs/2107.05490"
+    },
+    {
+      "title": "System-level Early-stage Modeling and Evaluation of IVR-assisted Processor Power Delivery System.",
+      "authors": [
+        "An Zou",
+        "Huifeng Zhu",
+        "Jingwen Leng",
+        "Xin He 0011",
+        "Vijay Janapa Reddi",
+        "Christopher D. Gill",
+        "Xuan Zhang 0001"
+      ],
+      "venue": "ACM Trans. Archit. Code Optim.",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/taco/taco18.html#ZouZLHRGZ21",
+      "ee": "https://doi.org/10.1145/3468145"
+    },
+    {
+      "title": "TensorFlow Lite Micro: Embedded Machine Learning for TinyML Systems.",
+      "authors": [
+        "Robert David",
+        "Jared Duke",
+        "Advait Jain",
+        "Vijay Janapa Reddi",
+        "Nat Jeffries",
+        "Jian Li",
+        "Nick Kreeger",
+        "Ian Nappier",
+        "Meghna Natraj",
+        "Tiezhen Wang",
+        "Pete Warden",
+        "Rocky Rhodes"
+      ],
+      "venue": "MLSys",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/mlsys/mlsys2021.html#DavidDJRJLKNNWW21",
+      "ee": "https://proceedings.mlsys.org/paper_files/paper/2021/hash/6c44dc73014d66ba49b28d483a8f8b0d-Abstract.html"
+    },
+    {
+      "title": "The People's Speech: A Large-Scale Diverse English Speech Recognition Dataset for Commercial Usage.",
+      "authors": [
+        "Daniel Galvez",
+        "Greg Diamos",
+        "Juan Torres",
+        "Keith Achorn",
+        "Juan Felipe Cer&#243;n",
+        "Anjali Gopi",
+        "David Kanter",
+        "Max Lam",
+        "Mark Mazumder",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "NeurIPS Datasets and Benchmarks",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/nips/neurips2021db.html#GalvezDTACGKLMR21",
+      "ee": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/202cb962ac59075b964b07152d234b70-Abstract-round1.html"
+    },
+    {
+      "title": "The People's Speech: A Large-Scale Diverse English Speech Recognition Dataset for Commercial Usage.",
+      "authors": [
+        "Daniel Galvez",
+        "Greg Diamos",
+        "Juan Ciro",
+        "Juan Felipe Cer&#243;n",
+        "Keith Achorn",
+        "Anjali Gopi",
+        "David Kanter",
+        "Maximilian Lam",
+        "Mark Mazumder",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2111.html#abs-2111-09344",
+      "ee": "https://arxiv.org/abs/2111.09344"
+    },
+    {
+      "title": "The Role of Compute in Autonomous Micro Aerial Vehicles: Optimizing for Mission Time and Energy Efficiency.",
+      "authors": [
+        "Behzad Boroujerdian",
+        "Hasan Genc",
+        "Srivatsan Krishnan",
+        "Bardienus Pieter Duisterhof",
+        "Brian Plancher",
+        "Kayvan Mansoorshahi",
+        "Marcelino Almeida",
+        "Wenzhi Cui",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ACM Trans. Comput. Syst.",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/tocs/tocs39.html#BoroujerdianGKD22",
+      "ee": "https://doi.org/10.1145/3511210"
+    },
+    {
+      "title": "The Vision Behind MLPerf: Understanding AI Inference Performance.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Christine Cheng",
+        "David Kanter",
+        "Peter Mattson",
+        "Guenther Schmuelling",
+        "Carole-Jean Wu"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/micro/micro41.html#ReddiCKMSW21",
+      "ee": "https://doi.org/10.1109/MM.2021.3066343"
+    },
+    {
+      "title": "Tiny Robot Learning (tinyRL) for Source Seeking on a Nano Quadcopter.",
+      "authors": [
+        "Bardienus Pieter Duisterhof",
+        "Srivatsan Krishnan",
+        "Jonathan J. Cruz",
+        "Colby R. Banbury",
+        "William Fu",
+        "Aleksandra Faust",
+        "Guido C. H. E. de Croon",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ICRA",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/icra/icra2021.html#DuisterhofKCBFF21",
+      "ee": "https://doi.org/10.1109/ICRA48506.2021.9561590"
+    },
+    {
+      "title": "TinyML: Current Progress, Research Challenges, and Future Roadmap.",
+      "authors": [
+        "Muhammad Shafique 0001",
+        "Theocharis Theocharides",
+        "Vijay Janapa Reddi",
+        "Boris Murmann"
+      ],
+      "venue": "DAC",
+      "year": 2021,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2021.html#0001TRM21",
+      "ee": "https://doi.org/10.1109/DAC18074.2021.9586232"
+    },
+    {
+      "title": "Widening Access to Applied Machine Learning with TinyML.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Brian Plancher",
+        "Susan Kennedy",
+        "Laurence Moroney",
+        "Pete Warden",
+        "Anant Agarwal",
+        "Colby R. Banbury",
+        "Massimo Banzi",
+        "Matthew Bennett",
+        "Benjamin Brown",
+        "Sharad Chitlangia",
+        "Radhika Ghosal",
+        "Sarah Grafman",
+        "Rupert Jaeger",
+        "Srivatsan Krishnan",
+        "Maximilian Lam",
+        "Daniel Leiker",
+        "Cara Mann",
+        "Mark Mazumder",
+        "Dominic Pajak",
+        "Dhilan Ramaprasad",
+        "J. Evan Smith",
+        "Matthew Stewart",
+        "Dustin Tingley"
+      ],
+      "venue": "CoRR",
+      "year": 2021,
+      "type": "article",
+      "url": "db/journals/corr/corr2106.html#abs-2106-04008",
+      "ee": "https://arxiv.org/abs/2106.04008"
+    },
+    {
+      "title": "AI Tax: The Hidden Cost of AI Data Center Applications.",
+      "authors": [
+        "Daniel Richins",
+        "Dharmisha Doshi",
+        "Matthew Blackmore",
+        "Aswathy Thulaseedharan Nair",
+        "Neha Pathapati",
+        "Ankit Patel",
+        "Brainard Daguman",
+        "Daniel Dobrijalowski",
+        "Ramesh Illikkal",
+        "Kevin Long",
+        "David Zimmerman",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/corr/corr2007.html#abs-2007-10571",
+      "ee": "https://arxiv.org/abs/2007.10571"
+    },
+    {
+      "title": "Algorithm-Hardware Co-Design of Adaptive Floating-Point Encodings for Resilient Deep Learning Inference.",
+      "authors": [
+        "Thierry Tambe",
+        "En-Yu Yang",
+        "Zishen Wan",
+        "Yuntian Deng",
+        "Vijay Janapa Reddi",
+        "Alexander M. Rush",
+        "David Brooks 0001",
+        "Gu-Yeon Wei"
+      ],
+      "venue": "DAC",
+      "year": 2020,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2020.html#TambeYWDRR0W20",
+      "ee": "https://doi.org/10.1109/DAC18072.2020.9218516"
+    },
+    {
+      "title": "Asymmetric Resilience: Exploiting Task-Level Idempotency for Transient Error Recovery in Accelerator-Based Systems.",
+      "authors": [
+        "Jingwen Leng",
+        "Alper Buyuktosunoglu",
+        "Ramon Bertran",
+        "Pradip Bose",
+        "Quan Chen 0002",
+        "Minyi Guo",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2020,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2020.html#LengBBB0GR20",
+      "ee": "https://doi.org/10.1109/HPCA47549.2020.00014"
+    },
+    {
+      "title": "Benchmarking TinyML Systems: Challenges and Direction.",
+      "authors": [
+        "Colby R. Banbury",
+        "Vijay Janapa Reddi",
+        "Max Lam",
+        "William Fu",
+        "Amin Fazel",
+        "Jeremy Holleman",
+        "Xinyuan Huang",
+        "Robert Hurtado",
+        "David Kanter",
+        "Anton Lokhmotov",
+        "David A. Patterson 0001",
+        "Danilo Pau",
+        "Jae-sun Seo",
+        "Jeff Sieracki",
+        "Urmish Thakker",
+        "Marian Verhelst",
+        "Poonam Yadav"
+      ],
+      "venue": "CoRR",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/corr/corr2003.html#abs-2003-04821",
+      "ee": "https://arxiv.org/abs/2003.04821"
+    },
+    {
+      "title": "Exceeding Conservative Limits: A Consolidated Analysis on Modern Hardware Margins.",
+      "authors": [
+        "George Papadimitriou 0001",
+        "Athanasios Chatzidimitriou",
+        "Dimitris Gizopoulos",
+        "Vijay Janapa Reddi",
+        "Jingwen Leng",
+        "Behzad Salami 0001",
+        "Osman S. Unsal",
+        "Adri&#225;n Cristal Kestelman"
+      ],
+      "venue": "CoRR",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/corr/corr2006.html#abs-2006-01049",
+      "ee": "https://arxiv.org/abs/2006.01049"
+    },
+    {
+      "title": "MicroNets: Neural Network Architectures for Deploying TinyML Applications on Commodity Microcontrollers.",
+      "authors": [
+        "Colby R. Banbury",
+        "Chuteng Zhou",
+        "Igor Fedorov",
+        "Ramon Matas Navarro",
+        "Urmish Thakker",
+        "Dibakar Gope",
+        "Vijay Janapa Reddi",
+        "Matthew Mattina",
+        "Paul N. Whatmough"
+      ],
+      "venue": "CoRR",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/corr/corr2010.html#abs-2010-11267",
+      "ee": "https://arxiv.org/abs/2010.11267"
+    },
+    {
+      "title": "Missing the Forest for the Trees: End-to-End AI Application Performance in Edge Data Centers.",
+      "authors": [
+        "Daniel Richins",
+        "Dharmisha Doshi",
+        "Matthew Blackmore",
+        "Aswathy Thulaseedharan Nair",
+        "Neha Pathapati",
+        "Ankit Patel",
+        "Brainard Daguman",
+        "Daniel Dobrijalowski",
+        "Ramesh Illikkal",
+        "Kevin Long",
+        "David Zimmerman",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2020,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2020.html#RichinsDBNPPDDI20",
+      "ee": "https://doi.org/10.1109/HPCA47549.2020.00049"
+    },
+    {
+      "title": "MLPerf Inference Benchmark.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Christine Cheng",
+        "David Kanter",
+        "Peter Mattson",
+        "Guenther Schmuelling",
+        "Carole-Jean Wu",
+        "Brian Anderson",
+        "Maximilien Breughe",
+        "Mark Charlebois",
+        "William Chou",
+        "Ramesh Chukka",
+        "Cody Coleman",
+        "Sam Davis",
+        "Pan Deng",
+        "Greg Diamos",
+        "Jared Duke",
+        "Dave Fick",
+        "J. Scott Gardner",
+        "Itay Hubara",
+        "Sachin Idgunji",
+        "Thomas B. Jablin",
+        "Jeff Jiao",
+        "Tom St. John",
+        "Pankaj Kanwar",
+        "David Lee",
+        "Jeffery Liao",
+        "Anton Lokhmotov",
+        "Francisco Massa",
+        "Peng Meng",
+        "Paulius Micikevicius",
+        "Colin Osborne",
+        "Gennady Pekhimenko",
+        "Arun Tejusve Raghunath Rajan",
+        "Dilip Sequeira",
+        "Ashish Sirasao",
+        "Fei Sun 0002",
+        "Hanlin Tang",
+        "Michael Thomson",
+        "Frank Wei",
+        "Ephrem Wu",
+        "Lingjie Xu",
+        "Koichi Yamada",
+        "Bing Yu",
+        "George Yuan",
+        "Aaron Zhong",
+        "Peizhao Zhang",
+        "Yuchen Zhou"
+      ],
+      "venue": "ISCA",
+      "year": 2020,
+      "type": "inproceedings",
+      "url": "db/conf/isca/isca2020.html#ReddiCKMSWABCCC20",
+      "ee": "https://doi.org/10.1109/ISCA45697.2020.00045"
+    },
+    {
+      "title": "MLPerf Mobile Inference Benchmark: Why Mobile AI Benchmarking Is Hard and What to Do About It.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "David Kanter",
+        "Peter Mattson",
+        "Jared Duke",
+        "Thai Nguyen",
+        "Ramesh Chukka",
+        "Kenneth Shiring",
+        "Koan-Sin Tan",
+        "Mark Charlebois",
+        "William Chou",
+        "Mostafa El-Khamy",
+        "Jungwook Hong",
+        "Michael Buch",
+        "Cindy Trinh",
+        "Thomas Atta-Fosu",
+        "Fatih &#199;akir",
+        "Masoud Charkhabi",
+        "Xiaodong Chen",
+        "Jimmy Chiang",
+        "Dave Dexter",
+        "Woncheol Heo",
+        "Guenther Schmuelling",
+        "Maryam Shabani",
+        "Dylan Zika"
+      ],
+      "venue": "CoRR",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/corr/corr2012.html#abs-2012-02328",
+      "ee": "https://arxiv.org/abs/2012.02328"
+    },
+    {
+      "title": "MLPerf Training Benchmark.",
+      "authors": [
+        "Peter Mattson",
+        "Christine Cheng",
+        "Gregory F. Diamos",
+        "Cody Coleman",
+        "Paulius Micikevicius",
+        "David A. Patterson 0001",
+        "Hanlin Tang",
+        "Gu-Yeon Wei",
+        "Peter Bailis",
+        "Victor Bittorf",
+        "David Brooks 0001",
+        "Dehao Chen",
+        "Debo Dutta",
+        "Udit Gupta 0001",
+        "Kim M. Hazelwood",
+        "Andy Hock",
+        "Xinyuan Huang",
+        "Daniel Kang 0001",
+        "David Kanter",
+        "Naveen Kumar",
+        "Jeffery Liao",
+        "Deepak Narayanan",
+        "Tayo Oguntebi",
+        "Gennady Pekhimenko",
+        "Lillian Pentecost",
+        "Vijay Janapa Reddi",
+        "Taylor Robie",
+        "Tom St. John",
+        "Carole-Jean Wu",
+        "Lingjie Xu",
+        "Cliff Young",
+        "Matei Zaharia"
+      ],
+      "venue": "MLSys",
+      "year": 2020,
+      "type": "inproceedings",
+      "url": "db/conf/mlsys/mlsys2020.html#MattsonCDCMPTWB20",
+      "ee": "https://proceedings.mlsys.org/paper_files/paper/2020/hash/411e39b117e885341f25efb8912945f7-Abstract.html"
+    },
+    {
+      "title": "MLPerf: An Industry Standard Benchmark Suite for Machine Learning Performance.",
+      "authors": [
+        "Peter Mattson",
+        "Hanlin Tang",
+        "Gu-Yeon Wei",
+        "Carole-Jean Wu",
+        "Vijay Janapa Reddi",
+        "Christine Cheng",
+        "Cody Coleman",
+        "Greg Diamos",
+        "David Kanter",
+        "Paulius Micikevicius",
+        "David A. Patterson 0001",
+        "Guenther Schmuelling"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/micro/micro40.html#MattsonTWWRCCDK20",
+      "ee": "https://doi.org/10.1109/MM.2020.2974843"
+    },
+    {
+      "title": "Quantized Neural Network Inference with Precision Batching.",
+      "authors": [
+        "Maximilian Lam",
+        "Zachary Yedidia",
+        "Colby R. Banbury",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/corr/corr2003.html#abs-2003-00822",
+      "ee": "https://arxiv.org/abs/2003.00822"
+    },
+    {
+      "title": "TensorFlow Lite Micro: Embedded Machine Learning on TinyML Systems.",
+      "authors": [
+        "Robert David",
+        "Jared Duke",
+        "Advait Jain",
+        "Vijay Janapa Reddi",
+        "Nat Jeffries",
+        "Jian Li",
+        "Nick Kreeger",
+        "Ian Nappier",
+        "Meghna Natraj",
+        "Shlomi Regev",
+        "Rocky Rhodes",
+        "Tiezhen Wang",
+        "Pete Warden"
+      ],
+      "venue": "CoRR",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/corr/corr2010.html#abs-2010-08678",
+      "ee": "https://arxiv.org/abs/2010.08678"
+    },
+    {
+      "title": "The Sky Is Not the Limit: A Visual Performance Model for Cyber-Physical Co-Design in Autonomous Machines.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Zishen Wan",
+        "Kshitij Bhardwaj",
+        "Paul N. Whatmough",
+        "Aleksandra Faust",
+        "Gu-Yeon Wei",
+        "David Brooks 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Comput. Archit. Lett.",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/cal/cal19.html#KrishnanWBWFWBR20",
+      "ee": "https://doi.org/10.1109/LCA.2020.2981022"
+    },
+    {
+      "title": "Voltage-Stacked Power Delivery Systems: Reliability, Efficiency, and Power Management.",
+      "authors": [
+        "An Zou",
+        "Jingwen Leng",
+        "Xin He 0011",
+        "Yazhou Zu",
+        "Christopher D. Gill",
+        "Vijay Janapa Reddi",
+        "Xuan Zhang 0001"
+      ],
+      "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "year": 2020,
+      "type": "article",
+      "url": "db/journals/tcad/tcad39.html#ZouLHZGRZ20",
+      "ee": "https://doi.org/10.1109/TCAD.2020.2969607"
+    },
+    {
+      "title": "Accelerator-level Parallelism.",
+      "authors": [
+        "Mark D. Hill",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1907.html#abs-1907-02064",
+      "ee": "http://arxiv.org/abs/1907.02064"
+    },
+    {
+      "title": "AdaptivFloat: A Floating-point based Data Type for Resilient Deep Learning Inference.",
+      "authors": [
+        "Thierry Tambe",
+        "En-Yu Yang",
+        "Zishen Wan",
+        "Yuntian Deng",
+        "Vijay Janapa Reddi",
+        "Alexander M. Rush",
+        "David Brooks 0001",
+        "Gu-Yeon Wei"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1909.html#abs-1909-13271",
+      "ee": "http://arxiv.org/abs/1909.13271"
+    },
+    {
+      "title": "AI Tax: The Hidden Cost of AI Data Center Applications.",
+      "authors": [
+        "Daniel Richins",
+        "Dharmisha Doshi",
+        "Matthew Blackmore",
+        "Aswathy Thulaseedharan Nair",
+        "Neha Pathapati",
+        "Ankit Patel",
+        "Brainard Daguman",
+        "Daniel Dobrijalowski",
+        "Ramesh Illikkal",
+        "Kevin Long",
+        "David Zimmerman",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ACM Trans. Comput. Syst.",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/tocs/tocs37.html#RichinsDBNPPDDI21",
+      "ee": "https://doi.org/10.1145/3440689"
+    },
+    {
+      "title": "Air Learning: An AI Research Platform for Algorithm-Hardware Benchmarking of Autonomous Aerial Robots.",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Behzad Boroujerdian",
+        "William Fu",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1906.html#abs-1906-00421",
+      "ee": "http://arxiv.org/abs/1906.00421"
+    },
+    {
+      "title": "Asymmetric Resilience for Accelerator-Rich Systems.",
+      "authors": [
+        "Jingwen Leng",
+        "Alper Buyuktosunoglu",
+        "Ramon Bertran",
+        "Pradip Bose",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Comput. Archit. Lett.",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/cal/cal18.html#LengBBBR19",
+      "ee": "https://doi.org/10.1109/LCA.2019.2917898"
+    },
+    {
+      "title": "Deep Reinforcement Learning for Cyber Security.",
+      "authors": [
+        "Thanh Thi Nguyen 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1906.html#abs-1906-05799",
+      "ee": "http://arxiv.org/abs/1906.05799"
+    },
+    {
+      "title": "Fine-Tuning the Active Timing Margin (ATM) Control Loop for Maximizing Multi-core Efficiency on an IBM POWER Server.",
+      "authors": [
+        "Yazhou Zu",
+        "Daniel Richins",
+        "Charles Lefurgy",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2019,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2019.html#ZuRLR19",
+      "ee": "https://doi.org/10.1109/HPCA.2019.00031"
+    },
+    {
+      "title": "Gables: A Roofline Model for Mobile SoCs.",
+      "authors": [
+        "Mark D. Hill",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2019,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2019.html#HillR19",
+      "ee": "https://doi.org/10.1109/HPCA.2019.00047"
+    },
+    {
+      "title": "GLADAS: Gesture Learning for Advanced Driver Assistance Systems.",
+      "authors": [
+        "Ethan Shaotran",
+        "Jonathan J. Cruz",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1910.html#abs-1910-04695",
+      "ee": "http://arxiv.org/abs/1910.04695"
+    },
+    {
+      "title": "Learning to Seek: Autonomous Source Seeking with Deep Reinforcement Learning Onboard a Nano Drone Microcontroller.",
+      "authors": [
+        "Bardienus Pieter Duisterhof",
+        "Srivatsan Krishnan",
+        "Jonathan J. Cruz",
+        "Colby R. Banbury",
+        "William Fu",
+        "Aleksandra Faust",
+        "Guido C. H. E. de Croon",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1909.html#abs-1909-11236",
+      "ee": "http://arxiv.org/abs/1909.11236"
+    },
+    {
+      "title": "MAVBench: Micro Aerial Vehicle Benchmarking.",
+      "authors": [
+        "Behzad Boroujerdian",
+        "Hasan Genc",
+        "Srivatsan Krishnan",
+        "Wenzhi Cui",
+        "Marcelino Almeida",
+        "Kayvan Mansoorshahi",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1905.html#abs-1905-06388",
+      "ee": "http://arxiv.org/abs/1905.06388"
+    },
+    {
+      "title": "MLPerf Inference Benchmark.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Christine Cheng",
+        "David Kanter",
+        "Peter Mattson",
+        "Guenther Schmuelling",
+        "Carole-Jean Wu",
+        "Brian Anderson",
+        "Maximilien Breughe",
+        "Mark Charlebois",
+        "William Chou",
+        "Ramesh Chukka",
+        "Cody Coleman",
+        "Sam Davis",
+        "Pan Deng",
+        "Greg Diamos",
+        "Jared Duke",
+        "Dave Fick",
+        "J. Scott Gardner",
+        "Itay Hubara",
+        "Sachin Idgunji",
+        "Thomas B. Jablin",
+        "Jeff Jiao",
+        "Tom St. John",
+        "Pankaj Kanwar",
+        "David Lee",
+        "Jeffery Liao",
+        "Anton Lokhmotov",
+        "Francisco Massa",
+        "Peng Meng",
+        "Paulius Micikevicius",
+        "Colin Osborne",
+        "Gennady Pekhimenko",
+        "Arun Tejusve Raghunath Rajan",
+        "Dilip Sequeira",
+        "Ashish Sirasao",
+        "Fei Sun 0002",
+        "Hanlin Tang",
+        "Michael Thomson",
+        "Frank Wei",
+        "Ephrem Wu",
+        "Lingjie Xu",
+        "Koichi Yamada",
+        "Bing Yu",
+        "George Yuan",
+        "Aaron Zhong",
+        "Peizhao Zhang",
+        "Yuchen Zhou"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1911.html#abs-1911-02549",
+      "ee": "http://arxiv.org/abs/1911.02549"
+    },
+    {
+      "title": "MLPerf Training Benchmark.",
+      "authors": [
+        "Peter Mattson",
+        "Christine Cheng",
+        "Cody Coleman",
+        "Greg Diamos",
+        "Paulius Micikevicius",
+        "David A. Patterson 0001",
+        "Hanlin Tang",
+        "Gu-Yeon Wei",
+        "Peter Bailis",
+        "Victor Bittorf",
+        "David Brooks 0001",
+        "Dehao Chen",
+        "Debojyoti Dutta",
+        "Udit Gupta 0001",
+        "Kim M. Hazelwood",
+        "Andrew Hock",
+        "Xinyuan Huang",
+        "Bill Jia",
+        "Daniel Kang 0001",
+        "David Kanter",
+        "Naveen Kumar",
+        "Jeffery Liao",
+        "Guokai Ma",
+        "Deepak Narayanan",
+        "Tayo Oguntebi",
+        "Gennady Pekhimenko",
+        "Lillian Pentecost",
+        "Vijay Janapa Reddi",
+        "Taylor Robie",
+        "Tom St. John",
+        "Carole-Jean Wu",
+        "Lingjie Xu",
+        "Cliff Young",
+        "Matei Zaharia"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1910.html#abs-1910-01500",
+      "ee": "http://arxiv.org/abs/1910.01500"
+    },
+    {
+      "title": "Modern Hardware Margins: CPUs, GPUs, FPGAs Recent System-Level Studies.",
+      "authors": [
+        "Dimitris Gizopoulos",
+        "George Papadimitriou 0001",
+        "Athanasios Chatzidimitriou",
+        "Vijay Janapa Reddi",
+        "Behzad Salami 0001",
+        "Osman S. Unsal",
+        "Adri&#225;n Cristal Kestelman",
+        "Jingwen Leng"
+      ],
+      "venue": "IOLTS",
+      "year": 2019,
+      "type": "inproceedings",
+      "url": "db/conf/iolts/iolts2019.html#GizopoulosPCR0U19",
+      "ee": "https://doi.org/10.1109/IOLTS.2019.8854386"
+    },
+    {
+      "title": "One Size Does Not Fit All: Quantifying and Exposing the Accuracy-Latency Trade-off in Machine Learning Cloud Service APIs via Tolerance Tiers.",
+      "authors": [
+        "Matthew Halpern",
+        "Behzad Boroujerdian",
+        "Todd W. Mummert",
+        "Evelyn Duesterwald",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1906.html#abs-1906-11307",
+      "ee": "http://arxiv.org/abs/1906.11307"
+    },
+    {
+      "title": "One Size Does Not Fit All: Quantifying and Exposing the Accuracy-Latency Trade-Off in Machine Learning Cloud Service APIs via Tolerance Tiers.",
+      "authors": [
+        "Matthew Halpern",
+        "Behzad Boroujerdian",
+        "Todd W. Mummert",
+        "Evelyn Duesterwald",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISPASS",
+      "year": 2019,
+      "type": "inproceedings",
+      "url": "db/conf/ispass/ispass2019.html#HalpernBMDR19",
+      "ee": "https://doi.org/10.1109/ISPASS.2019.00012"
+    },
+    {
+      "title": "Quantized Reinforcement Learning (QUARL).",
+      "authors": [
+        "Srivatsan Krishnan",
+        "Sharad Chitlangia",
+        "Maximilian Lam",
+        "Zishen Wan",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1910.html#abs-1910-01055",
+      "ee": "http://arxiv.org/abs/1910.01055"
+    },
+    {
+      "title": "Tail latency in node.js: energy efficient turbo boosting for long latency requests in event-driven web services.",
+      "authors": [
+        "Wenzhi Cui",
+        "Daniel Richins",
+        "Yuhao Zhu 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "VEE",
+      "year": 2019,
+      "type": "inproceedings",
+      "url": "db/conf/vee/vee2019.html#CuiRZR19",
+      "ee": "https://doi.org/10.1145/3313808.3313823"
+    },
+    {
+      "title": "The Role of Compute in Autonomous Aerial Vehicles.",
+      "authors": [
+        "Behzad Boroujerdian",
+        "Hasan Genc",
+        "Srivatsan Krishnan",
+        "Bardienus Pieter Duisterhof",
+        "Brian Plancher",
+        "Kayvan Mansoorshahi",
+        "Marcelino Almeida",
+        "Wenzhi Cui",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2019,
+      "type": "article",
+      "url": "db/journals/corr/corr1906.html#abs-1906-10513",
+      "ee": "http://arxiv.org/abs/1906.10513"
+    },
+    {
+      "title": "Amdahl's Law in Big Data Analytics: Alive and Kicking in TPCx-BB (BigBench).",
+      "authors": [
+        "Daniel Richins",
+        "Tahrina Ahmed",
+        "Russell M. Clapp",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2018,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2018.html#RichinsACR18",
+      "ee": "https://doi.org/10.1109/HPCA.2018.00060"
+    },
+    {
+      "title": "Domain Specific Approximation for Object Detection.",
+      "authors": [
+        "Ting-Wu Chin",
+        "Chia-Lin Yu",
+        "Matthew Halpern",
+        "Hasan Genc",
+        "Shiao-Li Tsao",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CoRR",
+      "year": 2018,
+      "type": "article",
+      "url": "db/journals/corr/corr1810.html#abs-1810-02010",
+      "ee": "http://arxiv.org/abs/1810.02010"
+    },
+    {
+      "title": "Domain-Specific Approximation for Object Detection.",
+      "authors": [
+        "Ting-Wu Chin",
+        "Chia-Lin Yu",
+        "Matthew Halpern",
+        "Hasan Genc",
+        "Shiao-Li Tsao",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2018,
+      "type": "article",
+      "url": "db/journals/micro/micro38.html#ChinYHGTR18",
+      "ee": "https://doi.org/10.1109/MM.2018.112130335"
+    },
+    {
+      "title": "Efficient and reliable power delivery in voltage-stacked manycore system with hybrid charge-recycling regulators.",
+      "authors": [
+        "An Zou",
+        "Jingwen Leng",
+        "Xin He 0011",
+        "Yazhou Zu",
+        "Vijay Janapa Reddi",
+        "Xuan Zhang 0001"
+      ],
+      "venue": "DAC",
+      "year": 2018,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2018.html#ZouLHZRZ18",
+      "ee": "https://doi.org/10.1145/3195970.3196037"
+    },
+    {
+      "title": "MAVBench: Micro Aerial Vehicle Benchmarking.",
+      "authors": [
+        "Behzad Boroujerdian",
+        "Hasan Genc",
+        "Srivatsan Krishnan",
+        "Wenzhi Cui",
+        "Aleksandra Faust",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "MICRO",
+      "year": 2018,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2018.html#BoroujerdianGKC18",
+      "ee": "https://doi.org/10.1109/MICRO.2018.00077"
+    },
+    {
+      "title": "Two Billion Devices and Counting.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Hongil Yoon",
+        "Allan Knies"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2018,
+      "type": "article",
+      "url": "db/journals/micro/micro38.html#ReddiYK18",
+      "ee": "https://doi.org/10.1109/MM.2018.011441560"
+    },
+    {
+      "title": "Voltage-Stacked GPUs: A Control Theory Driven Cross-Layer Solution for Practical Voltage Stacking in GPUs.",
+      "authors": [
+        "An Zou",
+        "Jingwen Leng",
+        "Xin He 0011",
+        "Yazhou Zu",
+        "Christopher D. Gill",
+        "Vijay Janapa Reddi",
+        "Xuan Zhang 0001"
+      ],
+      "venue": "MICRO",
+      "year": 2018,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2018.html#ZouLHZGRZ18",
+      "ee": "https://doi.org/10.1109/MICRO.2018.00039"
+    },
+    {
+      "title": "Cognitive Computing Safety: The New Horizon for Reliability / The Design and Evolution of Deep Learning Workloads.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Vijay Janapa Reddi",
+        "Robert Adolf",
+        "Saketh Rama",
+        "Brandon Reagen",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2017,
+      "type": "article",
+      "url": "db/journals/micro/micro37.html#ZhuRARRWB17",
+      "ee": "https://doi.org/10.1109/MM.2017.2"
+    },
+    {
+      "title": "Flying IoT: Toward Low-Power Vision in the Sky.",
+      "authors": [
+        "Hasan Genc",
+        "Yazhou Zu",
+        "Ting-Wu Chin",
+        "Matthew Halpern",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2017,
+      "type": "article",
+      "url": "db/journals/micro/micro37.html#GencZCHR17",
+      "ee": "https://doi.org/10.1109/MM.2017.4241339"
+    },
+    {
+      "title": "Ivory: Early-Stage Design Space Exploration Tool for Integrated Voltage Regulators.",
+      "authors": [
+        "An Zou",
+        "Jingwen Leng",
+        "Yazhou Zu",
+        "Tao Tong",
+        "Vijay Janapa Reddi",
+        "David M. Brooks",
+        "Gu-Yeon Wei",
+        "Xuan Zhang 0001"
+      ],
+      "venue": "DAC",
+      "year": 2017,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2017.html#ZouLZTRBWZ17",
+      "ee": "https://doi.org/10.1145/3061639.3062268"
+    },
+    {
+      "title": "Optimizing General-Purpose CPUs for Energy-Efficient Mobile Web Computing.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ACM Trans. Comput. Syst.",
+      "year": 2017,
+      "type": "article",
+      "url": "db/journals/tocs/tocs35.html#ZhuR17",
+      "ee": "https://doi.org/10.1145/3041024"
+    },
+    {
+      "title": "Proceedings of the 2017 International Symposium on Code Generation and Optimization, CGO 2017, Austin, TX, USA, February 4-8, 2017",
+      "authors": [],
+      "venue": "CGO",
+      "year": 2017,
+      "type": "proceedings",
+      "url": "db/conf/cgo/cgo2017.html",
+      "ee": "http://dl.acm.org/citation.cfm?id=3049832"
+    },
+    {
+      "title": "Research for practice: web security and mobile web computing.",
+      "authors": [
+        "Peter Bailis",
+        "Jean Yang 0001",
+        "Vijay Janapa Reddi",
+        "Yuhao Zhu 0001"
+      ],
+      "venue": "Commun. ACM",
+      "year": 2017,
+      "type": "article",
+      "url": "db/journals/cacm/cacm60.html#BailisYRZ17",
+      "ee": "https://doi.org/10.1145/2980989"
+    },
+    {
+      "title": "Storage on Your SmartPhone Uses More Energy Than You Think.",
+      "authors": [
+        "Jayashree Mohan",
+        "Dhathri Purohith",
+        "Matthew Halpern",
+        "Vijay Chidambaram",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HotStorage",
+      "year": 2017,
+      "type": "inproceedings",
+      "url": "db/conf/hotstorage/hotstorage2017.html#MohanPHCR17",
+      "ee": "https://www.usenix.org/conference/hotstorage17/program/presentation/mohan"
+    },
+    {
+      "title": "Ti-States: Power Management in Active Timing Margin Processors.",
+      "authors": [
+        "Yazhou Zu",
+        "Wei Huang 0004",
+        "Indrani Paul",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2017,
+      "type": "article",
+      "url": "db/journals/micro/micro37.html#ZuHPR17",
+      "ee": "https://doi.org/10.1109/MM.2017.68"
+    },
+    {
+      "title": "Barrier-Aware Warp Scheduling for Throughput Processors.",
+      "authors": [
+        "Yuxi Liu",
+        "Zhibin Yu 0001",
+        "Lieven Eeckhout",
+        "Vijay Janapa Reddi",
+        "Yingwei Luo",
+        "Xiaolin Wang 0001",
+        "Zhenlin Wang 0003",
+        "Cheng-Zhong Xu 0001"
+      ],
+      "venue": "ICS",
+      "year": 2016,
+      "type": "inproceedings",
+      "url": "db/conf/ics/ics2016.html#LiuYERLWWX16",
+      "ee": "https://doi.org/10.1145/2925426.2926267"
+    },
+    {
+      "title": "EMMA: A New Platform to Evaluate Hardware-based Mobile Malware Analyses.",
+      "authors": [
+        "Mikhail Kazdagli",
+        "Ling Huang 0001",
+        "Vijay Janapa Reddi",
+        "Mohit Tiwari"
+      ],
+      "venue": "CoRR",
+      "year": 2016,
+      "type": "article",
+      "url": "db/journals/corr/corr1603.html#KazdagliHRT16",
+      "ee": "http://arxiv.org/abs/1603.03086"
+    },
+    {
+      "title": "GreenWeb: language extensions for energy-efficient mobile web computing.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "PLDI",
+      "year": 2016,
+      "type": "inproceedings",
+      "url": "db/conf/pldi/pldi2016.html#ZhuR16",
+      "ee": "https://doi.org/10.1145/2908080.2908082"
+    },
+    {
+      "title": "Mobile CPU's rise to power: Quantifying the impact of generational mobile CPU design trends on performance, energy, and user satisfaction.",
+      "authors": [
+        "Matthew Halpern",
+        "Yuhao Zhu 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2016,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2016.html#HalpernZR16",
+      "ee": "https://doi.org/10.1109/HPCA.2016.7446054"
+    },
+    {
+      "title": "On the Internet of Things.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Hyesoon Kim"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2016,
+      "type": "article",
+      "url": "db/journals/micro/micro36.html#ReddiK16",
+      "ee": "https://doi.org/10.1109/MM.2016.92"
+    },
+    {
+      "title": "Quantifying and improving the efficiency of hardware-based mobile malware detectors.",
+      "authors": [
+        "Mikhail Kazdagli",
+        "Vijay Janapa Reddi",
+        "Mohit Tiwari"
+      ],
+      "venue": "MICRO",
+      "year": 2016,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2016.html#KazdagliRT16",
+      "ee": "https://doi.org/10.1109/MICRO.2016.7783740"
+    },
+    {
+      "title": "Research for Practice: Web Security and Mobile Web Computing.",
+      "authors": [
+        "Jean Yang 0001",
+        "Vijay Janapa Reddi",
+        "Yuhao Zhu 0001",
+        "Peter Bailis"
+      ],
+      "venue": "ACM Queue",
+      "year": 2016,
+      "type": "article",
+      "url": "db/journals/queue/queue14.html#YangRZB16",
+      "ee": "https://doi.org/10.1145/2984629.3005356"
+    },
+    {
+      "title": "Simulation and Analysis Engine for Scale-Out Workloads.",
+      "authors": [
+        "Nadav Chachmon",
+        "Daniel Richins",
+        "Robert S. Cohn",
+        "Magnus Christensson",
+        "Wenzhi Cui",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ICS",
+      "year": 2016,
+      "type": "inproceedings",
+      "url": "db/conf/ics/ics2016.html#ChachmonRCCCR16",
+      "ee": "https://doi.org/10.1145/2925426.2926293"
+    },
+    {
+      "title": "Ti-states: Processor power management in the temperature inversion region.",
+      "authors": [
+        "Yazhou Zu",
+        "Wei Huang 0004",
+        "Indrani Paul",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "MICRO",
+      "year": 2016,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2016.html#ZuHPR16",
+      "ee": "https://doi.org/10.1109/MICRO.2016.7783758"
+    },
+    {
+      "title": "Adaptive guardband scheduling to improve system-level efficiency of the POWER7+.",
+      "authors": [
+        "Yazhou Zu",
+        "Charles R. Lefurgy",
+        "Jingwen Leng",
+        "Matthew Halpern",
+        "Michael S. Floyd",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "MICRO",
+      "year": 2015,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2015.html#ZuLLHFR15",
+      "ee": "https://doi.org/10.1145/2830772.2830824"
+    },
+    {
+      "title": "Event-based scheduling for energy-efficient QoS (eQoS) in mobile Web applications.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Matthew Halpern",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2015,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2015.html#ZhuHR15",
+      "ee": "https://doi.org/10.1109/HPCA.2015.7056028"
+    },
+    {
+      "title": "GPU voltage noise: Characterization and hierarchical smoothing of spatial and temporal voltage noise interference in GPU architectures.",
+      "authors": [
+        "Jingwen Leng",
+        "Yazhou Zu",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2015,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2015.html#LengZR15",
+      "ee": "https://doi.org/10.1109/HPCA.2015.7056030"
+    },
+    {
+      "title": "Microarchitectural implications of event-driven server-side web applications.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Daniel Richins",
+        "Matthew Halpern",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "MICRO",
+      "year": 2015,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2015.html#ZhuRHR15",
+      "ee": "https://doi.org/10.1145/2830772.2830792"
+    },
+    {
+      "title": "Mosaic: cross-platform user-interaction record and replay for the fragmented android ecosystem.",
+      "authors": [
+        "Matthew Halpern",
+        "Yuhao Zhu 0001",
+        "Ramesh Peri",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISPASS",
+      "year": 2015,
+      "type": "inproceedings",
+      "url": "db/conf/ispass/ispass2015.html#HalpernZPR15",
+      "ee": "https://doi.org/10.1109/ISPASS.2015.7095807"
+    },
+    {
+      "title": "Safe limits on voltage reduction efficiency in GPUs: a direct measurement approach.",
+      "authors": [
+        "Jingwen Leng",
+        "Alper Buyuktosunoglu",
+        "Ramon Bertran",
+        "Pradip Bose",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "MICRO",
+      "year": 2015,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2015.html#LengBBBR15",
+      "ee": "https://doi.org/10.1145/2830772.2830811"
+    },
+    {
+      "title": "The Role of the CPU in Energy-Efficient Mobile Web Browsing.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Matthew Halpern",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2015,
+      "type": "article",
+      "url": "db/journals/micro/micro35.html#ZhuHR15",
+      "ee": "https://doi.org/10.1109/MM.2015.8"
+    },
+    {
+      "title": "Exploiting Webpage Characteristics for Energy-Efficient Mobile Web Browsing.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Aditya Srikanth",
+        "Jingwen Leng",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Comput. Archit. Lett.",
+      "year": 2014,
+      "type": "article",
+      "url": "db/journals/cal/cal13.html#ZhuSLR14",
+      "ee": "https://doi.org/10.1109/L-CA.2012.33"
+    },
+    {
+      "title": "GPUVolt: modeling and characterizing voltage noise in GPU architectures.",
+      "authors": [
+        "Jingwen Leng",
+        "Yazhou Zu",
+        "Minsoo Rhu",
+        "Meeta Sharma Gupta",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISLPED",
+      "year": 2014,
+      "type": "inproceedings",
+      "url": "db/conf/islped/islped2014.html#LengZRGR14",
+      "ee": "https://doi.org/10.1145/2627369.2627605"
+    },
+    {
+      "title": "Morpheus: benchmarking computational diversity in mobile malware.",
+      "authors": [
+        "Mikhail Kazdagli",
+        "Ling Huang 0001",
+        "Vijay Janapa Reddi",
+        "Mohit Tiwari"
+      ],
+      "venue": "HASP@ISCA",
+      "year": 2014,
+      "type": "inproceedings",
+      "url": "db/conf/isca/hasp2014.html#KazdagliHRT14",
+      "ee": "https://doi.org/10.1145/2611765.2611767"
+    },
+    {
+      "title": "WebCore: Architectural support for mobile Web browsing.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISCA",
+      "year": 2014,
+      "type": "inproceedings",
+      "url": "db/conf/isca/isca2014.html#ZhuR14",
+      "ee": "https://doi.org/10.1109/ISCA.2014.6853239"
+    },
+    {
+      "title": "GPUWattch: enabling energy optimizations in GPGPUs.",
+      "authors": [
+        "Jingwen Leng",
+        "Tayler H. Hetherington",
+        "Ahmed ElTantawy",
+        "Syed Zohaib Gilani",
+        "Nam Sung Kim",
+        "Tor M. Aamodt",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "ISCA",
+      "year": 2013,
+      "type": "inproceedings",
+      "url": "db/conf/isca/isca2013.html#LengHEGKAR13",
+      "ee": "https://doi.org/10.1145/2485922.2485964"
+    },
+    {
+      "title": "High-performance and energy-efficient mobile web browsing on big/little systems.",
+      "authors": [
+        "Yuhao Zhu 0001",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "HPCA",
+      "year": 2013,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2013.html#ZhuR13",
+      "ee": "https://doi.org/10.1109/HPCA.2013.6522303"
+    },
+    {
+      "title": "Reliability-Aware Microarchitecture Design.",
+      "authors": [
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2013,
+      "type": "article",
+      "url": "db/journals/micro/micro33.html#Reddi13",
+      "ee": "https://doi.org/10.1109/MM.2013.87"
+    },
+    {
+      "title": "Resilient Architecture Design for Voltage Variation",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Meeta Sharma Gupta"
+      ],
+      "venue": "Unknown Venue",
+      "year": 2013,
+      "type": "book",
+      "ee": "https://doi.org/10.2200/S00486ED1V01Y201303CAC022"
+    },
+    {
+      "title": "Hardware and software co-design for robust and resilient execution.",
+      "authors": [
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "CTS",
+      "year": 2012,
+      "type": "inproceedings",
+      "url": "db/conf/cts/cts2012.html#Reddi12",
+      "ee": "https://doi.org/10.1109/CTS.2012.6261080"
+    },
+    {
+      "title": "HELIX: automatic parallelization of irregular programs for chip multiprocessing.",
+      "authors": [
+        "Simone Campanoni",
+        "Timothy M. Jones 0001",
+        "Glenn H. Holloway",
+        "Vijay Janapa Reddi",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "venue": "CGO",
+      "year": 2012,
+      "type": "inproceedings",
+      "url": "db/conf/cgo/cgo2012.html#CampanoniJHRWB12",
+      "ee": "https://doi.org/10.1145/2259016.2259028"
+    },
+    {
+      "title": "Robust and resilient designs from the bottom-up: Technology, CAD, circuit, and system issues.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "David Z. Pan",
+        "Sani R. Nassif",
+        "Keith A. Bowman"
+      ],
+      "venue": "ASP-DAC",
+      "year": 2012,
+      "type": "inproceedings",
+      "url": "db/conf/aspdac/aspdac2012.html#ReddiPNB12",
+      "ee": "https://doi.org/10.1109/ASPDAC.2012.6165064"
+    },
+    {
+      "title": "Dimetrodon: processor-level preventive thermal management via idle cycle injection.",
+      "authors": [
+        "Peter Bailis",
+        "Vijay Janapa Reddi",
+        "Sanjay Gandhi",
+        "David M. Brooks",
+        "Margo I. Seltzer"
+      ],
+      "venue": "DAC",
+      "year": 2011,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2011.html#BailisRGBS11",
+      "ee": "https://doi.org/10.1145/2024724.2024745"
+    },
+    {
+      "title": "Mobile processors for energy-efficient web search.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Benjamin C. Lee",
+        "Trishul M. Chilimbi",
+        "Kushagra Vaid"
+      ],
+      "venue": "ACM Trans. Comput. Syst.",
+      "year": 2011,
+      "type": "article",
+      "url": "db/journals/tocs/tocs29.html#ReddiLCV11",
+      "ee": "https://doi.org/10.1145/2003690.2003693"
+    },
+    {
+      "title": "Resilient Architectures via Collaborative Design: Maximizing Commodity Processor Performance in the Presence of Variations.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "David M. Brooks"
+      ],
+      "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "year": 2011,
+      "type": "article",
+      "url": "db/journals/tcad/tcad30.html#ReddiB11",
+      "ee": "https://doi.org/10.1109/TCAD.2011.2163635"
+    },
+    {
+      "title": "Voltage Noise in Production Processors.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Svilen Kanev",
+        "Wonyoung Kim",
+        "Simone Campanoni",
+        "Michael D. Smith 0001",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2011,
+      "type": "article",
+      "url": "db/journals/micro/micro31.html#ReddiKKCSWB11",
+      "ee": "https://doi.org/10.1109/MM.2010.104"
+    },
+    {
+      "title": "Eliminating voltage emergencies via software-guided code transformations.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Simone Campanoni",
+        "Meeta Sharma Gupta",
+        "Michael D. Smith 0001",
+        "Gu-Yeon Wei",
+        "David M. Brooks",
+        "Kim M. Hazelwood"
+      ],
+      "venue": "ACM Trans. Archit. Code Optim.",
+      "year": 2010,
+      "type": "article",
+      "url": "db/journals/taco/taco7.html#ReddiCGSWBH10",
+      "ee": "https://doi.org/10.1145/1839667.1839674"
+    },
+    {
+      "title": "Predicting Voltage Droops Using Recurring Program and Microarchitectural Event Activity.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Meeta Sharma Gupta",
+        "Glenn H. Holloway",
+        "Michael D. Smith 0001",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2010,
+      "type": "article",
+      "url": "db/journals/micro/micro30.html#ReddiGHSWB10",
+      "ee": "https://doi.org/10.1109/MM.2010.25"
+    },
+    {
+      "title": "Voltage Smoothing: Characterizing and Mitigating Voltage Noise in Production Processors via Software-Guided Thread Scheduling.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Svilen Kanev",
+        "Wonyoung Kim",
+        "Simone Campanoni",
+        "Michael D. Smith 0001",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "venue": "MICRO",
+      "year": 2010,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2010.html#ReddiKKCSWB10",
+      "ee": "https://doi.org/10.1109/MICRO.2010.35"
+    },
+    {
+      "title": "Web search using mobile cores: quantifying and mitigating the price of efficiency.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Benjamin C. Lee",
+        "Trishul M. Chilimbi",
+        "Kushagra Vaid"
+      ],
+      "venue": "ISCA",
+      "year": 2010,
+      "type": "inproceedings",
+      "url": "db/conf/isca/isca2010.html#ReddiLCV10",
+      "ee": "https://doi.org/10.1145/1815961.1816002"
+    },
+    {
+      "title": "An event-guided approach to reducing voltage noise in processors.",
+      "authors": [
+        "Meeta Sharma Gupta",
+        "Vijay Janapa Reddi",
+        "Glenn H. Holloway",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "venue": "DATE",
+      "year": 2009,
+      "type": "inproceedings",
+      "url": "db/conf/date/date2009.html#GuptaRHWB09",
+      "ee": "https://doi.org/10.1109/DATE.2009.5090651"
+    },
+    {
+      "title": "PLR: A Software Approach to Transient Fault Tolerance for Multicore Architectures.",
+      "authors": [
+        "Alex Shye",
+        "Joseph Blomstedt",
+        "Tipp Moseley",
+        "Vijay Janapa Reddi",
+        "Daniel A. Connors"
+      ],
+      "venue": "IEEE Trans. Dependable Secur. Comput.",
+      "year": 2009,
+      "type": "article",
+      "url": "db/journals/tdsc/tdsc6.html#ShyeBMRC09",
+      "ee": "https://doi.org/10.1109/TDSC.2008.62"
+    },
+    {
+      "title": "Software-assisted hardware reliability: abstracting circuit-level challenges to the software stack.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Simone Campanoni",
+        "Meeta Sharma Gupta",
+        "Michael D. Smith 0001",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "venue": "DAC",
+      "year": 2009,
+      "type": "inproceedings",
+      "url": "db/conf/dac/dac2009.html#ReddiGSWBC09",
+      "ee": "https://doi.org/10.1145/1629911.1630114"
+    },
+    {
+      "title": "Voltage emergency prediction: Using signatures to reduce operating margins.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Meeta Sharma Gupta",
+        "Glenn H. Holloway",
+        "Gu-Yeon Wei",
+        "Michael D. Smith 0001",
+        "David M. Brooks"
+      ],
+      "venue": "HPCA",
+      "year": 2009,
+      "type": "inproceedings",
+      "url": "db/conf/hpca/hpca2009.html#ReddiGHWSB09",
+      "ee": "https://doi.org/10.1109/HPCA.2009.4798233"
+    },
+    {
+      "title": "Persistent Code Caching: Exploiting Code Reuse Across Executions and Applications.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Dan Connors",
+        "Robert Cohn",
+        "Michael D. Smith 0001"
+      ],
+      "venue": "CGO",
+      "year": 2007,
+      "type": "inproceedings",
+      "url": "db/conf/cgo/cgo2007.html#ReddiCCS07",
+      "ee": "https://doi.org/10.1109/CGO.2007.29"
+    },
+    {
+      "title": "Shadow Profiling: Hiding Instrumentation Costs with Parallelism.",
+      "authors": [
+        "Tipp Moseley",
+        "Alex Shye",
+        "Vijay Janapa Reddi",
+        "Dirk Grunwald",
+        "Ramesh Peri"
+      ],
+      "venue": "CGO",
+      "year": 2007,
+      "type": "inproceedings",
+      "url": "db/conf/cgo/cgo2007.html#MoseleySRGP07",
+      "ee": "https://doi.org/10.1109/CGO.2007.35"
+    },
+    {
+      "title": "Using Process-Level Redundancy to Exploit Multiple Cores for Transient Fault Tolerance.",
+      "authors": [
+        "Alex Shye",
+        "Tipp Moseley",
+        "Vijay Janapa Reddi",
+        "Joseph Blomstedt",
+        "Daniel A. Connors"
+      ],
+      "venue": "DSN",
+      "year": 2007,
+      "type": "inproceedings",
+      "url": "db/conf/dsn/dsn2007.html#ShyeMRBC07",
+      "ee": "https://doi.org/10.1109/DSN.2007.98"
+    },
+    {
+      "title": "Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance.",
+      "authors": [
+        "Qiang Wu",
+        "Margaret Martonosi",
+        "Douglas W. Clark",
+        "Vijay Janapa Reddi",
+        "Dan Connors",
+        "Youfeng Wu",
+        "Jin Lee",
+        "David M. Brooks"
+      ],
+      "venue": "IEEE Micro",
+      "year": 2006,
+      "type": "article",
+      "url": "db/journals/micro/micro26.html#WuMCRCWLB06",
+      "ee": "https://doi.org/10.1109/MM.2006.9"
+    },
+    {
+      "title": "A Dynamic Compilation Framework for Controlling Microprocessor Energy and Performance.",
+      "authors": [
+        "Qiang Wu",
+        "Margaret Martonosi",
+        "Douglas W. Clark",
+        "Vijay Janapa Reddi",
+        "Dan Connors",
+        "Youfeng Wu",
+        "Jin Lee",
+        "David M. Brooks"
+      ],
+      "venue": "MICRO",
+      "year": 2005,
+      "type": "inproceedings",
+      "url": "db/conf/micro/micro2005.html#WuMCRCWLB05",
+      "ee": "https://doi.org/10.1109/MICRO.2005.7"
+    },
+    {
+      "title": "Analysis of path profiling information generated with performance monitoring hardware.",
+      "authors": [
+        "Alex Shye",
+        "Matthew Iyer",
+        "Tipp Moseley",
+        "David Hodgdon",
+        "Dan Fay",
+        "Vijay Janapa Reddi",
+        "Daniel A. Connors"
+      ],
+      "venue": "Interaction between Compilers and Computer Architectures",
+      "year": 2005,
+      "type": "inproceedings",
+      "url": "db/conf/IEEEinteract/IEEEinteract2005.html#ShyeIMHFRC05",
+      "ee": "https://doi.org/10.1109/INTERACT.2005.3"
+    },
+    {
+      "title": "Code coverage testing using hardware performance monitoring support.",
+      "authors": [
+        "Alex Shye",
+        "Matthew Iyer",
+        "Vijay Janapa Reddi",
+        "Daniel A. Connors"
+      ],
+      "venue": "AADEBUG",
+      "year": 2005,
+      "type": "inproceedings",
+      "url": "db/conf/aadebug/aadebug2005.html#ShyeIRC05",
+      "ee": "https://doi.org/10.1145/1085130.1085151"
+    },
+    {
+      "title": "Dynamic run-time architecture techniques for enabling continuous optimization.",
+      "authors": [
+        "Tipp Moseley",
+        "Alex Shye",
+        "Vijay Janapa Reddi",
+        "Matthew Iyer",
+        "Dan Fay",
+        "David Hodgdon",
+        "Joshua L. Kihm",
+        "Alex Settle",
+        "Dirk Grunwald",
+        "Daniel A. Connors"
+      ],
+      "venue": "Conf. Computing Frontiers",
+      "year": 2005,
+      "type": "inproceedings",
+      "url": "db/conf/cf/cf2005.html#MoseleySRIFHKSGC05",
+      "ee": "https://doi.org/10.1145/1062261.1062296"
+    },
+    {
+      "title": "Persistence in dynamic code transformation systems.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Dan Connors",
+        "Robert S. Cohn"
+      ],
+      "venue": "SIGARCH Comput. Archit. News",
+      "year": 2005,
+      "type": "article",
+      "url": "db/journals/sigarch/sigarch33.html#ReddiCC05",
+      "ee": "https://doi.org/10.1145/1127577.1127591"
+    },
+    {
+      "title": "Pin: building customized program analysis tools with dynamic instrumentation.",
+      "authors": [
+        "Chi-Keung Luk",
+        "Robert S. Cohn",
+        "Robert Muth",
+        "Harish Patil",
+        "Artur Klauser",
+        "P. Geoffrey Lowney",
+        "Steven Wallace",
+        "Vijay Janapa Reddi",
+        "Kim M. Hazelwood"
+      ],
+      "venue": "PLDI",
+      "year": 2005,
+      "type": "inproceedings",
+      "url": "db/conf/pldi/pldi2005.html#LukCMPKLWRH05",
+      "ee": "https://doi.org/10.1145/1065010.1065034"
+    },
+    {
+      "title": "Topology-Based Hypercube Structures for Global Communication in Heterogeneous Networks.",
+      "authors": [
+        "Silvia M. Figueira",
+        "Vijay Janapa Reddi"
+      ],
+      "venue": "Euro-Par",
+      "year": 2005,
+      "type": "inproceedings",
+      "url": "db/conf/europar/europar2005.html#FigueiraR05",
+      "ee": "https://doi.org/10.1007/11549468_109"
+    },
+    {
+      "title": "PIN: a binary instrumentation tool for computer architecture research and education.",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Alex Settle",
+        "Daniel A. Connors",
+        "Robert S. Cohn"
+      ],
+      "venue": "WCAE",
+      "year": 2004,
+      "type": "inproceedings",
+      "url": "db/conf/wcae/wcae2004.html#ReddiSCC04",
+      "ee": "https://doi.org/10.1145/1275571.1275600"
+    }
+  ]
+}

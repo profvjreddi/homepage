@@ -19,7 +19,7 @@ const focusAreas = [
   {
     title: 'Physical AI',
     blurb:
-      'AI that senses and acts in the world, where latency, energy, and safety stop being metrics on a chart and become hard constraints with consequences.',
+      'Robots, drones, and sensor-driven systems where latency, energy, and safety are hard constraints with real-world consequences — not metrics on a chart.',
     icon: (
       <path
         strokeLinecap="round"
@@ -119,9 +119,9 @@ function Home() {
                 <RotatingText items={researchThemes} className="text-[#A51C30]" />
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Different names for one problem: building the systems, architectures, and measurement
-                infrastructure that make AI efficient, safe, and accountable as it moves into the
-                real world.
+                Machine learning systems that sense and act — from datacenter scale down to microwatt
+                devices — and the architectures, benchmarks, and engineering practice that make them
+                efficient, reliable, and accountable.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/research" className="bg-[#A51C30] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#8B1A2B] transition-colors text-center">

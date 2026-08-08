@@ -114,13 +114,16 @@ function Publications() {
           
           if (cachedData) {
             const cache = JSON.parse(cachedData);
-            if (cache.publications && cache.publications.length > 0) {
+            // Ignore the old 3-paper fallback (and any other poisoned cache).
+            if (cache.publications && cache.publications.length >= 50) {
               const classifiedPubs = cache.publications.map((pub: any) => ({
                 ...pub,
                 areas: pub.area ? [pub.area] : classifyPublication(pub)
               }));
               setPublications(classifiedPubs);
               setLoading(false); // Show cached data immediately
+            } else {
+              localStorage.removeItem('dblp_publications_cache');
             }
           }
           

@@ -5,12 +5,13 @@
   "type": "module",
   "homepage": "https://profvjreddi.github.io",
   "scripts": {
-    "dev": "node scripts/generateBlogIndex.js && vite",
-    "build": "node scripts/generateBlogIndex.js && tsc --noEmit && vite build",
+    "dev": "node scripts/generateBlogIndex.js && node scripts/fetchPublications.js && vite",
+    "build": "node scripts/generateBlogIndex.js && node scripts/fetchPublications.js && tsc --noEmit && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist",
     "blog:generate": "node scripts/generateBlogIndex.js",
+    "pubs:fetch": "node scripts/fetchPublications.js",
     "update:scholar": "node scripts/updateScholarStats.js"
   },
   "dependencies": {
