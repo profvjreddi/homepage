@@ -34,7 +34,8 @@ function EthSabbatical() {
               &rarr;
             </span>
             <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-eth text-white">
-              {sabbatical.host} &middot; Sabbatical {sabbatical.period}
+              {sabbatical.host} &middot; Visiting Professor &middot; Sabbatical{' '}
+              {sabbatical.period}
             </span>
           </div>
 
@@ -44,7 +45,7 @@ function EthSabbatical() {
           <div className="w-32 h-1 bg-gradient-to-r from-crimson to-eth"></div>
 
           <p className="text-lg text-gray-700 mt-6">
-            I am spending my sabbatical at {sabbatical.host}, hosted by the{' '}
+            Prof. Vijay Janapa Reddi is a Visiting Professor at {sabbatical.host}&apos;s{' '}
             <a
               href={sabbatical.departmentUrl}
               target="_blank"
@@ -52,10 +53,11 @@ function EthSabbatical() {
               className="text-eth hover:text-eth-dark font-medium"
             >
               {sabbatical.departmentFull} ({sabbatical.department})
-            </a>
-            , where I am co-advising ETH students on Master&apos;s theses and semester projects. If
-            you are looking for a thesis topic in machine learning systems, computer architecture,
-            or physical AI, this page is for you.
+            </a>{' '}
+            while on sabbatical from Harvard University. He co-advises ETH students on Master&apos;s
+            theses and semester projects alongside local ETH faculty. If you are looking for a thesis
+            topic in machine learning systems, computer architecture, or physical AI, this page is
+            for you.
           </p>
           <p className="text-lg text-gray-600 mt-4">
             My work sits at the intersection of AI and system design: using machine learning to
@@ -93,11 +95,12 @@ function EthSabbatical() {
             <div className="bg-white border border-gray-200 rounded-lg p-6 border-l-4 border-l-eth">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Co-supervision</h3>
               <p className="text-gray-600">
-                Because I am a visitor, your thesis is formally supervised by an ETH faculty member,
-                typically within {sabbatical.department}, and I co-advise the day-to-day research.
-                In practice this is a feature: you get two advisors with different vantage points.
-                If you do not already have a local supervisor in mind, say so and we will work out
-                the pairing together.
+                Because I am a Visiting Professor at ETH Zurich on sabbatical from Harvard, your
+                thesis is formally supervised by an ETH faculty member, typically within{' '}
+                {sabbatical.department}, and I co-advise the day-to-day research. In practice this
+                is a feature: you get two advisors with different vantage points. If you do not
+                already have a local supervisor in mind, say so and we will work out the pairing
+                together.
               </p>
             </div>
 
