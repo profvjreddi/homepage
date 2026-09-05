@@ -1,0 +1,84 @@
+name: Update publication cache
+
+on:
+  # Weekly on Sundays at 2:00 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch DBLP publications
+        id: pubs
+        run: npm run pubs:fetch
+        continue-on-error: true
+
+      - name: Install Puppeteer system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+            libxrandr2 libgbm1 libasound2t64
+
+      - name: Install Puppeteer
+        run: npm install puppeteer
+
+      - name: Fetch Google Scholar stats
+        id: scholar
+        run: node scripts/updateScholarStats.js
+        continue-on-error: true
+
+      - name: Check for changes
+        id: git_status
+        run: |
+          if git diff --quiet -- public/content/publications.json public/content/scholar-stats.json src/utils/googleScholar.ts; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No cache changes"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- public/content/publications.json public/content/scholar-stats.json src/utils/googleScholar.ts || true
+          fi
+
+      - name: Commit and push
+        if: steps.git_status.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/content/publications.json public/content/scholar-stats.json src/utils/googleScholar.ts
+          git commit -m "chore: weekly refresh of publications and Scholar cache
+
+          DBLP list and citation stats updated for the publications page.
+
+          [skip ci]"
+          git push
+
+      - name: Summary
+        run: |
+          {
+            echo "## Publication cache update"
+            echo ""
+            echo "- DBLP fetch: ${{ steps.pubs.outcome }}"
+            echo "- Scholar fetch: ${{ steps.scholar.outcome }}"
+            echo "- Committed: ${{ steps.git_status.outputs.changed }}"
+          } >> "$GITHUB_STEP_SUMMARY"

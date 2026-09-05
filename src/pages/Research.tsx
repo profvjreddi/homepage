@@ -64,8 +64,8 @@ function Research() {
   const loadPublications = async () => {
     try {
       setLoading(true);
-      const pubs = await getCachedPublications();
-      const classifiedPubs = pubs.map(pub => ({
+      const payload = await getCachedPublications();
+      const classifiedPubs = payload.publications.map(pub => ({
         ...pub,
         areas: classifyPublication(pub)
       }));

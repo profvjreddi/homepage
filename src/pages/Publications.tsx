@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { FiExternalLink } from 'react-icons/fi';
-import { getCachedPublications, getCacheInfo, refreshCache } from '../utils/dblpCache';
-import { getCachedScholarStats, getScholarCacheInfo, refreshScholarCache } from '../utils/googleScholar';
+import { getCachedPublications, getCacheInfo, refreshCache, peekLocalPublications } from '../utils/dblpCache';
+import { getCachedScholarStats, getScholarCacheInfo, refreshScholarCache, peekLocalScholarStats } from '../utils/googleScholar';
 import WordCloud from '../components/WordCloud';
 
 interface Publication {
@@ -101,124 +101,83 @@ function Publications() {
   const [statusMessage, setStatusMessage] = useState<{ text: string; type: 'loading' | 'success' | 'error' } | null>(null);
   const statusTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
+  const classifyList = (pubs: any[]): Publication[] =>
+    pubs.map((pub) => ({
+      ...pub,
+      areas: pub.areas
+        ? pub.areas
+        : pub.area
+          ? [pub.area]
+          : classifyPublication(pub),
+    }));
+
+  const unifyCacheInfo = () => {
+    const dblpCache = getCacheInfo();
+    const scholarCache = getScholarCacheInfo();
+    return {
+      lastUpdated:
+        dblpCache.lastUpdated && scholarCache.lastUpdated
+          ? dblpCache.lastUpdated > scholarCache.lastUpdated
+            ? dblpCache.lastUpdated
+            : scholarCache.lastUpdated
+          : dblpCache.lastUpdated || scholarCache.lastUpdated,
+      expiresAt:
+        dblpCache.expiresAt && scholarCache.expiresAt
+          ? dblpCache.expiresAt < scholarCache.expiresAt
+            ? dblpCache.expiresAt
+            : scholarCache.expiresAt
+          : dblpCache.expiresAt || scholarCache.expiresAt,
+      isExpired: dblpCache.isExpired || scholarCache.isExpired,
+    };
+  };
+
   const loadPublications = async (forceRefresh = false) => {
     try {
-      console.log('loadPublications called with forceRefresh:', forceRefresh);
       setError(null);
-      
-      // ALWAYS try to load cached data first for instant display
+
+      // Instant paint from localStorage before any network.
       if (!forceRefresh) {
-        try {
-          const cachedData = localStorage.getItem('dblp_publications_cache');
-          const scholarCachedData = localStorage.getItem('google_scholar_cache');
-          
-          if (cachedData) {
-            const cache = JSON.parse(cachedData);
-            // Ignore the old 3-paper fallback (and any other poisoned cache).
-            if (cache.publications && cache.publications.length >= 50) {
-              const classifiedPubs = cache.publications.map((pub: any) => ({
-                ...pub,
-                areas: pub.area ? [pub.area] : classifyPublication(pub)
-              }));
-              setPublications(classifiedPubs);
-              setLoading(false); // Show cached data immediately
-            } else {
-              localStorage.removeItem('dblp_publications_cache');
-            }
-          }
-          
-          if (scholarCachedData) {
-            const scholarCache = JSON.parse(scholarCachedData);
-            if (scholarCache.stats) {
-              setScholarStats(scholarCache.stats);
-            }
-          }
-          
-          // Get unified cache info (most recent update between both caches)
-          const dblpCache = getCacheInfo();
-          const scholarCache = getScholarCacheInfo();
-          
-          const unifiedCacheInfo = {
-            lastUpdated: dblpCache.lastUpdated && scholarCache.lastUpdated 
-              ? (dblpCache.lastUpdated > scholarCache.lastUpdated ? dblpCache.lastUpdated : scholarCache.lastUpdated)
-              : dblpCache.lastUpdated || scholarCache.lastUpdated,
-            expiresAt: dblpCache.expiresAt && scholarCache.expiresAt
-              ? (dblpCache.expiresAt < scholarCache.expiresAt ? dblpCache.expiresAt : scholarCache.expiresAt)
-              : dblpCache.expiresAt || scholarCache.expiresAt,
-            isExpired: dblpCache.isExpired || scholarCache.isExpired
-          };
-          
-          setCacheInfo(unifiedCacheInfo);
-          
-          // If we have cached data, don't show loading spinner
-          if (cachedData && publications.length === 0) {
-            setLoading(false);
-          }
-        } catch (e) {
-          console.warn('Failed to load immediate cache:', e);
+        const localPubs = peekLocalPublications();
+        const localStats = peekLocalScholarStats();
+        if (localPubs?.publications?.length) {
+          setPublications(classifyList(localPubs.publications));
+          setLoading(false);
         }
-      }
-      
-      // Show loading only if we don't have any cached data to show
-      if (publications.length === 0 && !forceRefresh) {
-        setLoading(true);
-      }
-      
-      if (forceRefresh) {
-        setRefreshing(true);
-        setStatusMessage({ text: 'Updating publications and citations...', type: 'loading' });
+        if (localStats) {
+          setScholarStats(localStats);
+        }
+        setCacheInfo(unifyCacheInfo());
       }
 
-      console.log('About to fetch publications and stats...');
-      
-      // Show status for Google Scholar fetching
       if (forceRefresh) {
-        setStatusMessage({ text: 'Fetching latest h-index and citations...', type: 'loading' });
+        setRefreshing(true);
+        setStatusMessage({ text: 'Refreshing site cache…', type: 'loading' });
+      } else if (!peekLocalPublications()) {
+        setLoading(true);
+      } else {
+        setLoading(false);
       }
-      
-      const [pubs, stats] = await Promise.all([
+
+      // Load the shipped weekly snapshots (same-origin JSON). No CORS proxies.
+      const [pubsPayload, stats] = await Promise.all([
         forceRefresh ? refreshCache() : getCachedPublications(),
-        forceRefresh ? refreshScholarCache() : getCachedScholarStats()
+        forceRefresh ? refreshScholarCache() : getCachedScholarStats(),
       ]);
-      
-      console.log('Fetched publications:', pubs);
-      console.log('Fetched stats:', stats);
-      
-      if (forceRefresh) {
-        setStatusMessage({ text: 'Processing data...', type: 'loading' });
-      }
-      
-      const classifiedPubs = pubs.map(pub => ({
-        ...pub,
-        areas: pub.area ? [pub.area] : classifyPublication(pub)
-      }));
-      console.log('Classified publications:', classifiedPubs);
-      
-      setPublications(classifiedPubs);
+
+      setPublications(classifyList(pubsPayload.publications));
       setScholarStats(stats);
-      
-      // Get unified cache info (most recent update between both caches)
-      const dblpCache = getCacheInfo();
-      const scholarCache = getScholarCacheInfo();
-      
-      const unifiedCacheInfo = {
-        lastUpdated: dblpCache.lastUpdated && scholarCache.lastUpdated 
-          ? (dblpCache.lastUpdated > scholarCache.lastUpdated ? dblpCache.lastUpdated : scholarCache.lastUpdated)
-          : dblpCache.lastUpdated || scholarCache.lastUpdated,
-        expiresAt: dblpCache.expiresAt && scholarCache.expiresAt
-          ? (dblpCache.expiresAt < scholarCache.expiresAt ? dblpCache.expiresAt : scholarCache.expiresAt)
-          : dblpCache.expiresAt || scholarCache.expiresAt,
-        isExpired: dblpCache.isExpired || scholarCache.isExpired
-      };
-      
-      setCacheInfo(unifiedCacheInfo);
-      
-      // Show success message
+      setCacheInfo(unifyCacheInfo());
+
       if (forceRefresh) {
-        setStatusMessage({ text: '✓ All data updated (publications, h-index, citations)', type: 'success' });
-        // Clear any existing timeout and set new one
+        const when = pubsPayload.fetchedAt
+          ? new Date(pubsPayload.fetchedAt).toLocaleString()
+          : 'just now';
+        setStatusMessage({
+          text: `✓ Cache loaded (last updated ${when})`,
+          type: 'success',
+        });
         if (statusTimeoutRef.current) clearTimeout(statusTimeoutRef.current);
-        statusTimeoutRef.current = setTimeout(() => setStatusMessage(null), 3000);
+        statusTimeoutRef.current = setTimeout(() => setStatusMessage(null), 4000);
       }
     } catch (err) {
       console.error('Error in loadPublications:', err);
@@ -227,11 +186,8 @@ function Publications() {
       } else {
         setError('An unknown error occurred');
       }
-      
-      // Show error message
       if (forceRefresh) {
-        setStatusMessage({ text: '✗ Update failed', type: 'error' });
-        // Clear any existing timeout and set new one
+        setStatusMessage({ text: '✗ Refresh failed', type: 'error' });
         if (statusTimeoutRef.current) clearTimeout(statusTimeoutRef.current);
         statusTimeoutRef.current = setTimeout(() => setStatusMessage(null), 5000);
       }
@@ -243,24 +199,6 @@ function Publications() {
 
   useEffect(() => {
     loadPublications();
-    
-    // Get unified cache info on initial load
-    const dblpCache = getCacheInfo();
-    const scholarCache = getScholarCacheInfo();
-    
-    const unifiedCacheInfo = {
-      lastUpdated: dblpCache.lastUpdated && scholarCache.lastUpdated 
-        ? (dblpCache.lastUpdated > scholarCache.lastUpdated ? dblpCache.lastUpdated : scholarCache.lastUpdated)
-        : dblpCache.lastUpdated || scholarCache.lastUpdated,
-      expiresAt: dblpCache.expiresAt && scholarCache.expiresAt
-        ? (dblpCache.expiresAt < scholarCache.expiresAt ? dblpCache.expiresAt : scholarCache.expiresAt)
-        : dblpCache.expiresAt || scholarCache.expiresAt,
-      isExpired: dblpCache.isExpired || scholarCache.isExpired
-    };
-    
-    setCacheInfo(unifiedCacheInfo);
-    
-    // Cleanup timeout on unmount
     return () => {
       if (statusTimeoutRef.current) {
         clearTimeout(statusTimeoutRef.current);
@@ -318,7 +256,7 @@ function Publications() {
           <div className="max-w-7xl mx-auto px-4 py-16">
             <div className="text-center">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#A51C30] mx-auto mb-4"></div>
-              <p className="text-gray-600">Loading publications from DBLP...</p>
+              <p className="text-gray-600">Loading publications…</p>
             </div>
           </div>
         </div>
@@ -368,27 +306,23 @@ function Publications() {
 
           {/* Cache Status */}
           <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <div className="flex items-center gap-3">
-                <div className={`w-3 h-3 rounded-full ${cacheInfo.isExpired ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></div>
+                <div className={`w-3 h-3 rounded-full ${cacheInfo.isExpired ? 'bg-amber-400' : 'bg-green-400'}`}></div>
                 <div>
                   <span className="text-sm font-medium text-gray-700">
-                    Data Cache: {cacheInfo.isExpired ? 'Update Available' : 'Current'}
+                    Site cache: {cacheInfo.isExpired ? 'Older than one week' : 'Current'}
                   </span>
                   <div className="text-xs text-gray-500">
-                    {cacheInfo.lastUpdated 
+                    {cacheInfo.lastUpdated
                       ? `Last updated: ${cacheInfo.lastUpdated.toLocaleDateString()} at ${cacheInfo.lastUpdated.toLocaleTimeString()}`
-                      : 'No cached data available'
-                    }
+                      : 'Loading cache metadata…'}
+                  </div>
+                  <div className="text-xs text-gray-500 mt-0.5">
+                    Refreshed weekly from DBLP and Google Scholar. Refresh Cache reloads the latest shipped snapshot.
                   </div>
                 </div>
               </div>
-              {cacheInfo.isExpired && (
-                <div className="text-right">
-                  <div className="text-xs text-amber-600 font-medium mb-1">Refresh recommended</div>
-                  <div className="text-xs text-gray-500">Updates publications, citations & h-index</div>
-                </div>
-              )}
             </div>
           </div>
 
@@ -435,7 +369,7 @@ function Publications() {
               ) : (
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
               )}
-              {refreshing ? 'Refreshing...' : cacheInfo.isExpired ? 'Update All Data' : 'Refresh Cache'}
+              {refreshing ? 'Refreshing...' : 'Refresh Cache'}
             </button>
             
             {/* Status Message */}
