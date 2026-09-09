@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Research from "./pages/Research";
@@ -27,9 +27,8 @@ function App() {
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact" element={<Contact />} />
 
-          {/* Undergraduate research: short URL for sharing, descriptive alias */}
           <Route path="/join" element={<Join />} />
-          <Route path="/undergraduate-research" element={<Join />} />
+          <Route path="/undergraduate-research" element={<Navigate to="/join" replace />} />
 
           {/* Short, shareable paths for the ETH Zurich sabbatical page */}
           <Route path="/eth" element={<EthSabbatical />} />

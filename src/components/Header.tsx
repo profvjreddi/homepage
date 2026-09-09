@@ -26,7 +26,6 @@ function Header() {
 
   const isItemActive = (path: string) =>
     location.pathname === path ||
-    (path === "/join" && location.pathname === "/undergraduate-research") ||
     (path === "/eth" && location.pathname === "/sabbatical");
 
   return (

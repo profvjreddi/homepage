@@ -12,11 +12,7 @@ function Contact() {
             <div className="w-24 h-1 bg-[#A51C30]"></div>
             <p className="text-lg text-gray-600 mt-6">
               I welcome thoughtful inquiries from students, researchers, industry partners, and media.
-              Undergraduates looking to do research with the group should start on the{' '}
-              <Link to="/join" className="text-[#A51C30] hover:text-[#8B1A2B] font-medium">
-                undergraduate research
-              </Link>{' '}
-              page. Please review the guidelines below before writing.
+              Please review the guidelines below before writing.
             </p>
           </div>
 
@@ -208,15 +204,7 @@ function Contact() {
           {/* Inquiry Types */}
           <div className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Types of Inquiries</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              
-              <Link to="/join" className="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <h3 className="font-semibold text-[#A51C30] mb-2">Undergraduate Research</h3>
-                <p className="text-sm text-gray-600">
-                  Welcome. Read this before you write.
-                </p>
-              </Link>
-
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="font-semibold text-[#A51C30] mb-2">Prospective Students</h3>
                 <p className="text-sm text-gray-600">

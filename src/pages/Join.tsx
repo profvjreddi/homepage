@@ -23,10 +23,18 @@ function Join() {
             extracurricular, a way to put a lab on your CV, or something to drop into when
             the week is light. If you join a project, you&apos;re making a commitment.
           </p>
-          <blockquote className="mt-8 max-w-3xl border-l-4 border-[#A51C30] pl-6 py-2 text-lg text-gray-800 italic">
+          <p className="text-lg text-gray-700 mt-8 max-w-3xl">
+            Most students can tell me why they want to join a group. Fewer can tell me why
+            they want to do research. Those are different questions.
+          </p>
+          <blockquote className="mt-6 max-w-3xl border-l-4 border-[#A51C30] pl-6 py-2 text-lg text-gray-800 italic">
             You want to work on a question that doesn&apos;t have an answer in the back
             of the book.
           </blockquote>
+          <p className="mt-4 max-w-3xl text-lg text-gray-700">
+            That&apos;s it. Class is for what&apos;s known. Research is what you do when you
+            want to go further than that.
+          </p>
           <p className="mt-4 max-w-3xl text-sm text-gray-500">
             I wrote more about this in{' '}
             <Link
@@ -117,16 +125,43 @@ function Join() {
       <div className="bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 py-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">How to start</h2>
-          <p className="text-gray-700 mb-6 max-w-3xl">
+          <p className="text-gray-700 mb-4 max-w-3xl">
             Look at the{' '}
             <Link to="/research" className="text-[#A51C30] hover:text-[#8B1A2B] font-medium">
               research
             </Link>{' '}
             and recent{' '}
             <Link to="/publications" className="text-[#A51C30] hover:text-[#8B1A2B] font-medium">
-              publications</Link>, then reach out to a group member whose work you connect with — or to me.
-            Come with a question or a direction, not just a request to join. I wrote the
-            general version of this advice, beyond how this group works, in{' '}
+              publications
+            </Link>
+            . Then write me — or a group member, if you already know one. I can route you.
+            A first email needs four things:
+          </p>
+          <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4 mb-6 max-w-3xl">
+            <li>Who you are, in one line. Year, major, maybe a class you took.</li>
+            <li>One thing you actually read, used, or got stuck on, and a question about it. The question can be naive. It cannot be fake.</li>
+            <li>What you can actually give: hours per week, this semester or the summer.</li>
+            <li>A CV.</li>
+          </ul>
+          <p className="text-gray-700 mb-4 max-w-3xl">
+            Don&apos;t send &ldquo;I&apos;d like to join the lab and do some work.&rdquo; If you don&apos;t
+            have a question yet, you&apos;re not ready to send the email. Read something first.
+            Write to{' '}
+            <span className="text-[#A51C30] font-medium">
+              <span>vj</span>
+              <span style={{ display: 'none' }}>nospam</span>
+              <span>@</span>
+              <span style={{ display: 'none' }}>removethis</span>
+              <span>eecs</span>
+              <span>.</span>
+              <span>harvard</span>
+              <span>.</span>
+              <span>edu</span>
+            </span>
+            . Don&apos;t use the scheduling link for this.
+          </p>
+          <p className="text-gray-600 max-w-3xl">
+            The general version of this advice, beyond how this group works, is in{' '}
             <Link
               to="/blog/undergraduate-research"
               className="text-[#A51C30] hover:text-[#8B1A2B] font-medium"
@@ -135,15 +170,6 @@ function Join() {
             </Link>
             .
           </p>
-          <Link
-            to="/contact"
-            className="inline-flex items-center bg-[#A51C30] text-white px-6 py-3 rounded-lg hover:bg-[#8B1A2B] transition-colors font-medium"
-          >
-            Get in touch
-            <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
 
           <div className="mt-10 pt-8 border-t border-gray-200 text-gray-600 max-w-3xl">
             <p>
