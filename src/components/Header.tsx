@@ -6,14 +6,13 @@ function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems: { path: string; label: string; accent?: "eth" }[] = [
-    { path: "/", label: "Home" },
     { path: "/research", label: "Research" },
     { path: "/publications", label: "Publications" },
     { path: "/teaching", label: "Teaching" },
-    { path: "/join", label: "Join" },
-    { path: "/eth", label: "ETH Zurich", accent: "eth" },
     { path: "/blog", label: "Blog" },
     { path: "/profile", label: "Profile" },
+    { path: "/join", label: "Join" },
+    { path: "/eth", label: "ETH Zurich", accent: "eth" },
     { path: "/contact", label: "Contact" },
   ];
 
