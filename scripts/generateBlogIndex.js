@@ -73,6 +73,7 @@ const staticRoutes = [
   { path: '/research', priority: '0.8' },
   { path: '/publications', priority: '0.8' },
   { path: '/teaching', priority: '0.8' },
+  { path: '/join', priority: '0.8' },
   { path: '/eth', priority: '0.9' },
   { path: '/blog', priority: '0.7' },
   { path: '/profile', priority: '0.6' },

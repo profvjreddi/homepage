@@ -695,21 +695,30 @@ function Research() {
 
       <div className="bg-white">
         <div className="max-w-4xl mx-auto px-6 py-12">
-          {/* Interested in Collaboration */}
+          {/* Working with the group */}
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Interested in Collaboration?</h2>
-            <p className="text-gray-600 mb-6">
-              I'm always open to discussing research opportunities and potential collaborations.
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Working with the Group</h2>
+            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+              Undergraduates are welcome, and joining a project is a real commitment.
+              Other collaborations — academic, industry, or visiting — are welcome too.
             </p>
-            <Link 
-              to="/contact"
-              className="inline-flex items-center bg-[#A51C30] text-white px-6 py-3 rounded-lg hover:bg-[#8B1A2B] transition-colors font-medium"
-            >
-              Get in Touch
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                to="/join"
+                className="inline-flex items-center justify-center bg-[#A51C30] text-white px-6 py-3 rounded-lg hover:bg-[#8B1A2B] transition-colors font-medium"
+              >
+                Undergraduate research
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors font-medium"
+              >
+                Other collaborations
+              </Link>
+            </div>
           </div>
         </div>
       </div>

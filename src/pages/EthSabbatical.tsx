@@ -363,10 +363,14 @@ function EthSabbatical() {
 
           <div className="mt-10 pt-8 border-t border-gray-200 text-gray-600">
             <p>
-              Not an ETH student? PhD applications, collaborations, and everything else are covered
-              on the{' '}
+              Not an ETH student? Harvard undergraduates looking to do research should start on
+              the{' '}
+              <Link to="/join" className="text-crimson hover:text-crimson-dark font-medium">
+                undergraduate research
+              </Link>{' '}
+              page. PhD applications and other collaborations are covered on{' '}
               <Link to="/contact" className="text-crimson hover:text-crimson-dark font-medium">
-                contact page
+                contact
               </Link>
               . For background on the research these projects come out of, see{' '}
               <Link to="/research" className="text-crimson hover:text-crimson-dark font-medium">

@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import EthSabbatical from "./pages/EthSabbatical";
+import Join from "./pages/Join";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact" element={<Contact />} />
+
+          {/* Undergraduate research: short URL for sharing, descriptive alias */}
+          <Route path="/join" element={<Join />} />
+          <Route path="/undergraduate-research" element={<Join />} />
 
           {/* Short, shareable paths for the ETH Zurich sabbatical page */}
           <Route path="/eth" element={<EthSabbatical />} />

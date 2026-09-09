@@ -1,5 +1,19 @@
 [
   {
+    "slug": "undergraduate-research",
+    "title": "Pick One Thing and Do It Well: Advice for Undergraduate Researchers",
+    "date": "2026-09-09",
+    "excerpt": "I got into research as an undergrad, and that's the usual story. Here's what I wish students heard earlier: have a real why, pick something, and stay with it long enough that someone can actually vouch for you.",
+    "tags": [
+      "undergraduate",
+      "research",
+      "mentorship",
+      "career-advice",
+      "letters"
+    ],
+    "filename": "undergraduate-research.md"
+  },
+  {
     "slug": "managed-trajectories",
     "title": "Managed Trajectories: Rethinking the Unit of Work for Agentic AI Systems",
     "date": "2026-07-28",

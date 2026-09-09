@@ -1,5 +1,5 @@
-            import { Link, useLocation } from "react-router-dom";
-            import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
   const location = useLocation();
@@ -10,6 +10,7 @@ function Header() {
     { path: "/research", label: "Research" },
     { path: "/publications", label: "Publications" },
     { path: "/teaching", label: "Teaching" },
+    { path: "/join", label: "Join" },
     { path: "/eth", label: "ETH Zurich", accent: "eth" },
     { path: "/blog", label: "Blog" },
     { path: "/profile", label: "Profile" },
@@ -23,6 +24,11 @@ function Header() {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  const isItemActive = (path: string) =>
+    location.pathname === path ||
+    (path === "/join" && location.pathname === "/undergraduate-research") ||
+    (path === "/eth" && location.pathname === "/sabbatical");
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-200" role="banner">
@@ -63,7 +69,7 @@ function Header() {
           <div className="hidden lg:flex items-center">
             <nav className="flex lg:space-x-4 xl:space-x-6" role="navigation" aria-label="Main navigation">
               {navItems.map((item) => {
-                const isActive = location.pathname === item.path;
+                const isActive = isItemActive(item.path);
                 const isEth = item.accent === "eth";
                 return (
                   <Link
@@ -110,7 +116,7 @@ function Header() {
           <div className="lg:hidden">
             <nav className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200" role="navigation" aria-label="Mobile navigation">
               {navItems.map((item) => {
-                const isActive = location.pathname === item.path;
+                const isActive = isItemActive(item.path);
                 const isEth = item.accent === "eth";
                 return (
                   <Link

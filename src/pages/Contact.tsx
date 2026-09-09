@@ -11,8 +11,12 @@ function Contact() {
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Contact</h1>
             <div className="w-24 h-1 bg-[#A51C30]"></div>
             <p className="text-lg text-gray-600 mt-6">
-              I welcome thoughtful inquiries from students, researchers, industry partners, and media. 
-              Please review the guidelines below to ensure effective communication.
+              I welcome thoughtful inquiries from students, researchers, industry partners, and media.
+              Undergraduates looking to do research with the group should start on the{' '}
+              <Link to="/join" className="text-[#A51C30] hover:text-[#8B1A2B] font-medium">
+                undergraduate research
+              </Link>{' '}
+              page. Please review the guidelines below before writing.
             </p>
           </div>
 
@@ -34,6 +38,30 @@ function Contact() {
                 className="flex-shrink-0 inline-flex items-center px-5 py-2.5 bg-eth text-white text-sm font-medium rounded-lg hover:bg-eth-dark transition-colors"
               >
                 ETH thesis projects
+                <span className="ml-2" aria-hidden="true">&rarr;</span>
+              </Link>
+            </div>
+          </div>
+
+          {/* Undergraduate research */}
+          <div className="bg-[#A51C30]/5 border border-[#A51C30]/15 rounded-lg p-6 mb-12">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+              <div>
+                <h2 className="font-semibold text-gray-900 mb-1">
+                  Undergraduate research
+                </h2>
+                <p className="text-gray-700 text-sm">
+                  I strongly encourage undergraduates to work with the group. Please read
+                  how collaborations start, and what we expect, before emailing me or a
+                  PhD student. This is a real commitment, not a casual way to attach
+                  yourself to a lab.
+                </p>
+              </div>
+              <Link
+                to="/join"
+                className="flex-shrink-0 inline-flex items-center px-5 py-2.5 bg-[#A51C30] text-white text-sm font-medium rounded-lg hover:bg-[#8B1A2B] transition-colors"
+              >
+                Working with the group
                 <span className="ml-2" aria-hidden="true">&rarr;</span>
               </Link>
             </div>
@@ -180,8 +208,15 @@ function Contact() {
           {/* Inquiry Types */}
           <div className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Types of Inquiries</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               
+              <Link to="/join" className="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
+                <h3 className="font-semibold text-[#A51C30] mb-2">Undergraduate Research</h3>
+                <p className="text-sm text-gray-600">
+                  Welcome. Read this before you write.
+                </p>
+              </Link>
+
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="font-semibold text-[#A51C30] mb-2">Prospective Students</h3>
                 <p className="text-sm text-gray-600">

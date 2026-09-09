@@ -131,6 +131,12 @@ function Home() {
                   Recent Publications
                 </Link>
               </div>
+              <p className="mt-4 text-sm text-gray-600">
+                Undergraduate looking to do research?{' '}
+                <Link to="/join" className="text-[#A51C30] hover:text-[#8B1A2B] font-medium">
+                  How collaborations start
+                </Link>
+              </p>
             </div>
             <div className="relative">
               <Updates maxItems={3} homeStyle={true} />
