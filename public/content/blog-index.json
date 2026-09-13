@@ -1,5 +1,20 @@
 [
   {
+    "slug": "how-human-should-we-be",
+    "title": "What Art History Taught Me About \"AI Slop\"",
+    "date": "2026-09-13",
+    "excerpt": "I use generative AI heavily, but using these tools effectively is much harder than it looks. Here is an honest reflection on why AI delivers negative value without human critical rigor, what 2,400 years of cognitive panic teach us about education, and why empirical ground truth is the only real ceiling.",
+    "tags": [
+      "ai",
+      "research",
+      "reflection",
+      "cognitive-science",
+      "advice",
+      "systems"
+    ],
+    "filename": "how-human-should-we-be.md"
+  },
+  {
     "slug": "undergraduate-research",
     "title": "Pick One Thing and Do It Well: Advice for Undergraduate Researchers",
     "date": "2026-09-09",
